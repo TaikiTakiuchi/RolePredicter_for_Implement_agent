@@ -1,0 +1,586 @@
+{
+  "filename": "taged_1746599953_GAIT_kanolab_ai168wolf_CanisLupus_sunamelli.log.csv",
+  "exec_id": 4,
+  "attack_id": 5,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "GAIT1",
+      "character_name": "アレックス",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Mt": [
+          {
+            "recepient_id": "アリス",
+            "count": 4
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 6
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アリス",
+            "count": 8
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 8
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 17
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 10
+          }
+        ],
+        "Req(CO)": [
+          {
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "アリス",
+            "count": 18
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 9
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アリス",
+            "count": 7
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 12
+          }
+        ],
+        "calm": [
+          {
+            "count": 7
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "kanolab1",
+      "character_name": "ジョン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "ジョン",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 8
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカミカさん",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 6
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ミカミカさん",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Sus": [
+          {
+            "recepient_id": "アリス",
+            "count": 7
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 9
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ジョン",
+            "recepient_id": "アレックス",
+            "recepient_role": "人狼",
+            "count": 2
+          },
+          {
+            "speaker_id": "ジョン",
+            "recepient_id": "アリス",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "アリス",
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アリス",
+            "count": 4
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "ai168wolf1",
+      "character_name": "アリス",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "アリス",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 34
+          }
+        ],
+        "admiration": [
+          {
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 11
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "アリス",
+            "recepient_id": "ミカ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_id": "アレックス",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 7
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "アリス",
+            "recepient_role": "アレックス",
+            "count": 1
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ミカ",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 12
+          }
+        ],
+        "calm": [
+          {
+            "count": 6
+          }
+        ],
+        "difficult": [
+          {
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          },
+          {
+            "recepient_id": "ジョン",
+            "count": 2
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 2
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 3
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ジョン",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アレックス",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ジョン",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "CanisLupus1",
+      "character_name": "ミカ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_id": "アレックス",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "アレックス",
+            "count": 4
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "アレックス",
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アレックス",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "アレックス",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "sunamelli1",
+      "character_name": "ケン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカ",
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ケン",
+            "recepient_role": "ミカ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "1",
+        "result": "HUMAN"
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    }
+  ]
+}

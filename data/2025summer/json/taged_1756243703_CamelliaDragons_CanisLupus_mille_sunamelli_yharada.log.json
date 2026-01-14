@@ -1,0 +1,306 @@
+{
+  "filename": "taged_1756243703_CamelliaDragons_CanisLupus_mille_sunamelli_yharada.log.csv",
+  "exec_id": 3,
+  "attack_id": 5,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "mille1",
+      "character_name": "Sakura",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Vote": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Takumi",
+            "count": 1
+          },
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Minako",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {
+        "Vote": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Minato",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "sunamelli1",
+      "character_name": "Takumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Sus": [
+          {
+            "recepient_id": "Minako",
+            "count": 4
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Takumi",
+            "recepient_role": "Minako",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "Sakura",
+            "count": 3
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Minato",
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Takumi",
+            "recepient_role": "Minato",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Takumi",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "yharada1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Seer",
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Takumi",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minako",
+            "recepient_id": "Sakura",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "1",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "Minato",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Agr": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Sakura",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Sakura",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Takumi",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Takumi",
+            "recepient_role": "Werewolf",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Takumi",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Midori",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    }
+  ]
+}

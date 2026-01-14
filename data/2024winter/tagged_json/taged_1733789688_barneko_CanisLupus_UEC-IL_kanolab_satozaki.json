@@ -1,0 +1,473 @@
+{
+  "filename": "taged_1733789688_barneko_CanisLupus_UEC-IL_kanolab_satozaki.csv",
+  "exec_id": 3,
+  "attack_id": 2,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "name": "barneko1",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": null,
+        "Mt": [
+          {
+            "recepient_id": "03",
+            "count": 1
+          },
+          {
+            "recepient_id": "05",
+            "count": 2
+          },
+          {
+            "recepient_id": "02",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 3
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "02（DivT[02]:01->白）",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "04",
+            "count": 2
+          },
+          {
+            "recepient_id": "05",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "03",
+            "count": 1
+          },
+          {
+            "recepient_id": "05",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": null,
+      "day2_Div": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "name": "CanisLupus1",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": null,
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "02",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "03",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "03",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "02",
+            "recepient_id": "01",
+            "recepient_role": "白",
+            "count": 3
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "02",
+            "recepient_id": "02",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "02",
+            "recepient_id": "03",
+            "recepient_role": "not(占い師)",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "03",
+            "count": 1
+          },
+          {
+            "recepient_id": "04",
+            "count": 1
+          },
+          {
+            "recepient_id": "05",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "02",
+            "recepient_role": "03",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "02",
+            "recepient_id": "03",
+            "recepient_role": "人狼",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "03（CO[03]:not(占い師)）",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "1",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      }
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "name": "UEC-IL1",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": null,
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "02",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "02（DivT[02]:01->白）",
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "03",
+            "recepient_id": "02",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "03",
+            "recepient_id": "03",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "01",
+            "count": 1
+          },
+          {
+            "recepient_id": "02",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "05",
+            "count": 1
+          },
+          {
+            "recepient_id": "02",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "05",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": null,
+      "day2_Div": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "name": "kanolab1",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": null,
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "04",
+            "recepient_id": "02",
+            "recepient_role": "占い師",
+            "count": 3
+          },
+          {
+            "speaker_id": "04",
+            "recepient_id": "01",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "02",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "03",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "04",
+            "recepient_id": "02",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Fact": [
+          {
+            "speaker_id": "04",
+            "recepient_id": "03",
+            "recepient_role": "not(人狼)",
+            "count": 8
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "04",
+            "recepient_id": "01",
+            "recepient_role": "人狼",
+            "count": 8
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "05",
+            "count": 3
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "05",
+            "count": 1
+          },
+          {
+            "recepient_id": "01",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "05（Vote[05]:03）",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": null,
+      "day2_Div": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "name": "satozaki1",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": null,
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "05",
+            "recepient_id": "01",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "03",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "05",
+            "recepient_role": "03",
+            "count": 3
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "02（CO[02]:占い師）",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "03",
+            "count": 2
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "05",
+            "recepient_role": "03",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": null,
+      "day2_Div": null
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,Well let’s see who’s actually awake and thinking today I hope you’re ready @George @Jonathan  @Misaki  @Yumi,,Shunichi: Well let’s see who’s actually awake and thinking today I hope you’re ready @George @Jonathan  @Misaki  @Yumi,"['Mt:George', 'Mt:Jonathan', 'Mt:Misaki', 'Mt:Yumi', 'Req(listen)']"
+0,talk,1,0,3,Hello. I am Yumi. My role is villager. Have a good game.,,Yumi: Hello. I am Yumi. My role is villager. Have a good game.,"['CO[Yumi]:Villager', 'Other']"
+0,talk,2,0,1,Hello everyone. I am Misaki. I look forward to joining you in this game. Let us uncover the identity of the werewolf together.,,Misaki: Hello everyone. I am Misaki. I look forward to joining you in this game. Let us uncover the identity of the werewolf together.,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,3,0,4,Good morning everyone. Let's work together and have a good game. I'm ready to get started.,,George: Good morning everyone. Let's work together and have a good game. I'm ready to get started.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,4,0,2,Skip,,Jonathan: Skip,['Other']
+0,talk,8,1,4,It seems everyone is here. Let's focus on finding the werewolf among us today.,,George: It seems everyone is here. Let's focus on finding the werewolf among us today.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,9,1,2,I am Jonathan. I enjoy quiet observation and reading. This world is a fascinating new book.,,Jonathan: I am Jonathan. I enjoy quiet observation and reading. This world is a fascinating new book.,['Other']
+0,talk,10,2,4,Jonathan it's good to have a keen observer on our side. Let's keep our eyes open.,,George: Jonathan it's good to have a keen observer on our side. Let's keep our eyes open.,"['Mt:Jonathan', 'Agr:Jonathan(Other)', 'Req(Discuss)']"
+0,talk,12,3,4,Misaki you've been quiet. Any thoughts on how we should proceed?,,George: Misaki you've been quiet. Any thoughts on how we should proceed?,"['Mt:Misaki', 'Req(T):Misaki']"
+1,talk,0,0,1,Everyone seems eager. Shall we share our suspicions first? It's a good place to start I believe.,,Misaki: Everyone seems eager. Shall we share our suspicions first? It's a good place to start I believe.,"['Req(Discuss)', 'Pers:ALL']"
+1,talk,1,0,2,The one who can peer into another's heart should speak first. Their knowledge is our most vital data.,,Jonathan: The one who can peer into another's heart should speak first. Their knowledge is our most vital data.,['Req(CO):Seer']
+1,talk,2,0,3,I will vote Jonathan.,,Yumi: I will vote Jonathan.,['Vote[Yumi]:Jonathan']
+1,talk,3,0,4,Interesting choice Yumi. Jonathan do you have anything to say about this vote?,,George: Interesting choice Yumi. Jonathan do you have anything to say about this vote?,"['Mt:Jonathan', 'Req(T):Jonathan']"
+1,talk,4,0,5,Misaki is Human. Anyone pushing a Misaki vote is suspect. Focus elsewhere for today’s vote.,,Shunichi: Misaki is Human. Anyone pushing a Misaki vote is suspect. Focus elsewhere for today’s vote.,"['Est[Shunichi]:Misaki->not(Werewolf)', 'Req(Discuss)']"
+1,talk,5,1,1,Shunichi's logic seems sound suggesting Jonathan may lack trustworthiness. Hmm.  @Shunichi  thank you for your support. Thoughts on his Seer move?,,Misaki: Shunichi's logic seems sound suggesting Jonathan may lack trustworthiness. Hmm.  @Shunichi  thank you for your support. Thoughts on his Seer move?,"['Agr:Shunichi(Est[Shunichi]:Misaki->not(Werewolf))', 'Mt:Shunichi', 'Req(T):Shunichi', 'Sus:Jonathan']"
+1,talk,6,1,2,Shunichi shared a vision. Misaki is human. The wolf and its shadow are among George and Yumi.,,Jonathan: Shunichi shared a vision. Misaki is human. The wolf and its shadow are among George and Yumi.,"['Agr:Shunichi(Est[Shunichi]:Misaki->not(Werewolf))', 'Est[Jonathan]:Misaki->not(Werewolf)', 'Est[Jonathan]:George->Werewolf', 'Est[Jonathan]:Yumi->Werewolf']"
+1,talk,8,1,4,Shunichi your claim is bold. I’d like to hear why you cleared Misaki as human.,,George: Shunichi your claim is bold. I’d like to hear why you cleared Misaki as human.,"['Mt:Shunichi', 'Req(T):Shunichi', 'Dis:Shunichi(Est[Shunichi]:Misaki->not(Werewolf))']"
+1,talk,9,1,5,Misaki is confirmed human by my vision so our wolf is among George Jonathan and Yumi. I propose we vote within that group.,,Shunichi: Misaki is confirmed human by my vision so our wolf is among George Jonathan and Yumi. I propose we vote within that group.,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:Misaki->White', 'Est[Shunichi]:George->Werewolf', 'Est[Shunichi]:Jonathan->Werewolf', 'Est[Shunichi]:Yumi->Werewolf', 'Req(V):George', 'Req(V):Jonathan', 'Req(V):Yumi']"
+1,talk,10,2,1,Tanaka. I noticed Yumi chose Jonathan quite hastily... It's something to ponder. Who do you believe should be our choice today?,,Misaki: Tanaka. I noticed Yumi chose Jonathan quite hastily... It's something to ponder. Who do you believe should be our choice today?,"['Mt:Tanaka', 'Req(T):Tanaka', 'Sus:Yumi']"
+1,talk,11,2,2,Yumi's vote on me had no logical basis. This makes her the most dissonant data point. I will vote for Yumi.,,Jonathan: Yumi's vote on me had no logical basis. This makes her the most dissonant data point. I will vote for Yumi.,"['Dis:Yumi(Vote[Yumi]:Jonathan)', 'Sus:Yumi', 'Vote[Jonathan]:Yumi']"
+1,talk,12,2,4,Jonathan's vote for Yumi is understandable. Still let's carefully weigh our options.,,George: Jonathan's vote for Yumi is understandable. Still let's carefully weigh our options.,"['Agr:Jonathan(Vote[Jonathan]:Yumi)', 'Req(Discuss)', 'calm']"
+1,talk,13,2,5,Given Yumi’s wild vote and no evidence her play feels wolf. Unless convincing logic comes up I’ll vote Yumi.,,Shunichi: Given Yumi’s wild vote and no evidence her play feels wolf. Unless convincing logic comes up I’ll vote Yumi.,"['Sus:Yumi', 'Est[Shunichi]:Yumi->Werewolf', 'Vote[Shunichi]:Yumi']"
+1,talk,14,3,1,Shunichi made compelling points. Tanaka. Why choose Jonathan so quickly? Share more behind your decision. It may unravel things.,,Misaki: Shunichi made compelling points. Tanaka. Why choose Jonathan so quickly? Share more behind your decision. It may unravel things.,"['Agr:Shunichi(Est[Shunichi]:Misaki->not(Werewolf))', 'Mt:Tanaka', 'Req(T):Tanaka']"
+1,talk,15,3,2,I agree with Shunichi. An unsubstantiated claim is the seed of deception. My vote remains on Yumi.,,Jonathan: I agree with Shunichi. An unsubstantiated claim is the seed of deception. My vote remains on Yumi.,"['Agr:Shunichi', 'Vote[Jonathan]:Yumi']"
+1,talk,16,3,4,Yumi your reasoning could clarify this situation. Please share your thoughts on Jonathan.,,George: Yumi your reasoning could clarify this situation. Please share your thoughts on Jonathan.,"['Mt:Yumi', 'Req(T):Yumi']"
+1,talk,17,3,5,Yumi’s rash vote stands out but George’s silence worries me too. I’m voting Yumi today—if wrong George needs more scrutiny.,,Shunichi: Yumi’s rash vote stands out but George’s silence worries me too. I’m voting Yumi today—if wrong George needs more scrutiny.,"['Sus:Yumi', 'Vote[Shunichi]:Yumi', 'Sus:George']"
+0,status,1,VILLAGER,ALIVE,kanolab-nw1,Misaki,kanolab-nw1,
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+0,status,3,WEREWOLF,ALIVE,mille1,Yumi,mille1,
+0,status,4,POSSESSED,ALIVE,yharada1,George,yharada1,
+0,status,5,SEER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+0,divine,5,1,HUMAN,,,,
+1,status,1,VILLAGER,ALIVE,kanolab-nw1,Misaki,kanolab-nw1,
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+1,status,3,WEREWOLF,ALIVE,mille1,Yumi,mille1,
+1,status,4,POSSESSED,ALIVE,yharada1,George,yharada1,
+1,status,5,SEER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+1,vote,1,3,,,,,
+1,vote,2,3,,,,,
+1,vote,3,4,,,,,
+1,vote,4,1,,,,,
+1,vote,5,3,,,,,
+1,execute,3,WEREWOLF,,,,,
+2,status,1,VILLAGER,ALIVE,kanolab-nw1,Misaki,kanolab-nw1,
+2,status,2,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+2,status,3,WEREWOLF,DEAD,mille1,Yumi,mille1,
+2,status,4,POSSESSED,ALIVE,yharada1,George,yharada1,
+2,status,5,SEER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+2,result,4,0,VILLAGER,,,,

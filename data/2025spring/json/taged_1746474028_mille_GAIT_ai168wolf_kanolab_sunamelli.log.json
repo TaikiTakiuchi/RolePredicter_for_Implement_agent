@@ -1,0 +1,366 @@
+{
+  "filename": "taged_1746474028_mille_GAIT_ai168wolf_kanolab_sunamelli.log.csv",
+  "exec_id": 4,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "SEER",
+      "agent_name": "ai168wolf1",
+      "character_name": "カイ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 25
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "カイ",
+            "recepient_role": "占い師",
+            "count": 10
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 9
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ヒナ",
+            "count": 3
+          },
+          {
+            "recepient_id": "サラ",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "サラ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ヒナ",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "カイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          },
+          {
+            "recepient_id": "サラ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ヒナ",
+            "count": 1
+          },
+          {
+            "recepient_id": "マルコ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "2",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "kanolab1",
+      "character_name": "サラ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "カイ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "サラ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "カイ",
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "カイ",
+            "count": 4
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "サラ",
+            "recepient_id": "ヒナ",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "マルコ",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "sunamelli1",
+      "character_name": "ヒナ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ケン",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ヒナ",
+            "recepient_id": "サラ",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ヒナ",
+            "recepient_role": "ケン",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ケン",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "WEREWOLF",
+      "agent_name": "mille1",
+      "character_name": "ケン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "ケン",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "POSSESSED",
+      "agent_name": "GAIT1",
+      "character_name": "マルコ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Mt": [
+          {
+            "recepient_id": "カイ",
+            "count": 33
+          },
+          {
+            "recepient_id": "サラ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ヒナ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "カイ",
+            "count": 10
+          },
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "サラ",
+            "count": 3
+          },
+          {
+            "recepient_id": "ヒナ",
+            "count": 4
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 6
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    }
+  ]
+}

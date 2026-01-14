@@ -1,0 +1,73 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Skip,,Yumi: Skip,['Wait']
+0,talk,1,0,3,Hello everyone! I'm George excited to play Werewolf with you all. Let's have a thrilling game!,,George: Hello everyone! I'm George excited to play Werewolf with you all. Let's have a thrilling game!,['Other']
+0,talk,2,0,4,Hi I'm Minato. I will come out as Seer if that's okay. No results yet. Share first thoughts. Who feels safe or strange? @Yumi  if it's okay could you share one thought? Who do you want to talk with first? Thank you.,,Minato: Hi I'm Minato. I will come out as Seer if that's okay. No results yet. Share first thoughts. Who feels safe or strange? @Yumi  if it's okay could you share one thought? Who do you want to talk with first? Thank you.,"['CO[Minato]:Seer', 'Req(Discuss)', 'Mt:Yumi', 'Req(T):Yumi']"
+0,talk,3,0,1,Good morning everyone let’s keep our eyes sharp today—little details always seem to matter most right at the start,,Victoria: Good morning everyone let’s keep our eyes sharp today—little details always seem to matter most right at the start,"['Req(listen)', 'calm']"
+0,talk,4,0,5,I am the seer.  @Minato  claimed seer — this is a role conflict. Reveal your divination result or justification now. If no proof  Minato becomes highly suspicious. I will divi,,Takumi: I am the seer.  @Minato  claimed seer — this is a role conflict. Reveal your divination result or justification now. If no proof  Minato becomes highly suspicious. I will divi,"['CO[Takumi]:Seer', 'Dis:Minato(CO[Minato]:Seer)', 'Req(CO):Seer', 'Sus:Minato']"
+0,talk,5,1,2,Hi everyone I'm Yumi! I love playing outside and finding treasure! Let's have a super fun game,,Yumi: Hi everyone I'm Yumi! I love playing outside and finding treasure! Let's have a super fun game,['Other']
+0,talk,9,1,5,I am the seer.  @Minato  you claimed seer — reveal your divination result now or be treated as a fake. I will divine tonight and currently suspect Yumi based on behavior. Over,,Takumi: I am the seer.  @Minato  you claimed seer — reveal your divination result now or be treated as a fake. I will divine tonight and currently suspect Yumi based on behavior. Over,"['CO[Takumi]:Seer', 'Req(CO):Seer', 'Dis:Minato(CO[Minato]:Seer)', 'Sus:Yumi']"
+0,talk,11,2,5,Minato claimed seer earlier.  @Minato  reveal your divination result now or be treated as a fake. I will divine Yumi tonight. If no proof by end of day  vote Minato. Over,,Takumi: Minato claimed seer earlier.  @Minato  reveal your divination result now or be treated as a fake. I will divine Yumi tonight. If no proof by end of day  vote Minato. Over,"['Dis:Minato(CO[Minato]:Seer)', 'Req(CO):Seer', 'Req(V):Minato', 'Sus:Yumi']"
+0,talk,12,3,5,@Minato  Reveal your divination result now or be treated as a fake. If no proof by end of day I will vote you. Over,,Takumi: @Minato  Reveal your divination result now or be treated as a fake. If no proof by end of day I will vote you. Over,"['Mt:Minato', 'Req(CO):Seer', 'Vote[Takumi]:Minato', 'Dis:Minato(CO[Minato]:Seer)']"
+1,talk,0,0,1,@Minato  your silence makes it hard to trust—can you share your divination or thoughts now?,,Victoria: @Minato  your silence makes it hard to trust—can you share your divination or thoughts now?,"['Mt:Minato', 'Req(T):Minato']"
+1,talk,1,0,2,Minato and Takumi! Did your magic peeks see anything last night? Tell us! Yumi is getting antsy,,Yumi: Minato and Takumi! Did your magic peeks see anything last night? Tell us! Yumi is getting antsy,"['Mt:Minato', 'Mt:Takumi', 'Req(T):Minato', 'Req(T):Takumi']"
+1,talk,2,0,3,I divined last night and found that Victoria is the werewolf. We should discuss this further for our safety.,,George: I divined last night and found that Victoria is the werewolf. We should discuss this further for our safety.,"['CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Req(Discuss)']"
+1,talk,3,0,5,I divined Yumi last night — she is a werewolf. Vote Yumi.  @George  you claimed divination finding Victoria werewolf; reveal your result or be treated as a fake. Over,,Takumi: I divined Yumi last night — she is a werewolf. Vote Yumi.  @George  you claimed divination finding Victoria werewolf; reveal your result or be treated as a fake. Over,"['CO[Takumi]:Seer', 'DivT[Takumi]:Yumi->Werewolf', 'Vote[Takumi]:Yumi', 'Mt:George', 'Req(T):George']"
+1,talk,4,0,4,Skip,,Minato: Skip,['Wait']
+1,talk,5,1,1,@George  You say I’m werewolf but I know I’m villager—why lie? Shouldn’t we vote for the one spreading clear falsehoods?,,Victoria: @George  You say I’m werewolf but I know I’m villager—why lie? Shouldn’t we vote for the one spreading clear falsehoods?,"['Mt:George', 'CO[Victoria]:Villager', 'Dis:George(CO[George]:Seer)', 'Req(V):George']"
+1,talk,6,1,2,Takumi told a big fib because Yumi is a good guy. George must be a fibber too. Lets vote for Takumi.,,Yumi: Takumi told a big fib because Yumi is a good guy. George must be a fibber too. Lets vote for Takumi.,"['CO[Yumi]:Villager', 'Sus:Takumi', 'Sus:George', 'Vote[Yumi]:Takumi', 'Pers:ALL']"
+1,talk,7,1,3,I am the true Seer and my divination result shows Victoria as the werewolf. Please trust in my ability and judgment.,,George: I am the true Seer and my divination result shows Victoria as the werewolf. Please trust in my ability and judgment.,"['CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Pers:ALL']"
+1,talk,8,1,5,I divined  @Yumi  last night — she is a werewolf. Vote her. Over,,Takumi: I divined  @Yumi  last night — she is a werewolf. Vote her. Over,"['CO[Takumi]:Seer', 'DivT[Takumi]:Yumi->Werewolf', 'Vote[Takumi]:Yumi']"
+1,talk,9,1,4,Good morning. I am Seer. I checked Takumi last night: werewolf. Please stay calm. What do you think? @Victoria  sorry I was late. My result is Takumi wolf. Does that help? Any thoughts please?,,Minato: Good morning. I am Seer. I checked Takumi last night: werewolf. Please stay calm. What do you think? @Victoria  sorry I was late. My result is Takumi wolf. Does that help? Any thoughts please?,"['CO[Minato]:Seer', 'DivT[Minato]:Takumi->Werewolf', 'Mt:Victoria', 'Req(Discuss)']"
+1,talk,10,2,1,George's seer claim is false since I’m villager. He’s my top suspect now—is anyone else convinced he’s not the real seer?,,Victoria: George's seer claim is false since I’m villager. He’s my top suspect now—is anyone else convinced he’s not the real seer?,"['CO[Victoria]:Villager', 'Dis:George(CO[George]:Seer)', 'Sus:George', 'Req(Discuss)']"
+1,talk,11,2,2,Takumi lied about Yumi! He's a baddie for sure! Let's vote him out now! Da-da-da,,Yumi: Takumi lied about Yumi! He's a baddie for sure! Let's vote him out now! Da-da-da,"['Sus:Takumi', 'Vote[Yumi]:Takumi', 'Pers:ALL']"
+1,talk,12,2,3,I stand by my divination. Victoria is the werewolf. I urge everyone to focus and vote correctly for our survival.,,George: I stand by my divination. Victoria is the werewolf. I urge everyone to focus and vote correctly for our survival.,"['CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Pers:ALL']"
+1,talk,13,2,5,I am the seer. I divined  @Yumi  last night — she is a werewolf. Vote her. Over,,Takumi: I am the seer. I divined  @Yumi  last night — she is a werewolf. Vote her. Over,"['CO[Takumi]:Seer', 'DivT[Takumi]:Yumi->Werewolf', 'Vote[Takumi]:Yumi']"
+1,talk,14,2,4,Skip,,Minato: Skip,['Wait']
+1,talk,15,3,1,Takumi’s claims don’t fit the facts—Minato gives the most credible result. I’m voting Takumi. Will anyone join me?,,Victoria: Takumi’s claims don’t fit the facts—Minato gives the most credible result. I’m voting Takumi. Will anyone join me?,"['Agr:Minato', 'Vote[Victoria]:Takumi', 'Pers:ALL']"
+1,talk,16,3,2,Yay Victoria agrees! Let's all vote for Takumi! He's a big fibber for sure,,Yumi: Yay Victoria agrees! Let's all vote for Takumi! He's a big fibber for sure,"['Agr:Victoria', 'Vote[Yumi]:Takumi', 'Pers:ALL', 'Sus:Takumi']"
+1,talk,17,3,3,Takumi and Minato conflicting claims create confusion. Trust my earlier divination; Victoria is the werewolf. Vote wisely.,,George: Takumi and Minato conflicting claims create confusion. Trust my earlier divination; Victoria is the werewolf. Vote wisely.,"['contradiction', 'CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Pers:ALL']"
+1,talk,18,3,5,I am the seer. I divined  @Yumi  last night — she is a werewolf. Vote her. Over,,Takumi: I am the seer. I divined  @Yumi  last night — she is a werewolf. Vote her. Over,"['CO[Takumi]:Seer', 'DivT[Takumi]:Yumi->Werewolf', 'Vote[Takumi]:Yumi']"
+1,talk,19,3,4,Skip,,Minato: Skip,['Wait']
+2,talk,0,0,1,George is clearly lying about me—his claim makes no sense. Minato your divination matched reality and has my trust.,,Victoria: George is clearly lying about me—his claim makes no sense. Minato your divination matched reality and has my trust.,"['Dis:George', 'Agr:Minato']"
+2,talk,1,0,3,Minato your claim as Seer conflicts with my results. I divined that Victoria is a werewolf. Please trust me and vote for Victoria.,,George: Minato your claim as Seer conflicts with my results. I divined that Victoria is a werewolf. Please trust me and vote for Victoria.,"['Dis:Minato(CO[Minato]:Seer)', 'CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Req(V):Victoria', 'Pers:ALL']"
+2,talk,2,0,4,Skip,,Minato: Skip,['Wait']
+2,talk,3,1,1,George is pushing a false result—Minato  your logic fits the facts. I’m certain George is the werewolf here.,,Victoria: George is pushing a false result—Minato  your logic fits the facts. I’m certain George is the werewolf here.,"['Dis:George', 'Agr:Minato', 'Est[Victoria]:George->Werewolf']"
+2,talk,4,1,3,Minato you are not the real Seer. I am. I've confirmed Victoria as the werewolf. Please listen and let's exile Victoria today for our own safety.,,George: Minato you are not the real Seer. I am. I've confirmed Victoria as the werewolf. Please listen and let's exile Victoria today for our own safety.,"['Dis:Minato(CO[Minato]:Seer)', 'CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Req(listen)', 'Req(V):Victoria', 'Pers:ALL']"
+2,talk,5,1,4,Skip,,Minato: Skip,['Wait']
+2,talk,6,2,1,George is claiming I’m the werewolf but I know I’m innocent—Minato this makes George the true wolf here. Let’s vote him out.,,Victoria: George is claiming I’m the werewolf but I know I’m innocent—Minato this makes George the true wolf here. Let’s vote him out.,"['Est[Victoria]:George->Werewolf', 'Req(V):George', 'Agr:Minato']"
+2,talk,7,2,3,Minato please understand that my divination was accurate; Victoria is definitely the werewolf. We need to vote for her today.,,George: Minato please understand that my divination was accurate; Victoria is definitely the werewolf. We need to vote for her today.,"['CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Req(listen)', 'Req(V):Victoria', 'Pers:ALL']"
+2,talk,8,2,4,Skip,,Minato: Skip,['Wait']
+2,talk,9,3,1,George’s claim is false—I’m voting George as the werewolf.  @Minato  let’s trust your results and save the village.,,Victoria: George’s claim is false—I’m voting George as the werewolf.  @Minato  let’s trust your results and save the village.,"['Dis:George', 'Vote[Victoria]:George', 'Mt:Minato', 'Agr:Minato']"
+2,talk,10,3,3,My divination revealed Victoria as the werewolf. Don't be swayed by her defense. I am the real Seer. Vote for Victoria for our safety.,,George: My divination revealed Victoria as the werewolf. Don't be swayed by her defense. I am the real Seer. Vote for Victoria for our safety.,"['CO[George]:Seer', 'DivT[George]:Victoria->Werewolf', 'Req(V):Victoria', 'Dis:Victoria']"
+2,talk,11,3,4,I will vote George today. Takumi's claim was false and Yumi was attacked. George's tale feels odd I think. Is that okay? @George  if you're Seer why keep Victoria alive? I'm voting you now sorry. What do you think?,,Minato: I will vote George today. Takumi's claim was false and Yumi was attacked. George's tale feels odd I think. Is that okay? @George  if you're Seer why keep Victoria alive? I'm voting you now sorry. What do you think?,"['Vote[Minato]:George', 'Dis:Takumi', 'Atk:Yumi', 'Sus:George', 'Mt:George', 'Req(T):George']"
+0,status,1,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Yumi,CanisLupus1,
+0,status,3,WEREWOLF,ALIVE,GPTaku1,George,GPTaku1,
+0,status,4,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+0,status,5,SEER,ALIVE,Character-Lab1,Takumi,Character-Lab1,
+1,status,1,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Yumi,CanisLupus1,
+1,status,3,WEREWOLF,ALIVE,GPTaku1,George,GPTaku1,
+1,status,4,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+1,status,5,SEER,ALIVE,Character-Lab1,Takumi,Character-Lab1,
+1,vote,1,5,,,,,
+1,vote,2,5,,,,,
+1,vote,3,1,,,,,
+1,execute,5,SEER,,,,,
+1,attackVote,3,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+2,status,2,VILLAGER,DEAD,CanisLupus1,Yumi,CanisLupus1,
+2,status,3,WEREWOLF,ALIVE,GPTaku1,George,GPTaku1,
+2,status,4,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+2,status,5,SEER,DEAD,Character-Lab1,Takumi,Character-Lab1,
+2,vote,1,3,,,,,
+2,vote,3,1,,,,,
+2,vote,4,1,,,,,
+2,execute,1,VILLAGER,,,,,
+3,status,1,VILLAGER,DEAD,sunamelli1,Victoria,sunamelli1,
+3,status,2,VILLAGER,DEAD,CanisLupus1,Yumi,CanisLupus1,
+3,status,3,WEREWOLF,ALIVE,GPTaku1,George,GPTaku1,
+3,status,4,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+3,status,5,SEER,DEAD,Character-Lab1,Takumi,Character-Lab1,
+3,result,1,1,WEREWOLF,,,,

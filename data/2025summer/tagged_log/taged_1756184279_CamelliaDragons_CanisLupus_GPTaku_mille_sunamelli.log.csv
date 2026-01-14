@@ -1,0 +1,72 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,Hello. I am Kenji. My role is villager. Have a good game.,,Kenji: Hello. I am Kenji. My role is villager. Have a good game.,['CO[Kenji]:Villager']
+0,talk,1,0,2,Skip,,Mio: Skip,['Other']
+0,talk,2,0,4,Hello everyone I’m Minako Let’s all stay calm and share our thoughts openly today,,Minako: Hello everyone I’m Minako Let’s all stay calm and share our thoughts openly today,"['calm', 'Req(Discuss)']"
+0,talk,3,0,3,Hey hey! I'm Sakura—nice to meet you all! Ready to catch a wolf or maybe trip over my own feet? Who's with me? @Kenji  starting strong with that villager claim huh? Are you ALWAYS this honest or feeling a bit sneaky today?,,Sakura: Hey hey! I'm Sakura—nice to meet you all! Ready to catch a wolf or maybe trip over my own feet? Who's with me? @Kenji  starting strong with that villager claim huh? Are you ALWAYS this honest or feeling a bit sneaky today?,"['Mt:Kenji', 'Sus:Kenji', 'Pers:ALL']"
+0,talk,4,0,5,Hello everyone I'm George! Excited to play Werewolf with you all. Let's have some fun and enjoy the game!,,George: Hello everyone I'm George! Excited to play Werewolf with you all. Let's have some fun and enjoy the game!,['Other']
+0,talk,6,1,2,I'm Mio. It's a pleasure to dance with all of you. I hope our performance is a beautiful one.,,Mio: I'm Mio. It's a pleasure to dance with all of you. I hope our performance is a beautiful one.,['Other']
+1,talk,0,0,1,I will vote Sakura.,,Kenji: I will vote Sakura.,['Vote[Kenji]:Sakura']
+1,talk,1,0,2,Good morning. I am the Seer. It saddens me but my vision showed that Sakura is the Werewolf.,,Mio: Good morning. I am the Seer. It saddens me but my vision showed that Sakura is the Werewolf.,"['CO[Mio]:Seer', 'DivT[Mio]:Sakura->Werewolf']"
+1,talk,2,0,5,I am actually the Seer and my vision revealed that Mio is the Werewolf. We need to focus our votes correctly.,,George: I am actually the Seer and my vision revealed that Mio is the Werewolf. We need to focus our votes correctly.,"['CO[George]:Seer', 'DivT[George]:Mio->Werewolf', 'Pers:ALL']"
+1,talk,3,0,3,I am the real Seer! Kenji is totally the werewolf! Anyone surprised? Seer party time huh? Count me in! @Mio  nice try with that seer claim! But I’m the real one. Kenji’s a werewolf! Where’s your crystal ball?,,Sakura: I am the real Seer! Kenji is totally the werewolf! Anyone surprised? Seer party time huh? Count me in! @Mio  nice try with that seer claim! But I’m the real one. Kenji’s a werewolf! Where’s your crystal ball?,"['CO[Sakura]:Seer', 'Sus:Kenji', 'Mt:Mio', 'Dis:Mio(CO[Mio]:Seer)']"
+1,talk,4,0,4,Three seer COs each accuse differently but George quickly targeted Mio after her CO. That looks more suspicious to me.,,Minako: Three seer COs each accuse differently but George quickly targeted Mio after her CO. That looks more suspicious to me.,['Sus:George']
+1,talk,5,1,1,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+1,talk,6,1,2,Three seers is quite a complex dance. It is hard for me to know whose rhythm to follow.,,Mio: Three seers is quite a complex dance. It is hard for me to know whose rhythm to follow.,['difficult']
+1,talk,7,1,5,Stick to my original divination. Voting Mio is crucial—my vision was clear and she's definitely the werewolf. Trust me.,,George: Stick to my original divination. Voting Mio is crucial—my vision was clear and she's definitely the werewolf. Trust me.,"['Fact[George]:Mio->Werewolf', 'Pers:ALL']"
+1,talk,8,1,3,Wow! Everyone wants to be the seer now! Isn't it a bit crowded here or is there a disguise party going on? @Minako  you're sharp! Did you notice how fast George pointed at Mio? Doesn't that seem kinda fishy to you?,,Sakura: Wow! Everyone wants to be the seer now! Isn't it a bit crowded here or is there a disguise party going on? @Minako  you're sharp! Did you notice how fast George pointed at Mio? Doesn't that seem kinda fishy to you?,"['Mt:Minako', 'Sus:George', 'Req(T):Minako']"
+1,talk,9,1,4,@George  you switched targets fast—can you explain why you acted right after the Seer COs? It seemed a bit rushed.,,Minako: @George  you switched targets fast—can you explain why you acted right after the Seer COs? It seemed a bit rushed.,"['Mt:George', 'Req(T):George', 'Sus:George']"
+1,talk,10,2,1,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+1,talk,11,2,2,With three dancers leading it is a chaotic song. Perhaps we should vote for Minako to find harmony.,,Mio: With three dancers leading it is a chaotic song. Perhaps we should vote for Minako to find harmony.,['Req(V):Minako']
+1,talk,12,2,5,My divination about Mio came before knowing she would claim Seer. I'm certain of what I saw; Mio is our threat.,,George: My divination about Mio came before knowing she would claim Seer. I'm certain of what I saw; Mio is our threat.,['Fact[George]:Mio->Werewolf']
+1,talk,13,2,3,"So many seers! Whoever has the real crystal ball wave it! Let's solve this mystery with a smile. Who do you trust? @George Hey George you're really sticking to your Mio vote! Is it your ""vision"" or just a hunch? We're all curious you know!",,"Sakura: So many seers! Whoever has the real crystal ball wave it! Let's solve this mystery with a smile. Who do you trust? @George Hey George you're really sticking to your Mio vote! Is it your ""vision"" or just a hunch? We're all curious you know!","['Mt:George', 'Req(CO):Seer', 'Dis:George(CO[George]:Seer)']"
+1,talk,14,2,4,If all three Seers accuse different people isn't someone trying to confuse us? Who does this chaos benefit most?,,Minako: If all three Seers accuse different people isn't someone trying to confuse us? Who does this chaos benefit most?,['Req(Discuss)']
+1,talk,15,3,1,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+1,talk,16,3,2,I understand the focus on George but this disharmony is troubling. I still think voting Minako brings clarity.,,Mio: I understand the focus on George but this disharmony is troubling. I still think voting Minako brings clarity.,['Vote[Mio]:Minako']
+1,talk,17,3,5,Trusting the Seer is key to our victory and I assure you my vision is legitimate. I divined Mio as the Werewolf. Stick with that.,,George: Trusting the Seer is key to our victory and I assure you my vision is legitimate. I divined Mio as the Werewolf. Stick with that.,"['Fact[George]:Mio->Werewolf', 'Pers:ALL']"
+1,talk,18,3,3,Whew what a show! I'm voting Kenji—he's the werewolf! Anyone else ready for a happy ending to this mystery? @Mio  you're the Seer? Explain how your vision showed me as a werewolf when I know I'm not! Plot twist!,,Sakura: Whew what a show! I'm voting Kenji—he's the werewolf! Anyone else ready for a happy ending to this mystery? @Mio  you're the Seer? Explain how your vision showed me as a werewolf when I know I'm not! Plot twist!,"['Vote[Sakura]:Kenji', 'Sus:Kenji', 'Mt:Mio', 'Req(T):Mio', 'Dis:Mio(CO[Mio]:Seer)']"
+1,talk,19,3,4,George’s certainty feels too forced and aggressive—I don’t trust it. I’m voting George today. Let’s see where this leads.,,Minako: George’s certainty feels too forced and aggressive—I don’t trust it. I’m voting George today. Let’s see where this leads.,"['Sus:George', 'Vote[Minako]:George']"
+2,talk,0,0,4,@Mio  explain why the werewolf would bite out Sakura after you called her out.,,Minako: @Mio  explain why the werewolf would bite out Sakura after you called her out.,"['Mt:Mio', 'Req(T):Mio', 'Sus:Mio', 'Atk:Sakura']"
+2,talk,1,0,2,Skip,,Mio: Skip,['Wait']
+2,talk,2,0,1,I will vote Minako.,,Kenji: I will vote Minako.,['Vote[Kenji]:Minako']
+2,talk,3,1,4,@Mio  you claimed Sakura was a wolf but she was bite outd not vote outd. Can you explain this contradiction?,,Minako: @Mio  you claimed Sakura was a wolf but she was bite outd not vote outd. Can you explain this contradiction?,"['Mt:Mio', 'Dis:Mio(DivT[Mio]:Sakura->Black)', 'contradiction', 'Req(T):Mio', 'Atk:Sakura']"
+2,talk,4,1,2,What a tragic song... My vision last night showed Minako is human. The silenced dancer was right.,,Mio: What a tragic song... My vision last night showed Minako is human. The silenced dancer was right.,"['CO[Mio]:Seer', 'DivT[Mio]:Minako->White', 'Atk:Sakura']"
+2,talk,5,1,1,I will vote Minako.,,Kenji: I will vote Minako.,['Vote[Kenji]:Minako']
+2,talk,6,2,4,@Kenji  your vote for me is hasty with no real reason. Defend your choice or is it just following Mio’s claims?,,Minako: @Kenji  your vote for me is hasty with no real reason. Defend your choice or is it just following Mio’s claims?,"['Mt:Kenji', 'Dis:Kenji(Vote[Kenji]:Minako)', 'Req(T):Kenji', 'Sus:Mio']"
+2,talk,7,2,2,@Minako  The wolf silenced the true seer. Let's honor Sakura's final performance and vote for Kenji.,,Mio: @Minako  The wolf silenced the true seer. Let's honor Sakura's final performance and vote for Kenji.,"['Mt:Minako', 'Fact[Mio]:Sakura->Seer', 'Vote[Mio]:Kenji', 'Req(V):Kenji', 'Atk:Sakura']"
+2,talk,9,3,4,Mio’s seer claim fails since Sakura was bitten after being accused. My vote is for Mio. Kenji please reconsider.,,Minako: Mio’s seer claim fails since Sakura was bitten after being accused. My vote is for Mio. Kenji please reconsider.,"['Dis:Mio(DivT[Mio]:Sakura->Black)', 'contradiction', 'Vote[Minako]:Mio', 'Mt:Kenji', 'Req(T):Kenji', 'Sus:Mio', 'Atk:Sakura']"
+2,talk,10,3,2,It seems I misread the song's tempo. Kenji's steady rhythm is our guide now. I'll follow his vote. I'm so sorry Minako.,,Mio: It seems I misread the song's tempo. Kenji's steady rhythm is our guide now. I'll follow his vote. I'm so sorry Minako.,"['Agr:Kenji(Vote[Kenji]:Minako)', 'Vote[Mio]:Minako']"
+0,status,1,WEREWOLF,ALIVE,mille1,Kenji,mille1,
+0,status,2,POSSESSED,ALIVE,CanisLupus1,Mio,CanisLupus1,
+0,status,3,SEER,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+0,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+0,status,5,VILLAGER,ALIVE,GPTaku1,George,GPTaku1,
+0,divine,3,1,WEREWOLF,,,,
+1,status,1,WEREWOLF,ALIVE,mille1,Kenji,mille1,
+1,status,2,POSSESSED,ALIVE,CanisLupus1,Mio,CanisLupus1,
+1,status,3,SEER,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+1,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+1,status,5,VILLAGER,ALIVE,GPTaku1,George,GPTaku1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,1,,,,,
+1,vote,4,5,,,,,
+1,vote,5,2,,,,,
+1,execute,5,VILLAGER,,,,,
+1,divine,3,4,HUMAN,,,,
+1,attackVote,1,3,,,,,
+1,attack,3,true,,,,,
+2,status,1,WEREWOLF,ALIVE,mille1,Kenji,mille1,
+2,status,2,POSSESSED,ALIVE,CanisLupus1,Mio,CanisLupus1,
+2,status,3,SEER,DEAD,CamelliaDragons1,Sakura,CamelliaDragons1,
+2,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+2,status,5,VILLAGER,DEAD,GPTaku1,George,GPTaku1,
+2,vote,1,4,,,,,
+2,vote,2,4,,,,,
+2,vote,4,2,,,,,
+2,execute,4,VILLAGER,,,,,
+3,status,1,WEREWOLF,ALIVE,mille1,Kenji,mille1,
+3,status,2,POSSESSED,ALIVE,CanisLupus1,Mio,CanisLupus1,
+3,status,3,SEER,DEAD,CamelliaDragons1,Sakura,CamelliaDragons1,
+3,status,4,VILLAGER,DEAD,sunamelli1,Minako,sunamelli1,
+3,status,5,VILLAGER,DEAD,GPTaku1,George,GPTaku1,
+3,result,1,1,WEREWOLF,,,,

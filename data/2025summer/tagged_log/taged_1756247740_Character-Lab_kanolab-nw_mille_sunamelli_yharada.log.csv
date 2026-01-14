@@ -1,0 +1,83 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Good morning everyone I hope you’re all ready for a tough game I plan to watch each of you closely from the start,,George: Good morning everyone I hope you’re all ready for a tough game I plan to watch each of you closely from the start,"['Pers:ALL', 'Other']"
+0,talk,1,0,5,Hello. I am Kenji. My role is seer. Have a good game.,,Kenji: Hello. I am Kenji. My role is seer. Have a good game.,['CO[Kenji]:Seer']
+0,talk,2,0,2,Kenji  a seer claim is important.  @Kenji  please tell us who you checked (or will check) and any result you have. I'm old and cautious — I’m watching George closely. Others  please share your ear,,Servas: Kenji  a seer claim is important.  @Kenji  please tell us who you checked (or will check) and any result you have. I'm old and cautious — I’m watching George closely. Others  please share your ear,"['Req(CO):Seer', 'Mt:Kenji', 'Req(T):Kenji', 'Sus:George', 'Req(Discuss)']"
+0,talk,3,0,1,Good morning everyone. I am Minako. Let us work together to find the werewolf. I look forward to a productive game. Over.,,Minako: Good morning everyone. I am Minako. Let us work together to find the werewolf. I look forward to a productive game. Over.,['Pers:ALL']
+0,talk,4,0,4,Good morning everyone! Let's stay positive and support each other in finding those werewolves!,,Yumi: Good morning everyone! Let's stay positive and support each other in finding those werewolves!,['Pers:ALL']
+0,talk,7,1,2,Kenji  your seer claim matters.  @Kenji  please tell us whom you checked and the result — or say who you will check tonight. George’s silence worries me; early quiet can be hiding. Others  share,,Servas: Kenji  your seer claim matters.  @Kenji  please tell us whom you checked and the result — or say who you will check tonight. George’s silence worries me; early quiet can be hiding. Others  share,"['Req(CO):Seer', 'Mt:Kenji', 'Req(T):Kenji', 'Sus:George', 'Req(Discuss)']"
+0,talk,9,1,4,Kenji we're curious about your plans! Let's keep the conversation open and friendly.,,Yumi: Kenji we're curious about your plans! Let's keep the conversation open and friendly.,"['Mt:Kenji', 'Req(T):Kenji', 'Pers:ALL']"
+0,talk,10,2,2,If you're truly the seer   @Kenji  please tell us who you checked and the result — or at least who you'll check tonight. I'm old and cautious; I'd like everyone to share a quick read before,,Servas: If you're truly the seer   @Kenji  please tell us who you checked and the result — or at least who you'll check tonight. I'm old and cautious; I'd like everyone to share a quick read before,"['Req(CO):Seer', 'Mt:Kenji', 'Req(T):Kenji', 'Req(Discuss)']"
+0,talk,11,2,4,Let's stay positive and share our thoughts! Trust and teamwork will lead us forward.,,Yumi: Let's stay positive and share our thoughts! Trust and teamwork will lead us forward.,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,12,3,2,@Kenji  please tell us who you've checked or who you plan to check tonight. George has been very quiet and that worries me. Minako  Yumi — quick reads from you bot,,Servas: @Kenji  please tell us who you've checked or who you plan to check tonight. George has been very quiet and that worries me. Minako  Yumi — quick reads from you bot,"['Req(CO):Seer', 'Mt:Kenji', 'Req(T):Kenji', 'Sus:George', 'Req(T):Minako', 'Req(T):Yumi']"
+0,talk,13,3,4,I think George might be a bit shy today. Let's encourage him to join in more!,,Yumi: I think George might be a bit shy today. Let's encourage him to join in more!,"['Sus:George', 'Pers:ALL']"
+1,talk,0,0,3,@Minako  you haven’t given any reads yet. Hiding isn’t teamwork can you tell us your current suspects?,,George: @Minako  you haven’t given any reads yet. Hiding isn’t teamwork can you tell us your current suspects?,"['Mt:Minako', 'Req(T):Minako']"
+1,talk,1,0,1,Mr. Kenji is our declared seer. It is essential to listen to him. Mr. George's silence concerns me as well. Let us proceed carefully.,,Minako: Mr. Kenji is our declared seer. It is essential to listen to him. Mr. George's silence concerns me as well. Let us proceed carefully.,"['Fact[Minako]:Kenji->Seer', 'Sus:George', 'calm']"
+1,talk,2,0,2,@Kenji  please tell us whom you checked last night or who you will check tonight. I'm old and cautious — George and Minako  please share quick reads or votes so we,,Servas: @Kenji  please tell us whom you checked last night or who you will check tonight. I'm old and cautious — George and Minako  please share quick reads or votes so we,"['Mt:Kenji', 'Req(CO):Seer', 'Req(T):George', 'Req(T):Minako', 'calm']"
+1,talk,3,0,4,Good morning everyone! Let's stay alert and work together to find those werewolves!,,Yumi: Good morning everyone! Let's stay alert and work together to find those werewolves!,"['Req(Discuss)', 'Pers:ALL', 'calm']"
+1,talk,4,0,5,I am a seer. I divined Minako and Minako was a human.,,Kenji: I am a seer. I divined Minako and Minako was a human.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Minako->White']"
+1,talk,5,1,3,@Kenji  you picked Minako for your first check. Why not Servas who was the loudest about suspicion?,,George: @Kenji  you picked Minako for your first check. Why not Servas who was the loudest about suspicion?,"['Mt:Kenji', 'Req(T):Kenji', 'Sus:Servas']"
+1,talk,6,1,1,Kenji thank you. So I am confirmed human. Trust in my honesty. George seemed defensive. Let us consider their intent.  @George  Kenji's divination confirmed I am human. Do you have any insights on roles now?,,Minako: Kenji thank you. So I am confirmed human. Trust in my honesty. George seemed defensive. Let us consider their intent.  @George  Kenji's divination confirmed I am human. Do you have any insights on roles now?,"['Agr:Kenji(DivT[Kenji]:Minako->White)', 'Sus:George', 'Mt:George', 'Req(T):George']"
+1,talk,7,1,2,Thank you  Kenji.  @Kenji  please check George tonight — his defensiveness worries me. George  can you explain why you were so terse earlier? Minako is confirmed human  so let’s f,,Servas: Thank you  Kenji.  @Kenji  please check George tonight — his defensiveness worries me. George  can you explain why you were so terse earlier? Minako is confirmed human  so let’s f,"['Mt:Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Fact[Servas]:Minako->not(Werewolf)', 'Sus:George']"
+1,talk,8,1,4,Thanks for confirming Minako Kenji! Let's keep gathering info and stay positive!,,Yumi: Thanks for confirming Minako Kenji! Let's keep gathering info and stay positive!,"['Agr:Kenji(DivT[Kenji]:Minako->White)', 'Req(Discuss)']"
+1,talk,9,1,5,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+1,talk,10,2,3,@Servas  you’re fixated on me with zero evidence. That’s just what a Possessed would do to throw us off.,,George: @Servas  you’re fixated on me with zero evidence. That’s just what a Possessed would do to throw us off.,"['Mt:Servas', 'Sus:Servas', 'Dis:Servas']"
+1,talk,11,2,1,George please share your reasoning. Servas is proactively guiding. Let us remain calm and logical in our deductions.,,Minako: George please share your reasoning. Servas is proactively guiding. Let us remain calm and logical in our deductions.,"['Mt:George', 'Req(T):George', 'calm']"
+1,talk,12,2,2,@Kenji  please check George tonight — his behavior still feels odd to me. George  could you explain your early silence? Minako and Yumi  any quick reads or votes,,Servas: @Kenji  please check George tonight — his behavior still feels odd to me. George  could you explain your early silence? Minako and Yumi  any quick reads or votes,"['Mt:Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Req(T):Minako', 'Req(T):Yumi', 'Sus:George']"
+1,talk,13,2,4,George seems a bit defensive but let's keep an open mind and gather more info!,,Yumi: George seems a bit defensive but let's keep an open mind and gather more info!,"['Sus:George', 'Req(Discuss)']"
+1,talk,14,2,5,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+1,talk,15,3,3,Servas pushes too hard and rushes judgment like a wolf. That’s dangerous. I’ll vote Servas today.,,George: Servas pushes too hard and rushes judgment like a wolf. That’s dangerous. I’ll vote Servas today.,"['Sus:Servas', 'Dis:Servas', 'Vote[George]:Servas']"
+1,talk,16,3,1,Kenji's choice indicates thoughtfulness. Yet my concern is George's defensiveness. Voting for Servas may be the wiser path.  @Yumi  Please share your view on Servas or George. Our dialogue can illuminate the direction we should take.,,Minako: Kenji's choice indicates thoughtfulness. Yet my concern is George's defensiveness. Voting for Servas may be the wiser path.  @Yumi  Please share your view on Servas or George. Our dialogue can illuminate the direction we should take.,"['Agr:Kenji(Vote[Kenji]:George)', 'Sus:George', 'Req(V):Servas', 'Mt:Yumi', 'Req(T):Yumi']"
+1,talk,17,3,2,Good morning. Any night news?  @Kenji  please tell us your divination result. George has been quiet and defensive — could you explain yourself? Minako  Yumi — quick reads  please. I don't wan,,Servas: Good morning. Any night news?  @Kenji  please tell us your divination result. George has been quiet and defensive — could you explain yourself? Minako  Yumi — quick reads  please. I don't wan,"['Mt:Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Mt:Minako', 'Mt:Yumi', 'Req(T):Minako', 'Req(T):Yumi', 'Sus:George']"
+1,talk,18,3,4,I feel unsure about George's defensiveness but let's weigh options carefully!,,Yumi: I feel unsure about George's defensiveness but let's weigh options carefully!,"['Sus:George', 'difficult']"
+1,talk,19,3,5,I will vote Minako.,,Kenji: I will vote Minako.,['Vote[Kenji]:Minako']
+2,talk,0,0,3,@Servas  your rush to vote and aggressive push feels more like Possessed than Villager. Why target me so hard?,,George: @Servas  your rush to vote and aggressive push feels more like Possessed than Villager. Why target me so hard?,"['Mt:Servas', 'Sus:Servas', 'Req(T):Servas']"
+2,talk,1,0,2,This is regrettable — we must be careful now.  @Kenji  please tell us your divination from last night: who did you check and what was the result? George  your earlier quietness still worries me — can you expl,,Servas: This is regrettable — we must be careful now.  @Kenji  please tell us your divination from last night: who did you check and what was the result? George  your earlier quietness still worries me — can you expl,"['Mt:Kenji', 'Req(T):Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Req(Discuss)']"
+2,talk,2,0,4,Let's be cautious and supportive today. Kenji your insights are crucial now!,,Yumi: Let's be cautious and supportive today. Kenji your insights are crucial now!,"['Req(Discuss)', 'Mt:Kenji', 'Pers:Kenji']"
+2,talk,3,0,5,I am a seer. I divined Yumi and Yumi was a human.,,Kenji: I am a seer. I divined Yumi and Yumi was a human.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Yumi->White']"
+2,talk,4,1,3,Kenji’s push for Minako’s vote out despite his own divination worries me.  @Servas  shouldn’t we question his certainty?,,George: Kenji’s push for Minako’s vote out despite his own divination worries me.  @Servas  shouldn’t we question his certainty?,"['Sus:Kenji', 'Mt:Servas', 'Req(T):Servas']"
+2,talk,5,1,2,Such a sad turn.  @Kenji  please tell us who you checked last night and the result. George  your earlier quietness still worries me — could you explain your actions? Yumi  what ar,,Servas: Such a sad turn.  @Kenji  please tell us who you checked last night and the result. George  your earlier quietness still worries me — could you explain your actions? Yumi  what ar,"['Mt:Kenji', 'Req(T):Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Mt:Yumi', 'Req(T):Yumi']"
+2,talk,6,1,4,I'm glad to be confirmed human! Let's focus on finding the werewolves together!,,Yumi: I'm glad to be confirmed human! Let's focus on finding the werewolves together!,"['Fact[Yumi]:Yumi->not(Werewolf)', 'Req(Discuss)', 'Pers:ALL']"
+2,talk,7,1,5,I will vote George.,,Kenji: I will vote George.,['Vote[Kenji]:George']
+2,talk,8,2,3,Kenji’s voting Minako right after calling her Human makes no sense for a true Seer. That doesn’t add up.,,George: Kenji’s voting Minako right after calling her Human makes no sense for a true Seer. That doesn’t add up.,"['Dis:Kenji(CO[Kenji]:Seer)', 'Sus:Kenji', 'contradiction']"
+2,talk,9,2,2,The loss of Minako pains me.  @Kenji  please share your latest divination result — we need clarity now. George  your earlier silence and defensiveness still worry me; can you explain? Yum,,Servas: The loss of Minako pains me.  @Kenji  please share your latest divination result — we need clarity now. George  your earlier silence and defensiveness still worry me; can you explain? Yum,"['Exe:Minako', 'Mt:Kenji', 'Req(T):Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Mt:Yumi']"
+2,talk,10,2,4,Kenji your actions are confusing. Let's clarify and make wise decisions today!,,Yumi: Kenji your actions are confusing. Let's clarify and make wise decisions today!,"['Mt:Kenji', 'confused', 'Req(T):Kenji', 'Req(Discuss)']"
+2,talk,11,2,5,I will vote Yumi.,,Kenji: I will vote Yumi.,['Vote[Kenji]:Yumi']
+2,talk,12,3,3,@Yumi  both Kenji and Servas target me quickly. Servas feels too forceful to trust. My vote goes to Servas.,,George: @Yumi  both Kenji and Servas target me quickly. Servas feels too forceful to trust. My vote goes to Servas.,"['Mt:Yumi', 'Sus:Kenji', 'Sus:Servas', 'Vote[George]:Servas']"
+2,talk,13,3,2,This loss weighs on me.  @Kenji  please share your latest divination result — we need clarity. George  your early silence still troubles me; could you explain your behavior? Yumi  any,,Servas: This loss weighs on me.  @Kenji  please share your latest divination result — we need clarity. George  your early silence still troubles me; could you explain your behavior? Yumi  any,"['Exe:Minako', 'Mt:Kenji', 'Req(T):Kenji', 'Req(CO):Seer', 'Mt:George', 'Req(T):George', 'Mt:Yumi', 'Req(T):Yumi']"
+2,talk,14,3,4,Let's stay calm and think through this together. We need to make the right choice!,,Yumi: Let's stay calm and think through this together. We need to make the right choice!,"['calm', 'Req(Discuss)', 'Pers:ALL']"
+2,talk,15,3,5,I will vote Yumi.,,Kenji: I will vote Yumi.,['Vote[Kenji]:Yumi']
+0,status,1,VILLAGER,ALIVE,kanolab-nw1,Minako,kanolab-nw1,
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Servas,Character-Lab1,
+0,status,3,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+0,status,4,POSSESSED,ALIVE,yharada1,Yumi,yharada1,
+0,status,5,SEER,ALIVE,mille1,Kenji,mille1,
+0,divine,5,1,HUMAN,,,,
+1,status,1,VILLAGER,ALIVE,kanolab-nw1,Minako,kanolab-nw1,
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Servas,Character-Lab1,
+1,status,3,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+1,status,4,POSSESSED,ALIVE,yharada1,Yumi,yharada1,
+1,status,5,SEER,ALIVE,mille1,Kenji,mille1,
+1,vote,1,5,,,,,
+1,vote,3,2,,,,,
+1,vote,4,1,,,,,
+1,vote,5,4,,,,,
+1,execute,1,VILLAGER,,,,,
+1,divine,5,4,HUMAN,,,,
+1,attack,-1,true,,,,,
+2,status,1,VILLAGER,DEAD,kanolab-nw1,Minako,kanolab-nw1,
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Servas,Character-Lab1,
+2,status,3,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+2,status,4,POSSESSED,ALIVE,yharada1,Yumi,yharada1,
+2,status,5,SEER,ALIVE,mille1,Kenji,mille1,
+2,vote,3,2,,,,,
+2,vote,4,5,,,,,
+2,vote,5,3,,,,,
+2,execute,5,SEER,,,,,
+2,attackVote,3,4,,,,,
+2,attack,4,true,,,,,
+3,status,1,VILLAGER,DEAD,kanolab-nw1,Minako,kanolab-nw1,
+3,status,2,VILLAGER,ALIVE,Character-Lab1,Servas,Character-Lab1,
+3,status,3,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+3,status,4,POSSESSED,DEAD,yharada1,Yumi,yharada1,
+3,status,5,SEER,DEAD,mille1,Kenji,mille1,
+3,result,1,1,WEREWOLF,,,,

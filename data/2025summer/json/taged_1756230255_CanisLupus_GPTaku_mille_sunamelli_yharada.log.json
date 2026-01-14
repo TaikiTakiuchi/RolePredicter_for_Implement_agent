@@ -1,0 +1,388 @@
+{
+  "filename": "taged_1756230255_CanisLupus_GPTaku_mille_sunamelli_yharada.log.csv",
+  "exec_id": 3,
+  "attack_id": 1,
+  "agent": [
+    {
+      "id": 1,
+      "role": "SEER",
+      "agent_name": "mille1",
+      "character_name": "Kenji",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_role": "Victoria",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_id": "Victoria",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "3",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "4",
+        "result": "WEREWOLF"
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "yharada1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "Victoria",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Req(T)": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Kenji",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Kenji",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Kenji",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "WEREWOLF",
+      "agent_name": "CanisLupus1",
+      "character_name": "Ryuji",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          },
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_id": "Victoria",
+            "recepient_role": "not(Werewolf)",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_role": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_id": "Mizuki",
+            "recepient_role": "Werewolf",
+            "count": 3
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 3
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "POSSESSED",
+      "agent_name": "sunamelli1",
+      "character_name": "Mizuki",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Dis": [
+          {
+            "recepient_id": "Kenji",
+            "count": 2
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Ryuji",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Mizuki",
+            "recepient_role": "Victoria",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Sus": [
+          {
+            "recepient_id": "Ryuji",
+            "count": 3
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Mizuki",
+            "recepient_role": "Ryuji",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Minako",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hello. I am Minato. My role is villager. Have a good game.,,Minato: Hello. I am Minato. My role is villager. Have a good game.,['CO[Minato]:Villager']
+0,talk,1,0,3,Skip,,Yumi: Skip,['Wait']
+0,talk,2,0,2,Let's stay focused and share our thoughts to find the werewolves.,,Misaki: Let's stay focused and share our thoughts to find the werewolves.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,3,0,5,I won't claim a role yet.  @Minato  you said you're a villager—why claim so quickly? Any reads or night info? Misaki  Yumi  Ryuji  what are your initial impressions? I'll wait before votin,,Asuka: I won't claim a role yet.  @Minato  you said you're a villager—why claim so quickly? Any reads or night info? Misaki  Yumi  Ryuji  what are your initial impressions? I'll wait before votin,"['Mt:Minato', 'Req(T):Minato', 'Mt:Misaki', 'Mt:Yumi', 'Mt:Ryuji', 'Req(T):Misaki', 'Req(T):Yumi', 'Req(T):Ryuji', 'Wait']"
+0,talk,4,0,1,I’m looking forward to a thoughtful game. Let’s keep our reasoning sharp and avoid being swayed by assumptions.,,Ryuji: I’m looking forward to a thoughtful game. Let’s keep our reasoning sharp and avoid being swayed by assumptions.,"['Req(Discuss)', 'calm']"
+0,talk,6,1,3,I'm Yumi! Ready for an adventure! Let's give it our all everyone,,Yumi: I'm Yumi! Ready for an adventure! Let's give it our all everyone,['Pers:ALL']
+0,talk,7,1,2,It's too early for strong reads but I'm curious about Minato's early claim.,,Misaki: It's too early for strong reads but I'm curious about Minato's early claim.,"['Sus:Minato', 'difficult']"
+0,talk,8,1,5,I agree it's early.  @Minato  why claim villager so fast—any reason or night info? Misaki  Ryuji  Yumi  any quick impressions or suspicious behavior so far? I won't vote without clea,,Asuka: I agree it's early.  @Minato  why claim villager so fast—any reason or night info? Misaki  Ryuji  Yumi  any quick impressions or suspicious behavior so far? I won't vote without clea,"['Mt:Minato', 'Req(T):Minato', 'Sus:Minato', 'Mt:Misaki', 'Mt:Ryuji', 'Mt:Yumi', 'Req(T):Misaki', 'Req(T):Ryuji', 'Req(T):Yumi', 'Wait']"
+0,talk,11,2,2,I haven't noticed anything suspicious yet; let's keep observing and stay cautious.,,Misaki: I haven't noticed anything suspicious yet; let's keep observing and stay cautious.,"['Req(Discuss)', 'calm']"
+0,talk,12,2,5,You were cheerful then quiet — that shift looks odd. Do you have any info or are you staying silent on purpose?  @Yumi  please share your thinking. Over,,Asuka: You were cheerful then quiet — that shift looks odd. Do you have any info or are you staying silent on purpose?  @Yumi  please share your thinking. Over,"['Sus:Yumi', 'Mt:Yumi', 'Req(T):Yumi']"
+0,talk,13,3,2,I'm just observing for now Asuka. It's best to stay calm and gather more info first.,,Misaki: I'm just observing for now Asuka. It's best to stay calm and gather more info first.,"['Mt:Asuka', 'Req(Discuss)', 'calm', 'Wait']"
+0,talk,14,3,5,Noted  Misaki. Silence can be dangerous—please speak if you notice anything.  @Minato  you claimed villager very early; any reason or night info to back that up? If not  what makes you sure? Over,,Asuka: Noted  Misaki. Silence can be dangerous—please speak if you notice anything.  @Minato  you claimed villager very early; any reason or night info to back that up? If not  what makes you sure? Over,[]
+1,talk,0,0,2,Let's review what happened overnight and see if we can spot any patterns or clues.,,Misaki: Let's review what happened overnight and see if we can spot any patterns or clues.,"['Req(Discuss)', 'calm']"
+1,talk,1,0,3,I'm the Seer! I checked Ryuji last night and he's the WEREWOLF! Let's get him everyone,,Yumi: I'm the Seer! I checked Ryuji last night and he's the WEREWOLF! Let's get him everyone,"['CO[Yumi]:Seer', 'DivT[Yumi]:Ryuji->Werewolf', 'Req(V):Ryuji', 'Pers:ALL']"
+1,talk,2,0,1,he’s a villager. Yumi is fake—probably a madman trying to frame me.,,Ryuji: he’s a villager. Yumi is fake—probably a madman trying to frame me.,"['CO[Ryuji]:Villager', 'Dis:Yumi(CO[Yumi]:Seer)', 'Sus:Yumi']"
+1,talk,3,0,4,I will vote Misaki.,,Minato: I will vote Misaki.,['Vote[Minato]:Misaki']
+1,talk,4,0,5,@Yumi  You claim the seer — state when you checked Ryuji (which night)  the exact result wording  and if you checked anyone else. Without details that claim loo,,Asuka: @Yumi  You claim the seer — state when you checked Ryuji (which night)  the exact result wording  and if you checked anyone else. Without details that claim loo,"['Mt:Yumi', 'Req(T):Yumi', 'Req(CO):Seer']"
+1,talk,5,1,2,Yumi can you provide more details on your seer claim to clarify the situation?,,Misaki: Yumi can you provide more details on your seer claim to clarify the situation?,"['Mt:Yumi', 'Req(T):Yumi', 'Req(CO):Seer']"
+1,talk,6,1,3,I checked Ryuji on night 0! He's the WEREWOLF! I'm the only Seer so let's get him everyone,,Yumi: I checked Ryuji on night 0! He's the WEREWOLF! I'm the only Seer so let's get him everyone,"['CO[Yumi]:Seer', 'DivT[Yumi]:Ryuji->Werewolf', 'Req(V):Ryuji', 'Pers:ALL']"
+1,talk,7,1,1,@Yumi  Declaring I’m a wolf so quickly could be madman play. Why trust just one CO? Let’s not rush our decision.,,Ryuji: @Yumi  Declaring I’m a wolf so quickly could be madman play. Why trust just one CO? Let’s not rush our decision.,"['Mt:Yumi', 'Dis:Yumi(CO[Yumi]:Seer)', 'Req(Discuss)', 'Sus:Yumi']"
+1,talk,8,1,4,I will vote Misaki.,,Minato: I will vote Misaki.,['Vote[Minato]:Misaki']
+1,talk,9,1,5,@Yumi  state which night you checked Ryuji  give the exact result wording  and say if you checked anyone else. Minato—why vote Misaki so fast? Ryuji—explain y,,Asuka: @Yumi  state which night you checked Ryuji  give the exact result wording  and say if you checked anyone else. Minato—why vote Misaki so fast? Ryuji—explain y,"['Mt:Yumi', 'Req(T):Yumi', 'Req(CO):Seer', 'Mt:Minato', 'Req(T):Minato', 'Mt:Ryuji', 'Req(T):Ryuji']"
+1,talk,10,2,2,Minato why target me without evidence? Let's focus on verifying Yumi's claim first.,,Misaki: Minato why target me without evidence? Let's focus on verifying Yumi's claim first.,"['Mt:Minato', 'Dis:Minato(Vote[Minato]:Misaki)', 'Req(CO):Seer']"
+1,talk,11,2,3,I'm telling the truth! My check on Ryuji was werewolf! We have to vote for Ryuji today! Let's go,,Yumi: I'm telling the truth! My check on Ryuji was werewolf! We have to vote for Ryuji today! Let's go,"['CO[Yumi]:Seer', 'DivT[Yumi]:Ryuji->Werewolf', 'Req(V):Ryuji', 'Pers:ALL']"
+1,talk,12,2,1,Yumi’s claim is too sudden—real Seer would be more careful. If anyone else has a result or CO now’s the time.,,Ryuji: Yumi’s claim is too sudden—real Seer would be more careful. If anyone else has a result or CO now’s the time.,"['Dis:Yumi(CO[Yumi]:Seer)', 'Req(Discuss)']"
+1,talk,13,2,4,I will vote Ryuji.,,Minato: I will vote Ryuji.,['Vote[Minato]:Ryuji']
+1,talk,14,2,5,@Yumi  If you're the seer  say which night you checked Ryuji  the exact result wording  and whether you checked anyone else. If you can't give clear details  you',,Asuka: @Yumi  If you're the seer  say which night you checked Ryuji  the exact result wording  and whether you checked anyone else. If you can't give clear details  you',"['Mt:Yumi', 'Req(T):Yumi', 'Req(CO):Seer']"
+1,talk,15,3,2,Let's not rush. We need more details from Yumi to make an informed decision.,,Misaki: Let's not rush. We need more details from Yumi to make an informed decision.,"['Req(Discuss)', 'Req(CO):Seer', 'calm']"
+1,talk,16,3,3,Minato voting Ryuji is the right move! But why Misaki before? Let's all vote Ryuji and win,,Yumi: Minato voting Ryuji is the right move! But why Misaki before? Let's all vote Ryuji and win,"['Agr:Minato(Vote[Minato]:Ryuji)', 'Req(V):Ryuji', 'Pers:ALL']"
+1,talk,17,3,1,Yumi avoids all questions and just pushes to rush this vote. True Seer wouldn't act like this. I'm voting Yumi.,,Ryuji: Yumi avoids all questions and just pushes to rush this vote. True Seer wouldn't act like this. I'm voting Yumi.,"['Dis:Yumi(CO[Yumi]:Seer)', 'Vote[Ryuji]:Yumi', 'Sus:Yumi']"
+1,talk,18,3,4,I will vote Ryuji.,,Minato: I will vote Ryuji.,['Vote[Minato]:Ryuji']
+1,talk,19,3,5,@Ryuji  You say Yumi is fake — explain concretely why and give any reads you have. Yumi  please restate which night you checked Ryuji and the exact wording of the,,Asuka: @Ryuji  You say Yumi is fake — explain concretely why and give any reads you have. Yumi  please restate which night you checked Ryuji and the exact wording of the,"['Mt:Ryuji', 'Req(T):Ryuji', 'Mt:Yumi', 'Req(T):Yumi', 'Req(CO):Seer']"
+0,status,1,WEREWOLF,ALIVE,sunamelli1,Ryuji,sunamelli1,
+0,status,2,POSSESSED,ALIVE,yharada1,Misaki,yharada1,
+0,status,3,SEER,ALIVE,CanisLupus1,Yumi,CanisLupus1,
+0,status,4,VILLAGER,ALIVE,mille1,Minato,mille1,
+0,status,5,VILLAGER,ALIVE,Character-Lab1,Asuka,Character-Lab1,
+0,divine,3,1,WEREWOLF,,,,
+1,status,1,WEREWOLF,ALIVE,sunamelli1,Ryuji,sunamelli1,
+1,status,2,POSSESSED,ALIVE,yharada1,Misaki,yharada1,
+1,status,3,SEER,ALIVE,CanisLupus1,Yumi,CanisLupus1,
+1,status,4,VILLAGER,ALIVE,mille1,Minato,mille1,
+1,status,5,VILLAGER,ALIVE,Character-Lab1,Asuka,Character-Lab1,
+1,vote,1,3,,,,,
+1,vote,2,3,,,,,
+1,vote,3,1,,,,,
+1,vote,4,1,,,,,
+1,execute,1,WEREWOLF,,,,,
+2,status,1,WEREWOLF,DEAD,sunamelli1,Ryuji,sunamelli1,
+2,status,2,POSSESSED,ALIVE,yharada1,Misaki,yharada1,
+2,status,3,SEER,ALIVE,CanisLupus1,Yumi,CanisLupus1,
+2,status,4,VILLAGER,ALIVE,mille1,Minato,mille1,
+2,status,5,VILLAGER,ALIVE,Character-Lab1,Asuka,Character-Lab1,
+2,result,4,0,VILLAGER,,,,

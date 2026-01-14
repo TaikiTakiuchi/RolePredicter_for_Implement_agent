@@ -1,0 +1,142 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,5,5:我こそは運命の糸を操る者、占い師なり。,['CO[05]:占い師']
+1,talk,0,0,5,5:占いの結果、Agent[03]は人狼たるが如し。,['DivT[05]:03->黒']
+1,talk,1,0,4,4:>>Agent[02] その占い結果、信じていいのかな？,['Mt:02']
+1,talk,1,0,4,4:皆で話し合おう！,['Req(Discuss)']
+1,talk,2,0,3,3:それは不当な accusation やで。,['Dis:05（DivT[05]:03->黒）']
+1,talk,2,0,3,3:ワシは村人やし、怪しい発言をするのはお前かもしれん。,"['CO[03]:村人', 'Sus:04']"
+1,talk,2,0,3,3:もっと他の人を検証しましょうやで。,['Req(Discuss)']
+1,talk,3,0,2,2:ぼくは占い師ですよぅ！,['CO[02]:占い師']
+1,talk,3,0,2,2:ぼくが占った結果、Agent[05]は人狼でしたよぅ！,['DivT[02]:05->黒']
+1,talk,4,0,1,1:昨夜の占い結果を報告します。,['Other']
+1,talk,4,0,1,1:わたくしが占ったところ、Agent[03]さんは白だと出ました。,['DivT[01]:03->白']
+1,talk,5,1,5,5:Agent[02]の予言、信じるに足らんか否か…  Agent[05]が人狼、とは…  まさか、Agent[02]こそが人狼の化身、Agent[05]を陥れようとしているのではないのか？,"['Dis:02（DivT[02]:05->黒）', 'Sus:02']"
+1,talk,5,1,5,5:真実を究明すべく、議論を重ねようぞ。,['Req(Discuss)']
+1,talk,6,1,4,4:>>Agent[03] みんなの意見をもっと聞きたいね。,"['Mt:03', 'Req(Discuss)']"
+1,talk,6,1,4,4:疑問点を整理しよう！,['Req(Discuss)']
+1,talk,7,1,3,3:確かに占い結果が真逆の二人がいるんは疑わしいな。,"['XorEst:(02,05)->(not(占い師)⇔not(占い師))']"
+1,talk,7,1,3,3:どちらかが偽物の占い師かもしれん。,"['XorEst:(02,05)->(占い師⇔not(占い師))']"
+1,talk,7,1,3,3:特にAgent[02]は怪しいと思うで。,['Sus:02']
+1,talk,7,1,3,3:みんなはどう考えるんじゃろか？,['Req(Discuss)']
+1,talk,8,1,2,2:>>Agent[04] 占い結果は、信じるに足るものですよぅ！,"['Mt:04', 'Pers:04']"
+1,talk,9,1,1,1:確かに、占い師は一人しかいないはずですので、占い師を名乗っているAgent[02]かAgent[05]のどちらかは嘘をついていることになりますわね。,"['XorEst:(02,05)->(占い師⇔not(占い師))']"
+1,talk,9,1,1,1:わたくしはAgent[03]さんを白と判断しましたので、Agent[02]とAgent[05]のどちらかを怪しむべきだと思います。,"['Fact[01]:03->not(人狼)', 'Sus:02', 'Sus:05']"
+1,talk,9,1,1,1:皆さんはどうお考えですか?,['Req(Discuss)']
+1,talk,10,2,5,5:我は断言する、Agent[02]がAgent[05]を人狼と見做し、Agent[01]がAgent[03]を人間と断定した。,"['Fact[05]:02->Fact[05]:05->人狼', 'Fact[05]:01->Fact[05]:03->not(人狼)']"
+1,talk,10,2,5,5:然し、Agent[05]はAgent[03]を人狼と宣告した。,['Fact[05]:05->Fact[05]:03->人狼']
+1,talk,10,2,5,5:かくして、占い師の中に真なる占い師と狂人、そして人狼が潜む可能性は極めて高い。,"['Est[05]:02->占い師', 'Est[05]:05->占い師', 'Est[05]:01->占い師', 'Est[05]:02->狂人', 'Est[05]:05->狂人', 'Est[05]:01->狂人', 'Est[05]:02->人狼', 'Est[05]:05->人狼', 'Est[05]:01->人狼']"
+1,talk,10,2,5,5:故に、今宵はAgent[02]、Agent[01]、Agent[05]のいずれかに投票すべきであろう。,"['Vote[05]:02', 'Vote[05]:01', 'Vote[05]:05']"
+1,talk,11,2,4,4:>>Agent[01] 占い師問題について、他の意見も聞いてみるべきだね。,"['Mt:01', 'Req(Discuss)']"
+1,talk,12,2,3,3:ワシはAgent[02]に投票したいと思うとる。,['Vote[03]:02']
+1,talk,12,2,3,3:彼の占い結果が信じられんし、Agent[05]を陥れようとする動きが見えゆうけ。,"['Dis:02（DivT[02]:05->黒）', 'Sus:02']"
+1,talk,12,2,3,3:みんなの意見も聞かせてほしいわ。,['Req(Discuss)']
+1,talk,13,2,2,2:>>Agent[03] ありがとうございますよぅ！,"['Mt:03', 'admiration']"
+1,talk,14,2,1,1:やはり占い師はわたくし1人だけですわ。,['CO[01]:占い師']
+1,talk,14,2,1,1:他の方々、Agent[02]やAgent[05]が占い師を名乗っているのは、人狼陣営の可能性が高いですわね。,"['Sus:02', 'Sus:05', 'Est[01]:02->人狼', 'Est[01]:05->人狼']"
+1,talk,14,2,1,1:Agent[03]が私によって白とされた以上、Agent[02]とAgent[05]のどちらかに投票するのが賢明かと思います。,"['Fact[01]:03->not(人狼)', 'Vote[01]:02', 'Vote[01]:05']"
+1,talk,15,3,5,5:我は、Agent[02]に投票せん。,['Vote[05]:not(02)']
+1,talk,15,3,5,5:彼なる者は、わたくしを人狼と断定し、矛盾する結果を提示した。,"['Dis:02（Fact[02]:05->人狼）', 'contradiction']"
+1,talk,15,3,5,5:これは、彼自身こそ人狼であり、わたくしを陥れようとする策略であろう。,"['Sus:02', 'Est[05]:02->人狼']"
+1,talk,15,3,5,5:彼の行動に、疑念を抱かずにはいられない。,['Sus:02']
+1,talk,16,3,4,4:>>Agent[02] あなたの占い結果が本当なら、どう説明するんですか？,"['Mt:02', 'Req(T):02']"
+1,talk,16,3,4,4:他の意見も知りたいです。,['Req(Discuss)']
+1,talk,17,3,3,3:わしはAgent[02]を疑っとるが、他の意見も尊重すべきやで。,['Sus:02']
+1,talk,17,3,3,3:皆の考えを聞いて、最善の選択をしよう。,['Req(Discuss)']
+1,talk,17,3,3,3:これは大事なことやで。,['Other']
+1,talk,19,3,1,1:>>Agent[04]現在、3人の占い師が名乗りを上げている状況ですわ。,['Mt:04']
+1,talk,19,3,1,1:わたくし自身が占い師ですので、Agent[02]とAgent[05]のうちのどちらか、あるいは両方が嘘をついている可能性が高いと思いますの。,"['CO[01]:占い師', 'Est[01]:02->not(占い師)', 'Est[01]:05->not(占い師)']"
+1,talk,19,3,1,1:Agent[02]とAgent[05]が共に相手を人狼だと示している点も不自然に思われますわね。,"['Est[01]:02->人狼', 'Est[01]:05->人狼', 'Other']"
+1,talk,19,3,1,1:この理由から、わたくしは興味深い情報をお持ちの皆様の意見も拝見しつつ、Agent[02]に投票することが賢明だと思っていますの。,['Vote[01]:02']
+1,talk,20,4,5,5:我はAgent[02]に投票せん。,['Vote[05]:not(02)']
+1,talk,20,4,5,5:彼、Agent[05]を人狼と断定したれど、Agent[05]はAgent[03]を人狼と宣告せり。,"['Fact[05]:05->not(人狼)', 'Fact[05]:03->人狼']"
+1,talk,20,4,5,5:この矛盾する結果、彼の発言の真偽を疑わざるを得ず。,"['contradiction', 'Sus:02']"
+1,talk,20,4,5,5:彼は自身の正体を隠すため、狡猾なる策略を巡らせているか、あるいは深淵なる闇に呑み込まれし者なのか。,['Sus:02']
+1,talk,20,4,5,5:真相は深き霧の中に隠され、我々には知る由もない。,['difficult']
+1,talk,21,4,4,4:>>Agent[01] 占い結果をみんなで話し合って、しっかり判断しよう！,"['Mt:01', 'Req(Discuss)']"
+1,talk,22,4,3,3:議論が重なり、結論が見えつつあるな。,['Other']
+1,talk,22,4,3,3:ワシとしては、Agent[02]へ投票したいと思っとる。,['Vote[03]:02']
+1,talk,22,4,3,3:皆の考えをまとめる時間が必要じゃな！,['Req(Discuss)']
+1,talk,23,4,1,1:>>Agent[04]そうですわね、お話し合いが重要ですわ。,"['Mt:04', 'Req(Discuss)']"
+1,talk,23,4,1,1:現在、わたくし、Agent[02]、Agent[05]が占い師を名乗っている状況にございます。,"['CO[01]:占い師', 'CO[02]:占い師', 'CO[05]:占い師']"
+1,talk,23,4,1,1:それ故に、少なくとも二人は嘘をついており、人狼や狂人の可能性がございますの。,"['Est[01]:02->not(占い師)', 'Est[01]:05->not(占い師)', 'Est[01]:02->人狼', 'Est[01]:05->人狼', 'Est[01]:02->狂人', 'Est[01]:05->狂人']"
+1,talk,23,4,1,1:そして、わたくしはAgent[03]を白と判断しております。,['DivT[01]:03->白']
+1,talk,23,4,1,1:他の方の状況を考慮いたしますと、Agent[02]が最も疑わしゅうございますわ。,['Sus:02']
+1,talk,23,4,1,1:したがって、わたくしは彼に投票するつもりですの。,['Vote[01]:02']
+1,talk,23,4,1,1:最も論理的な判断をするためにも、皆様もご一緒にご意見をいただければ幸いですわ。,['Req(Discuss)']
+2,talk,0,0,4,4:Skip,['Other']
+2,talk,1,0,1,1:皆さん、わたくしの占い結果を報告するよ。,['Req(listen)']
+2,talk,1,0,1,1:昨夜はAgent[04]を占ったんだが、Agent[04]は白（村人）だと判明したよ。,['DivT[01]:04->白']
+2,talk,1,0,1,1:これについて何か意見あるかな？,['Req(Discuss)']
+2,talk,3,1,1,1:皆さん、昨日の出来事から考えると、わたくしが本物の占い師であるとすれば、Agent[02]は村人か狂人で、Agent[03]も村人か狂人でしたわ。,"['IF(01:占い師)->(02:村人,Est[01]:02->狂人,03:村人,Est[01]:03->狂人)']"
+2,talk,3,1,1,1:Agent[04]かAgent[05]が人狼の可能性がございますわね。,"['Est[01]:04->人狼,Est[01]:05->人狼']"
+2,talk,3,1,1,1:議論して、どちらが人狼か見抜く必要がありそうですわ。,['Req(Discuss)']
+2,talk,3,1,1,1:何か不思議なことに気づいた方はいますか?,['Req(Discuss)']
+2,talk,4,2,1,1:皆さん、今の状況について考えましょう。,['Req(Discuss)']
+2,talk,4,2,1,1:わたくし自身が本物の占い師と仮定した場合、もうすでにAgent[02]とAgent[03]が村人か狂人であったと分かっていますわ。,"['IF(01:占い師)->(02:村人,Est[01]:02->狂人,03:村人,Est[01]:03->狂人)']"
+2,talk,4,2,1,1:そのため、残るAgent[04]とAgent[05]のうち、少なくとも一人が人狼である可能性が高いですのよ。,"['Est[01]:04->人狼,Est[01]:05->人狼']"
+2,talk,4,2,1,1:Agent[05]はわたくしと同じく占い師を自称していますが、占い師は一人のみですから、どこかで真実を隠していることになりますわ。,"['Dis:05（CO[05]:占い師）,XorEst:(01,05)->(占い師⇔not(占い師))']"
+2,talk,4,2,1,1:そこで考えられるのは、Agent[05]が人狼か狂人である可能性が高いということです。,"['Est[01]:05->人狼,Est[01]:05->狂人']"
+2,talk,4,2,1,1:Agent[04]も疑いがありますが、人狼判定はまだできません。,['Sus:04']
+2,talk,4,2,1,1:皆さん、Agent[05]の言動に注意を払いましょう。,['Mt:05']
+2,talk,4,2,1,1:そして、気になることがあれば遠慮なくお知らせくださいませ。,['Req(Discuss)']
+2,talk,5,3,1,1:皆さん、今の状況を整理しますわね。,['Req(Discuss)']
+2,talk,5,3,1,1:私が本物の占い師とすると、Agent[02]とAgent[03]は村人か狂人で人狼ではないのですわ。,"['IF(01:占い師)->(02:村人,Est[01]:02->狂人,03:村人,Est[01]:03->狂人)']"
+2,talk,5,3,1,1:そしてAgent[04]とAgent[05]のどちらかが人狼ですの。,"['XorEst:(04,05)->(人狼⇔人狼)']"
+2,talk,5,3,1,1:Agent[04]は白と出ましたが、それが狂人である可能性もあると思いますわ。,['Est[01]:04->狂人']
+2,talk,5,3,1,1:皆様、ここで重要なのは、わたくしの占い結果によって少なくともAgent[04]を人狼と疑う確証はないということです。,['Fact[01]:04->not(人狼)']
+2,talk,5,3,1,1:となると、Agent[05]が最も怪しい位置にあるのではなくて?皆様、どう思われますか?他にもお気づきの点があれば教えてくださいね。,"['Sus:05', 'Req(Discuss)']"
+2,talk,6,4,1,1:みなさん、この状況を整理しますわ。,['Other']
+2,talk,6,4,1,1:占い師を名乗る人数が多く、私の占い結果から考えて、Agent[02]とAgent[03]は人狼ではないのですわ。,"['Fact[01]:02->not(人狼)', 'Fact[01]:03->not(人狼)']"
+2,talk,6,4,1,1:そして、私の目からすると、Agent[04]やAgent[05]のなかで、少なくとも一人が人狼である可能性が極めて高いですのよ。,"['XorEst:(04,05)->(人狼⇔not(人狼))']"
+2,talk,6,4,1,1:人狼が村人を装って占い師を自称することはよくあることですので、Agent[05]を非常に疑わしく感じますわね。,['Sus:05']
+2,talk,6,4,1,1:皆さんはいかがでしょうか?他に怪しい動きや発言がありましたら教えてくださいね。,['Req(Discuss)']
+0,status,1,POSSESSED,ALIVE,kanolab1,
+0,status,2,SEER,ALIVE,Mille1,
+0,status,3,VILLAGER,ALIVE,satozaki1,
+0,status,4,VILLAGER,ALIVE,barneko1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,kanolab1,
+1,status,2,SEER,ALIVE,Mille1,
+1,status,3,VILLAGER,ALIVE,satozaki1,
+1,status,4,VILLAGER,ALIVE,barneko1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,kanolab1,
+2,status,2,SEER,DEAD,Mille1,
+2,status,3,VILLAGER,DEAD,satozaki1,
+2,status,4,VILLAGER,ALIVE,barneko1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,ALIVE,kanolab1,
+3,status,2,SEER,DEAD,Mille1,
+3,status,3,VILLAGER,DEAD,satozaki1,
+3,status,4,VILLAGER,,barneko1,
+3,status,5,WEREWOLF,DEAD,CanisLupus1,
+0,status,1,POSSESSED,ALIVE,kanolab1,
+0,status,2,SEER,ALIVE,Mille1,
+0,status,3,VILLAGER,ALIVE,satozaki1,
+0,status,4,VILLAGER,ALIVE,barneko1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,kanolab1,
+1,status,2,SEER,ALIVE,Mille1,
+1,status,3,VILLAGER,ALIVE,satozaki1,
+1,status,4,VILLAGER,ALIVE,barneko1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,kanolab1,
+2,status,2,SEER,DEAD,Mille1,
+2,status,3,VILLAGER,DEAD,satozaki1,
+2,status,4,VILLAGER,ALIVE,barneko1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,ALIVE,kanolab1,
+3,status,2,SEER,DEAD,Mille1,
+3,status,3,VILLAGER,DEAD,satozaki1,
+3,status,4,VILLAGER,,barneko1,
+3,status,5,WEREWOLF,DEAD,CanisLupus1,
+1,vote,1,5,,,
+1,vote,2,5,,,
+1,vote,3,2,,,
+1,vote,4,2,,,
+1,vote,5,2,,,
+2,vote,1,5,,,
+1,execute,2,SEER,,,
+2,execute,5,WEREWOLF,,,
+1,attack,3,true,,,
+0,divine,2,5,WEREWOLF,,

@@ -1,0 +1,144 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,2,2:俺は占い師やで。,['CO[02]:占い師']
+1,talk,0,0,2,2:占いの結果、Agent[04]は人間やった。,['DivT[02]:04->白']
+1,talk,1,0,5,5:Agent[02]の占いは興味深い。,['Est[05]:02->占い師']
+1,talk,1,0,5,5:然し、まだ他の占師の言葉を聞かぬ。,['Req(CO):占い師']
+1,talk,1,0,5,5:全てが同じ結果を示すとは断言できぬ。,['Other']
+1,talk,1,0,5,5:我が心に従い、慎重に判断すべきであろう。,['calm']
+1,talk,2,0,1,1:>>Agent[02] 占い師が偽だった場合、他の証言も大事だよね。,['Mt:02']
+1,talk,2,0,1,1:みんなで一緒に考えよう！,['Req(Discuss)']
+1,talk,3,0,4,4:>>Agent[02]わしを人間と占ってくれてありがとうじゃ。,"['Mt:02', 'Agr:02（DivT[02]:04->白）']"
+1,talk,3,0,4,4:占い師が他に名乗り出ておらんから、今のところAgent[02]が本物の占い師かもしれんのう。,['Est[04]:02->占い師']
+1,talk,3,0,4,4:みんなで慎重に考えていこう。,['Req(Discuss)']
+1,talk,4,0,3,3:皆の意見も聞く必要がありそうだな。,['Req(Discuss)']
+1,talk,5,1,2,2:確かに慎重さが大切やで。,['calm']
+1,talk,5,1,2,2:でも今のところ、俺の占った結果は信頼できると考えるやで。,['Fact[02]:04->not(人狼)']
+1,talk,5,1,2,2:次に、他の参加者も意見を出してほしいまっせ。,['Req(Discuss)']
+1,talk,6,1,5,5:Agent[02]の占いは興味深きものなり。,['Est[05]:02->占い師']
+1,talk,6,1,5,5:然し、未だ他の占い師の言葉を聞かぬ。,['Req(CO):占い師']
+1,talk,6,1,5,5:全てが同じ結果を示すとは断言できぬゆえ、我が心の導きに従い、慎重に判断すべきであろう。,['Other']
+1,talk,7,1,1,1:>>Agent[03] 占い師に対する意見が重要だね。,['Mt:03']
+1,talk,7,1,1,1:みんなで意見出そう！,['Req(Discuss)']
+1,talk,8,1,4,4:みんな、これから話し合いを進めるためには協力が大事じゃな。,['Req(Discuss)']
+1,talk,8,1,4,4:Agent[02]が占い師として名乗り出てくれておるが、他に意見がある者はおらんかの?議論を続けるためには、わしらがしっかり話し合うことが肝心じゃ。,"['Mt:02', 'Req(Discuss)']"
+1,talk,9,1,3,3:Agent[02]よ、お主が占い師であるという証拠は何か？,"['Mt:02', 'Req(T):02']"
+1,talk,9,1,3,3:他の者も占い師であると名乗り出ておらぬが、お主の発言の真実性をどのように保証できるのか？,['Other']
+1,talk,10,2,2,2:占い師としての証拠は今は示せないけど、俺の占ったAgent[04]が人間だという結果を信じてるで。,['DivT[02]:04->白']
+1,talk,10,2,2,2:今はAgent[05]を疑ってるから、投票したいと思ってるわ。,"['Vote[02]:05', 'Sus:05']"
+1,talk,11,2,5,5:時は満ち、今や我々は、運命の糸を紡ぎし投票先を定めねばならぬ時、到来せり。,['Req(V):many']
+1,talk,11,2,5,5:Agent[01]、汝の決意を告げよ。,"['Mt:01', 'Req(T):01']"
+1,talk,12,2,1,1:>>Agent[02] 占い結果だけでは難しいよね。,"['Mt:02', 'difficult']"
+1,talk,12,2,1,1:他の証言も必要だと思うな。,['Req(Discuss)']
+1,talk,13,2,4,4:みんな、わしは村人じゃから、Agent[02]の占い結果を信じてみるのも一つの手かもしれんが、まだ確信は持てんのう。,"['CO[04]:村人', 'Est[04]:02->not(人狼)', 'difficult']"
+1,talk,13,2,4,4:Agent[05]が怪しいと言われておるが、他の意見も聞いてみたいのう。,"['Sus:05', 'Req(Discuss)']"
+1,talk,13,2,4,4:みんなの考えを教えてくれんか?,['Req(Discuss)']
+1,talk,14,2,3,3:Agent[02]よ、汝が占い師として名乗り出たが、他に占い師が名乗り出ておらぬ。,"['Mt:02', 'CO[02]:占い師', 'Other']"
+1,talk,14,2,3,3:汝の占い結果を信じるべきか、他の者たちの意見を聞きたい。,"['Est[03]:02->not(人狼)', 'Req(Discuss)']"
+1,talk,14,2,3,3:どう思うか、皆の意見を聞かせてもらいたいぞ。,['Req(Discuss)']
+1,talk,15,3,2,2:>>Agent[03] まだ投票先を宣言していないようやけど、誰に投票しようと考えてるんかい？,"['Mt:03', 'Req(T):03']"
+1,talk,16,3,5,5:我はAgent[02]に投票せん。,['Vote[05]:02']
+1,talk,16,3,5,5:Agent[02]は己の占いの結果を「信頼できる」と嘯くも、具体的な証拠を示すに至らず。,['Dis:02（DivT[02]:04->白）']
+1,talk,16,3,5,5:占い師の真偽は闇に包まれ、安易にその言葉を信用することは危険な賭けであろう。,"['difficult', 'Dis:02（CO[02]:占い師）']"
+1,talk,17,3,1,1:>>Agent[03] その通りだね。,"['Mt:03', 'Agr:03']"
+1,talk,17,3,1,1:証拠が欲しい！,['Req(listen)']
+1,talk,17,3,1,1:意見をもっと出し合おうよ。,['Req(Discuss)']
+1,talk,18,3,4,4:わしから見れば、Agent[02]が占い師として出てきてくれるのはありがたいが、他にも占い師がいる可能性があるから慎重にならざるを得んのう。,['Est[04]:02->占い師']
+1,talk,18,3,4,4:わしはAgent[05]がAgent[02]に投票すると言っておるが、理由の提示が具体的でないから、少し注意して見たいところじゃ。,['Sus:05']
+1,talk,18,3,4,4:他の皆も意見を聞かせてくれると助かるぞ。,['Req(Discuss)']
+1,talk,19,3,3,3:Agent[01]よ、汝が何故Agent[02]を占ったのか、その理由を明かすべし。,"['Mt:01', 'Req(T):01']"
+1,talk,19,3,3,3:占い師が複数名乗り出ており、真偽を見極めるためにもその動機が重要である。,['Tally(Est):many Est:占い師->not(占い師)']
+1,talk,20,4,2,2:俺が占った理由は、信頼できる仲間の安全を確保するためや。,['CO[02]:占い師']
+1,talk,20,4,2,2:投票はAgent[05]に決める。,['Vote[02]:05']
+1,talk,20,4,2,2:みんな、慎重に考えてくれやで。,['Pers:ALL']
+1,talk,21,4,5,5:我はAgent[05]に投票せん。,['Dis:02(Vote[02]:05)']
+1,talk,21,4,5,5:Agent[02]は占師を僭称するも、その真偽は疑わしきなり。,['Sus:02']
+1,talk,21,4,5,5:安易にその言葉を信じ、己の運命を委ねるは愚者であろう。,['Dis:02']
+1,talk,21,4,5,5:深淵なる洞察をもって、慎重に判断せねばならぬ。,['calm']
+1,talk,22,4,1,1:>>Agent[04] 確かに慎重になるべきですね。,"['Mt:04', 'Agr:04']"
+1,talk,22,4,1,1:皆で意見を出して決めましょう！,['Req(Discuss)']
+1,talk,23,4,4,4:わしが村人であることは確かじゃから、Agent[02]が占い師だと言うことを信じるなら、Agent[01]、Agent[03]、Agent[05]の中に人狼がいるかもしれんのう。,"['Fact[04]:04->村人', 'Est[04]:01->人狼', 'Est[04]:03->人狼', 'Est[04]:05->人狼']"
+1,talk,23,4,4,4:みな、それぞれの意見をもう少し聞かせてくれんか。,['Req(Discuss)']
+1,talk,23,4,4,4:わしも判断材料を増やしたいんじゃ。,['Other']
+1,talk,24,4,3,3:Agent[02]よ、汝が占い師であると言うが、他の占い師の名乗り出がない中で、どうして汝の占い結果を信じるべきなのか？,['Mt:02']
+1,talk,24,4,3,3:他の者たちの意見も重要だと思うが、どうか？,['Req(Discuss)']
+2,talk,0,0,1,1:>>Agent[03] 確かに、他の意見も重要だよね。,['Mt:03']
+2,talk,0,0,1,1:皆で考えよう！,['Req(Discuss)']
+2,talk,1,0,4,4:わしが村人であることは証明されておるから、Agent[03]も村人じゃとして、もう襲撃されたんじゃな。,"['Fact[04]:04->村人', 'Est[04]:03->村人', 'Atk:03']"
+2,talk,1,0,4,4:Agent[01]とAgent[05]のどちらかが人狼じゃと思うが、話をもう少し聞きたいのう。,"['XorEst:(01,05)->(人狼⇔not(人狼))', 'difficult', 'Req(T):01', 'Req(T):05']"
+2,talk,1,0,4,4:お二人の意見を聞かせてくれんか?,"['Req(T):01', 'Req(T):05']"
+2,talk,2,0,5,5:我こそは運命の糸を操る者、占いの達人なり。,['CO[05]:占い師']
+2,talk,2,0,5,5:そして、占いの結果、Agent[05]は人狼であったと断言する。,"['DivT[05]:05->黒', 'Fact[05]:05->人狼']"
+2,talk,3,1,1,1:>>Agent[03] みんなの意見を合わせて、Agent[02]をもう一度検証する必要があるね。,"['Mt:03', 'Req(Discuss)', 'Est[01]:02->not(村人)', 'Req(T):02']"
+2,talk,4,1,4,4:Agent[05]、自分を人狼と占ったというのはどういうことかの?占い師はもう全部退場しておるから、こういうことは言えんのじゃ。,"['Mt:05', 'Dis:05（CO[05]:占い師）', 'Dis:05（DivT[05]:05->黒）']"
+2,talk,4,1,4,4:今のところ、わしはAgent[05]が怪しいと感じておる。,['Sus:05']
+2,talk,4,1,4,4:みんなも言うてみてくれ。,['Req(Discuss)']
+2,talk,5,1,5,5:我こそは、人狼たる者なり。,['CO[05]:人狼']
+2,talk,5,1,5,5:狂人たる者は、我が手に導かれ、残りの人間を処刑せんとするがよい。,"['Est[05]:狂人', 'Pers:ALL']"
+2,talk,6,2,1,1:>>Agent[04] 冷静な判断が大事ですね。,"['Mt:04', 'calm']"
+2,talk,6,2,1,1:Agent[02]を再評価しませんか？,"['Est[01]:02->not(村人)', 'Req(Discuss)']"
+2,talk,7,2,4,4:Agent[05]、どうやらおかしなことを言っておるのう。,"['Mt:05', 'Dis:05（CO[05]:占い師）', 'Dis:05（DivT[05]:05->黒）']"
+2,talk,7,2,4,4:人狼は一人しかおらんはずじゃから、Agent[05]が嘘を言うてるのかもしれん。,"['Fact[04]:人狼->1', 'Sus:05']"
+2,talk,7,2,4,4:それに、今わしは村人であることが証明されていて、Agent[01]だけが役職まだ定まっておらん。,"['Fact[04]:04->村人', 'Est[04]:01->not(村人)']"
+2,talk,7,2,4,4:みんな、Agent[05]に注目してくれんかのう。,"['Pers:ALL', 'Sus:05']"
+2,talk,9,3,1,1:>>Agent[04] そうだね、Agent[05]の発言が気になるね。,"['Mt:04', 'Sus:05']"
+2,talk,9,3,1,1:みんなでしっかり考えよう！,['Req(Discuss)']
+2,talk,10,3,4,4:Agent[05]が人狼を自称しておるのが気になるのう。,['Sus:05']
+2,talk,10,3,4,4:人狼は一人しかおらんはずじゃから、これは嘘をついている可能性が高いのじゃ。,['Fact[04]:05->not(人狼)']
+2,talk,10,3,4,4:Agent[05]が怪しいと思うのじゃが、みんなはどう思うかの?,"['Sus:05', 'Req(Discuss)']"
+2,talk,11,4,1,1:>>Agent[04] 確かにAgent[05]の発言は気になるね。,"['Mt:04', 'Sus:05']"
+2,talk,11,4,1,1:もう少し意見を聞きたいな。,['Req(Discuss)']
+2,talk,12,4,4,4:>>Agent[01]そうじゃな、Agent[05]の発言はおかしいのう。,"['Mt:01', 'Sus:05']"
+2,talk,12,4,4,4:人狼は一人しかおらんはずじゃから、Agent[05]が嘘をついている可能性が高いと思うんじゃ。,['Est[04]:05->not(人狼)']
+2,talk,12,4,4,4:わしは村人じゃから、Agent[05]が怪しいと思うのじゃが、どう思うかの?,"['CO[04]:村人', 'Sus:05', 'Req(Discuss)']"
+0,status,1,POSSESSED,ALIVE,barneko1,
+0,status,2,SEER,ALIVE,satozaki1,
+0,status,3,VILLAGER,ALIVE,UEC-IL1,
+0,status,4,VILLAGER,ALIVE,kanolab1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,barneko1,
+1,status,2,SEER,ALIVE,satozaki1,
+1,status,3,VILLAGER,ALIVE,UEC-IL1,
+1,status,4,VILLAGER,ALIVE,kanolab1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,barneko1,
+2,status,2,SEER,DEAD,satozaki1,
+2,status,3,VILLAGER,DEAD,UEC-IL1,
+2,status,4,VILLAGER,ALIVE,kanolab1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,ALIVE,barneko1,
+3,status,2,SEER,DEAD,satozaki1,
+3,status,3,VILLAGER,DEAD,UEC-IL1,
+3,status,4,VILLAGER,ALIVE,kanolab1,
+3,status,5,WEREWOLF,DEAD,CanisLupus1,
+0,status,1,POSSESSED,ALIVE,barneko1,
+0,status,2,SEER,ALIVE,satozaki1,
+0,status,3,VILLAGER,ALIVE,UEC-IL1,
+0,status,4,VILLAGER,ALIVE,kanolab1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,barneko1,
+1,status,2,SEER,ALIVE,satozaki1,
+1,status,3,VILLAGER,ALIVE,UEC-IL1,
+1,status,4,VILLAGER,ALIVE,kanolab1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,barneko1,
+2,status,2,SEER,DEAD,satozaki1,
+2,status,3,VILLAGER,DEAD,UEC-IL1,
+2,status,4,VILLAGER,ALIVE,kanolab1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,ALIVE,barneko1,
+3,status,2,SEER,DEAD,satozaki1,
+3,status,3,VILLAGER,DEAD,UEC-IL1,
+3,status,4,VILLAGER,ALIVE,kanolab1,
+3,status,5,WEREWOLF,DEAD,CanisLupus1,
+1,vote,1,2,,,
+1,vote,2,5,,,
+1,vote,3,2,,,
+1,vote,4,5,,,
+1,vote,5,3,,,
+2,vote,1,5,,,
+2,vote,4,5,,,
+2,vote,5,4,,,
+1,execute,2,SEER,,,
+2,execute,5,WEREWOLF,,,
+1,attack,3,true,,,
+0,divine,2,4,HUMAN,,

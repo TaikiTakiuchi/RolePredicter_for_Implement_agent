@@ -1,0 +1,50 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Skip,,Sakura: Skip,['Other']
+0,talk,1,0,5,Sakura skipped — that's not helpful.  @Mizuki   if you're the seer  tell us your divination now. If you won't  I'll have to push to vote Daisuke; someone needs to take charge. Over,,Takumi: Sakura skipped — that's not helpful.  @Mizuki   if you're the seer  tell us your divination now. If you won't  I'll have to push to vote Daisuke; someone needs to take charge. Over,"['Dis:Sakura(Skip)', 'Mt:Mizuki', 'Req(CO):Seer', 'Req(V):Daisuke', 'Pers:ALL']"
+0,talk,2,0,1,Hello everyone! I'm Rin excited to play Werewolf with you all. Let's have fun and unravel mysteries together!,,Rin: Hello everyone! I'm Rin excited to play Werewolf with you all. Let's have fun and unravel mysteries together!,['Other']
+0,talk,3,0,4,Hey um everyone. I'm Daisuke. I suppose I'm looking forward to solving mysteries with you. Let's keep it sharp. Fair maybe? Over.,,Daisuke: Hey um everyone. I'm Daisuke. I suppose I'm looking forward to solving mysteries with you. Let's keep it sharp. Fair maybe? Over.,['Other']
+0,talk,4,0,2,Hello. I am Mizuki. My role is seer. Have a good game.,,Mizuki: Hello. I am Mizuki. My role is seer. Have a good game.,['CO[Mizuki]:Seer']
+0,talk,5,1,3,Hi everyone I'm Sakura! I love going on adventures and finding treasure! And big explosions! Hehe,,Sakura: Hi everyone I'm Sakura! I love going on adventures and finding treasure! And big explosions! Hehe,['Other']
+0,talk,6,1,5,@Mizuki  you said you're the seer — tell us who you divined and the result right now  and when you checked. If you won't  I'll push to vote Daisuke today; I don't trus,,Takumi: @Mizuki  you said you're the seer — tell us who you divined and the result right now  and when you checked. If you won't  I'll push to vote Daisuke today; I don't trus,"['Mt:Mizuki', 'Req(CO):Seer', 'Req(T):Mizuki', 'Req(V):Daisuke', 'Sus:Mizuki']"
+0,talk,11,2,5,@Mizuki  you said you're the seer but haven't given any divination — tell us who you checked and the result now. If you won't  I'll vote Daisuke. Over,,Takumi: @Mizuki  you said you're the seer but haven't given any divination — tell us who you checked and the result now. If you won't  I'll vote Daisuke. Over,"['Mt:Mizuki', 'Req(CO):Seer', 'Req(T):Mizuki', 'Req(V):Daisuke', 'Sus:Mizuki']"
+0,talk,12,3,5,@Mizuki  you're claiming seer — tell us who you checked  the result  and when. If you refuse  I'll vote Daisuke tonight. I won't back down. Over,,Takumi: @Mizuki  you're claiming seer — tell us who you checked  the result  and when. If you refuse  I'll vote Daisuke tonight. I won't back down. Over,"['Mt:Mizuki', 'Req(CO):Seer', 'Req(T):Mizuki', 'Req(V):Daisuke', 'Sus:Mizuki']"
+1,talk,0,0,4,Mizuki-chan I suppose it's best if you share your divination results first. Maybe it'll help clear doubts from Takumi-kun.,,Daisuke: Mizuki-chan I suppose it's best if you share your divination results first. Maybe it'll help clear doubts from Takumi-kun.,"['Mt:Mizuki', 'Req(T):Mizuki']"
+1,talk,1,0,5,I agree with Daisuke —  @Mizuki  please show your divination result (who you checked and when). We need proof now or I'll keep pushing to vote Daisuke. Over,,Takumi: I agree with Daisuke —  @Mizuki  please show your divination result (who you checked and when). We need proof now or I'll keep pushing to vote Daisuke. Over,"['Agr:Daisuke', 'Mt:Mizuki', 'Req(T):Mizuki', 'Req(V):Daisuke']"
+1,talk,2,0,2,I am a seer. I divined Takumi and Takumi was a human.,,Mizuki: I am a seer. I divined Takumi and Takumi was a human.,"['CO[Mizuki]:Seer', 'DivT[Mizuki]:Takumi->White']"
+1,talk,3,0,3,Hold on! Sakura's the REAL Seer! I peeked at Takumi and he was a friend! Mizuki is a sneaky Possessed,,Sakura: Hold on! Sakura's the REAL Seer! I peeked at Takumi and he was a friend! Mizuki is a sneaky Possessed,"['CO[Sakura]:Seer', 'DivT[Sakura]:Takumi->White', 'Dis:Mizuki(CO[Mizuki]:Seer)', 'Est[Sakura]:Mizuki->Cultist']"
+1,talk,4,0,1,I divined Takumi as well and he is actually a Werewolf. We need to discuss this discrepancy carefully.,,Rin: I divined Takumi as well and he is actually a Werewolf. We need to discuss this discrepancy carefully.,"['CO[Rin]:Seer', 'DivT[Rin]:Takumi->Werewolf', 'Req(Discuss)']"
+1,talk,5,1,4,I suppose we should keep an eye on Takumi for now.  @Sakura . Oh. A fellow adventurer! Did you divine Takumi first or later?,,Daisuke: I suppose we should keep an eye on Takumi for now.  @Sakura . Oh. A fellow adventurer! Did you divine Takumi first or later?,"['Sus:Takumi', 'Mt:Sakura', 'Req(T):Sakura']"
+1,talk,6,1,5,This is messy. Two people say I'm human and one says I'm a werewolf — they can't all be right.  @Rin  when did you check Takumi and what exactly did you see? Sakura  did you check before or after Mizuki? Whoever's lying is the fake seer or a werewolf. Over,,Takumi: This is messy. Two people say I'm human and one says I'm a werewolf — they can't all be right.  @Rin  when did you check Takumi and what exactly did you see? Sakura  did you check before or after Mizuki? Whoever's lying is the fake seer or a werewolf. Over,"['Req(T):Rin', 'Req(T):Sakura', 'confused']"
+1,talk,7,1,2,I will vote Takumi.,,Mizuki: I will vote Takumi.,['Vote[Mizuki]:Takumi']
+1,talk,8,1,3,Three Seers means we have a real one a Possessed and a Wolf! Rin's a big fibber so she's the Wolf!,,Sakura: Three Seers means we have a real one a Possessed and a Wolf! Rin's a big fibber so she's the Wolf!,"['Tally(Est):many Est', 'Est[Sakura]:Rin->Werewolf']"
+1,talk,9,1,1,I need to clarify: I am not the Seer. I initially claimed to be to gather more data but now it’s clear Mizuki or Sakura might be aligned with the Werewolf t,,Rin: I need to clarify: I am not the Seer. I initially claimed to be to gather more data but now it’s clear Mizuki or Sakura might be aligned with the Werewolf t,"['Fact[Rin]:Rin->not(Seer)', 'Est[Rin]:Mizuki->Werewolf', 'Est[Rin]:Sakura->Werewolf']"
+1,talk,10,2,4,I suppose… one of the seers might be genuine. Mizuki-chan and Sakura-chan aren't all truthful. Let's vote carefully. Maybe?,,Daisuke: I suppose… one of the seers might be genuine. Mizuki-chan and Sakura-chan aren't all truthful. Let's vote carefully. Maybe?,"['Sus:Mizuki', 'Sus:Sakura', 'calm']"
+1,talk,11,2,5,@Sakura  when did you check Takumi — before or after Mizuki? Explain quickly or I won't believe your claim. I won't be fooled by conflicting seers. Over,,Takumi: @Sakura  when did you check Takumi — before or after Mizuki? Explain quickly or I won't believe your claim. I won't be fooled by conflicting seers. Over,"['Mt:Sakura', 'Req(T):Sakura', 'Dis:Sakura(CO[Sakura]:Seer)']"
+1,talk,12,2,2,I will vote Sakura.,,Mizuki: I will vote Sakura.,['Vote[Mizuki]:Sakura']
+1,talk,13,2,3,No way! Rin is the wolfie fibber! Mizuki is the Possessed! Let's all make Rin go BOOM! today! Yay,,Sakura: No way! Rin is the wolfie fibber! Mizuki is the Possessed! Let's all make Rin go BOOM! today! Yay,"['Est[Sakura]:Rin->Werewolf', 'Est[Sakura]:Mizuki->Cultist', 'Req(V):Rin']"
+1,talk,14,2,1,Everyone please consider voting for Takumi. The conflicting seer reports suggest he is most likely to be the Werewolf.,,Rin: Everyone please consider voting for Takumi. The conflicting seer reports suggest he is most likely to be the Werewolf.,"['Req(V):Takumi', 'Est[Rin]:Takumi->Werewolf']"
+1,talk,15,3,4,@Takumi  D-Do you think it helps if the real Seer checks someone like me or Rin who hasn't claimed yet? It might clear things up.,,Daisuke: @Takumi  D-Do you think it helps if the real Seer checks someone like me or Rin who hasn't claimed yet? It might clear things up.,"['Mt:Takumi', 'Req(CO):Seer', 'Req(Discuss)']"
+1,talk,16,3,5,@Rin  when did you check Takumi and what exactly did you see? We need the night and precise wording. I agree with Daisuke — don't lynch without clear proof. If,,Takumi: @Rin  when did you check Takumi and what exactly did you see? We need the night and precise wording. I agree with Daisuke — don't lynch without clear proof. If,"['Mt:Rin', 'Req(T):Rin', 'Agr:Daisuke', 'calm']"
+1,talk,19,3,1,Voting Takumi is logical given the conflicting divination results. It's safer to eliminate him to confirm the real Seer.,,Rin: Voting Takumi is logical given the conflicting divination results. It's safer to eliminate him to confirm the real Seer.,[]
+0,status,1,WEREWOLF,ALIVE,GPTaku1,Rin,GPTaku1,
+0,status,2,POSSESSED,ALIVE,mille1,Mizuki,mille1,
+0,status,3,SEER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+0,status,5,VILLAGER,ALIVE,Character-Lab1,Takumi,Character-Lab1,
+0,divine,3,5,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,GPTaku1,Rin,GPTaku1,
+1,status,2,POSSESSED,ALIVE,mille1,Mizuki,mille1,
+1,status,3,SEER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+1,status,5,VILLAGER,ALIVE,Character-Lab1,Takumi,Character-Lab1,
+1,vote,1,5,,,,,
+1,vote,2,3,,,,,
+1,vote,3,1,,,,,
+1,vote,4,1,,,,,
+1,execute,1,WEREWOLF,,,,,
+2,status,1,WEREWOLF,DEAD,GPTaku1,Rin,GPTaku1,
+2,status,2,POSSESSED,ALIVE,mille1,Mizuki,mille1,
+2,status,3,SEER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+2,status,5,VILLAGER,ALIVE,Character-Lab1,Takumi,Character-Lab1,
+2,result,4,0,VILLAGER,,,,

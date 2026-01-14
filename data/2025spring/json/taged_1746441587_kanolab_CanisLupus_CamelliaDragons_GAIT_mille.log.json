@@ -1,0 +1,532 @@
+{
+  "filename": "taged_1746441587_kanolab_CanisLupus_CamelliaDragons_GAIT_mille.log.csv",
+  "exec_id": 5,
+  "attack_id": -1,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "ミカ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 7
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ユミ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユミ",
+            "count": 2
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユミ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ゴルド",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "狂人",
+            "count": 4
+          }
+        ],
+        "Other": [
+          {
+            "count": 7
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "アレックス",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Agr": [
+          {
+            "recepient_id": "ケン（Req",
+            "count": 2
+          }
+        ],
+        "confused": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 11
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ケンケン",
+            "count": 1
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "アレックス",
+            "recepient_id": "ユミ",
+            "recepient_role": "not(占い結果報告)",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 6
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ゴルド",
+            "recepient_id": "ユミ",
+            "recepient_role": "白",
+            "count": 1
+          },
+          {
+            "speaker_id": "ユミ",
+            "recepient_id": "ゴルド",
+            "recepient_role": "黒",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユミ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ゴルド",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユミ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "狂人",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ケン",
+            "count": 3
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "アレックス",
+            "recepient_id": "アレックス",
+            "recepient_role": "村人",
+            "count": 2
+          },
+          {
+            "speaker_id": "アレックス",
+            "recepient_id": "ユミ",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ケン",
+            "count": 3
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "GAIT1",
+      "character_name": "ケン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アレックス",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユミ",
+            "count": 4
+          },
+          {
+            "recepient_id": "ゴルド",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ユミ",
+            "count": 4
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ユミ（CO[ユミ]:占い師）",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ユミ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "ユミ",
+            "count": 4
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユミ",
+            "count": 5
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "mille1",
+      "character_name": "ユミ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "ユミ",
+            "recepient_role": "占い師",
+            "count": 3
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ユミ",
+            "recepient_id": "ゴルド",
+            "recepient_role": "黒",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "ユミ",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ユミ",
+            "recepient_id": "アレックス",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "kanolab1",
+      "character_name": "ゴルド",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Mt": [
+          {
+            "recepient_id": "ケン",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユミ",
+            "count": 2
+          },
+          {
+            "recepient_id": "アレックス",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ゴルド",
+            "recepient_id": "ユミ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユミ",
+            "count": 5
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ユミ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 6
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユミ",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ゴルド",
+            "recepient_id": "ユミ",
+            "recepient_role": "人狼",
+            "count": 2
+          },
+          {
+            "speaker_id": "ゴルド",
+            "recepient_id": "アレックス",
+            "recepient_role": "村人",
+            "count": 1
+          },
+          {
+            "speaker_id": "ゴルド",
+            "recepient_id": "ユミ",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    }
+  ]
+}

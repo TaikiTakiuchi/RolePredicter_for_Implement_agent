@@ -1,0 +1,51 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,I am Benjamin. Let us proceed.,,Benjamin: I am Benjamin. Let us proceed.,['Req(Discuss)']
+0,talk,1,0,4,Ryuji. I'll claim Seer. No results yet but I'll share tomorrow. Please introduce yourselves. @Benjamin  do you have anything to add about your role or initial thoughts?,,Ryuji: Ryuji. I'll claim Seer. No results yet but I'll share tomorrow. Please introduce yourselves. @Benjamin  do you have anything to add about your role or initial thoughts?,"['CO[Ryuji]:Seer', 'Req(Discuss)', 'Mt:Benjamin', 'Req(T):Benjamin']"
+0,talk,2,0,1,I'm Shion. Villager here. Ryuji if you're really the Seer we'll need your insights.,,Shion: I'm Shion. Villager here. Ryuji if you're really the Seer we'll need your insights.,"['CO[Shion]:Villager', 'Mt:Ryuji', 'Req(T):Ryuji']"
+0,talk,3,0,2,Hello everyone! I'm Rin! Oh wow! I'm just a regular villager! Guess what? Ryuji's claim is interesting! We must watch out for counterclaims! Over!,,Rin: Hello everyone! I'm Rin! Oh wow! I'm just a regular villager! Guess what? Ryuji's claim is interesting! We must watch out for counterclaims! Over!,"['CO[Rin]:Villager', 'Req(Discuss)']"
+0,talk,4,0,3,Hello fellow players! I'm Shunichi ready for a thrilling game of Werewolf. Let's find out who the real creature is!,,Shunichi: Hello fellow players! I'm Shunichi ready for a thrilling game of Werewolf. Let's find out who the real creature is!,['Req(Discuss)']
+0,talk,7,1,1,Rin's right a counterclaim would be revealing. Let's see if anyone challenges Ryuji.,,Shion: Rin's right a counterclaim would be revealing. Let's see if anyone challenges Ryuji.,"['Agr:Rin(counterclaim would be revealing)', 'Req(Discuss)']"
+0,talk,10,2,1,Benjamin you've been quiet. Any thoughts or claims to share?,,Shion: Benjamin you've been quiet. Any thoughts or claims to share?,"['Mt:Benjamin', 'Req(T):Benjamin']"
+0,talk,11,3,1,If no one else has a role to claim we should focus on gathering information.,,Shion: If no one else has a role to claim we should focus on gathering information.,['Req(Discuss)']
+1,talk,0,0,4,Last night I divined Rin: Villager. No other Seer counterclaim so I'll keep reporting my results plainly. @Shion  you were attentive yesterday. Anything specific make you trust or doubt my Seer claim so far?,,Ryuji: Last night I divined Rin: Villager. No other Seer counterclaim so I'll keep reporting my results plainly. @Shion  you were attentive yesterday. Anything specific make you trust or doubt my Seer claim so far?,"['CO[Ryuji]:Seer', 'DivT[Ryuji]:Rin->White', 'Mt:Shion', 'Req(T):Shion']"
+1,talk,1,0,1,Ryuji no counterclaims help your case but I'll keep observing for inconsistencies.,,Shion: Ryuji no counterclaims help your case but I'll keep observing for inconsistencies.,['Agr:Shion(CO[Ryuji]:Seer)']
+1,talk,2,0,2,Oh wow! Ryuji's claim of me being a villager is quite something. Is it a sneaky werewolf trick for trust? I'll keep my eyes open! Guess what?  @Shunichi  Ryuji said he divined me as a villager! Does that make him seem reliable or are you thinking of other things?,,Rin: Oh wow! Ryuji's claim of me being a villager is quite something. Is it a sneaky werewolf trick for trust? I'll keep my eyes open! Guess what?  @Shunichi  Ryuji said he divined me as a villager! Does that make him seem reliable or are you thinking of other things?,"['Sus:Ryuji', 'Mt:Shunichi', 'Req(T):Shunichi', 'admiration']"
+1,talk,3,0,5,I am the true Seer. My investigation of Shunichi concluded he is the Werewolf. Execute him.,,Benjamin: I am the true Seer. My investigation of Shunichi concluded he is the Werewolf. Execute him.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Shunichi->Black', 'Req(V):Shunichi']"
+1,talk,4,0,3,Ryuji is the Werewolf. I divined him. Be cautious of false claims from others trying to protect him or confuse the group.,,Shunichi: Ryuji is the Werewolf. I divined him. Be cautious of false claims from others trying to protect him or confuse the group.,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:Ryuji->Black']"
+1,talk,5,1,4,Benjamin and Shunichi counterclaiming as Seer complicates things. Only one can be telling the truth if they see each other as wolf. @Benjamin  your Seer claim is sudden. Why wait until now to counterclaim? Explain your reason for delaying.,,Ryuji: Benjamin and Shunichi counterclaiming as Seer complicates things. Only one can be telling the truth if they see each other as wolf. @Benjamin  your Seer claim is sudden. Why wait until now to counterclaim? Explain your reason for delaying.,"['Mt:Benjamin', 'Req(T):Benjamin', 'XorEst:(Benjamin,Shunichi):(Seer <-> not(Seer))']"
+1,talk,6,1,1,Three Seer claims are confusing. We need to decide who's most likely telling the truth.,,Shion: Three Seer claims are confusing. We need to decide who's most likely telling the truth.,"['confused', 'Req(Discuss)']"
+1,talk,7,1,2,@Benjamin  Oh wow! I'm a bit like curious about your Seer claim! Why wait for Mr. Shunichi's to open up first? Sounds fishy!,,Rin: @Benjamin  Oh wow! I'm a bit like curious about your Seer claim! Why wait for Mr. Shunichi's to open up first? Sounds fishy!,"['Mt:Benjamin', 'Req(T):Benjamin', 'Sus:Benjamin', 'admiration']"
+1,talk,8,1,5,3 Seers means Seer Possessed and Wolf. I found the Wolf Shunichi. Therefore Ryuji is Possessed. Vote Shunichi.,,Benjamin: 3 Seers means Seer Possessed and Wolf. I found the Wolf Shunichi. Therefore Ryuji is Possessed. Vote Shunichi.,"['Est[Benjamin]:Ryuji->Cultist', 'DivT[Benjamin]:Shunichi->Black', 'Vote[Benjamin]:Shunichi']"
+1,talk,9,1,3,I apologize for misleading you earlier. I'm not the Seer. My initial claim was meant to draw out the Werewolf's allies. Given Benjamin's assertive an,,Shunichi: I apologize for misleading you earlier. I'm not the Seer. My initial claim was meant to draw out the Werewolf's allies. Given Benjamin's assertive an,['Other']
+1,talk,10,2,4,Shunichi's sudden switch is questionable. If Benjamin is believed I'm Possessed. But my result stands: Rin is Villager. @Shion With three conflicting Seer claims what criteria do you suggest we use to decide who is real Shion?,,Ryuji: Shunichi's sudden switch is questionable. If Benjamin is believed I'm Possessed. But my result stands: Rin is Villager. @Shion With three conflicting Seer claims what criteria do you suggest we use to decide who is real Shion?,"['Sus:Shunichi', 'DivT[Ryuji]:Rin->White', 'Mt:Shion', 'Req(T):Shion', 'IF:(Benjamin:Seer)->(Ryuji:Cultist)']"
+1,talk,11,2,1,Let's focus on consistency and logic in claims. Sudden changes can signal deceit.,,Shion: Let's focus on consistency and logic in claims. Sudden changes can signal deceit.,"['Req(Discuss)', 'calm']"
+1,talk,12,2,2,Oh wow! So many Seers with only one true! We gotta stop the wolf! Did you hear that Mr. Benjamin and Ryuji divined claims? Thoughts?,,Rin: Oh wow! So many Seers with only one true! We gotta stop the wolf! Did you hear that Mr. Benjamin and Ryuji divined claims? Thoughts?,"['Pers:ALL', 'Req(Discuss)', 'admiration']"
+1,talk,13,2,5,The logical conclusion is fixed. My vote is for Shunichi. There is no other rational option.,,Benjamin: The logical conclusion is fixed. My vote is for Shunichi. There is no other rational option.,"['Vote[Benjamin]:Shunichi', 'Pers:ALL']"
+1,talk,14,2,3,Vote for Ryuji today. My earlier claim as Seer was indeed false; however I find inconsistencies in Ryuji's behavior and claims more troubling.,,Shunichi: Vote for Ryuji today. My earlier claim as Seer was indeed false; however I find inconsistencies in Ryuji's behavior and claims more troubling.,"['Vote[Shunichi]:Ryuji', 'Sus:Ryuji', 'Other']"
+1,talk,15,3,4,Assessing claims: Benjamin insists Shunichi is Wolf Shunichi recants and calls me suspicious. I maintain Rin is Villager. @Rin Despite Benjamin's strong push I see no evidence you're lying about your Villager claim from my perspective.,,Ryuji: Assessing claims: Benjamin insists Shunichi is Wolf Shunichi recants and calls me suspicious. I maintain Rin is Villager. @Rin Despite Benjamin's strong push I see no evidence you're lying about your Villager claim from my perspective.,"['DivT[Ryuji]:Rin->White', 'Mt:Rin', 'Agr:Ryuji(DivT[Ryuji]:Rin->White)']"
+1,talk,16,3,1,I'll listen closely to everyone's arguments. It's crucial we choose wisely today.,,Shion: I'll listen closely to everyone's arguments. It's crucial we choose wisely today.,"['calm', 'Req(Discuss)']"
+1,talk,17,3,2,Oh wow! Three Seer claims! Only one can be true. Guess what? Based on logic maybe Mr. Benjamin's onto something?  @Shion  Did you think Sir Shunichi's changes are suspicious? Or is it just Mr. Benjamin's claims battling theirs?,,Rin: Oh wow! Three Seer claims! Only one can be true. Guess what? Based on logic maybe Mr. Benjamin's onto something?  @Shion  Did you think Sir Shunichi's changes are suspicious? Or is it just Mr. Benjamin's claims battling theirs?,"['Mt:Shion', 'Req(T):Shion', 'Sus:Shunichi', 'Est[Rin]:Benjamin->Seer']"
+1,talk,19,3,3,Vote Ryuji. His initial claim lacked support and now three conflicting Seer insights raise more suspicion. We need logical consistency which his ac,,Shunichi: Vote Ryuji. His initial claim lacked support and now three conflicting Seer insights raise more suspicion. We need logical consistency which his ac,"['Vote[Shunichi]:Ryuji', 'Sus:Ryuji', 'Req(Discuss)']"
+0,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+0,status,2,VILLAGER,ALIVE,kanolab-nw1,Rin,kanolab-nw1,
+0,status,3,WEREWOLF,ALIVE,GPTaku1,Shunichi,GPTaku1,
+0,status,4,POSSESSED,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+0,status,5,SEER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+0,divine,5,3,WEREWOLF,,,,
+1,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+1,status,2,VILLAGER,ALIVE,kanolab-nw1,Rin,kanolab-nw1,
+1,status,3,WEREWOLF,ALIVE,GPTaku1,Shunichi,GPTaku1,
+1,status,4,POSSESSED,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+1,status,5,SEER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+1,vote,1,4,,,,,
+1,vote,2,3,,,,,
+1,vote,3,4,,,,,
+1,vote,4,3,,,,,
+1,vote,5,3,,,,,
+1,execute,3,WEREWOLF,,,,,
+2,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+2,status,2,VILLAGER,ALIVE,kanolab-nw1,Rin,kanolab-nw1,
+2,status,3,WEREWOLF,DEAD,GPTaku1,Shunichi,GPTaku1,
+2,status,4,POSSESSED,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+2,status,5,SEER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+2,result,4,0,VILLAGER,,,,

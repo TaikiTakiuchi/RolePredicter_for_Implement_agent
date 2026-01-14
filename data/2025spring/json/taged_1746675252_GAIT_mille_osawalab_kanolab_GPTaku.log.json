@@ -1,0 +1,373 @@
+{
+  "filename": "taged_1746675252_GAIT_mille_osawalab_kanolab_GPTaku.log.csv",
+  "exec_id": 5,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "GPTaku1",
+      "character_name": "アキラ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 9
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "オルガ",
+            "count": 4
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 9
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "アキラ",
+            "recepient_id": "オルガ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "オルガ",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "GAIT1",
+      "character_name": "リョウ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "Mt": [
+          {
+            "recepient_id": "タクミ",
+            "count": 1
+          },
+          {
+            "recepient_id": "オルガ",
+            "count": 20
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 6
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "オルガ",
+            "count": 11
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "オルガ",
+            "recepient_role": "黒",
+            "count": 9
+          },
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "オルガ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "5",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "マナ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "マナ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "アキラ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "osawalab1",
+      "character_name": "タクミ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "オルガ",
+            "count": 4
+          },
+          {
+            "recepient_id": "マナ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "マナ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "オルガ",
+            "count": 1
+          },
+          {
+            "recepient_id": "マナ,Sus:アキラ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "タクミ",
+            "count": 1
+          },
+          {
+            "recepient_id": "オルガ",
+            "count": 4
+          },
+          {
+            "recepient_id": "シュンイチ",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "タクミ",
+            "recepient_id": "シュンイチ",
+            "recepient_role": "not(占い師)",
+            "count": 1
+          },
+          {
+            "speaker_id": "タクミ",
+            "recepient_id": "シュンイチ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "kanolab1",
+      "character_name": "オルガ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "DivT": [
+          {
+            "speaker_id": "シュンイチ",
+            "recepient_id": "トシオ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "リョウ",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "オルガ",
+            "recepient_id": "トシオ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    }
+  ]
+}

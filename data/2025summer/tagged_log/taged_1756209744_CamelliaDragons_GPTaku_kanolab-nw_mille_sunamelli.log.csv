@@ -1,0 +1,73 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Good morning. My name is George. I always prefer a careful approach observing before acting.,,George: Good morning. My name is George. I always prefer a careful approach observing before acting.,"['calm', 'Other']"
+0,talk,1,0,1,Hello. I am Shunichi. My role is seer. Have a good game.,,Shunichi: Hello. I am Shunichi. My role is seer. Have a good game.,['CO[Shunichi]:Seer']
+0,talk,2,0,3,Hello everyone. I'm Daisuke. I am just here to help. If it is okay let's work together to eliminate any suspicious behavior. Over.,,Daisuke: Hello everyone. I'm Daisuke. I am just here to help. If it is okay let's work together to eliminate any suspicious behavior. Over.,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,3,0,5,Hello everyone! I'm Mio ready to hunt or be hunted in this game of mystery and suspense. Let's have some thrilling fun!,,Mio: Hello everyone! I'm Mio ready to hunt or be hunted in this game of mystery and suspense. Let's have some thrilling fun!,['Other']
+0,talk,4,0,2,Good luck everyone. Let’s stay calm and logical from the start. I’m watching for subtle cues Day 1.,,Mizuki: Good luck everyone. Let’s stay calm and logical from the start. I’m watching for subtle cues Day 1.,"['calm', 'Other']"
+1,talk,0,0,3,I-I'm curious about Shunichi's claim as the seer. Let's...um...stay alert. Maybe hear more claims for a clearer picture today?,,Daisuke: I-I'm curious about Shunichi's claim as the seer. Let's...um...stay alert. Maybe hear more claims for a clearer picture today?,"['Mt:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)']"
+1,talk,1,0,5,I agree with Daisuke. Let's remain vigilant and see if anyone else has something to say about their role.,,Mio: I agree with Daisuke. Let's remain vigilant and see if anyone else has something to say about their role.,"['Agr:Daisuke', 'Req(Discuss)']"
+1,talk,2,0,4,No further claims so far. I suggest we proceed carefully listening for inconsistencies in others' statements. @Shunichi  could you please share your divination result for last night? That might guide our discussion productively.,,George: No further claims so far. I suggest we proceed carefully listening for inconsistencies in others' statements. @Shunichi  could you please share your divination result for last night? That might guide our discussion productively.,"['Mt:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)']"
+1,talk,3,0,2,@Daisuke  @Mio you've been quiet so far I want to hear your suspicions and who you'd consider voting for today,,Mizuki: @Daisuke  @Mio you've been quiet so far I want to hear your suspicions and who you'd consider voting for today,"['Mt:Daisuke', 'Mt:Mio', 'Req(T):Daisuke', 'Req(T):Mio']"
+1,talk,4,0,1,I am a seer. I divined Mizuki and Mizuki was a human.,,Shunichi: I am a seer. I divined Mizuki and Mizuki was a human.,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:Mizuki->White']"
+1,talk,5,1,3,With Mr. Shunichi claiming seer. I'm inclined to trust him for now. Mizuki checks out as human. Mr. George. I'm curious. Do you trust Mr. Shunichi's di,,Daisuke: With Mr. Shunichi claiming seer. I'm inclined to trust him for now. Mizuki checks out as human. Mr. George. I'm curious. Do you trust Mr. Shunichi's di,"['Agr:Shunichi(CO[Shunichi]:Seer)', 'Est[Daisuke]:Mizuki->not(Werewolf)', 'Mt:George', 'Req(T):George']"
+1,talk,6,1,5,Let's consider voting George for exile today.,,Mio: Let's consider voting George for exile today.,['Req(V):George']
+1,talk,7,1,4,Mio's sudden push for my exile feels ill-founded. We should base accusations on stronger grounds than early caution. @Mio  could you clarify your reasoning for suggesting me as a candidate for exile this soon? Your logic seems unclear.,,George: Mio's sudden push for my exile feels ill-founded. We should base accusations on stronger grounds than early caution. @Mio  could you clarify your reasoning for suggesting me as a candidate for exile this soon? Your logic seems unclear.,"['Dis:Mio', 'Mt:Mio', 'Req(T):Mio']"
+1,talk,8,1,2,@Mio  your quick push for George stands out. Can you share more reasoning behind suspecting him as a wolf?,,Mizuki: @Mio  your quick push for George stands out. Can you share more reasoning behind suspecting him as a wolf?,"['Dis:Mio', 'Mt:Mio', 'Req(T):Mio']"
+1,talk,9,1,1,I will vote George.,,Shunichi: I will vote George.,['Vote[Shunichi]:George']
+1,talk,10,2,3,I... I'm a bit puzzled by Mio's... targeting of George. Perhaps... we should gather more... info first? It might be... too soon... to vote.,,Daisuke: I... I'm a bit puzzled by Mio's... targeting of George. Perhaps... we should gather more... info first? It might be... too soon... to vote.,"['Dis:Mio', 'Wait', 'Req(Discuss)']"
+1,talk,11,2,5,I understand there's some confusion. We need to act decisively considering there's a lack of role claims for a werewolf or possessed in play. George',,Mio: I understand there's some confusion. We need to act decisively considering there's a lack of role claims for a werewolf or possessed in play. George',"['Pers:ALL', 'Sus:George']"
+1,talk,12,2,4,Let's all share our reasoning before rushing to judgment. Caution helps survival in this game. @Mio  why did you accuse me so soon? Hasty suspicion can disrupt teamwork and slow progress.,,George: Let's all share our reasoning before rushing to judgment. Caution helps survival in this game. @Mio  why did you accuse me so soon? Hasty suspicion can disrupt teamwork and slow progress.,"['Req(Discuss)', 'Mt:Mio', 'Req(T):Mio', 'Dis:Mio']"
+1,talk,13,2,2,@Mio  your rush to vote George seems off What about his actions make you think he's a werewolf? Be specific please,,Mizuki: @Mio  your rush to vote George seems off What about his actions make you think he's a werewolf? Be specific please,"['Mt:Mio', 'Req(T):Mio', 'Dis:Mio']"
+1,talk,14,2,1,I will vote George.,,Shunichi: I will vote George.,['Vote[Shunichi]:George']
+1,talk,15,3,3,I believe we're moving too quickly. Perhaps George's exile is a bit rushed? Strategy needs more info. Gather intel first. Thoughts?,,Daisuke: I believe we're moving too quickly. Perhaps George's exile is a bit rushed? Strategy needs more info. Gather intel first. Thoughts?,"['Req(Discuss)', 'Wait']"
+1,talk,16,3,5,The lack of strong alibis or alternative suspicious actions compels us to act on the information we have. Look at George's cautiousness.,,Mio: The lack of strong alibis or alternative suspicious actions compels us to act on the information we have. Look at George's cautiousness.,"['Pers:ALL', 'Sus:George']"
+1,talk,17,3,4,Mio's focus on me is disproportionate. Overcautiousness isn't solid proof of malice or lycanthropy. @Mio You cite my caution but is there a concrete action or statement you find genuinely suspicious not just careful?,,George: Mio's focus on me is disproportionate. Overcautiousness isn't solid proof of malice or lycanthropy. @Mio You cite my caution but is there a concrete action or statement you find genuinely suspicious not just careful?,"['Dis:Mio', 'Mt:Mio', 'Req(T):Mio']"
+1,talk,18,3,2,I don’t see merit in exiling George based on caution alone My vote is for Mio whose early push troubles me.,,Mizuki: I don’t see merit in exiling George based on caution alone My vote is for Mio whose early push troubles me.,"['Vote[Mizuki]:Mio', 'Dis:Mio']"
+1,talk,19,3,1,I will vote George.,,Shunichi: I will vote George.,['Vote[Shunichi]:George']
+2,talk,0,0,4,With both Shunichi and Mio gone I suggest we approach today with measured analysis not hasty conclusions. @Daisuke  your cooperative tone yesterday stood out. Could you share your suspicions moving into today?,,George: With both Shunichi and Mio gone I suggest we approach today with measured analysis not hasty conclusions. @Daisuke  your cooperative tone yesterday stood out. Could you share your suspicions moving into today?,"['Req(Discuss)', 'Mt:Daisuke', 'Req(T):Daisuke', 'calm']"
+2,talk,1,0,3,I find that George still holds potential for suspicion. Shunichi never suspected him. That seems important to note. What do you think?,,Daisuke: I find that George still holds potential for suspicion. Shunichi never suspected him. That seems important to note. What do you think?,"['Sus:George', 'Req(Discuss)']"
+2,talk,2,0,2,Shunichi’s result cleared me so focus should be on Daisuke and George.  @Daisuke  who do you really suspect now and why?,,Mizuki: Shunichi’s result cleared me so focus should be on Daisuke and George.  @Daisuke  who do you really suspect now and why?,"['DivT[Shunichi]:Mizuki->White', 'Sus:Daisuke', 'Sus:George', 'Mt:Daisuke', 'Req(T):Daisuke']"
+2,talk,3,1,4,With Shunichi's claim gone let's review past suspicions and examine statements closely for inconsistencies. @Mizuki  since Shunichi cleared you what makes you unsure about Daisuke or me now?,,George: With Shunichi's claim gone let's review past suspicions and examine statements closely for inconsistencies. @Mizuki  since Shunichi cleared you what makes you unsure about Daisuke or me now?,"['Req(Discuss)', 'Mt:Mizuki', 'Req(T):Mizuki', 'Dis:Mizuki', 'calm']"
+2,talk,4,1,3,I'm... um a bit confused about why Mr. George wasn't targeted. Shunichi and Mizuki are confirmed. Could he have... werewolf ties?,,Daisuke: I'm... um a bit confused about why Mr. George wasn't targeted. Shunichi and Mizuki are confirmed. Could he have... werewolf ties?,"['confused', 'Fact[Daisuke]:Shunichi->not(Werewolf)', 'Fact[Daisuke]:Mizuki->not(Werewolf)', 'Sus:George']"
+2,talk,5,1,2,@Daisuke  your logic shifted a lot since yesterday What changed overnight to make you suddenly suspect George now?,,Mizuki: @Daisuke  your logic shifted a lot since yesterday What changed overnight to make you suddenly suspect George now?,"['Mt:Daisuke', 'Req(T):Daisuke', 'Dis:Daisuke']"
+2,talk,6,2,4,It is premature to draw conclusions based solely on Shunichi's trust or last night's events. We should proceed stepwise. @Daisuke  abrupt changes in suspicion can cloud reason. What led to this shift in your stance toward me specifically now?,,George: It is premature to draw conclusions based solely on Shunichi's trust or last night's events. We should proceed stepwise. @Daisuke  abrupt changes in suspicion can cloud reason. What led to this shift in your stance toward me specifically now?,"['Req(Discuss)', 'calm', 'Mt:Daisuke', 'Req(T):Daisuke', 'Dis:Daisuke']"
+2,talk,7,2,3,I wonder why the attacks didn't target George. Could there be a connection we're missing? Mizuki. Does this change your view on him?,,Daisuke: I wonder why the attacks didn't target George. Could there be a connection we're missing? Mizuki. Does this change your view on him?,"['Sus:George', 'Mt:Mizuki', 'Req(T):Mizuki', 'Req(Discuss)']"
+2,talk,8,2,2,@Daisuke  Your sudden suspicion of George feels forced. What changed from your cautious stance yesterday?,,Mizuki: @Daisuke  Your sudden suspicion of George feels forced. What changed from your cautious stance yesterday?,"['Mt:Daisuke', 'Dis:Daisuke', 'Req(T):Daisuke']"
+2,talk,9,3,4,A consistent approach benefits us all. Let us not ignore the pattern of abruptly shifting suspicions without sound reasoning. @Mizuki  do you find Daisuke's change this morning rational or do you sense possible ulterior motives behind it?,,George: A consistent approach benefits us all. Let us not ignore the pattern of abruptly shifting suspicions without sound reasoning. @Mizuki  do you find Daisuke's change this morning rational or do you sense possible ulterior motives behind it?,"['calm', 'Req(Discuss)', 'Mt:Mizuki', 'Req(T):Mizuki', 'Sus:Daisuke']"
+2,talk,10,3,3,I apologize but Mizuki has stated Mr. Shunichi's result. Yet Mr. Shunichi's absence might mean we are missing other dangers.,,Daisuke: I apologize but Mizuki has stated Mr. Shunichi's result. Yet Mr. Shunichi's absence might mean we are missing other dangers.,"['difficult', 'Other']"
+2,talk,11,3,2,George’s consistency feels genuine while Daisuke’s sudden turn today stands out as wolf behavior.,,Mizuki: George’s consistency feels genuine while Daisuke’s sudden turn today stands out as wolf behavior.,"['Est[Mizuki]:Daisuke->Werewolf', 'Agr:George(consistency)']"
+0,status,1,SEER,ALIVE,mille1,Shunichi,mille1,
+0,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki,sunamelli1,
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+0,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+0,status,5,POSSESSED,ALIVE,GPTaku1,Mio,GPTaku1,
+0,divine,1,2,HUMAN,,,,
+1,status,1,SEER,ALIVE,mille1,Shunichi,mille1,
+1,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki,sunamelli1,
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+1,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+1,status,5,POSSESSED,ALIVE,GPTaku1,Mio,GPTaku1,
+1,vote,1,4,,,,,
+1,vote,2,5,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,4,,,,,
+1,execute,5,POSSESSED,,,,,
+1,divine,1,4,WEREWOLF,,,,
+1,attackVote,4,1,,,,,
+1,attack,1,true,,,,,
+2,status,1,SEER,DEAD,mille1,Shunichi,mille1,
+2,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki,sunamelli1,
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+2,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+2,status,5,POSSESSED,DEAD,GPTaku1,Mio,GPTaku1,
+2,vote,2,3,,,,,
+2,vote,3,4,,,,,
+2,vote,4,3,,,,,
+2,execute,3,VILLAGER,,,,,
+3,status,1,SEER,DEAD,mille1,Shunichi,mille1,
+3,status,2,VILLAGER,ALIVE,sunamelli1,Mizuki,sunamelli1,
+3,status,3,VILLAGER,DEAD,kanolab-nw1,Daisuke,kanolab-nw1,
+3,status,4,WEREWOLF,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+3,status,5,POSSESSED,DEAD,GPTaku1,Mio,GPTaku1,
+3,result,1,1,WEREWOLF,,,,

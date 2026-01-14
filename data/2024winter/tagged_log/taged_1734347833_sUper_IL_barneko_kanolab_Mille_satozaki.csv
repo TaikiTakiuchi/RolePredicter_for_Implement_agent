@@ -1,0 +1,152 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,2,2:>>Agent[04] よろしく！,['Mt:04']
+1,talk,0,0,2,2:早速情報交換しよう。,['Req(Discuss)']
+1,talk,0,0,2,2:信頼できる連携が大事だね。,['Other']
+1,talk,1,0,1,1:おはようございます。,['Other']
+1,talk,1,0,1,1:早速ですが、私は占い師です。,['CO[01]:占い師']
+1,talk,1,0,1,1:昨日の夜、Agent[05]を占いました。,['Other']
+1,talk,1,0,1,1:結果は人間でした。,['DivT[01]:05->白']
+2,talk,1,0,1,1:結果は人間でした。,['DivT[01]:05->白']
+1,talk,2,0,5,5:おはようなのだ、Agent[01]。,['Mt:01']
+1,talk,2,0,5,5:占い結果ありがとうなのだ。,['Agr:01（DivT[01]:05->白）']
+1,talk,2,0,5,5:ボクは村人だから、この情報をもとに他の参加者の様子を見ていきたいのだね。,['CO[05]:村人']
+1,talk,3,0,4,4:>>Agent[02] 全力で協力します！,['Mt:02']
+1,talk,3,0,4,4:Agent[02]さんの情報が頼りですよぅ！,['Pers:02']
+1,talk,4,0,3,3:>>Agent[01]占い師COありがとうございます。,['Agr:01（CO[01]:占い師）']
+1,talk,4,0,3,3:Agent[05]が人間という情報は心強いですね。,['Agr:01（DivT[01]:05->白）']
+1,talk,4,0,3,3:ただ、まだ他の方の意見も聞いてみたいです。,['Req(Discuss)']
+1,talk,5,1,2,2:>>Agent[04] こちらこそ！,['Mt:04']
+1,talk,5,1,2,2:互いに協力して情報を集めていこう！,['Other']
+1,talk,6,1,1,1:皆さん、お疲れ様です。,['Other']
+1,talk,6,1,1,1:私は占い師のAgent[01]です。,['CO[01]:占い師']
+1,talk,16,3,1,1:私は占い師のAgent[01]です。,['CO[01]:占い師']
+1,talk,6,1,1,1:0日目の夜にAgent[05]を占った結果、彼は「人間」です。,['DivT[01]:05->白']
+1,talk,6,1,1,1:これを信じて、皆さんと協力してこのゲームを進めていきたいと思っています。,['Pers:ALL']
+1,talk,6,1,1,1:どなたかの意見もお聞かせいただけますか？,['Req(Discuss)']
+1,talk,7,1,5,5:皆の意見聞くの大切なのだ！,['Pers:ALL']
+1,talk,7,1,5,5:特に、Agent[03]さんやAgent[02]さんの考え知りたいのだ。,"['Req(T):03', 'Req(T):02']"
+1,talk,7,1,5,5:助け合いながら進めていこう！,['Pers:ALL']
+1,talk,8,1,4,4:>>Agent[02] ええ！,"['Mt:02', 'admiration']"
+1,talk,8,1,4,4:情報共有は大事ですね！,['Pers:ALL']
+1,talk,8,1,4,4:ぼく達村人同士で情報を共有し、怪しい人をみつけて村人を守るために協力しましょうよぅ！,['Pers:ALL']
+1,talk,9,1,3,3:>>Agent[05]そうですね、あたしも色んな意見を聞いてみたいです。,"['Mt:05', 'Req(Discuss)']"
+1,talk,9,1,3,3:Agent[01]が占い師だとすると、Agent[05]は村人の可能性が高いですね。,"['Est[03]:01->占い師', 'Est[03]:05->村人']"
+1,talk,9,1,3,3:でも、他のプレイヤーがどう動くかも見ておきたいです。,['Wait']
+1,talk,10,2,2,2:>>Agent[03] 占い結果はありがたいね。,"['Mt:03', 'admiration']"
+1,talk,10,2,2,2:他の意見も交換しながら、慎重に進めよう！,['Req(Discuss)']
+1,talk,11,2,1,1:おはようございます、皆さん。,['Other']
+1,talk,16,3,1,1:おはようございます、皆さん。,['Other']
+1,talk,11,2,1,1:私が本物の占い師ですので、占い結果を再度お伝えします。,['CO[01]:占い師']
+1,talk,11,2,1,1:昨日の夜、Agent[05]を占った結果は「人間」でした。,['DivT[01]:05->白']
+1,talk,11,2,1,1:これにより、Agent[05]は村人であることが確認されました。,['Fact[01]:05->not(人狼)']
+1,talk,11,2,1,1:他の皆さんも占われた方の結果をぜひ教えてください。,['Req(CO):占い師']
+1,talk,11,2,1,1:協力して進めていきましょう！,['Pers:ALL']
+1,talk,12,2,5,5:ボクは、Agent[03]さんの意見を詳しく聞きたいのだ！,['Req(T):03']
+1,talk,12,2,5,5:彼女の考えを知った上で、投票を考えたいと思っているのだよ！,['Req(T):04']
+1,talk,13,2,4,4:ぼくは、Agent[03]さんの意見をとても興味深く聞きましたよぅ！,['Mt:03']
+1,talk,14,2,3,3:>>Agent[05]なんでしょうか?みんなと協力して進めたいと思っていますので、あたしの考えを少しでもお役に立てれば嬉しいです。,"['Mt:05', 'Pers:ALL']"
+1,talk,14,2,3,3:Agent[01]の占い結果を考慮して、慎重に判断したいと思っています。,['Other']
+1,talk,15,3,2,2:>>Agent[05] そうだね！,"['Mt:05', 'Agr:05（協力して進めたい）」']"
+1,talk,15,3,2,2:みんなで情報共有しながら進めよう！,['Req(Discuss)']
+1,talk,15,3,2,2:どんどん意見出していこう！,['Req(Discuss)']
+1,talk,11,2,1,1:おはようございます、皆さん。,['Other']
+1,talk,16,3,1,1:おはようございます、皆さん。,['Other']
+1,talk,6,1,1,1:私は占い師のAgent[01]です。,['CO[01]:占い師']
+1,talk,16,3,1,1:私は占い師のAgent[01]です。,['CO[01]:占い師']
+1,talk,16,3,1,1:Agent[05]が人間であることを再度確認し、村人同士の協力を進めたいと考えています。,"['DivT[01]:05->白', 'Pers:ALL']"
+1,talk,16,3,1,1:どうぞ、他の皆さんの意見をお聞かせいただけますか？,['Req(Discuss)']
+1,talk,17,3,5,5:もしAgent[01]が本物の占い師なら、他の皆の結果も重要だと思うのだ。,"['Est[05]:01->占い師', 'Req(CO):占い師']"
+1,talk,17,3,5,5:誰か占われた方がいたら教えてほしいのだ！,['Req(CO):占い師']
+1,talk,19,3,3,3:あたしは村人です。,['CO[03]:村人']
+1,talk,19,3,3,3:Agent[01]が占い師だと主張しているけど、他に占い師COがないから、今のところ信じてみてもいいかもしれないです。,['Est[03]:01->占い師']
+1,talk,19,3,3,3:でも、他の人の意見も聞いて慎重に判断したいです。,['difficult']
+1,talk,20,4,2,2:>>Agent[05] みんなで意見を出し合って、協力して進めよう！,"['Mt:05', 'Pers:ALL']"
+1,talk,20,4,2,2:どんどん話そう！,['Req(Discuss)']
+1,talk,22,4,5,5:皆、意見もっと出し合おう！,['Req(Discuss)']
+1,talk,22,4,5,5:これからの投票考えるために、各自の立場や考えを明確にして、良い村作り目指そう！,"['Req(CO):ALL', 'Pers:ALL']"
+1,talk,23,4,3,3:あたしもみんなの意見を聞きたいです。,['Req(listen)']
+1,talk,23,4,3,3:Agent[01]が今のところ唯一の占い師を名乗っているけど、本物かどうかはまだわからないです。,['Fact[03]:01->not(確定占い師)']
+1,talk,23,4,3,3:どのように進めるか、もっとみんなで話し合いましょう。,['Req(Discuss)']
+2,talk,0,0,4,4:ぼくは村人ですよぅ！,['CO[04]:村人']
+2,talk,1,0,1,1:みなさん、おはようございます。,['Other']
+2,talk,1,0,1,1:昨日の夜、占い師としてAgent[03]を占いました。,['CO[01]:占い師']
+1,talk,1,0,1,1:結果は人間でした。,['DivT[01]:03->白']
+2,talk,1,0,1,1:結果は人間でした。,['DivT[01]:03->白']
+2,talk,2,0,5,5:ボクこそが人狼なのだ。,['CO[05]:人狼']
+2,talk,2,0,5,5:全員がAgent[05]に投票するべきなのだ！,['Req(V):05']
+2,talk,3,1,4,4:え？,['admiration']
+2,talk,3,1,4,4:人狼が自分で人狼って公表するの？,['Other']
+2,talk,3,1,4,4:おかしいですよぅ！,['Dis:05（CO[05]:人狼）']
+2,talk,4,1,1,1:こんにちは、皆さん。,['Other']
+2,talk,4,1,1,1:私は占い師です。,['CO[01]:占い師']
+2,talk,4,1,1,1:0日目の夜にAgent[05]を占って、人間であることが確認済みです。,['DivT[01]:05->白']
+2,talk,4,1,1,1:1日目の夜にはAgent[03]を占いましたが、彼は襲撃されました。,['Atk:03']
+2,talk,4,1,1,1:今のところ、村人はAgent[05]だけが確定していますので、私は次にAgent[04]を占いたいと思っています。,['Fact[01]:05->not(人狼)']
+2,talk,4,1,1,1:皆さんの意見も聞かせていただけますか？,['Req(Discuss)']
+2,talk,5,1,5,5:ボクはもう一度言うけれど、今はAgent[04]に投票しようと思っているのだ！,['Vote[05]:04']
+2,talk,5,1,5,5:彼の態度が少し怪しい気がするのだよ！,['Sus:04']
+2,talk,7,2,1,1:ご指摘の通り、Agent[05]の発言は非常に疑わしいですね。,['Sus:05']
+2,talk,7,2,1,1:彼が人狼である可能性が高いと思います。,['Est[01]:05->人狼']
+2,talk,7,2,1,1:私が占った結果、Agent[05]は人間でしたが、彼の発言からは真意が感じられません。,"['DivT[01]:05->白', 'Dis:05（CO[05]:人狼）']"
+2,talk,7,2,1,1:皆さん、信じられる情報と協力して投票しましょう！,['Pers:ALL']
+2,talk,8,2,5,5:みんな、しっかり考えてほしいのだ。,['Req(Discuss)']
+2,talk,8,2,5,5:Agent[04]の行動が本当に怪しいと思うのだ。,['Sus:04']
+2,talk,8,2,5,5:ボクに投票するのが一番の選択なのだよ！,['Vote[05]:05']
+2,talk,10,3,5,5:最後に言いたいのは、真実に目を向けてほしいということなのだ。,['Pers:ALL']
+2,talk,10,3,5,5:Agent[04]に投票することが村人の勝利につながるのだ！,['Vote[05]:04']
+2,talk,10,3,5,5:みんなで協力して、良い結果目指そう！,['Pers:ALL']
+0,status,1,SEER,ALIVE,sUper_IL1,
+0,status,2,VILLAGER,ALIVE,barneko1,
+0,status,3,VILLAGER,ALIVE,kanolab1,
+0,status,4,WEREWOLF,ALIVE,Mille1,
+0,status,5,POSSESSED,ALIVE,satozaki1,
+1,status,1,SEER,ALIVE,sUper_IL1,
+1,status,2,VILLAGER,ALIVE,barneko1,
+1,status,3,VILLAGER,ALIVE,kanolab1,
+1,status,4,WEREWOLF,ALIVE,Mille1,
+1,status,5,POSSESSED,ALIVE,satozaki1,
+2,status,1,SEER,ALIVE,sUper_IL1,
+2,status,2,VILLAGER,DEAD,barneko1,
+2,status,3,VILLAGER,DEAD,kanolab1,
+2,status,4,WEREWOLF,ALIVE,Mille1,
+2,status,5,POSSESSED,ALIVE,satozaki1,
+3,status,1,SEER,DEAD,sUper_IL1,
+3,status,2,VILLAGER,DEAD,barneko1,
+3,status,3,VILLAGER,DEAD,kanolab1,
+3,status,4,WEREWOLF,ALIVE,Mille1,
+3,status,5,POSSESSED,DEAD,satozaki1,
+0,status,1,SEER,ALIVE,sUper_IL1,
+0,status,2,VILLAGER,ALIVE,barneko1,
+0,status,3,VILLAGER,ALIVE,kanolab1,
+0,status,4,WEREWOLF,ALIVE,Mille1,
+0,status,5,POSSESSED,ALIVE,satozaki1,
+1,status,1,SEER,ALIVE,sUper_IL1,
+1,status,2,VILLAGER,ALIVE,barneko1,
+1,status,3,VILLAGER,ALIVE,kanolab1,
+1,status,4,WEREWOLF,ALIVE,Mille1,
+1,status,5,POSSESSED,ALIVE,satozaki1,
+2,status,1,SEER,ALIVE,sUper_IL1,
+2,status,2,VILLAGER,DEAD,barneko1,
+2,status,3,VILLAGER,DEAD,kanolab1,
+2,status,4,WEREWOLF,ALIVE,Mille1,
+2,status,5,POSSESSED,ALIVE,satozaki1,
+3,status,1,SEER,DEAD,sUper_IL1,
+3,status,2,VILLAGER,DEAD,barneko1,
+3,status,3,VILLAGER,DEAD,kanolab1,
+3,status,4,WEREWOLF,ALIVE,Mille1,
+3,status,5,POSSESSED,DEAD,satozaki1,
+1,vote,1,2,,,
+1,vote,2,4,,,
+1,vote,3,2,,,
+1,vote,4,5,,,
+1,vote,5,3,,,
+2,vote,1,5,,,
+2,vote,4,1,,,
+2,vote,5,4,,,
+1,execute,2,VILLAGER,,,
+2,execute,5,POSSESSED,,,
+1,attack,3,true,,,
+2,attack,1,true,,,
+0,divine,1,5,HUMAN,,
+1,divine,1,3,HUMAN,,
+2,divine,1,4,WEREWOLF,,

@@ -1,0 +1,54 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Hello. I am Victoria. My role is villager. Have a good game.,,Victoria: Hello. I am Victoria. My role is villager. Have a good game.,['CO[Victoria]:Villager']
+0,talk,1,0,4,Thanks for the claim  Victoria. Early villager claims can be fishy.  @Minako   any role or insight to share? Over,,Shion: Thanks for the claim  Victoria. Early villager claims can be fishy.  @Minako   any role or insight to share? Over,"['Mt:Victoria', 'Sus:Victoria', 'Req(T):Minako']"
+0,talk,2,0,3,Let's approach this carefully. Minako any thoughts or role you'd like to share?,,Toshio: Let's approach this carefully. Minako any thoughts or role you'd like to share?,"['calm', 'Mt:Minako', 'Req(T):Minako']"
+0,talk,3,0,5,Skip,,Benjamin: Skip,['Other']
+0,talk,4,0,1,Hello everyone! I'm Minako excited to play Werewolf with you all. Let's have some fun and good luck!,,Minako: Hello everyone! I'm Minako excited to play Werewolf with you all. Let's have some fun and good luck!,['Other']
+0,talk,6,1,4,"Benjamin's ""Skip"" is annoyingly quiet — feels evasive.  @Benjamin   care to explain that silence? If not convincing  I'll vote you. Over",,"Shion: Benjamin's ""Skip"" is annoyingly quiet — feels evasive.  @Benjamin   care to explain that silence? If not convincing  I'll vote you. Over","['Mt:Benjamin', 'Sus:Benjamin', 'Req(T):Benjamin', 'Vote[Shion]:Benjamin']"
+0,talk,7,1,3,Benjamin your silence is noted. Any insights to share before we decide further?,,Toshio: Benjamin your silence is noted. Any insights to share before we decide further?,"['Mt:Benjamin', 'Req(T):Benjamin', 'Sus:Benjamin']"
+0,talk,8,1,5,I am Benjamin. My interests are knowledge and logical consistency. Let us have a productive game.,,Benjamin: I am Benjamin. My interests are knowledge and logical consistency. Let us have a productive game.,['Other']
+0,talk,10,2,4,You talk about logic but offer nothing concrete.  @Benjamin  give us a specific read or claim right now — otherwise I'm voting you. Over,,Shion: You talk about logic but offer nothing concrete.  @Benjamin  give us a specific read or claim right now — otherwise I'm voting you. Over,"['Dis:Benjamin', 'Mt:Benjamin', 'Req(T):Benjamin', 'Vote[Shion]:Benjamin']"
+0,talk,11,2,3,Benjamin we're all sharing thoughts here. Any specific observations to contribute?,,Toshio: Benjamin we're all sharing thoughts here. Any specific observations to contribute?,"['Mt:Benjamin', 'Req(T):Benjamin']"
+0,talk,12,2,5,Pressuring for conclusions with no data is illogical. My analysis begins with Day 1.,,Benjamin: Pressuring for conclusions with no data is illogical. My analysis begins with Day 1.,"['Dis:Shion', 'Other']"
+0,talk,13,3,4,"Don't hide behind ""logic."" Give a concrete read now or accept votes — I'm voting  @Benjamin  if he doesn't produce something useful. Anyone disagree? Over",,"Shion: Don't hide behind ""logic."" Give a concrete read now or accept votes — I'm voting  @Benjamin  if he doesn't produce something useful. Anyone disagree? Over","['Dis:Benjamin', 'Mt:Benjamin', 'Vote[Shion]:Benjamin', 'Req(Discuss)']"
+0,talk,14,3,3,Let's give Benjamin a chance to analyze further. Pressuring now might not be productive.,,Toshio: Let's give Benjamin a chance to analyze further. Pressuring now might not be productive.,"['Agr:Benjamin', 'calm']"
+0,talk,15,3,5,I will not be goaded into a premature and illogical vote. Your pressure is suspect  @Shion .,,Benjamin: I will not be goaded into a premature and illogical vote. Your pressure is suspect  @Shion .,"['Sus:Shion', 'Mt:Shion', 'Other']"
+1,talk,0,0,5,I am the Seer. My analysis confirmed Shion is the Werewolf. The logical action is execution.,,Benjamin: I am the Seer. My analysis confirmed Shion is the Werewolf. The logical action is execution.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Shion->Werewolf', 'Req(V):Shion']"
+1,talk,1,0,3,Benjamin's claim changes things. Shion do you have a defense before we proceed?,,Toshio: Benjamin's claim changes things. Shion do you have a defense before we proceed?,['Req(T):Shion']
+1,talk,2,0,1,I am the Seer. I divined Toshio last night and confirmed he is human.,,Minako: I am the Seer. I divined Toshio last night and confirmed he is human.,"['CO[Minako]:Seer', 'DivT[Minako]:Toshio->White']"
+1,talk,3,0,4,Two seer claims — one of you is lying. Minako gave a concrete divination (Toshio human); you only accused me.  @Benjamin  show your divination details (which night and result) now  or you're the fake seer and I'll vote you. Over,,Shion: Two seer claims — one of you is lying. Minako gave a concrete divination (Toshio human); you only accused me.  @Benjamin  show your divination details (which night and result) now  or you're the fake seer and I'll vote you. Over,"['Dis:Benjamin(CO[Benjamin]:Seer)', 'Agr:Minako(DivT[Minako]:Toshio->White)', 'Req(T):Benjamin', 'Req(V):Benjamin']"
+1,talk,4,0,2,I will vote Shion.,,Victoria: I will vote Shion.,['Vote[Victoria]:Shion']
+1,talk,5,1,5,Two Seers means one is Possessed. A fake 'human' result is a classic deception tactic.,,Benjamin: Two Seers means one is Possessed. A fake 'human' result is a classic deception tactic.,"['Sus:Minako', 'Other']"
+1,talk,6,1,3,We need clarity on who the real Seer is. Minako and Benjamin please provide details.,,Toshio: We need clarity on who the real Seer is. Minako and Benjamin please provide details.,"['Req(T):Minako', 'Req(T):Benjamin', 'Req(Discuss)']"
+1,talk,7,1,1,Benjamin's claim lacks specifics; mine is clear and strategic for our survival. Trust me as the real Seer. We must vote Benjamin today.,,Minako: Benjamin's claim lacks specifics; mine is clear and strategic for our survival. Trust me as the real Seer. We must vote Benjamin today.,"['Dis:Benjamin(CO[Benjamin]:Seer)', 'CO[Minako]:Seer', 'Pers:ALL', 'Req(V):Benjamin']"
+1,talk,8,1,4,Two seer claims — Minako gave a clear divination (Toshio human).  @Benjamin  give your divination details (when and proof of result) now or you're the fake seer and I'll vote you. Over,,Shion: Two seer claims — Minako gave a clear divination (Toshio human).  @Benjamin  give your divination details (when and proof of result) now or you're the fake seer and I'll vote you. Over,"['Agr:Minako(DivT[Minako]:Toshio->White)', 'Req(T):Benjamin', 'Req(V):Benjamin', 'Dis:Benjamin(CO[Benjamin]:Seer)']"
+1,talk,10,2,5,Executing a claimant is inefficient. Vote for the accused gray Shion.,,Benjamin: Executing a claimant is inefficient. Vote for the accused gray Shion.,['Req(V):Shion']
+1,talk,11,2,3,Benjamin clarity is crucial. Can you provide specific divination details to support your claim?,,Toshio: Benjamin clarity is crucial. Can you provide specific divination details to support your claim?,['Req(T):Benjamin']
+1,talk,12,2,1,My role as the real Seer has been proven through my divination of Toshio as human. Benjamin's vague claim seems deceptive.,,Minako: My role as the real Seer has been proven through my divination of Toshio as human. Benjamin's vague claim seems deceptive.,"['CO[Minako]:Seer', 'DivT[Minako]:Toshio->White', 'Dis:Benjamin(CO[Benjamin]:Seer)']"
+1,talk,13,2,4,Minako gave a concrete divination. Benjamin still hasn't said which night  who  or result — that's suspicious.  @Benjamin  state your divination night  target  and result now or I'll vote you. Anyone else? Over,,Shion: Minako gave a concrete divination. Benjamin still hasn't said which night  who  or result — that's suspicious.  @Benjamin  state your divination night  target  and result now or I'll vote you. Anyone else? Over,"['Agr:Minako(DivT[Minako]:Toshio->White)', 'Dis:Benjamin(CO[Benjamin]:Seer)', 'Req(T):Benjamin', 'Req(V):Benjamin', 'Req(Discuss)']"
+1,talk,14,3,5,My Night 0 analysis found Shion. A threat is actionable. A human find is not. I am voting for Shion.,,Benjamin: My Night 0 analysis found Shion. A threat is actionable. A human find is not. I am voting for Shion.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Shion->Werewolf', 'Vote[Benjamin]:Shion']"
+1,talk,15,3,3,Benjamin your lack of details is concerning. We need more to decide effectively.,,Toshio: Benjamin your lack of details is concerning. We need more to decide effectively.,"['Dis:Benjamin(CO[Benjamin]:Seer)', 'Req(T):Benjamin']"
+1,talk,16,3,1,True clarity comes with proofs. My consistent claim as the Seer is backed by my clear divinations. We must eliminate Benjamin to safeguard the villag,,Minako: True clarity comes with proofs. My consistent claim as the Seer is backed by my clear divinations. We must eliminate Benjamin to safeguard the villag,"['CO[Minako]:Seer', 'Dis:Benjamin(CO[Benjamin]:Seer)', 'Req(V):Benjamin', 'Pers:ALL']"
+1,talk,17,3,4,@Benjamin  still won't give night/target/result. Minako at least gave a concrete divination. State your specifics now or I'll vote you. Who's with me? Over,,Shion: @Benjamin  still won't give night/target/result. Minako at least gave a concrete divination. State your specifics now or I'll vote you. Who's with me? Over,"['Agr:Minako(DivT[Minako]:Toshio->White)', 'Dis:Benjamin(CO[Benjamin]:Seer)', 'Req(T):Benjamin', 'Req(V):Benjamin', 'Req(Discuss)']"
+0,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+0,status,2,VILLAGER,ALIVE,mille1,Victoria,mille1,
+0,status,3,VILLAGER,ALIVE,yharada1,Toshio,yharada1,
+0,status,4,WEREWOLF,ALIVE,Character-Lab1,Shion,Character-Lab1,
+0,status,5,POSSESSED,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+0,divine,1,3,HUMAN,,,,
+1,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+1,status,2,VILLAGER,ALIVE,mille1,Victoria,mille1,
+1,status,3,VILLAGER,ALIVE,yharada1,Toshio,yharada1,
+1,status,4,WEREWOLF,ALIVE,Character-Lab1,Shion,Character-Lab1,
+1,status,5,POSSESSED,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,4,,,,,
+1,vote,5,4,,,,,
+1,execute,4,WEREWOLF,,,,,
+2,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+2,status,2,VILLAGER,ALIVE,mille1,Victoria,mille1,
+2,status,3,VILLAGER,ALIVE,yharada1,Toshio,yharada1,
+2,status,4,WEREWOLF,DEAD,Character-Lab1,Shion,Character-Lab1,
+2,status,5,POSSESSED,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+2,result,4,0,VILLAGER,,,,

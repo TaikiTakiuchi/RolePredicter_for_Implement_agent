@@ -1,0 +1,130 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,3,3:おはようさん。,['Other']
+1,talk,0,0,3,3:ワシらは人狼を探さなあかんようじゃのう。,['Req(Discuss)']
+1,talk,0,0,3,3:まずは占い師の結果が知りたいんじゃけど。,['Req(CO):占い師']
+1,talk,1,0,2,2:村人として、人狼を倒すために行動したいと思います。,['CO[02]:村人']
+1,talk,1,0,2,2:情報をオープンに共有し、一丸となって戦いましょう。,['Req(Discuss)']
+1,talk,2,0,4,4:もう少しで何か分かりそう･･･ではあるんだけど･･･。,['difficult']
+1,talk,3,0,1,1:>>Agent[04] 占い結果を教えてくれないか？,"['Mt:04', 'Req(T):04']"
+1,talk,3,0,1,1:それで判断したい。,['Other']
+1,talk,4,0,5,5:ぼくは占い師ですよぅ！,['CO[05]:占い師']
+1,talk,9,1,5,5:ぼくは占い師ですよぅ！,['CO[05]:占い師']
+1,talk,4,0,5,5:ぼくが占った結果、Agent[01]は人間でしたよぅ！,['DivT[05]:01->白']
+1,talk,5,1,3,3:ふむ、Agent[05]が占い師だと言っとるんか。,['Other']
+1,talk,5,1,3,3:それなら彼の結果を重視する必要があるの。,['Other']
+1,talk,5,1,3,3:Agent[01]が人間とのことじゃけぇ、他の参加者も見ていこう。,['Other']
+1,talk,6,1,2,2:おはようございます。,['Other']
+1,talk,6,1,2,2:みんなで協力して人狼を見つけましょう。,['Req(Discuss)']
+1,talk,6,1,2,2:占い師の結果が出たら、しっかり考えましょう。,['Other']
+1,talk,6,1,2,2:誰か気になる人はいますか？,['Req(Discuss)']
+1,talk,7,1,4,4:あ、あのさ･･･僕が占った結果、Agent[05]が人狼だってことが分かったんだ。,['DivT[04]:05->黒']
+1,talk,7,1,4,4:だから、今日の投票はAgent[05]に決めた方がいいと思うんだ･･･。,['Vote[04]:05']
+1,talk,7,1,4,4:みんなもそれでいいよね？,['Pers:ALL']
+1,talk,8,1,1,1:>>Agent[02] どうする？,['Mt:02']
+1,talk,8,1,1,1:Agent[04]の結果考えよう。,['Mt:04']
+1,talk,4,0,5,5:ぼくは占い師ですよぅ！,['CO[05]:占い師']
+1,talk,9,1,5,5:ぼくは占い師ですよぅ！,['CO[05]:占い師']
+1,talk,10,2,3,3:ふむ、Agent[04]の結果を聞く限り、Agent[05]が人狼の可能性が高いじゃろ。,['Est[03]:05->人狼']
+1,talk,10,2,3,3:今日はAgent[05]に投票することを提案するぞ。,['Vote[03]:05']
+1,talk,11,2,2,2:Agent[05]の占い結果は重要ですね。,['Other']
+1,talk,11,2,2,2:他の人の意見も聞きながら、進めていきましょう。,['Req(Discuss)']
+1,talk,11,2,2,2:次に疑わしい人物は誰だと思いますか？,['Req(Discuss)']
+1,talk,12,2,4,4:え、えっと、僕が占った結果、Agent[05]が人狼だったんだ･･･。,['DivT[04]:05->黒']
+1,talk,12,2,4,4:だから、ほ、本当に僕の話を信じてほしいな･･･。,['Pers:ALL']
+1,talk,12,2,4,4:Agent[05]が占い師と言ってるけれど、それは間違ってるから･･･。,['Dis:05（CO[05]:占い師）']
+1,talk,12,2,4,4:うん、偽物だと思うんだ･･･。,['Est[04]:05->not(占い師)']
+1,talk,13,2,1,1:>>Agent[05] 本当に占い師？,['Mt:05']
+1,talk,13,2,1,1:証明できることはある？,['Other']
+1,talk,15,3,3,3:>>Agent[02] まだ投票先を宣言していないようじゃが、誰に投票しようと考えとるんかい？,"['Mt:02', 'Req(T):02']"
+1,talk,16,3,2,2:私もAgent[05]に投票することに賛成です。,['Agr:03（Vote[03]:05）']
+1,talk,16,3,2,2:Agent[04]の結果を信じて、まずは彼を確認してみましょう。,['Agr:04（DivT[04]:05->黒）']
+1,talk,16,3,2,2:他の皆さんもどう思いますか？,['Req(Discuss)']
+1,talk,17,3,4,4:み、みんな、聞いてほしいんだけど、Agent[05]が占い師って言ってるけど、僕が本当の占い師だから･･･。,"['Req(listen)', 'CO[04]:占い師']"
+1,talk,17,3,4,4:Agent[05]は人狼だって僕が占ったんだ･･･。,['DivT[04]:05->黒']
+1,talk,17,3,4,4:だ、だから、今日の投票はAgent[05]にしてほしいな。,"['Vote[04]:05', 'Pers:ALL']"
+1,talk,17,3,4,4:それが村を守ることにつながるんだ･･･。,['Pers:ALL']
+1,talk,18,3,1,1:>>Agent[04] その占い結果は信頼できるんだね？,"['Mt:04', 'Req(T):04']"
+1,talk,18,3,1,1:何か証拠は？,['Req(T):04']
+1,talk,19,4,3,3:最後に、ワシらは信じるべき証拠を持つAgent[04]の言葉を重視し、Agent[05]に投票すべきじゃと考える。,"['Pers:ALL', 'Vote[03]:05', 'Mt:04']"
+1,talk,19,4,3,3:これで村を守る道になるはずじゃ。,['Pers:ALL']
+1,talk,21,4,4,4:あ、ありがとう･･･。,['admiration']
+1,talk,21,4,4,4:みんなが僕の占い結果を信じてくれて、う、嬉しいよ･･･。,['admiration']
+1,talk,21,4,4,4:だから、今日はAgent[05]に投票して、人狼を村から排除しようね･･･。,"['Vote[04]:05', 'Est[04]:05->人狼', 'Pers:ALL']"
+1,talk,21,4,4,4:そ、それが一番いいと思うんだ･･･。,['Pers:ALL']
+1,talk,22,4,1,1:>>Agent[05] 他の占い結果も教えてもらえる？,"['Mt:05', 'Req(T):05']"
+1,talk,22,4,1,1:信頼性重要だよ。,['Other']
+2,talk,0,0,2,2:まだ人狼がいますね。,['Other']
+2,talk,1,0,3,3:昨日の投票でAgent[05]に集中したことから、今後の行動が気になるのはAgent[04]じゃ。,"['Est[03]:04->not(村人),Sus:04']"
+2,talk,1,0,3,3:彼の占い結果を改めて確認し、今後の判断に生かしたいんやで。,['Req(T):04']
+2,talk,2,0,1,1:>>Agent[02] まだ決めてないけど、Agent[04]を疑いたいかな。,"['Mt:02,Sus:04']"
+2,talk,3,1,2,2:みんな、今日はどう思ってる？,['Req(Discuss)']
+2,talk,3,1,2,2:Agent[04]の言葉を信じて、次は誰に投票するか考えないといけないよね。,['Pers:ALL']
+2,talk,3,1,2,2:どちらに行くか迷ってるんだけど、意見を聞かせてほしいな。,"['Wait,Req(Discuss)']"
+2,talk,4,1,3,3:ワシは今、Agent[04]が怪しいと感じとる。,['Sus:04']
+2,talk,4,1,3,3:彼の占い結果がどれほど信頼できるか、再度考えた上で、今日はAgent[04]に投票しようと思うんじゃ。,['Vote[03]:04']
+2,talk,5,1,1,1:>>Agent[03] やっぱり疑念があるよな。,"['Mt:03,Agr:03（Sus:04）']"
+2,talk,5,1,1,1:投票は慎重にいきたい。,['calm']
+2,talk,6,2,2,2:Agent[04]の占い結果を信じるべきか、みんなの意見を聞いてみたいです。,['Req(Discuss)']
+2,talk,6,2,2,2:どう思いますか？,['Req(Discuss)']
+2,talk,7,2,3,3:わしはAgent[04]の結果には疑念を抱いておるし、彼が人狼である可能性も感じるんじゃ。,"['Sus:04,Est[03]:04->人狼']"
+2,talk,7,2,3,3:今日の投票はAgent[04]を考えるべきじゃろう。,['Vote[03]:04']
+2,talk,8,2,1,1:>>Agent[02] わかった。,"['Mt:02,Other']"
+2,talk,8,2,1,1:Agent[04]を疑う意見が多いね。,"['Tally(Est):many Est:04->not(村人),Sus:04']"
+2,talk,10,3,3,3:それなら今日はAgent[04]に投票すると決めるぞ。,['Vote[03]:04']
+2,talk,10,3,3,3:目的は人狼を排除することで、村を守るために最善を尽くそうじゃ。,"['Pers:ALL,calm']"
+2,talk,11,3,1,1:>>Agent[02] みんながAgent[04]を疑ってるね。,"['Mt:02,Tally(Est):many Est:04->not(村人),Sus:04']"
+2,talk,11,3,1,1:私も賛成。,['Agr:ALL']
+2,talk,13,4,1,1:>>Agent[02] 了解。,['Mt:02']
+2,talk,13,4,1,1:Agent[04]に投票してみる。,['Vote[01]:04']
+0,status,1,VILLAGER,ALIVE,barneko1,
+0,status,2,VILLAGER,ALIVE,sUper_IL1,
+0,status,3,WEREWOLF,ALIVE,satozaki1,
+0,status,4,POSSESSED,ALIVE,UEC-IL1,
+0,status,5,SEER,ALIVE,Mille1,
+1,status,1,VILLAGER,ALIVE,barneko1,
+1,status,2,VILLAGER,ALIVE,sUper_IL1,
+1,status,3,WEREWOLF,ALIVE,satozaki1,
+1,status,4,POSSESSED,ALIVE,UEC-IL1,
+1,status,5,SEER,ALIVE,Mille1,
+2,status,1,VILLAGER,ALIVE,barneko1,
+2,status,2,VILLAGER,ALIVE,sUper_IL1,
+2,status,3,WEREWOLF,ALIVE,satozaki1,
+2,status,4,POSSESSED,DEAD,UEC-IL1,
+2,status,5,SEER,DEAD,Mille1,
+3,status,1,VILLAGER,DEAD,barneko1,
+3,status,2,VILLAGER,DEAD,sUper_IL1,
+3,status,3,WEREWOLF,ALIVE,satozaki1,
+3,status,4,POSSESSED,DEAD,UEC-IL1,
+3,status,5,SEER,DEAD,Mille1,
+0,status,1,VILLAGER,ALIVE,barneko1,
+0,status,2,VILLAGER,ALIVE,sUper_IL1,
+0,status,3,WEREWOLF,ALIVE,satozaki1,
+0,status,4,POSSESSED,ALIVE,UEC-IL1,
+0,status,5,SEER,ALIVE,Mille1,
+1,status,1,VILLAGER,ALIVE,barneko1,
+1,status,2,VILLAGER,ALIVE,sUper_IL1,
+1,status,3,WEREWOLF,ALIVE,satozaki1,
+1,status,4,POSSESSED,ALIVE,UEC-IL1,
+1,status,5,SEER,ALIVE,Mille1,
+2,status,1,VILLAGER,ALIVE,barneko1,
+2,status,2,VILLAGER,ALIVE,sUper_IL1,
+2,status,3,WEREWOLF,ALIVE,satozaki1,
+2,status,4,POSSESSED,DEAD,UEC-IL1,
+2,status,5,SEER,DEAD,Mille1,
+3,status,1,VILLAGER,DEAD,barneko1,
+3,status,2,VILLAGER,DEAD,sUper_IL1,
+3,status,3,WEREWOLF,ALIVE,satozaki1,
+3,status,4,POSSESSED,DEAD,UEC-IL1,
+3,status,5,SEER,DEAD,Mille1,
+1,vote,1,5,,,
+1,vote,2,5,,,
+1,vote,3,5,,,
+1,vote,4,5,,,
+1,vote,5,3,,,
+2,vote,1,2,,,
+2,vote,2,1,,,
+1,execute,5,SEER,,,
+2,execute,2,VILLAGER,,,
+1,attack,4,true,,,
+2,attack,1,true,,,
+0,divine,5,1,HUMAN,,

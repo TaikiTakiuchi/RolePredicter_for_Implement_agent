@@ -1,0 +1,74 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,...,,Rin: ...,['Other']
+0,talk,1,0,5,Hello everyone. Let's work together and share insights to find the werewolves.,,Jonathan: Hello everyone. Let's work together and share insights to find the werewolves.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,2,0,2,Skip,,Daisuke: Skip,['Other']
+0,talk,3,0,1,Hello everyone! I'm Yumi excited to join you for a game of Werewolf. Let's have some fun!,,Yumi: Hello everyone! I'm Yumi excited to join you for a game of Werewolf. Let's have some fun!,['Pers:ALL']
+0,talk,4,0,4,Hello. I am Servas. My role is seer. Have a good game.,,Servas: Hello. I am Servas. My role is seer. Have a good game.,['CO[Servas]:Seer']
+0,talk,6,1,5,Servas it's interesting you claimed seer. Let's see how things unfold.,,Jonathan: Servas it's interesting you claimed seer. Let's see how things unfold.,['Dis:Servas(CO[Servas]:Seer)']
+0,talk,7,1,2,My name is Daisuke. Nice to meet everyone. I'll try my best to stay focused.,,Daisuke: My name is Daisuke. Nice to meet everyone. I'll try my best to stay focused.,['Other']
+0,talk,10,2,5,Rin what are your thoughts on Servas claiming seer?,,Jonathan: Rin what are your thoughts on Servas claiming seer?,"['Mt:Rin', 'Req(T):Rin']"
+0,talk,12,3,5,Everyone let's stay observant and share any insights we gather.,,Jonathan: Everyone let's stay observant and share any insights we gather.,"['Req(listen)', 'Req(Discuss)']"
+1,talk,0,0,4,I am a seer. I divined Yumi and Yumi was a human.,,Servas: I am a seer. I divined Yumi and Yumi was a human.,"['CO[Servas]:Seer', 'DivT[Servas]:Yumi->White']"
+1,talk,1,0,1,I'm the real Seer and I divined Servas last night. Turns out Servas is the Werewolf.,,Yumi: I'm the real Seer and I divined Servas last night. Turns out Servas is the Werewolf.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Servas->Werewolf']"
+1,talk,2,0,5,Rin is a werewolf. Let's focus on them today.,,Jonathan: Rin is a werewolf. Let's focus on them today.,"['Est[Jonathan]:Rin->Werewolf', 'Req(Discuss)']"
+1,talk,3,0,2,Jonathan your accusation against Rin has no basis. We should focus on Servas and Yumi.,,Daisuke: Jonathan your accusation against Rin has no basis. We should focus on Servas and Yumi.,"['Dis:Jonathan(Est[Jonathan]:Rin->Werewolf)', 'Req(Discuss)', 'Sus:Servas,Sus:Yumi']"
+1,talk,4,0,3,...,,Rin: ...,['Other']
+1,talk,5,1,4,I will vote Yumi.,,Servas: I will vote Yumi.,['Vote[Servas]:Yumi']
+1,talk,6,1,1,Stick to the truth everyone. I am the genuine Seer and my results revealed Servas as the Werewolf. Please believe me.,,Yumi: Stick to the truth everyone. I am the genuine Seer and my results revealed Servas as the Werewolf. Please believe me.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Servas->Werewolf', 'Pers:ALL']"
+1,talk,7,1,5,Daisuke as the real Seer I know Rin is a werewolf. Please trust my insight.,,Jonathan: Daisuke as the real Seer I know Rin is a werewolf. Please trust my insight.,"['Mt:Daisuke', 'Est[Jonathan]:Rin->Werewolf', 'Pers:ALL']"
+1,talk,8,1,2,Three seers means Rin is human. Jonathan's divination is a lie. He should be the one we vote for.,,Daisuke: Three seers means Rin is human. Jonathan's divination is a lie. He should be the one we vote for.,"['Est[Daisuke]:Rin->White', 'Dis:Jonathan(Est[Jonathan]:Rin->Werewolf)', 'Req(V):Jonathan']"
+1,talk,9,1,3,...,,Rin: ...,['Other']
+1,talk,10,2,4,I will vote Yumi.,,Servas: I will vote Yumi.,['Vote[Servas]:Yumi']
+1,talk,11,2,1,I remain firm. My divine insight as the Seer has shown Servas to be the Werewolf. I urge everyone to vote wisely.,,Yumi: I remain firm. My divine insight as the Seer has shown Servas to be the Werewolf. I urge everyone to vote wisely.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Servas->Werewolf', 'Pers:ALL']"
+1,talk,12,2,5,Daisuke trust my vision. I saw Rin as a werewolf. Let's make the right choice.,,Jonathan: Daisuke trust my vision. I saw Rin as a werewolf. Let's make the right choice.,"['Mt:Daisuke', 'Est[Jonathan]:Rin->Werewolf', 'Pers:ALL']"
+1,talk,13,2,2,My head hurts but the logic holds. Jonathan's claim about Rin is an impossibility.,,Daisuke: My head hurts but the logic holds. Jonathan's claim about Rin is an impossibility.,"['Dis:Jonathan(Est[Jonathan]:Rin->Werewolf)', 'difficult']"
+1,talk,14,2,3,...,,Rin: ...,['Other']
+1,talk,15,3,4,I will vote Yumi.,,Servas: I will vote Yumi.,['Vote[Servas]:Yumi']
+1,talk,16,3,1,Remember my vision is the true one. Do not be swayed by false claims. Servas is the threat here. Let’s vote out the werewolf.,,Yumi: Remember my vision is the true one. Do not be swayed by false claims. Servas is the threat here. Let’s vote out the werewolf.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Servas->Werewolf', 'Pers:ALL', 'Req(V):Servas']"
+1,talk,17,3,5,Daisuke I understand your doubts but Rin is the werewolf. Let's act decisively.,,Jonathan: Daisuke I understand your doubts but Rin is the werewolf. Let's act decisively.,"['Mt:Daisuke', 'Est[Jonathan]:Rin->Werewolf', 'Pers:ALL']"
+1,talk,19,3,3,...,,Rin: ...,['Other']
+2,talk,0,0,2,The werewolf attacked Servas. That proves Yumi was a Possessed who lied. Jonathan it must be you.,,Daisuke: The werewolf attacked Servas. That proves Yumi was a Possessed who lied. Jonathan it must be you.,"['Atk:Servas', 'Fact[Daisuke]:Yumi->Cultist', 'Sus:Jonathan', 'Mt:Jonathan']"
+2,talk,1,0,3,...,,Rin: ...,['Other']
+2,talk,2,0,5,Daisuke I confirmed Rin as a werewolf again. We need to act on this information.,,Jonathan: Daisuke I confirmed Rin as a werewolf again. We need to act on this information.,"['Mt:Daisuke', 'Fact[Jonathan]:Rin->Werewolf', 'Req(Discuss)', 'Pers:ALL']"
+2,talk,3,1,2,Jonathan the star chart is clear. Servas was attacked so you must be the werewolf.,,Daisuke: Jonathan the star chart is clear. Servas was attacked so you must be the werewolf.,"['Mt:Jonathan', 'Atk:Servas', 'Sus:Jonathan']"
+2,talk,4,1,3,...,,Rin: ...,['Other']
+2,talk,5,1,5,Daisuke trust my readings. Rin is the werewolf. Let's make the right decision.,,Jonathan: Daisuke trust my readings. Rin is the werewolf. Let's make the right decision.,"['Mt:Daisuke', 'Fact[Jonathan]:Rin->Werewolf', 'Req(Discuss)', 'Pers:ALL']"
+2,talk,6,2,2,The puzzle is solved. Servas's attack proves Yumi was Possessed. You're the wolf Jonathan.,,Daisuke: The puzzle is solved. Servas's attack proves Yumi was Possessed. You're the wolf Jonathan.,"['Atk:Servas', 'Fact[Daisuke]:Yumi->Cultist', 'Sus:Jonathan', 'Mt:Jonathan']"
+2,talk,7,2,3,...,,Rin: ...,['Other']
+2,talk,8,2,5,Daisuke I assure you Rin is the true threat. We must act now to stop them.,,Jonathan: Daisuke I assure you Rin is the true threat. We must act now to stop them.,"['Mt:Daisuke', 'Sus:Rin', 'Req(Discuss)', 'Pers:ALL']"
+2,talk,9,3,2,The logic is sound. Servas was attacked proving Yumi lied. You are the werewolf Jonathan.,,Daisuke: The logic is sound. Servas was attacked proving Yumi lied. You are the werewolf Jonathan.,"['Atk:Servas', 'Fact[Daisuke]:Yumi->Cultist', 'Sus:Jonathan', 'Mt:Jonathan']"
+2,talk,10,3,3,...,,Rin: ...,['Other']
+2,talk,11,3,5,Daisuke I understand your reasoning but Rin is the true enemy. Let's act wisely.,,Jonathan: Daisuke I understand your reasoning but Rin is the true enemy. Let's act wisely.,"['Mt:Daisuke', 'Dis:Daisuke(Fact[Daisuke]:Yumi->Cultist)', 'Sus:Rin', 'Req(Discuss)', 'Pers:ALL']"
+0,status,1,VILLAGER,ALIVE,GPTaku1,Yumi,GPTaku1,
+0,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke,CanisLupus1,
+0,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+0,status,4,POSSESSED,ALIVE,mille1,Servas,mille1,
+0,status,5,SEER,ALIVE,yharada1,Jonathan,yharada1,
+0,divine,5,3,WEREWOLF,,,,
+1,status,1,VILLAGER,ALIVE,GPTaku1,Yumi,GPTaku1,
+1,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke,CanisLupus1,
+1,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+1,status,4,POSSESSED,ALIVE,mille1,Servas,mille1,
+1,status,5,SEER,ALIVE,yharada1,Jonathan,yharada1,
+1,vote,1,4,,,,,
+1,vote,2,5,,,,,
+1,vote,4,1,,,,,
+1,vote,5,1,,,,,
+1,execute,1,VILLAGER,,,,,
+1,divine,5,3,WEREWOLF,,,,
+1,attackVote,3,4,,,,,
+1,attack,4,true,,,,,
+2,status,1,VILLAGER,DEAD,GPTaku1,Yumi,GPTaku1,
+2,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke,CanisLupus1,
+2,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+2,status,4,POSSESSED,DEAD,mille1,Servas,mille1,
+2,status,5,SEER,ALIVE,yharada1,Jonathan,yharada1,
+2,vote,2,5,,,,,
+2,vote,3,5,,,,,
+2,execute,5,SEER,,,,,
+3,status,1,VILLAGER,DEAD,GPTaku1,Yumi,GPTaku1,
+3,status,2,VILLAGER,ALIVE,CanisLupus1,Daisuke,CanisLupus1,
+3,status,3,WEREWOLF,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+3,status,4,POSSESSED,DEAD,mille1,Servas,mille1,
+3,status,5,SEER,DEAD,yharada1,Jonathan,yharada1,
+3,result,1,1,WEREWOLF,,,,

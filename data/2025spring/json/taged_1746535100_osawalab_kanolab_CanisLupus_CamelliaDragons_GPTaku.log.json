@@ -1,0 +1,535 @@
+{
+  "filename": "taged_1746535100_osawalab_kanolab_CanisLupus_CamelliaDragons_GPTaku.log.csv",
+  "exec_id": 5,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "osawalab1",
+      "character_name": "リョウ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Mt": [
+          {
+            "recepient_id": "ミカ",
+            "count": 2
+          },
+          {
+            "recepient_id": "アレク",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダーク",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 4
+          }
+        ],
+        "difficult": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          },
+          {
+            "recepient_id": "ミリア",
+            "count": 1
+          },
+          {
+            "recepient_id": "アレク",
+            "count": 2
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "ALL",
+            "recepient_role": "not(占い師)",
+            "count": 2
+          },
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "ALL",
+            "recepient_role": "人狼",
+            "count": 1
+          },
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "ミリア",
+            "recepient_role": "狂人",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "アレク",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アレク",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダーク",
+            "count": 1
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "ミリア",
+            "left_role": "占い師",
+            "right_id": "(ダーク",
+            "right_role": "not(人狼))",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ミリア",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "kanolab1",
+      "character_name": "ミリア",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "DivT": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "ダーク",
+            "recepient_role": "白",
+            "count": 2
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "ダーク",
+            "recepient_role": "not(人狼)",
+            "count": 3
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "アレク",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "アレク",
+            "recepient_role": "狂人",
+            "count": 1
+          },
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "ミカ",
+            "recepient_role": "人狼",
+            "count": 3
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "3",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "ダーク",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "ダーク",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ダーク",
+            "recepient_id": "ダーク",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 6
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "アレク",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 8
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ALL",
+            "recepient_role": "not(占い結果)",
+            "count": 1
+          },
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ダーク",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "アレク",
+            "recepient_role": "not(占い師)",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ALL",
+            "recepient_role": "警戒",
+            "count": 1
+          },
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ミリア",
+            "recepient_role": "占い師",
+            "count": 3
+          },
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ダーク",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          },
+          {
+            "speaker_id": "アレク",
+            "recepient_id": "ミリア",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 6
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミリア",
+            "recepient_id": "ダーク",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ミカ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "アレク",
+            "count": 1
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "ミリア",
+            "left_role": "狂人",
+            "right_id": "(ミカ",
+            "right_role": "人狼",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "ミカ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ミリア",
+            "count": 1
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_id": "ダーク",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    }
+  ]
+}

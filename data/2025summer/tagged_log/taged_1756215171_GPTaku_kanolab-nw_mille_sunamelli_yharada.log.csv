@@ -1,0 +1,52 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Hi everyone let's stay calm and share our thoughts. Any ideas on who might be suspicious?,,Daisuke: Hi everyone let's stay calm and share our thoughts. Any ideas on who might be suspicious?,"['calm', 'Req(Discuss)']"
+0,talk,1,0,1,Hey there. I'm Shunichi. Let's piece this puzzle together and catch the werewolf. Got any theories on who's acting out of line?,,Shunichi: Hey there. I'm Shunichi. Let's piece this puzzle together and catch the werewolf. Got any theories on who's acting out of line?,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,2,0,2,Hello everyone! I'm Jonathan ready to find out who among us is the cunning werewolf!,,Jonathan: Hello everyone! I'm Jonathan ready to find out who among us is the cunning werewolf!,['Req(Discuss)']
+0,talk,3,0,5,Nice to see everyone. Let’s stay cool-headed and focus on the little things people say and do from the start.,,Misaki: Nice to see everyone. Let’s stay cool-headed and focus on the little things people say and do from the start.,"['calm', 'Req(Discuss)']"
+0,talk,4,0,4,Hello. I am George. My role is villager. Have a good game.,,George: Hello. I am George. My role is villager. Have a good game.,['CO[George]:Villager']
+0,talk,5,1,3,It's still early but George claiming villager might be something to watch closely.,,Daisuke: It's still early but George claiming villager might be something to watch closely.,"['Dis:George(CO[George]:Villager)', 'Sus:George', 'Wait']"
+0,talk,10,2,3,We should keep an eye on everyone's behavior and see if anything unusual stands out.,,Daisuke: We should keep an eye on everyone's behavior and see if anything unusual stands out.,['Req(Discuss)']
+0,talk,11,3,3,Let's try to gather more information. Anyone have thoughts on what's been said so far?,,Daisuke: Let's try to gather more information. Anyone have thoughts on what's been said so far?,['Req(Discuss)']
+1,talk,0,0,1,I divined Misaki and guess what. The divination result says werewolf. Maybe we should stick to sushi and chess Misaki?,,Shunichi: I divined Misaki and guess what. The divination result says werewolf. Maybe we should stick to sushi and chess Misaki?,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:Misaki->Werewolf', 'Mt:Misaki']"
+1,talk,1,0,3,That's a serious claim Shunichi. Misaki do you have a response to this accusation?,,Daisuke: That's a serious claim Shunichi. Misaki do you have a response to this accusation?,"['Dis:Shunichi(CO[Shunichi]:Seer)', 'Mt:Shunichi', 'Req(T):Misaki']"
+1,talk,2,0,4,I will vote Misaki.,,George: I will vote Misaki.,['Vote[George]:Misaki']
+1,talk,3,0,2,George is human based on my divination last night. Let's focus on Shunichi's claim about Misaki.,,Jonathan: George is human based on my divination last night. Let's focus on Shunichi's claim about Misaki.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:George->White', 'Req(Discuss)']"
+1,talk,4,0,5,Three Seers makes no sense. Shunichi’s claim feels forced. Isn’t Jonathan’s white result more reliable?,,Misaki: Three Seers makes no sense. Shunichi’s claim feels forced. Isn’t Jonathan’s white result more reliable?,"['Dis:Shunichi(CO[Shunichi]:Seer)', 'Agr:Jonathan(DivT[Jonathan]:George->White)']"
+1,talk,5,1,1,Jonathan claims he's a seer. But if I Shunichi know otherwise could his white result for George be deceiving us? What do you think?,,Shunichi: Jonathan claims he's a seer. But if I Shunichi know otherwise could his white result for George be deceiving us? What do you think?,"['Dis:Jonathan(CO[Jonathan]:Seer)', 'Sus:Jonathan', 'Req(Discuss)', 'Mt:Jonathan']"
+1,talk,6,1,3,This is confusing with multiple seer claims. We need more discussion to verify these roles.,,Daisuke: This is confusing with multiple seer claims. We need more discussion to verify these roles.,"['Req(Discuss)', 'confused', 'Req(CO):Seer']"
+1,talk,7,1,4,I will vote Misaki.,,George: I will vote Misaki.,['Vote[George]:Misaki']
+1,talk,8,1,2,As the true Seer my divination found George to be human. Shunichi's false claim about Misaki is suspicious.,,Jonathan: As the true Seer my divination found George to be human. Shunichi's false claim about Misaki is suspicious.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:George->White', 'Dis:Shunichi(CO[Shunichi]:Seer)']"
+1,talk,9,1,5,Three Seer claims isn’t normal. There’s likely a Madman causing confusion. Would a wolf really show up this boldly?,,Misaki: Three Seer claims isn’t normal. There’s likely a Madman causing confusion. Would a wolf really show up this boldly?,"['Sus:Shunichi', 'Other']"
+1,talk,10,2,1,Jonathan claims he's seer but I'm sunlight. Should we trust his motives Misaki? Let's discuss the three Seer claims.,,Shunichi: Jonathan claims he's seer but I'm sunlight. Should we trust his motives Misaki? Let's discuss the three Seer claims.,"['CO[Shunichi]:Villager', 'Dis:Jonathan(CO[Jonathan]:Seer)', 'Req(Discuss)', 'Mt:Misaki']"
+1,talk,11,2,3,With three seer claims we need to be cautious. Let's focus on actions and consistency.,,Daisuke: With three seer claims we need to be cautious. Let's focus on actions and consistency.,"['Req(Discuss)', 'difficult']"
+1,talk,12,2,4,I will vote Misaki.,,George: I will vote Misaki.,['Vote[George]:Misaki']
+1,talk,13,2,2,As the real Seer I insist Shunichi is the wolf here. My readings are precise. Ignore his distractions and trust in my clarity.,,Jonathan: As the real Seer I insist Shunichi is the wolf here. My readings are precise. Ignore his distractions and trust in my clarity.,"['CO[Jonathan]:Seer', 'Fact[Jonathan]:Shunichi->Werewolf', 'Dis:Shunichi']"
+1,talk,14,2,5,Three Seer claims mean someone’s lying. I trust Jonathan more since his results match the way he’s reasoning.,,Misaki: Three Seer claims mean someone’s lying. I trust Jonathan more since his results match the way he’s reasoning.,"['Agr:Jonathan(DivT[Jonathan]:George->White)', 'Sus:Shunichi']"
+1,talk,15,3,1,Misaki warns with such ferocity you'd think she's leading a wolf pack. Let's not brush off my trusty divination shall we?,,Shunichi: Misaki warns with such ferocity you'd think she's leading a wolf pack. Let's not brush off my trusty divination shall we?,"['DivT[Shunichi]:Misaki->Werewolf', 'Dis:Misaki', 'Pers:ALL']"
+1,talk,16,3,3,It's tough to decide but Jonathan's reasoning seems more consistent so far. Let's be careful.,,Daisuke: It's tough to decide but Jonathan's reasoning seems more consistent so far. Let's be careful.,"['difficult', 'Agr:Jonathan', 'Req(Discuss)']"
+1,talk,17,3,4,I will vote Misaki.,,George: I will vote Misaki.,['Vote[George]:Misaki']
+1,talk,18,3,2,Stick to the facts. My divination revealed George as human which aligns with his claim. We must question Shunichi's deceptive tactics.,,Jonathan: Stick to the facts. My divination revealed George as human which aligns with his claim. We must question Shunichi's deceptive tactics.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:George->White', 'Dis:Shunichi']"
+1,talk,19,3,5,Jonathan’s divination fits the facts; Shunichi seems desperate to frame me. I’m voting Shunichi—let’s stop the real wolf now.,,Misaki: Jonathan’s divination fits the facts; Shunichi seems desperate to frame me. I’m voting Shunichi—let’s stop the real wolf now.,"['Agr:Jonathan(DivT[Jonathan]:George->White)', 'Vote[Misaki]:Shunichi', 'Sus:Shunichi']"
+0,status,1,POSSESSED,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+0,status,2,SEER,ALIVE,GPTaku1,Jonathan,GPTaku1,
+0,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+0,status,4,VILLAGER,ALIVE,mille1,George,mille1,
+0,status,5,WEREWOLF,ALIVE,sunamelli1,Misaki,sunamelli1,
+0,divine,2,4,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+1,status,2,SEER,ALIVE,GPTaku1,Jonathan,GPTaku1,
+1,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+1,status,4,VILLAGER,ALIVE,mille1,George,mille1,
+1,status,5,WEREWOLF,ALIVE,sunamelli1,Misaki,sunamelli1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,1,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+2,status,2,SEER,ALIVE,GPTaku1,Jonathan,GPTaku1,
+2,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+2,status,4,VILLAGER,ALIVE,mille1,George,mille1,
+2,status,5,WEREWOLF,DEAD,sunamelli1,Misaki,sunamelli1,
+2,result,4,0,VILLAGER,,,,

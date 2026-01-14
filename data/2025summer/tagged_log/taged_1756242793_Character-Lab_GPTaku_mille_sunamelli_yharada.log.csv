@@ -1,0 +1,54 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hi everyone! Let's work together and figure out who the werewolves might be!,,Yumi: Hi everyone! Let's work together and figure out who the werewolves might be!,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,1,0,1,Hi  @Yumi ! Nice to play with you 😊 Anyone have early reads or role claims? I’m a bit uneasy about someone but want more info before accusing — please share any susp,,Mio: Hi  @Yumi ! Nice to play with you 😊 Anyone have early reads or role claims? I’m a bit uneasy about someone but want more info before accusing — please share any susp,"['Mt:Yumi', 'Req(Discuss)', 'difficult']"
+0,talk,2,0,3,Hello everyone! I'm Asuka ready to unravel mysteries with all of you. Let's find those werewolves!,,Asuka: Hello everyone! I'm Asuka ready to unravel mysteries with all of you. Let's find those werewolves!,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,3,0,2,Greetings everyone. @Asuka  @Mio  @Servas @Yumi looking forward to a bit of chaos and deduction today.,,Shunichi: Greetings everyone. @Asuka  @Mio  @Servas @Yumi looking forward to a bit of chaos and deduction today.,"['Mt:Asuka', 'Mt:Mio', 'Mt:Servas', 'Mt:Yumi']"
+0,talk,4,0,5,Hello. I am Servas. My role is seer. Have a good game.,,Servas: Hello. I am Servas. My role is seer. Have a good game.,['CO[Servas]:Seer']
+0,talk,5,1,4,Nice to meet you all! Servas any insights to share as the seer?,,Yumi: Nice to meet you all! Servas any insights to share as the seer?,"['Mt:Servas', 'Req(CO):Seer']"
+0,talk,6,1,1,@Servas  That's a big claim — please tell us your divination result now. Claiming seer without giving a result makes me nervous. Anyone else have early reads? O,,Mio: @Servas  That's a big claim — please tell us your divination result now. Claiming seer without giving a result makes me nervous. Anyone else have early reads? O,"['Mt:Servas', 'Req(CO):Seer', 'difficult', 'Req(Discuss)']"
+0,talk,10,2,4,I agree with Mio. We need more info Servas. Anyone feeling suspicious?,,Yumi: I agree with Mio. We need more info Servas. Anyone feeling suspicious?,"['Agr:Mio', 'Mt:Servas', 'Req(CO):Seer', 'Req(Discuss)']"
+0,talk,11,2,1,@Servas  If you're the seer  say who you checked last night — we need actual info now. If you won't  I'm leaning toward voting you to force a reveal. Anyone else have,,Mio: @Servas  If you're the seer  say who you checked last night — we need actual info now. If you won't  I'm leaning toward voting you to force a reveal. Anyone else have,"['Mt:Servas', 'Req(CO):Seer', 'Req(V):Servas', 'Req(Discuss)']"
+0,talk,12,3,4,Let's stay calm everyone. Servas we're here to help if you need support.,,Yumi: Let's stay calm everyone. Servas we're here to help if you need support.,"['calm', 'Mt:Servas', 'Pers:Servas']"
+0,talk,13,3,1,@Servas  Please tell us who you checked last night — claiming seer without a result is risky. If you won't reveal soon  we should consider voting to force it. Anyo,,Mio: @Servas  Please tell us who you checked last night — claiming seer without a result is risky. If you won't reveal soon  we should consider voting to force it. Anyo,"['Mt:Servas', 'Req(CO):Seer', 'Req(V):Servas']"
+1,talk,0,0,3,Last night I divined Servas and the result showed that he is the Werewolf. Let's strategically align our actions for safety.,,Asuka: Last night I divined Servas and the result showed that he is the Werewolf. Let's strategically align our actions for safety.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Servas->Werewolf', 'Req(Discuss)']"
+1,talk,1,0,5,I am a seer. I divined Mio and Mio was a human.,,Servas: I am a seer. I divined Mio and Mio was a human.,"['CO[Servas]:Seer', 'DivT[Servas]:Mio->not(Werewolf)']"
+1,talk,2,0,1,I divined Yumi last night — she’s WEREWOLF. Servas says he checked me (says I’m human)  while Asuka says Servas is WEREWOLF — that can’t both be true. Asu @Asuka . Over,,Mio: I divined Yumi last night — she’s WEREWOLF. Servas says he checked me (says I’m human)  while Asuka says Servas is WEREWOLF — that can’t both be true. Asu @Asuka . Over,"['CO[Mio]:Seer', 'DivT[Mio]:Yumi->Werewolf', 'contradiction', 'Mt:Asuka']"
+1,talk,3,0,2,Three Seers can’t all be real so let’s focus on Servas and Yumi as divined wolves.  @Yumi  do you have a defense?,,Shunichi: Three Seers can’t all be real so let’s focus on Servas and Yumi as divined wolves.  @Yumi  do you have a defense?,"['Sus:Servas', 'Sus:Yumi', 'Mt:Yumi', 'Req(T):Yumi']"
+1,talk,4,0,4,I promise I'm not a werewolf! Maybe Asuka and Mio are trying to confuse us.,,Yumi: I promise I'm not a werewolf! Maybe Asuka and Mio are trying to confuse us.,"['Pers:ALL', 'Sus:Asuka', 'Sus:Mio']"
+1,talk,5,1,3,As the Seer I got a clear divine result that points to Servas being a Werewolf. We need to focus on this clear evidence.,,Asuka: As the Seer I got a clear divine result that points to Servas being a Werewolf. We need to focus on this clear evidence.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Servas->Werewolf', 'Req(Discuss)']"
+1,talk,6,1,5,I will vote Asuka.,,Servas: I will vote Asuka.,['Vote[Servas]:Asuka']
+1,talk,7,1,1,I divined Yumi as WEREWOLF last night.  @Asuka  you said Servas is a werewolf — that directly conflicts with Servas’s divination (he says I’m human) and with my result. Who’s lying here? I trust my re,,Mio: I divined Yumi as WEREWOLF last night.  @Asuka  you said Servas is a werewolf — that directly conflicts with Servas’s divination (he says I’m human) and with my result. Who’s lying here? I trust my re,"['CO[Mio]:Seer', 'DivT[Mio]:Yumi->Werewolf', 'Mt:Asuka', 'Dis:Asuka(CO[Asuka]:Seer)', 'Dis:Servas(CO[Servas]:Seer)']"
+1,talk,8,1,2,With three seers and conflicting wolf results someone’s lying big.  @Mio  why did you choose Yumi for your divination?,,Shunichi: With three seers and conflicting wolf results someone’s lying big.  @Mio  why did you choose Yumi for your divination?,"['contradiction', 'Mt:Mio', 'Req(T):Mio']"
+1,talk,9,1,4,I think Asuka and Mio might be working together to deceive us. Let's be cautious!,,Yumi: I think Asuka and Mio might be working together to deceive us. Let's be cautious!,"['Sus:Asuka', 'Sus:Mio']"
+1,talk,10,2,3,I assure you of my role as the Seer. My divine result indicating Servas as a Werewolf is accurate. We need to focus on that.,,Asuka: I assure you of my role as the Seer. My divine result indicating Servas as a Werewolf is accurate. We need to focus on that.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Servas->Werewolf', 'Req(Discuss)']"
+1,talk,11,2,5,I will vote Asuka.,,Servas: I will vote Asuka.,['Vote[Servas]:Asuka']
+1,talk,12,2,1,I divined Yumi as WEREWOLF.  @Asuka  you claimed Servas is a werewolf — that conflicts with Servas’s statement. Please show your divination result or explain  otherwise you look suspici,,Mio: I divined Yumi as WEREWOLF.  @Asuka  you claimed Servas is a werewolf — that conflicts with Servas’s statement. Please show your divination result or explain  otherwise you look suspici,"['CO[Mio]:Seer', 'DivT[Mio]:Yumi->Werewolf', 'Mt:Asuka', 'Req(T):Asuka', 'Dis:Asuka(CO[Asuka]:Seer)']"
+1,talk,13,2,2,@Yumi  you were divined as wolf by Mio. Do you believe Asuka Servas or Mio is telling the truth about their Seer claim?,,Shunichi: @Yumi  you were divined as wolf by Mio. Do you believe Asuka Servas or Mio is telling the truth about their Seer claim?,"['Mt:Yumi', 'DivT[Mio]:Yumi->Werewolf', 'Req(T):Yumi']"
+1,talk,14,2,4,Honestly Shunichi I'm confused too! I don't trust Asuka or Mio right now.,,Yumi: Honestly Shunichi I'm confused too! I don't trust Asuka or Mio right now.,"['confused', 'Sus:Asuka', 'Sus:Mio']"
+1,talk,15,3,3,I understand the confusion but my earlier claim stands. I am the true Seer. Servas being a Werewolf is my firm divination result.,,Asuka: I understand the confusion but my earlier claim stands. I am the true Seer. Servas being a Werewolf is my firm divination result.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Servas->Werewolf']"
+1,talk,16,3,5,I will vote Asuka.,,Servas: I will vote Asuka.,['Vote[Servas]:Asuka']
+1,talk,17,3,1,I’m the seer — I checked  @Yumi  last night and she’s WEREWOLF. We should lynch her today. Any last defenses? Over,,Mio: I’m the seer — I checked  @Yumi  last night and she’s WEREWOLF. We should lynch her today. Any last defenses? Over,"['CO[Mio]:Seer', 'DivT[Mio]:Yumi->Werewolf', 'Req(V):Yumi']"
+1,talk,18,3,2,Servas feels too stubborn and defensive without evidence so I’m voting Servas. Anyone with a better theory speak up now.,,Shunichi: Servas feels too stubborn and defensive without evidence so I’m voting Servas. Anyone with a better theory speak up now.,"['Vote[Shunichi]:Servas', 'Sus:Servas', 'Req(Discuss)']"
+1,talk,19,3,4,I'm not a werewolf I promise! Maybe it's a plan by Asuka and Mio to mislead us.,,Yumi: I'm not a werewolf I promise! Maybe it's a plan by Asuka and Mio to mislead us.,"['Pers:ALL', 'Sus:Asuka', 'Sus:Mio']"
+0,status,1,SEER,ALIVE,Character-Lab1,Mio,Character-Lab1,
+0,status,2,VILLAGER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+0,status,3,VILLAGER,ALIVE,GPTaku1,Asuka,GPTaku1,
+0,status,4,WEREWOLF,ALIVE,yharada1,Yumi,yharada1,
+0,status,5,POSSESSED,ALIVE,mille1,Servas,mille1,
+0,divine,1,4,WEREWOLF,,,,
+1,status,1,SEER,ALIVE,Character-Lab1,Mio,Character-Lab1,
+1,status,2,VILLAGER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+1,status,3,VILLAGER,ALIVE,GPTaku1,Asuka,GPTaku1,
+1,status,4,WEREWOLF,ALIVE,yharada1,Yumi,yharada1,
+1,status,5,POSSESSED,ALIVE,mille1,Servas,mille1,
+1,vote,2,4,,,,,
+1,vote,3,5,,,,,
+1,vote,4,1,,,,,
+1,vote,5,3,,,,,
+1,execute,4,WEREWOLF,,,,,
+2,status,1,SEER,ALIVE,Character-Lab1,Mio,Character-Lab1,
+2,status,2,VILLAGER,ALIVE,sunamelli1,Shunichi,sunamelli1,
+2,status,3,VILLAGER,ALIVE,GPTaku1,Asuka,GPTaku1,
+2,status,4,WEREWOLF,DEAD,yharada1,Yumi,yharada1,
+2,status,5,POSSESSED,ALIVE,mille1,Servas,mille1,
+2,result,4,0,VILLAGER,,,,

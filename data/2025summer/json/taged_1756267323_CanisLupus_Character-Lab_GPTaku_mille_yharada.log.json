@@ -1,0 +1,343 @@
+{
+  "filename": "taged_1756267323_CanisLupus_Character-Lab_GPTaku_mille_yharada.log.csv",
+  "exec_id": 3,
+  "attack_id": 4,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "mille1",
+      "character_name": "Sakura",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Mio",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_id": "Mio",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_role": "Cultist",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "yharada1",
+      "character_name": "Misaki",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Misaki",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Misaki",
+            "recepient_id": "Midori",
+            "recepient_role": "White",
+            "count": 4
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Mio",
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 4
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "Benjamin",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Benjamin",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Sakura",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Benjamin",
+            "recepient_id": "Mio",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Sakura",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Midori",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Benjamin",
+            "count": 4
+          },
+          {
+            "recepient_id": "Misaki",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Benjamin",
+            "count": 3
+          },
+          {
+            "recepient_id": "Misaki",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Benjamin",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "CanisLupus1",
+      "character_name": "Mio",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Sakura",
+            "count": 2
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Benjamin",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Benjamin",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_id": "Mio",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Mio",
+            "recepient_role": "Benjamin",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "Agr": [
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Misaki",
+            "count": 2
+          },
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Misaki",
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Mio",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

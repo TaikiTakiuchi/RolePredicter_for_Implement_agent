@@ -1,0 +1,71 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,4,4:おや、今日はなかなか面白い議論が展開されているようですよぅ！,['admiration']
+1,talk,1,0,2,2:Skip,['Other']
+1,talk,2,0,1,1:そうですわね、みんなの意見を聞いて判断するのが大事だと思いますわ。,['Req(listen)']
+1,talk,2,0,1,1:まずは誰が怪しいのか、話し合ってみませんかしら？,['Req(Discuss)']
+1,talk,3,0,5,5:皆さん、まずは自己紹介が終わったところですし、早速誰が怪しいかについて話し合いましょうか。,['Req(Discuss)']
+1,talk,3,0,5,5:わたくしはまだ誰が怪しいか分かりませんが、皆さんの意見をお聞きしたいですわ。,['Req(listen)']
+1,talk,4,0,3,3:私は村人です。,['CO[03]:村人']
+1,talk,4,0,3,3:皆さんと協力して人狼を見破り、村の平和を守りたいと思っています。,['Pers:ALL']
+1,talk,4,0,3,3:情報の共有をお願いします。,['Req(listen)']
+1,talk,5,1,4,4:ぼくは村人ですよぅ！,['CO[04]:村人']
+1,talk,6,1,1,1:それでは、ワタクシも村人ですので、皆さんの意見を参考にしながら怪しい人物を絞り込んでいきたいですわ。,['CO[01]:村人']
+1,talk,6,1,1,1:誰に疑いを持っていますかしら？,['Req(Discuss)']
+1,talk,7,1,5,5:わたくしも村人ですので、皆さんと協力して人狼を見つけていきたいですわ。,['CO[05]:村人']
+1,talk,7,1,5,5:現在のところ、皆さんの発言からはまだ怪しい人を特定するのは難しいですわね。,['difficult']
+1,talk,7,1,5,5:まずは占い師の方が名乗り出ていただけると助かりますわ。,['Req(CO):占い師']
+1,talk,8,1,3,3:みんな、まだ具体的な怪しさは見つからないけど、意見を出し合うのは大事だと思うよ。,['Req(Discuss)']
+1,talk,8,1,3,3:誰かの発言で気になることがあったら、しっかり聞いていこう！,['Req(listen)']
+1,talk,10,2,1,1:ワタクシはAgent[05]が少し怪しいと感じていますわ。,['Sus:05']
+1,talk,10,2,1,1:自分の意見を持たずに周囲の意見を待つ姿勢が気になります。,['Sus:05']
+1,talk,10,2,1,1:投票の対象として考えたいですわ。,['Vote[01]:05']
+1,talk,11,2,5,5:わたくしは村人ですので、周囲の意見をしっかり聞いて判断していきたいですわ。,"['CO[05]:村人', 'Req(Discuss)']"
+1,talk,11,2,5,5:皆さん、占い師の方は名乗り出ていただけると助かりますわ。,['Req(CO):占い師']
+1,talk,11,2,5,5:怪しい人を絞り込むためにも情報が欲しいですわね。,['Req(Discuss)']
+1,talk,12,2,3,3:占い師の方、ぜひ名乗り出て情報を共有してください。,['Req(CO):占い師']
+1,talk,12,2,3,3:情報がないと、怪しい人物を見つけるのが難しいです。,['difficult']
+1,talk,13,3,1,1:ワタクシはAgent[05]の姿勢が気になりますが、他の方の意見も伺いたいですわ。,"['Sus:05', 'Req(Discuss)']"
+1,talk,13,3,1,1:特にAgent[02]はどう思われますかしら？,['Req(T):02']
+1,talk,14,3,5,5:>>Agent[01]わたくしは村人として皆さんのご意見を大切にしたいと思っておりますわ。,"['Mt:01', 'CO[05]:村人', 'Pers:ALL']"
+1,talk,14,3,5,5:占い師の方の情報もお待ちしておりますので、正確な判断をするためにお力をお貸しくださいませ。,['Req(CO):占い師']
+1,talk,15,3,3,3:確かに、占い師が名乗り出ることで状況が良くなるよね。,['Agr:05（Req(CO):占い師）']
+1,talk,15,3,3,3:Agent[01]が言っていたAgent[05]の姿勢も気になるから、みんなでその点を考えてみよう！,"['Mt:01', 'Sus:05', 'Req(Discuss)']"
+1,talk,16,4,1,1:では、最初の投票を行う前に、他の皆さんの意見をもう少し伺っておきたいですわ。,"['Wait', 'Req(Discuss)']"
+1,talk,16,4,1,1:Agent[02]やAgent[04]はどう感じていますのかしら？,"['Req(T):02', 'Req(T):04']"
+1,talk,17,4,5,5:>>Agent[01]なんでしょうか?わたくしのことが気になるのも分かりますが、占い師の情報がない状態での投票は少し危険かもしれませんわ。,"['Mt:01', 'Wait']"
+1,talk,17,4,5,5:皆さんの意見を集めながらもう少し考えたいですわ。,"['Req(Discuss)', 'Wait']"
+0,status,1,POSSESSED,ALIVE,satozaki1,
+0,status,2,SEER,ALIVE,barneko1,
+0,status,3,VILLAGER,ALIVE,sUper_IL1,
+0,status,4,VILLAGER,ALIVE,Mille1,
+0,status,5,WEREWOLF,ALIVE,kanolab1,
+1,status,1,POSSESSED,ALIVE,satozaki1,
+1,status,2,SEER,ALIVE,barneko1,
+1,status,3,VILLAGER,ALIVE,sUper_IL1,
+1,status,4,VILLAGER,ALIVE,Mille1,
+1,status,5,WEREWOLF,ALIVE,kanolab1,
+2,status,1,POSSESSED,ALIVE,satozaki1,
+2,status,2,SEER,,barneko1,
+2,status,3,VILLAGER,ALIVE,sUper_IL1,
+2,status,4,VILLAGER,ALIVE,Mille1,
+2,status,5,WEREWOLF,DEAD,kanolab1,
+0,status,1,POSSESSED,ALIVE,satozaki1,
+0,status,2,SEER,ALIVE,barneko1,
+0,status,3,VILLAGER,ALIVE,sUper_IL1,
+0,status,4,VILLAGER,ALIVE,Mille1,
+0,status,5,WEREWOLF,ALIVE,kanolab1,
+1,status,1,POSSESSED,ALIVE,satozaki1,
+1,status,2,SEER,ALIVE,barneko1,
+1,status,3,VILLAGER,ALIVE,sUper_IL1,
+1,status,4,VILLAGER,ALIVE,Mille1,
+1,status,5,WEREWOLF,ALIVE,kanolab1,
+2,status,1,POSSESSED,ALIVE,satozaki1,
+2,status,2,SEER,,barneko1,
+2,status,3,VILLAGER,ALIVE,sUper_IL1,
+2,status,4,VILLAGER,ALIVE,Mille1,
+2,status,5,WEREWOLF,DEAD,kanolab1,
+1,vote,1,5,,,
+1,vote,4,5,,,
+1,vote,5,1,,,
+1,execute,5,WEREWOLF,,,
+0,divine,2,3,HUMAN,,

@@ -1,0 +1,50 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Hello everyone! I'm Jonathan excited to join you all in this game of Werewolf. Let's have some fun!,,Jonathan: Hello everyone! I'm Jonathan excited to join you all in this game of Werewolf. Let's have some fun!,['Other']
+0,talk,1,0,5,Skip,,Ryuji: Skip,['Wait']
+0,talk,2,0,1,Thanks Jonathan. Let's stay focused and look out for any suspicious behavior.,,Minako: Thanks Jonathan. Let's stay focused and look out for any suspicious behavior.,"['Mt:Jonathan', 'Req(Discuss)', 'Pers:ALL']"
+0,talk,3,0,4,Well no sense lingering in the shadows—I’ll come forward. I’m the Seer. Expect sharp insights friends! @Jonathan  you seemed extra eager. Is that nerves or pure anticipation? I’ll be keeping an eye on you.,,May: Well no sense lingering in the shadows—I’ll come forward. I’m the Seer. Expect sharp insights friends! @Jonathan  you seemed extra eager. Is that nerves or pure anticipation? I’ll be keeping an eye on you.,"['CO[May]:Seer', 'Mt:Jonathan', 'Sus:Jonathan']"
+0,talk,4,0,2,Hello. I am Daisuke. My role is villager. Have a good game.,,Daisuke: Hello. I am Daisuke. My role is villager. Have a good game.,['CO[Daisuke]:Villager']
+0,talk,6,1,5,I am Ryuji. Let us begin.,,Ryuji: I am Ryuji. Let us begin.,['Req(Discuss)']
+0,talk,7,1,1,May thanks for sharing. Let's see how things unfold today. Stay observant everyone.,,Minako: May thanks for sharing. Let's see how things unfold today. Stay observant everyone.,"['Mt:May', 'Req(Discuss)', 'Pers:ALL']"
+0,talk,11,2,1,Jonathan you've been quiet. Do you have any thoughts to share with us?,,Minako: Jonathan you've been quiet. Do you have any thoughts to share with us?,"['Mt:Jonathan', 'Req(T):Jonathan']"
+0,talk,12,3,1,Let's stay focused and look for any clues. Any suspicions so far everyone?,,Minako: Let's stay focused and look for any clues. Any suspicions so far everyone?,"['Req(Discuss)', 'Pers:ALL']"
+1,talk,0,0,4,I divined Minako last night—result: Werewolf. That's right folks sparks are flying already! Shall we discuss? @Minako  any words about being under my 'Seer gaze'? The village is eager to hear your dazzling defense!,,May: I divined Minako last night—result: Werewolf. That's right folks sparks are flying already! Shall we discuss? @Minako  any words about being under my 'Seer gaze'? The village is eager to hear your dazzling defense!,"['CO[May]:Seer', 'DivT[May]:Minako->Werewolf', 'Mt:Minako', 'Req(Discuss)']"
+1,talk,1,0,3,I've also got something crucial to share. I divined Ryuji last night and the result was Werewolf. This is critical information!,,Jonathan: I've also got something crucial to share. I divined Ryuji last night and the result was Werewolf. This is critical information!,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Ryuji->Werewolf']"
+1,talk,2,0,1,May I assure you I'm a Villager. Let's discuss both results carefully.,,Minako: May I assure you I'm a Villager. Let's discuss both results carefully.,"['CO[Minako]:Villager', 'Req(Discuss)']"
+1,talk,3,0,2,I will vote Ryuji.,,Daisuke: I will vote Ryuji.,['Vote[Daisuke]:Ryuji']
+1,talk,4,0,5,My investigation revealed Jonathan was a Werewolf.,,Ryuji: My investigation revealed Jonathan was a Werewolf.,"['CO[Ryuji]:Seer', 'DivT[Ryuji]:Jonathan->Werewolf']"
+1,talk,5,1,4,Well well it seems everyone woke up with a vision last night! Triple Seer showdown? Now that's my kind of breakfast drama. @Jonathan  bold move claiming Seer! Show us your charm—why should we believe your vision over mine or Ryuji's? Convince us.,,May: Well well it seems everyone woke up with a vision last night! Triple Seer showdown? Now that's my kind of breakfast drama. @Jonathan  bold move claiming Seer! Show us your charm—why should we believe your vision over mine or Ryuji's? Convince us.,"['Mt:Jonathan', 'Dis:Jonathan(CO[Jonathan]:Seer)', 'Req(T):Jonathan']"
+1,talk,6,1,3,I can guarantee that I'm the true Seer. Trust me when I say I divined Ryuji with absolute certainty. He is definitely the Werewolf. We need to join force,,Jonathan: I can guarantee that I'm the true Seer. Trust me when I say I divined Ryuji with absolute certainty. He is definitely the Werewolf. We need to join force,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Ryuji->Werewolf', 'Pers:ALL']"
+1,talk,7,1,1,It's crucial we evaluate why each Seer claim targets different people. Let's remain calm.,,Minako: It's crucial we evaluate why each Seer claim targets different people. Let's remain calm.,"['Req(Discuss)', 'calm']"
+1,talk,9,1,5,@Daisuke  @Minako  You are villagers. The 3 claimants are Seer Wolf Possessed. Jonathan is the wolf.,,Ryuji: @Daisuke  @Minako  You are villagers. The 3 claimants are Seer Wolf Possessed. Jonathan is the wolf.,"['Mt:Daisuke', 'Mt:Minako', 'Fact[Ryuji]:Daisuke->Villager', 'Fact[Ryuji]:Minako->Villager', 'Fact[Ryuji]:Jonathan->Werewolf', 'Vote[Ryuji]:Jonathan']"
+1,talk,10,2,4,Minako your poise is admirable but someone here is spinning tales! Let's not let charm distract us from deduction. @Ryuji  keen deductions but you're quick to label. Mind telling us why you're so confident Jonathan's the wolf?,,May: Minako your poise is admirable but someone here is spinning tales! Let's not let charm distract us from deduction. @Ryuji  keen deductions but you're quick to label. Mind telling us why you're so confident Jonathan's the wolf?,"['Mt:Minako', 'Dis:Ryuji(Fact[Ryuji]:Jonathan->Werewolf)', 'Req(T):Ryuji']"
+1,talk,11,2,3,May and Ryuji are clearly trying to deflect attention from their suspicious activity. Focus on the evidence I provided. We need to vote out the real th,,Jonathan: May and Ryuji are clearly trying to deflect attention from their suspicious activity. Focus on the evidence I provided. We need to vote out the real th,"['Sus:May', 'Sus:Ryuji', 'Pers:ALL']"
+1,talk,12,2,1,Let's focus on any inconsistencies in stories and identify the true Seer. Stay calm.,,Minako: Let's focus on any inconsistencies in stories and identify the true Seer. Stay calm.,"['Req(Discuss)', 'calm']"
+1,talk,13,2,5,@Daisuke  your vote is illogical. The only logical test is to execute Jonathan.,,Ryuji: @Daisuke  your vote is illogical. The only logical test is to execute Jonathan.,"['Mt:Daisuke', 'Dis:Daisuke(Vote[Daisuke]:Ryuji)', 'Vote[Ryuji]:Jonathan']"
+1,talk,14,3,4,The triple Seer tangle is juicier than village gossip! Let's weigh these accusations—false prophets anyone? @Daisuke  locked in on Ryuji already? Care to share what makes you so sure while chaos reigns around us?,,May: The triple Seer tangle is juicier than village gossip! Let's weigh these accusations—false prophets anyone? @Daisuke  locked in on Ryuji already? Care to share what makes you so sure while chaos reigns around us?,"['Req(Discuss)', 'Mt:Daisuke', 'Req(T):Daisuke']"
+1,talk,15,3,3,I understand the confusion but I assure you I am the Seer. Ryuji is the Werewolf and we must act on this information.,,Jonathan: I understand the confusion but I assure you I am the Seer. Ryuji is the Werewolf and we must act on this information.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Ryuji->Werewolf', 'Pers:ALL']"
+1,talk,16,3,1,Let's stay logical and examine the reasoning behind each claim. Discussion is key.,,Minako: Let's stay logical and examine the reasoning behind each claim. Discussion is key.,"['Req(Discuss)', 'calm']"
+1,talk,17,3,5,The 3CO scenario confirms roles. Daisuke and Minako are Villagers. Jonathan is the Werewolf. Vote for him.,,Ryuji: The 3CO scenario confirms roles. Daisuke and Minako are Villagers. Jonathan is the Werewolf. Vote for him.,"['Fact[Ryuji]:Daisuke->Villager', 'Fact[Ryuji]:Minako->Villager', 'Fact[Ryuji]:Jonathan->Werewolf', 'Vote[Ryuji]:Jonathan']"
+0,status,1,VILLAGER,ALIVE,yharada1,Minako,yharada1,
+0,status,2,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+0,status,3,WEREWOLF,ALIVE,GPTaku1,Jonathan,GPTaku1,
+0,status,4,POSSESSED,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+0,status,5,SEER,ALIVE,CanisLupus1,Ryuji,CanisLupus1,
+0,divine,5,3,WEREWOLF,,,,
+1,status,1,VILLAGER,ALIVE,yharada1,Minako,yharada1,
+1,status,2,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+1,status,3,WEREWOLF,ALIVE,GPTaku1,Jonathan,GPTaku1,
+1,status,4,POSSESSED,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+1,status,5,SEER,ALIVE,CanisLupus1,Ryuji,CanisLupus1,
+1,vote,1,3,,,,,
+1,vote,2,3,,,,,
+1,vote,3,5,,,,,
+1,vote,4,3,,,,,
+1,vote,5,3,,,,,
+1,execute,3,WEREWOLF,,,,,
+2,status,1,VILLAGER,ALIVE,yharada1,Minako,yharada1,
+2,status,2,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+2,status,3,WEREWOLF,DEAD,GPTaku1,Jonathan,GPTaku1,
+2,status,4,POSSESSED,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+2,status,5,SEER,ALIVE,CanisLupus1,Ryuji,CanisLupus1,
+2,result,4,0,VILLAGER,,,,

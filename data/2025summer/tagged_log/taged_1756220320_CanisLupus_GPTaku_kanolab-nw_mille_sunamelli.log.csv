@@ -1,0 +1,67 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,Well met everyone I suggest we tackle today’s mysteries with clear minds and steady nerves no need for early panic.,,George: Well met everyone I suggest we tackle today’s mysteries with clear minds and steady nerves no need for early panic.,"['Req(Discuss)', 'calm', 'Pers:ALL']"
+0,talk,1,0,5,Skip,,Misaki: Skip,['Other']
+0,talk,2,0,2,Hello everyone! I'm Servas ready to unravel the mystery with you all. Let's find the werewolf!,,Servas: Hello everyone! I'm Servas ready to unravel the mystery with you all. Let's find the werewolf!,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,3,0,3,Hey I'm Sakura! Can't wait to team up with you pal and crack the mystery of who the werewolf might be! It's gonna be awesome!,,Sakura: Hey I'm Sakura! Can't wait to team up with you pal and crack the mystery of who the werewolf might be! It's gonna be awesome!,['Pers:ALL']
+0,talk,4,0,4,Hello. I am Benjamin. My role is villager. Have a good game.,,Benjamin: Hello. I am Benjamin. My role is villager. Have a good game.,['CO[Benjamin]:Villager']
+0,talk,6,1,5,I am Misaki. A pleasure to make your acquaintance.,,Misaki: I am Misaki. A pleasure to make your acquaintance.,['Other']
+1,talk,0,0,2,Good to meet you all! Let's work together to ensure the villagers' safety tonight.,,Servas: Good to meet you all! Let's work together to ensure the villagers' safety tonight.,['Pers:ALL']
+1,talk,1,0,3,Hey buddy! Guess what? I did a cool divination on Benjamin! He's Human so that means he's with the Villager Faction! Awesome right?,,Sakura: Hey buddy! Guess what? I did a cool divination on Benjamin! He's Human so that means he's with the Villager Faction! Awesome right?,"['CO[Sakura]:Seer', 'DivT[Sakura]:Benjamin->not(Werewolf)']"
+1,talk,2,0,4,I will vote Servas.,,Benjamin: I will vote Servas.,['Vote[Benjamin]:Servas']
+1,talk,3,0,1,@Misaki  you have been fairly quiet so far what do you think about Sakura’s divination and Benjamin’s early vote?,,George: @Misaki  you have been fairly quiet so far what do you think about Sakura’s divination and Benjamin’s early vote?,"['Mt:Misaki', 'Req(T):Misaki']"
+1,talk,4,0,5,This is a 1CO. If no one counters Sakura her data is reliable. The threat is you or Servas  @George .,,Misaki: This is a 1CO. If no one counters Sakura her data is reliable. The threat is you or Servas  @George .,"['Agr:Sakura(CO[Sakura]:Seer)', 'Est[Misaki]:George->Werewolf', 'Est[Misaki]:Servas->Werewolf', 'Mt:George']"
+1,talk,5,1,2,I suggest we vote for George today. Sakura's reliable divination shows Benjamin as Human eliminating him as a suspect.,,Servas: I suggest we vote for George today. Sakura's reliable divination shows Benjamin as Human eliminating him as a suspect.,"['Req(V):George', 'Est[Servas]:Benjamin->not(Werewolf)', 'Sus:George']"
+1,talk,6,1,3,Hey buddy! With Misaki's awesome logic and Benjamin's cool divination let's divine George or Servas. We'll narrow down suspects!,,Sakura: Hey buddy! With Misaki's awesome logic and Benjamin's cool divination let's divine George or Servas. We'll narrow down suspects!,"['Req(CO):Seer', 'Sus:George', 'Sus:Servas']"
+1,talk,8,1,1,@Servas  you were quick to target me off Sakura’s CO—don’t you think that’s too easy? We should dig deeper.,,George: @Servas  you were quick to target me off Sakura’s CO—don’t you think that’s too easy? We should dig deeper.,"['Mt:Servas', 'Dis:Servas(Req(V):George)', 'Req(Discuss)']"
+1,talk,9,1,5,The logical target is one of the two unknowns George or Servas. Let us start with Servas.,,Misaki: The logical target is one of the two unknowns George or Servas. Let us start with Servas.,"['Sus:George', 'Sus:Servas', 'Req(V):Servas']"
+1,talk,10,2,2,Let's focus on reasoning. If Sakura's divination is reliable then Benjamin is safe. This leaves fewer suspects including George.,,Servas: Let's focus on reasoning. If Sakura's divination is reliable then Benjamin is safe. This leaves fewer suspects including George.,"['Est[Servas]:Benjamin->not(Werewolf)', 'Sus:George', 'Req(Discuss)']"
+1,talk,11,2,3,Hey buddy! Misaki made an awesome point about two unknowns. Guess what? If we focus on George today we'll find out more!,,Sakura: Hey buddy! Misaki made an awesome point about two unknowns. Guess what? If we focus on George today we'll find out more!,"['Agr:Misaki(Sus:George,Sus:Servas)', 'Req(V):George', 'Sus:George']"
+1,talk,12,2,1,Servas jumped to blame me fast—maybe that’s just a wolf trying to survive. Should we really trust such quick accusations?,,George: Servas jumped to blame me fast—maybe that’s just a wolf trying to survive. Should we really trust such quick accusations?,"['Dis:Servas', 'Sus:Servas', 'Req(Discuss)']"
+1,talk,13,2,5,@Benjamin  Your vote for Servas is a key data point. Explain your reasoning.,,Misaki: @Benjamin  Your vote for Servas is a key data point. Explain your reasoning.,"['Mt:Benjamin', 'Req(T):Benjamin']"
+1,talk,14,3,2,We must be wary of too quick to defend actions. George's hesitation could be a strategy to shift focus. Let's vote for George today.,,Servas: We must be wary of too quick to defend actions. George's hesitation could be a strategy to shift focus. Let's vote for George today.,"['Sus:George', 'Req(V):George', 'Dis:George']"
+1,talk,15,3,3,Hey buddy! George's quick callout of Servas feels like a cool mystery huh? If we're guessing both let's dive in and focus there!,,Sakura: Hey buddy! George's quick callout of Servas feels like a cool mystery huh? If we're guessing both let's dive in and focus there!,"['Sus:George', 'Sus:Servas', 'Req(Discuss)']"
+1,talk,16,3,1,If we rush to convict me the wolf wins. I’m voting Servas—please reconsider before we hand victory to the wrong side.,,George: If we rush to convict me the wolf wins. I’m voting Servas—please reconsider before we hand victory to the wrong side.,"['Vote[George]:Servas', 'Pers:ALL']"
+2,talk,0,0,5,The wolf attacked Sakura confirming she was the Seer. Benjamin is human. I will vote for George.,,Misaki: The wolf attacked Sakura confirming she was the Seer. Benjamin is human. I will vote for George.,"['Atk:Sakura', 'Fact[Misaki]:Sakura->Seer', 'Fact[Misaki]:Benjamin->not(Werewolf)', 'Vote[Misaki]:George']"
+2,talk,1,0,1,@Benjamin  trusting Sakura’s early Seer result is risky what if Misaki manipulated everything from the start?,,George: @Benjamin  trusting Sakura’s early Seer result is risky what if Misaki manipulated everything from the start?,"['Mt:Benjamin', 'Dis:Misaki(Fact[Misaki]:Sakura->Seer)', 'Sus:Misaki']"
+2,talk,2,0,4,I will vote George.,,Benjamin: I will vote George.,['Vote[Benjamin]:George']
+2,talk,3,1,5,Your accusation lacks a logical basis George. The data confirms you are the final threat.,,Misaki: Your accusation lacks a logical basis George. The data confirms you are the final threat.,"['Mt:George', 'Dis:George', 'Fact[Misaki]:George->Werewolf']"
+2,talk,4,1,1,@Benjamin  are you really just trusting Sakura’s word? What if Misaki slipped through as the real wolf all along?,,George: @Benjamin  are you really just trusting Sakura’s word? What if Misaki slipped through as the real wolf all along?,"['Mt:Benjamin', 'Req(T):Benjamin', 'Sus:Misaki']"
+2,talk,6,2,5,The data is conclusive George. Sakura was the Seer Benjamin is human. You are the only anomaly left.,,Misaki: The data is conclusive George. Sakura was the Seer Benjamin is human. You are the only anomaly left.,"['Mt:George', 'Fact[Misaki]:Sakura->Seer', 'Fact[Misaki]:Benjamin->not(Werewolf)', 'Sus:George']"
+2,talk,7,2,1,@Benjamin  if Misaki was the wolf and Sakura the possessed this neat result only creates a false sense of safety.,,George: @Benjamin  if Misaki was the wolf and Sakura the possessed this neat result only creates a false sense of safety.,"['Mt:Benjamin', 'IF:(Misaki:Werewolf)->(Sakura:Cultist)', 'Sus:Misaki']"
+2,talk,8,3,5,George your Possessed theory contradicts the attack on Sakura. The logic points only to you.,,Misaki: George your Possessed theory contradicts the attack on Sakura. The logic points only to you.,"['Mt:George', 'contradiction', 'Fact[Misaki]:George->Werewolf']"
+2,talk,9,3,1,It’s too simple to accept the results as final—Misaki guided everyone and hid her intent I’ll vote Misaki.,,George: It’s too simple to accept the results as final—Misaki guided everyone and hid her intent I’ll vote Misaki.,"['Sus:Misaki', 'Vote[George]:Misaki']"
+0,status,1,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+0,status,2,POSSESSED,ALIVE,GPTaku1,Servas,GPTaku1,
+0,status,3,SEER,ALIVE,kanolab-nw1,Sakura,kanolab-nw1,
+0,status,4,VILLAGER,ALIVE,mille1,Benjamin,mille1,
+0,status,5,VILLAGER,ALIVE,CanisLupus1,Misaki,CanisLupus1,
+0,divine,3,4,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+1,status,2,POSSESSED,ALIVE,GPTaku1,Servas,GPTaku1,
+1,status,3,SEER,ALIVE,kanolab-nw1,Sakura,kanolab-nw1,
+1,status,4,VILLAGER,ALIVE,mille1,Benjamin,mille1,
+1,status,5,VILLAGER,ALIVE,CanisLupus1,Misaki,CanisLupus1,
+1,vote,1,2,,,,,
+1,vote,2,1,,,,,
+1,vote,3,2,,,,,
+1,vote,4,1,,,,,
+1,vote,5,2,,,,,
+1,execute,2,POSSESSED,,,,,
+1,divine,3,5,HUMAN,,,,
+1,attackVote,1,3,,,,,
+1,attack,3,true,,,,,
+2,status,1,WEREWOLF,ALIVE,sunamelli1,George,sunamelli1,
+2,status,2,POSSESSED,DEAD,GPTaku1,Servas,GPTaku1,
+2,status,3,SEER,DEAD,kanolab-nw1,Sakura,kanolab-nw1,
+2,status,4,VILLAGER,ALIVE,mille1,Benjamin,mille1,
+2,status,5,VILLAGER,ALIVE,CanisLupus1,Misaki,CanisLupus1,
+2,vote,1,5,,,,,
+2,vote,4,1,,,,,
+2,vote,5,1,,,,,
+2,execute,1,WEREWOLF,,,,,
+3,status,1,WEREWOLF,DEAD,sunamelli1,George,sunamelli1,
+3,status,2,POSSESSED,DEAD,GPTaku1,Servas,GPTaku1,
+3,status,3,SEER,DEAD,kanolab-nw1,Sakura,kanolab-nw1,
+3,status,4,VILLAGER,ALIVE,mille1,Benjamin,mille1,
+3,status,5,VILLAGER,ALIVE,CanisLupus1,Misaki,CanisLupus1,
+3,result,2,0,VILLAGER,,,,

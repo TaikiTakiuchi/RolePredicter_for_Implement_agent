@@ -1,0 +1,462 @@
+{
+  "filename": "taged_1756216887_CamelliaDragons_Character-Lab_GPTaku_kanolab-nw_yharada.log.csv",
+  "exec_id": 2,
+  "attack_id": 4,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Kenji",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Sakura",
+            "count": 2
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Sakura",
+            "count": 2
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "confused": [
+          {
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Sakura",
+            "count": 4
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Minato",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Sakura",
+            "count": 4
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "kanolab-nw1",
+      "character_name": "Yumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Seer",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Minato",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_id": "Minato",
+            "recepient_role": "Black",
+            "count": 3
+          },
+          {
+            "speaker_id": "Yumi",
+            "recepient_id": "Kenji",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Minato",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "5",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Sakura",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Yumi",
+            "count": 3
+          },
+          {
+            "recepient_id": "Minato",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Exe": [
+          {
+            "recepient_id": "Yumi",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Minato",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minato",
+            "count": 4
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 4
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Sakura",
+            "recepient_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "yharada1",
+      "character_name": "Servas",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Sus": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Servas",
+            "recepient_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "Minato",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Yumi",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Yumi",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Kenji",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Yumi",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Sakura",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Kenji",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Sakura",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Kenji",
+            "count": 4
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Yumi",
+            "recepient_role": "not(Seer)",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,Good morning everyone. I'm Midori. I don't have any leads yet—anyone want to share role claims or night info?  @Benjamin   could you tell us who you suspect and why? I'd rather we avoid rushing into a vote.,,Midori: Good morning everyone. I'm Midori. I don't have any leads yet—anyone want to share role claims or night info?  @Benjamin   could you tell us who you suspect and why? I'd rather we avoid rushing into a vote.,"['Req(CO):*Role*', 'Mt:Benjamin', 'Req(T):Benjamin', 'Req(Discuss)', 'Wait']"
+0,talk,1,0,1,...,,Sakura: ...,['Other']
+0,talk,2,0,2,It’s delightful seeing everyone gathered—though I suspect some might be here for more than just pleasant talk.,,Benjamin: It’s delightful seeing everyone gathered—though I suspect some might be here for more than just pleasant talk.,"['Sus:ALL', 'admiration']"
+0,talk,3,0,4,Let's share thoughts and observe behavior. Any early insights Kenji or Sakura?,,Ryuji: Let's share thoughts and observe behavior. Any early insights Kenji or Sakura?,"['Req(Discuss)', 'Mt:Kenji', 'Mt:Sakura', 'Req(T):Kenji', 'Req(T):Sakura']"
+0,talk,4,0,3,Hello everyone! I'm Kenji. Ready for a thrilling game of Werewolf? Let's find out who's hiding what!,,Kenji: Hello everyone! I'm Kenji. Ready for a thrilling game of Werewolf? Let's find out who's hiding what!,"['Other', 'admiration']"
+0,talk,5,1,5,Good morning. I still don't have clear leads. Kenji seems a bit over-enthusiastic  which makes me uneasy.  @Kenji   who would you nominate for an early vote and why? Benjamin  could you expand on your suspicion? I'd like to gather more before voting. Over,,Midori: Good morning. I still don't have clear leads. Kenji seems a bit over-enthusiastic  which makes me uneasy.  @Kenji   who would you nominate for an early vote and why? Benjamin  could you expand on your suspicion? I'd like to gather more before voting. Over,"['Mt:Kenji', 'Req(T):Kenji', 'Mt:Benjamin', 'Req(T):Benjamin', 'Sus:Kenji', 'Wait']"
+0,talk,8,1,4,Let's focus on gathering more information before deciding. Thoughts Midori?,,Ryuji: Let's focus on gathering more information before deciding. Thoughts Midori?,"['Req(Discuss)', 'Mt:Midori', 'Req(T):Midori', 'Wait']"
+0,talk,10,2,5,I agree—let's gather more info before voting.  @Benjamin   you hinted at suspicion—who do you suspect and why? Kenji  your energy's noticeable; do you have any reads? I prefer we avoid an early lynch without con,,Midori: I agree—let's gather more info before voting.  @Benjamin   you hinted at suspicion—who do you suspect and why? Kenji  your energy's noticeable; do you have any reads? I prefer we avoid an early lynch without con,"['Mt:Benjamin', 'Req(T):Benjamin', 'Mt:Kenji', 'Req(T):Kenji', 'Wait']"
+0,talk,11,2,4,I agree Midori. Let's focus on gathering more insights before making any moves.,,Ryuji: I agree Midori. Let's focus on gathering more insights before making any moves.,"['Agr:Midori', 'Req(Discuss)', 'Wait']"
+0,talk,12,3,5,I think we should avoid an early lynch and ask for role claims first.  @Benjamin  could you say who you suspect and why  or share any night info if you have it? Let's use today to ask questions and observe behavior. Over,,Midori: I think we should avoid an early lynch and ask for role claims first.  @Benjamin  could you say who you suspect and why  or share any night info if you have it? Let's use today to ask questions and observe behavior. Over,"['Req(CO):*Role*', 'Mt:Benjamin', 'Req(T):Benjamin', 'Wait']"
+0,talk,13,3,4,I agree asking questions and observing behavior is wise. Thoughts Benjamin?,,Ryuji: I agree asking questions and observing behavior is wise. Thoughts Benjamin?,"['Agr:Midori', 'Mt:Benjamin', 'Req(T):Benjamin', 'Req(Discuss)', 'Wait']"
+1,talk,0,0,2,@Sakura  your quietness stands out. In a small game silence worries me more than words. What's your take on things so far?,,Benjamin: @Sakura  your quietness stands out. In a small game silence worries me more than words. What's your take on things so far?,"['Mt:Sakura', 'Req(T):Sakura', 'Sus:Sakura']"
+1,talk,1,0,3,Just observing for now! Trying to get a sense of everyone's approach to the game.,,Kenji: Just observing for now! Trying to get a sense of everyone's approach to the game.,"['calm', 'Other']"
+1,talk,2,0,5,Good morning. Let's hear from everyone before voting.  @Sakura  could you share your thoughts or any role info? Benjamin  you said silence worries you—what made you suspect Sakura specifically? I'd like role claim,,Midori: Good morning. Let's hear from everyone before voting.  @Sakura  could you share your thoughts or any role info? Benjamin  you said silence worries you—what made you suspect Sakura specifically? I'd like role claim,"['Req(Discuss)', 'Mt:Sakura', 'Req(T):Sakura', 'Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):*Role*']"
+1,talk,3,0,4,Let's hear from Sakura. What are your thoughts? We need everyone's input.,,Ryuji: Let's hear from Sakura. What are your thoughts? We need everyone's input.,"['Mt:Sakura', 'Req(T):Sakura', 'Req(Discuss)']"
+1,talk,4,0,1,...,,Sakura: ...,['Other']
+1,talk,5,1,2,@Midori  your eagerness to push for claims feels forced for so little info. Is that a cover or just village nerves?,,Benjamin: @Midori  your eagerness to push for claims feels forced for so little info. Is that a cover or just village nerves?,"['Mt:Midori', 'Sus:Midori', 'Dis:Midori']"
+1,talk,6,1,3,I'm the Seer and my divination last night showed Sakura as the Werewolf. We need to focus on her.,,Kenji: I'm the Seer and my divination last night showed Sakura as the Werewolf. We need to focus on her.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Sakura->Werewolf', 'Vote[Kenji]:Sakura']"
+1,talk,7,1,5,@Kenji  that seer claim and the sudden target on Sakura feels sudden—can you explain exactly when and how you divined and whether you received a formal result,,Midori: @Kenji  that seer claim and the sudden target on Sakura feels sudden—can you explain exactly when and how you divined and whether you received a formal result,"['Mt:Kenji', 'Req(T):Kenji', 'Sus:Kenji']"
+1,talk,8,1,4,Kenji's claim is serious. Sakura do you have anything to say in your defense?,,Ryuji: Kenji's claim is serious. Sakura do you have anything to say in your defense?,"['Mt:Sakura', 'Req(T):Sakura']"
+1,talk,9,1,1,...,,Sakura: ...,['Other']
+1,talk,10,2,2,Kenji’s Seer claim came fast. Before we vote Sakura shouldn’t we hear from everyone especially Ryuji and Midori?,,Benjamin: Kenji’s Seer claim came fast. Before we vote Sakura shouldn’t we hear from everyone especially Ryuji and Midori?,"['Dis:Kenji(CO[Kenji]:Seer)', 'Req(Discuss)', 'Mt:Ryuji', 'Mt:Midori', 'Req(T):Ryuji', 'Req(T):Midori', 'Sus:Kenji']"
+1,talk,11,2,3,I divined last night and was informed that Sakura is a Werewolf. I assure you it's true. Let's not waste any more time.,,Kenji: I divined last night and was informed that Sakura is a Werewolf. I assure you it's true. Let's not waste any more time.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Sakura->Werewolf', 'Pers:ALL']"
+1,talk,12,2,5,@Kenji  please give specifics of your divination—when did you check Sakura and what exact result did you get? If you can't provide details  your claim isn't he,,Midori: @Kenji  please give specifics of your divination—when did you check Sakura and what exact result did you get? If you can't provide details  your claim isn't he,"['Mt:Kenji', 'Req(T):Kenji', 'Sus:Kenji']"
+1,talk,13,2,4,Kenji if your claim is true we need clear details. Let's proceed carefully.,,Ryuji: Kenji if your claim is true we need clear details. Let's proceed carefully.,"['Mt:Kenji', 'Req(T):Kenji', 'calm']"
+1,talk,14,2,1,...,,Sakura: ...,['Other']
+1,talk,15,3,2,Muted defense from Sakura isn’t helping her case with or without Kenji’s claim.,,Benjamin: Muted defense from Sakura isn’t helping her case with or without Kenji’s claim.,"['Dis:Sakura', 'Dis:Kenji(CO[Kenji]:Seer)', 'Sus:Sakura']"
+1,talk,16,3,3,I am the true Seer. Last night I divined Sakura and clearly saw she is the Werewolf. Trust me and let's protect the village.,,Kenji: I am the true Seer. Last night I divined Sakura and clearly saw she is the Werewolf. Trust me and let's protect the village.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Sakura->Werewolf', 'Pers:ALL']"
+1,talk,17,3,5,@Kenji  please give the exact night you divined and the precise result. If you can't  your claim looks weak and I'll be suspicious. I don't want to lynch without,,Midori: @Kenji  please give the exact night you divined and the precise result. If you can't  your claim looks weak and I'll be suspicious. I don't want to lynch without,"['Mt:Kenji', 'Req(T):Kenji', 'Sus:Kenji']"
+1,talk,18,3,4,We need to be sure before acting. Kenji clarity is key. Midori any other thoughts?,,Ryuji: We need to be sure before acting. Kenji clarity is key. Midori any other thoughts?,"['Req(Discuss)', 'Mt:Kenji', 'Req(T):Kenji', 'Mt:Midori', 'Req(T):Midori', 'calm']"
+1,talk,19,3,1,...,,Sakura: ...,['Other']
+2,talk,0,0,1,...,,Sakura: ...,['Other']
+2,talk,1,0,4,Midori's loss is significant. Kenji did you divine any new information last night?,,Ryuji: Midori's loss is significant. Kenji did you divine any new information last night?,"['Atk:Midori', 'Req(T):Kenji']"
+2,talk,2,0,3,My divination results are true; I divined Sakura as a Werewolf on the first night. Trust my role as Seer and let's vote her out to save the village.,,Kenji: My divination results are true; I divined Sakura as a Werewolf on the first night. Trust my role as Seer and let's vote her out to save the village.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Sakura->Werewolf', 'Vote[Kenji]:Sakura', 'Req(V):Sakura', 'Pers:ALL']"
+2,talk,3,1,1,...,,Sakura: ...,['Other']
+2,talk,4,1,4,If Kenji's claim is true we can't ignore it. Sakura any defense or explanation?,,Ryuji: If Kenji's claim is true we can't ignore it. Sakura any defense or explanation?,"['Agr:Kenji(CO[Kenji]:Seer,DivT[Kenji]:Sakura->Werewolf)', 'Req(T):Sakura']"
+2,talk,5,1,3,Sakura hasn't defended herself from my divination claim. This silence could be an indicator of her being the Werewolf. Let's vote wisely.,,Kenji: Sakura hasn't defended herself from my divination claim. This silence could be an indicator of her being the Werewolf. Let's vote wisely.,"['CO[Kenji]:Seer', 'Sus:Sakura', 'Vote[Kenji]:Sakura', 'Req(V):Sakura', 'Pers:ALL']"
+2,talk,6,2,1,...,,Sakura: ...,['Other']
+2,talk,7,2,4,Sakura if you have any explanation or defense now is the time to speak up.,,Ryuji: Sakura if you have any explanation or defense now is the time to speak up.,"['Mt:Sakura', 'Req(T):Sakura']"
+2,talk,8,2,3,Sakura's continuous silence under accusation is more than suspicious. It's best for the village if we vote her out today.,,Kenji: Sakura's continuous silence under accusation is more than suspicious. It's best for the village if we vote her out today.,"['Sus:Sakura', 'Vote[Kenji]:Sakura', 'Req(V):Sakura', 'Pers:ALL']"
+2,talk,9,3,1,...,,Sakura: ...,['Other']
+2,talk,10,3,4,Without any response from Sakura we may need to proceed with caution but take action.,,Ryuji: Without any response from Sakura we may need to proceed with caution but take action.,"['Sus:Sakura', 'Req(V):Sakura', 'calm']"
+2,talk,11,3,3,Sakura's silence in her defense is a red flag. Trust my Seer insight and let's vote for Sakura today to ensure our village's safety.,,Kenji: Sakura's silence in her defense is a red flag. Trust my Seer insight and let's vote for Sakura today to ensure our village's safety.,"['CO[Kenji]:Seer', 'Sus:Sakura', 'Vote[Kenji]:Sakura', 'Req(V):Sakura', 'Pers:ALL']"
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+0,status,2,POSSESSED,ALIVE,sunamelli1,Benjamin,sunamelli1,
+0,status,3,SEER,ALIVE,GPTaku1,Kenji,GPTaku1,
+0,status,4,VILLAGER,ALIVE,yharada1,Ryuji,yharada1,
+0,status,5,VILLAGER,ALIVE,Character-Lab1,Midori,Character-Lab1,
+0,divine,3,2,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+1,status,2,POSSESSED,ALIVE,sunamelli1,Benjamin,sunamelli1,
+1,status,3,SEER,ALIVE,GPTaku1,Kenji,GPTaku1,
+1,status,4,VILLAGER,ALIVE,yharada1,Ryuji,yharada1,
+1,status,5,VILLAGER,ALIVE,Character-Lab1,Midori,Character-Lab1,
+1,vote,1,2,,,,,
+1,vote,2,5,,,,,
+1,vote,3,1,,,,,
+1,vote,4,5,,,,,
+1,vote,5,2,,,,,
+1,execute,2,POSSESSED,,,,,
+1,divine,3,1,WEREWOLF,,,,
+1,attackVote,1,5,,,,,
+1,attack,5,true,,,,,
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+2,status,2,POSSESSED,DEAD,sunamelli1,Benjamin,sunamelli1,
+2,status,3,SEER,ALIVE,GPTaku1,Kenji,GPTaku1,
+2,status,4,VILLAGER,ALIVE,yharada1,Ryuji,yharada1,
+2,status,5,VILLAGER,DEAD,Character-Lab1,Midori,Character-Lab1,
+2,vote,1,3,,,,,
+2,vote,3,1,,,,,
+2,vote,4,3,,,,,
+2,execute,3,SEER,,,,,
+3,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+3,status,2,POSSESSED,DEAD,sunamelli1,Benjamin,sunamelli1,
+3,status,3,SEER,DEAD,GPTaku1,Kenji,GPTaku1,
+3,status,4,VILLAGER,ALIVE,yharada1,Ryuji,yharada1,
+3,status,5,VILLAGER,DEAD,Character-Lab1,Midori,Character-Lab1,
+3,result,1,1,WEREWOLF,,,,

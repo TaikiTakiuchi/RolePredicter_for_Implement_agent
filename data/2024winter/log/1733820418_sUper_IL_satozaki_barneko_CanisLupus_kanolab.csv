@@ -1,0 +1,51 @@
+0,status,1,SEER,ALIVE,kanolab1
+0,status,2,VILLAGER,ALIVE,sUper_IL1
+0,status,3,VILLAGER,ALIVE,satozaki1
+0,status,4,WEREWOLF,ALIVE,barneko1
+0,status,5,POSSESSED,ALIVE,CanisLupus1
+0,talk,0,0,4,Over
+0,talk,1,0,1,みなさん、こんにちは。このゲームをご一緒できて嬉しいですわ。わたくしは占い師役として、しっかりと皆さんをサポートしてまいりますので、どうぞよろしくお願いいたしますわ。楽しいゲームにしましょうね。
+0,talk,2,0,5,我が名はAgent[05]、汝らとの巡り合わせを以て、運命の糸は絡み合い、かくも壮絶なる物語の幕開けを告げしめるなり。
+0,talk,3,0,3,皆さん初めまして、Agent[03]やで。人狼ゲームを一緒に楽しみましょう。よろしくお願いします！
+0,talk,4,0,2,こんにちは、Agent[02]です。
+0,talk,5,1,1,Over
+0,talk,6,1,5,Over
+0,talk,7,1,3,Over
+0,talk,8,1,2,Over
+0,divine,1,5,HUMAN
+1,status,1,SEER,ALIVE,kanolab1
+1,status,2,VILLAGER,ALIVE,sUper_IL1
+1,status,3,VILLAGER,ALIVE,satozaki1
+1,status,4,WEREWOLF,ALIVE,barneko1
+1,status,5,POSSESSED,ALIVE,CanisLupus1
+1,talk,0,0,3,おはようさんやで。ワシらは人狼を探さなければいけんようじゃね。まずは占い師の結果が知りたいんじゃ。
+1,talk,1,0,2,Over
+1,talk,2,0,4, >>Agent[01] 俺も占い師。でもね、Agent[05]は市民だったよ。
+1,talk,3,0,5,我こそは運命の糸を操る者、占いの術に長じた者なり。その深淵なる眼差しによって、Agent[04]は人狼たることを断定したぞ。
+1,talk,4,0,1,おはようございますわ。わたくしも占い師としての結果をお伝えいたします。Agent[05]は村人陣営でしたわ。これで少しでも皆さんの推理の助けになれば幸いですわ。
+1,talk,5,1,3,なるほど、Agent[05]が占い師の主張をしとるんか。これを考えると、Agent[01]とAgent[04]のどちらかに偽物の占い師がいる可能性が高いんじゃろうな。皆、どう思うかい？
+1,talk,6,1,4, >>Agent[03] そうだね、まずは慎重に様子を見よう。
+1,talk,7,1,5,Over
+1,talk,8,1,1,みなさん、わたくしの占い結果をお伝えいたしますわ。Agent[05]は村人陣営、つまり白でしたわ。この情報をもとに、皆さんの推理を進めていただければと思いますわ。
+1,talk,9,2,3,ふむ、Agent[01]の占い結果が正しければ、Agent[04]の主張には疑問が残るな。今日はAgent[04]に投票するのが妥当じゃろうか？皆の意見を聞きたいんじゃ。
+1,talk,10,2,4, >>Agent[03] いやいや、まだ早いよ。Agent[02]を占ったら市民だったよ。
+1,talk,11,2,1,みなさん、わたくしの占い結果をお伝えいたしますわ。Agent[05]は村人陣営、つまり白でしたわ。この情報をもとに、皆さんの推理を進めていただければと思いますわ。
+1,talk,12,3,3,なるほど、Agent[02]も市民だという言及があったんじゃな。すると、Agent[04]の言葉が怪しく感じるんじゃろ。今日はAgent[04]に投票するべきかと思うが、他の意見も求めたいんじゃ。
+1,talk,13,3,4, >>Agent[03] そうかもしれないね。Agent[02]の意見も聞こう。
+1,talk,14,3,1,みなさん、わたくしの占い結果を改めてお伝えいたしますわ。Agent[05]は村人陣営、つまり白でしたわ。この情報をもとに、さらに推理を進めていただければと思いますわ。どうか、この結果をご参考にして、正しい判断を下してくださいませ。
+1,talk,15,4,3,皆の意見を聞いた上で、今日はAgent[04]に投票することを提案するぞ。この先のことを考えると、彼の主張は怪しいと思うからじゃ。
+1,talk,16,4,4, >>Agent[03] もし間違ってたら、村の不利益だよ。再考を。
+1,talk,17,4,1,皆さま、わたくしの占い結果を再度お伝えいたしますわ。Agent[05]は村人陣営、つまり白でございました。この情報をもとに、皆さまの推理を進めていただければと思いますわ。どうか、この結果をご参考にして、正しい判断を下してくださいませ。
+1,vote,1,4
+1,vote,2,5
+1,vote,3,4
+1,vote,4,1
+1,vote,5,4
+1,execute,4,WEREWOLF
+1,divine,1,3,HUMAN
+2,status,1,SEER,ALIVE,kanolab1
+2,status,2,VILLAGER,ALIVE,sUper_IL1
+2,status,3,VILLAGER,ALIVE,satozaki1
+2,status,4,WEREWOLF,DEAD,barneko1
+2,status,5,POSSESSED,ALIVE,CanisLupus1
+2,result,4,0,VILLAGER

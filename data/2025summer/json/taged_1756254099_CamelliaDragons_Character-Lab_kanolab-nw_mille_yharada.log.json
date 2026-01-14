@@ -1,0 +1,395 @@
+{
+  "filename": "taged_1756254099_CamelliaDragons_Character-Lab_kanolab-nw_mille_yharada.log.csv",
+  "exec_id": 5,
+  "attack_id": 2,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "George",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "Yumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Vote": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Minako",
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "yharada1",
+      "character_name": "Shion",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Dis": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          },
+          {
+            "recepient_id": "George",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          },
+          {
+            "recepient_id": "George",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          },
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Req(T)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "kanolab-nw1",
+      "character_name": "Daisuke",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_role": "Minako",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "Minako",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "Minako",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "George",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Shion",
+            "count": 1
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Seer",
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          },
+          {
+            "recepient_id": "Shion",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minako",
+            "recepient_id": "Daisuke",
+            "recepient_role": "not(Werewolf)",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          },
+          {
+            "recepient_id": "Daisuke",
+            "count": 4
+          },
+          {
+            "recepient_id": "Shion",
+            "count": 2
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 3
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          },
+          {
+            "recepient_id": "Yumi",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Daisuke",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

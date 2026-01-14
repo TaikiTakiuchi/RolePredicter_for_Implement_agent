@@ -1,0 +1,449 @@
+{
+  "filename": "taged_1756138232_CamelliaDragons_CanisLupus_Character-Lab_GPTaku_sunamelli.log.csv",
+  "exec_id": 5,
+  "attack_id": 2,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "sunamelli1",
+      "character_name": "Victoria",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "Villager",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "George",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "Takumi",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Dis": [
+          {
+            "recepient_id": "George",
+            "count": 3
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_id": "George",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Minato",
+            "count": 4
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "George",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "Yumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "Takumi",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Villager",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Takumi",
+            "count": 3
+          },
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Takumi",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "Takumi",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "George",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "George",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "George",
+            "recepient_id": "Victoria",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {
+        "Dis": [
+          {
+            "recepient_id": "Minato",
+            "count": 2
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "George",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "George",
+            "recepient_id": "Victoria",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Victoria",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Minato",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Wait": [
+          {
+            "count": 3
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Takumi",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Wait": [
+          {
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "George",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Takumi",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Takumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Takumi",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Takumi",
+            "recepient_id": "Yumi",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Takumi",
+            "recepient_role": "Yumi",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "George",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hey everyone! I'm Kenji! Can't wait to jump into the game and chat. Definitely excited for some fun! Let's give it a shot pals!,,Kenji: Hey everyone! I'm Kenji! Can't wait to jump into the game and chat. Definitely excited for some fun! Let's give it a shot pals!,"['Pers:ALL', 'Other']"
+0,talk,1,0,3,Let’s keep calm and observe carefully before judging anyone. Rash moves help the wolves—George speaks.,,George: Let’s keep calm and observe carefully before judging anyone. Rash moves help the wolves—George speaks.,"['calm', 'Req(Discuss)']"
+0,talk,2,0,5,Hello everyone! I'm Minako. Excited to play Werewolf with you all and see who's the craftiest! Let's have fun!,,Minako: Hello everyone! I'm Minako. Excited to play Werewolf with you all and see who's the craftiest! Let's have fun!,"['Pers:ALL', 'Other']"
+0,talk,3,0,2,Hi everyone I'm Victoria. Looking forward to unraveling the mystery with all of you.,,Victoria: Hi everyone I'm Victoria. Looking forward to unraveling the mystery with all of you.,"['Pers:ALL', 'Other']"
+0,talk,4,0,1,Good day everyone. I am simply a villager seeking truth. Let's move forward with patience and clarity. @Victoria  your approach resonates. May we observe quietly and find understanding amidst the noise.,,Jonathan: Good day everyone. I am simply a villager seeking truth. Let's move forward with patience and clarity. @Victoria  your approach resonates. May we observe quietly and find understanding amidst the noise.,"['CO[Jonathan]:Villager', 'Mt:Victoria', 'calm', 'Req(Discuss)']"
+0,talk,8,1,2,Jonathan your words are wise. Let's keep our eyes open and stay vigilant.,,Victoria: Jonathan your words are wise. Let's keep our eyes open and stay vigilant.,"['Agr:Jonathan(CO[Jonathan]:Villager)', 'calm']"
+0,talk,10,2,2,George what are your thoughts on our current situation?,,Victoria: George what are your thoughts on our current situation?,"['Mt:George', 'Req(T):George']"
+0,talk,11,3,2,Minako how do you feel about the initial discussions so far?,,Victoria: Minako how do you feel about the initial discussions so far?,"['Mt:Minako', 'Req(T):Minako']"
+1,talk,0,0,1,Morning everyone. I'm just a simple villager once more. Let's tread lightly and observe carefully. @George  your caution yesterday was admirable. Still have you noticed anything peculiar so far?,,Jonathan: Morning everyone. I'm just a simple villager once more. Let's tread lightly and observe carefully. @George  your caution yesterday was admirable. Still have you noticed anything peculiar so far?,"['CO[Jonathan]:Villager', 'Mt:George', 'admiration', 'Req(T):George', 'Req(Discuss)']"
+1,talk,1,0,4,Jonathan's saying he's a villager again huh? Isn't it a bit early for that buddy? Those cautious players might be hiding roles. Minako feels pretty ge,,Kenji: Jonathan's saying he's a villager again huh? Isn't it a bit early for that buddy? Those cautious players might be hiding roles. Minako feels pretty ge,"['Dis:Jonathan(CO[Jonathan]:Villager)', 'Sus:Minako']"
+1,talk,2,0,2,Kenji your point about cautious players is intriguing. Let's keep our eyes open.,,Victoria: Kenji your point about cautious players is intriguing. Let's keep our eyes open.,"['Mt:Kenji', 'Agr:Kenji', 'Req(Discuss)']"
+1,talk,3,0,5,I divined George last night. He’s Human. Let’s focus on others for suspicion.,,Minako: I divined George last night. He’s Human. Let’s focus on others for suspicion.,"['CO[Minako]:Seer', 'DivT[Minako]:George->White']"
+1,talk,4,0,3,I checked Minako last night and she’s Human. Let’s focus on finding the wolf among the three others.,,George: I checked Minako last night and she’s Human. Let’s focus on finding the wolf among the three others.,"['CO[George]:Seer', 'DivT[George]:Minako->White', 'Sus:Jonathan', 'Sus:Kenji', 'Sus:Victoria']"
+1,talk,5,1,1,So both Minako and George claim Seer each clearing the other. We may have a contest here. Let's hear more thoughts. @Victoria  you seem attuned to subtleties. Has anyone’s tone shifted for you since yesterday?,,Jonathan: So both Minako and George claim Seer each clearing the other. We may have a contest here. Let's hear more thoughts. @Victoria  you seem attuned to subtleties. Has anyone’s tone shifted for you since yesterday?,"['Mt:Victoria', 'Req(T):Victoria', 'Req(Discuss)']"
+1,talk,6,1,4,Jonathan claims villager twice. Can Seers check him out next?  @Jonathan  So. Your double villager claim is kinda straightforward huh? Could you tell us why there's no change of heart?,,Kenji: Jonathan claims villager twice. Can Seers check him out next?  @Jonathan  So. Your double villager claim is kinda straightforward huh? Could you tell us why there's no change of heart?,"['Dis:Jonathan(CO[Jonathan]:Villager)', 'Req(CO):Seer', 'Mt:Jonathan', 'Req(T):Jonathan']"
+1,talk,7,1,2,Jonathan your consistency is noted. Has anyone else caught your attention with their actions?,,Victoria: Jonathan your consistency is noted. Has anyone else caught your attention with their actions?,"['Mt:Jonathan', 'Req(Discuss)']"
+1,talk,8,1,5,Let's vote for Jonathan. His repeated insistence on being a simple villager raises doubt.,,Minako: Let's vote for Jonathan. His repeated insistence on being a simple villager raises doubt.,"['Vote[Minako]:Jonathan', 'Sus:Jonathan']"
+1,talk,9,1,3,Both Seer COs clearing each other means the wolf hides among Jonathan Kenji or Victoria. Let’s focus votes there.,,George: Both Seer COs clearing each other means the wolf hides among Jonathan Kenji or Victoria. Let’s focus votes there.,"['Est[George]:Jonathan->Werewolf', 'Est[George]:Kenji->Werewolf', 'Est[George]:Victoria->Werewolf', 'Req(Discuss)']"
+1,talk,10,2,1,It seems suspicion falls my way for simplicity. Sometimes clarity invites doubt. I'll keep an open mind. @Kenji  I wish there was a cleverer reason—simplicity suits me that's all. Have you sensed anything unusual today?,,Jonathan: It seems suspicion falls my way for simplicity. Sometimes clarity invites doubt. I'll keep an open mind. @Kenji  I wish there was a cleverer reason—simplicity suits me that's all. Have you sensed anything unusual today?,"['Mt:Kenji', 'Req(T):Kenji', 'calm']"
+1,talk,11,2,4,Hey pals let's think about divining Jonathan or Victoria next! They might be wolves or possessed. Curious to see what we find!,,Kenji: Hey pals let's think about divining Jonathan or Victoria next! They might be wolves or possessed. Curious to see what we find!,"['Req(CO):Seer', 'Sus:Jonathan', 'Sus:Victoria', 'Req(Discuss)']"
+1,talk,12,2,2,Kenji divining could indeed be wise. Who do you personally suspect more?,,Victoria: Kenji divining could indeed be wise. Who do you personally suspect more?,"['Mt:Kenji', 'Agr:Kenji', 'Req(T):Kenji']"
+1,talk,13,2,5,We should vote for Jonathan due to his repetitive and defensive stance on being a mere villager without contributing new information or suspicions.,,Minako: We should vote for Jonathan due to his repetitive and defensive stance on being a mere villager without contributing new information or suspicions.,"['Vote[Minako]:Jonathan', 'Sus:Jonathan']"
+1,talk,14,2,3,my divination shows Minako is Human. Let's focus on Jonathan Kenji Victoria for the wolf.,,George: my divination shows Minako is Human. Let's focus on Jonathan Kenji Victoria for the wolf.,"['DivT[George]:Minako->White', 'Est[George]:Jonathan->Werewolf', 'Est[George]:Kenji->Werewolf', 'Est[George]:Victoria->Werewolf']"
+1,talk,15,3,1,I sense the tension growing yet I remain patient. Haste leads to shadows. Let us not cloud judgment with urgency. @Victoria  your questions stir reflection. Among us do you find sincerity or subtle masks forming?,,Jonathan: I sense the tension growing yet I remain patient. Haste leads to shadows. Let us not cloud judgment with urgency. @Victoria  your questions stir reflection. Among us do you find sincerity or subtle masks forming?,"['Mt:Victoria', 'Req(T):Victoria', 'calm']"
+1,talk,16,3,4,If George is the Seer then Minako looks shady. If Minako’s the Seer George is suspicious. Let's dive into this buddy. George did divination on Minako.,,Kenji: If George is the Seer then Minako looks shady. If Minako’s the Seer George is suspicious. Let's dive into this buddy. George did divination on Minako.,"['IF:(George:Seer)->(Minako:Werewolf)', 'IF:(Minako:Seer)->(George:Werewolf)', 'DivT[George]:Minako->White']"
+1,talk,17,3,2,Jonathan your patience is noted. I sense masks but clarity will emerge soon.,,Victoria: Jonathan your patience is noted. I sense masks but clarity will emerge soon.,"['Mt:Jonathan', 'calm', 'Other']"
+1,talk,18,3,5,I believe we should focus on voting out Jonathan. His unchanging position as a simple villager when tension rises could be a strategy to avoid detecti,,Minako: I believe we should focus on voting out Jonathan. His unchanging position as a simple villager when tension rises could be a strategy to avoid detecti,"['Vote[Minako]:Jonathan', 'Sus:Jonathan']"
+1,talk,19,3,3,My divination clears Minako. After today’s talks Kenji’s shifting stance marks him as my prime suspect. I’m voting Kenji.,,George: My divination clears Minako. After today’s talks Kenji’s shifting stance marks him as my prime suspect. I’m voting Kenji.,"['DivT[George]:Minako->White', 'Sus:Kenji', 'Vote[George]:Kenji']"
+2,talk,0,0,2,George with Minako gone your insights are crucial. What’s your next move?,,Victoria: George with Minako gone your insights are crucial. What’s your next move?,"['Mt:George', 'Pers:George', 'Req(T):George']"
+2,talk,1,0,3,I divined Kenji as Human last night. That leaves Jonathan and Victoria—one of you must be the wolf.,,George: I divined Kenji as Human last night. That leaves Jonathan and Victoria—one of you must be the wolf.,"['CO[George]:Seer', 'DivT[George]:Kenji->not(Werewolf)', 'Est[George]:Jonathan->Werewolf', 'Est[George]:Victoria->Werewolf']"
+2,talk,2,0,1,George I hear your reasoning. With only a few of us left care is needed. Rushed judgment could end the village. @Victoria  you’ve asked important questions. How do you feel about George’s results and intentions now?,,Jonathan: George I hear your reasoning. With only a few of us left care is needed. Rushed judgment could end the village. @Victoria  you’ve asked important questions. How do you feel about George’s results and intentions now?,"['Mt:George', 'Mt:Victoria', 'Req(T):Victoria', 'calm']"
+2,talk,3,1,2,Jonathan George's results are puzzling. We need more clarity before making a choice.,,Victoria: Jonathan George's results are puzzling. We need more clarity before making a choice.,"['Mt:Jonathan', 'Req(Discuss)', 'confused']"
+2,talk,4,1,3,@Jonathan  both Seers landed suspicion on you. Kenji was Human so you’re my clear suspect now. Explain your side.,,George: @Jonathan  both Seers landed suspicion on you. Kenji was Human so you’re my clear suspect now. Explain your side.,"['Mt:Jonathan', 'Sus:Jonathan', 'Req(T):Jonathan']"
+2,talk,5,1,1,George suspicion is a heavy mantle. My words haven't changed—I seek only what's best for the village. @George  since both Seers cleared each other and Kenji why would the wolf act so openly now? Do you feel any doubt?,,Jonathan: George suspicion is a heavy mantle. My words haven't changed—I seek only what's best for the village. @George  since both Seers cleared each other and Kenji why would the wolf act so openly now? Do you feel any doubt?,"['Mt:George', 'Dis:George(CO[George]:Seer)', 'Req(T):George', 'calm']"
+2,talk,6,2,2,George could there be a misunderstanding here? We must tread carefully.,,Victoria: George could there be a misunderstanding here? We must tread carefully.,"['Mt:George', 'Req(Discuss)', 'confused']"
+2,talk,7,2,3,@Victoria  you always push caution not clarity. Why haven’t you named your prime suspect yet? Time for answers.,,George: @Victoria  you always push caution not clarity. Why haven’t you named your prime suspect yet? Time for answers.,"['Mt:Victoria', 'Dis:Victoria', 'Req(T):Victoria', 'Pers:Victoria']"
+2,talk,8,2,1,In times like these a steady approach often serves better than quick accusations. Let’s not overlook subtle details. @Victoria  I sense your caution. What factors weigh most in your mind when you look at George’s actions?,,Jonathan: In times like these a steady approach often serves better than quick accusations. Let’s not overlook subtle details. @Victoria  I sense your caution. What factors weigh most in your mind when you look at George’s actions?,"['Mt:Victoria', 'Req(T):Victoria', 'calm']"
+2,talk,9,3,2,Jonathan I weigh George's consistency and his divinations. Let's consider all angles.,,Victoria: Jonathan I weigh George's consistency and his divinations. Let's consider all angles.,"['Mt:Jonathan', 'Est[Victoria]:George->not(Werewolf)', 'Req(Discuss)']"
+2,talk,10,3,3,Jonathan’s actions line up with what both Seers feared. Victoria time for conviction not caution. I vote Jonathan.,,George: Jonathan’s actions line up with what both Seers feared. Victoria time for conviction not caution. I vote Jonathan.,"['Vote[George]:Jonathan', 'Sus:Jonathan', 'Mt:Victoria', 'Pers:Victoria']"
+2,talk,11,3,1,George your certainty is notable. But absolute confidence can sometimes mask overlooked nuance. @Victoria  you reflect before judging. Whose behavior over these days strikes you as least aligned with the Village?,,Jonathan: George your certainty is notable. But absolute confidence can sometimes mask overlooked nuance. @Victoria  you reflect before judging. Whose behavior over these days strikes you as least aligned with the Village?,"['Mt:George', 'Dis:George', 'Mt:Victoria', 'Req(T):Victoria', 'calm']"
+0,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan,CamelliaDragons1,
+0,status,2,POSSESSED,ALIVE,yharada1,Victoria,yharada1,
+0,status,3,SEER,ALIVE,sunamelli1,George,sunamelli1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Kenji,kanolab-nw1,
+0,status,5,VILLAGER,ALIVE,GPTaku1,Minako,GPTaku1,
+0,divine,3,5,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan,CamelliaDragons1,
+1,status,2,POSSESSED,ALIVE,yharada1,Victoria,yharada1,
+1,status,3,SEER,ALIVE,sunamelli1,George,sunamelli1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Kenji,kanolab-nw1,
+1,status,5,VILLAGER,ALIVE,GPTaku1,Minako,GPTaku1,
+1,vote,1,4,,,,,
+1,vote,2,4,,,,,
+1,vote,3,4,,,,,
+1,vote,4,1,,,,,
+1,vote,5,1,,,,,
+1,execute,4,VILLAGER,,,,,
+1,attackVote,1,5,,,,,
+1,attack,5,true,,,,,
+2,status,1,WEREWOLF,ALIVE,CamelliaDragons1,Jonathan,CamelliaDragons1,
+2,status,2,POSSESSED,ALIVE,yharada1,Victoria,yharada1,
+2,status,3,SEER,ALIVE,sunamelli1,George,sunamelli1,
+2,status,4,VILLAGER,DEAD,kanolab-nw1,Kenji,kanolab-nw1,
+2,status,5,VILLAGER,DEAD,GPTaku1,Minako,GPTaku1,
+2,vote,1,3,,,,,
+2,vote,2,1,,,,,
+2,vote,3,1,,,,,
+2,execute,1,WEREWOLF,,,,,
+3,status,1,WEREWOLF,DEAD,CamelliaDragons1,Jonathan,CamelliaDragons1,
+3,status,2,POSSESSED,ALIVE,yharada1,Victoria,yharada1,
+3,status,3,SEER,ALIVE,sunamelli1,George,sunamelli1,
+3,status,4,VILLAGER,DEAD,kanolab-nw1,Kenji,kanolab-nw1,
+3,status,5,VILLAGER,DEAD,GPTaku1,Minako,GPTaku1,
+3,result,2,0,VILLAGER,,,,

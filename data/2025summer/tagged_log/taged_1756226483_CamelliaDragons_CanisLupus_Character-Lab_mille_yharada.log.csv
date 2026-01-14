@@ -1,0 +1,70 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,I'm Mizuki. I'll keep things straightforward. I'm the Seer. I'll share my results as soon as I have them.,,Mizuki: I'm Mizuki. I'll keep things straightforward. I'm the Seer. I'll share my results as soon as I have them.,['CO[Mizuki]:Seer']
+0,talk,1,0,3,Hello. I am Shion. My role is villager. Have a good game.,,Shion: Hello. I am Shion. My role is villager. Have a good game.,['CO[Shion]:Villager']
+0,talk,2,0,5,@Mizuki  Claiming seer on Day 0 is risky — are you planning to divinate tonight or already have a result? Everyone else  one-line gut read please so we can sort pri,,Servas: @Mizuki  Claiming seer on Day 0 is risky — are you planning to divinate tonight or already have a result? Everyone else  one-line gut read please so we can sort pri,"['Mt:Mizuki', 'Req(CO):Seer', 'Req(Discuss)', 'Dis:Mizuki(CO[Mizuki]:Seer)']"
+0,talk,3,0,1,Skip,,Takumi: Skip,['Wait']
+0,talk,4,0,4,I'm Rin a villager. Mizuki why did you claim Seer so early? Any suspicions?,,Rin: I'm Rin a villager. Mizuki why did you claim Seer so early? Any suspicions?,"['CO[Rin]:Villager', 'Mt:Mizuki', 'Req(T):Mizuki', 'Sus:Mizuki']"
+0,talk,7,1,5,@Rin  That came off defensive — share a one-line read now. If you dodge  I'll lean to voting you over Mizuki. Over,,Servas: @Rin  That came off defensive — share a one-line read now. If you dodge  I'll lean to voting you over Mizuki. Over,"['Mt:Rin', 'Dis:Rin', 'Req(T):Rin', 'Vote[Servas]:Rin']"
+0,talk,9,1,4,I think Mizuki is suspicious for claiming Seer early but I'm not sure yet.,,Rin: I think Mizuki is suspicious for claiming Seer early but I'm not sure yet.,"['Sus:Mizuki', 'difficult']"
+0,talk,10,2,5,@Mizuki  Claiming Seer on Day 0 is dangerous — either show your divination now or expect votes. Others  one quick read so we can decide. Over,,Servas: @Mizuki  Claiming Seer on Day 0 is dangerous — either show your divination now or expect votes. Others  one quick read so we can decide. Over,"['Mt:Mizuki', 'Dis:Mizuki(CO[Mizuki]:Seer)', 'Req(CO):Seer', 'Req(Discuss)', 'Vote[Servas]:Mizuki']"
+0,talk,11,2,4,Servas what do you think about Shion and Takumi? They’ve been quiet.,,Rin: Servas what do you think about Shion and Takumi? They’ve been quiet.,"['Mt:Servas', 'Req(T):Servas', 'Sus:Shion', 'Sus:Takumi']"
+0,talk,12,3,5,@Takumi  Your silence is telling — speak up or you'll get my vote. Shion's quietness is soft  but I'd rather test a silent player today than lynch Mizuki without p,,Servas: @Takumi  Your silence is telling — speak up or you'll get my vote. Shion's quietness is soft  but I'd rather test a silent player today than lynch Mizuki without p,"['Mt:Takumi', 'Req(T):Takumi', 'Vote[Servas]:Takumi', 'Sus:Takumi', 'Sus:Shion']"
+0,talk,13,3,4,Takumi please share your thoughts! We need everyone's input to decide.,,Rin: Takumi please share your thoughts! We need everyone's input to decide.,[]
+1,talk,0,0,3,I will vote Takumi.,,Shion: I will vote Takumi.,['Vote[Shion]:Takumi']
+1,talk,1,0,4,Takumi we need to hear from you. Any thoughts after last night?,,Rin: Takumi we need to hear from you. Any thoughts after last night?,"['Mt:Takumi', 'Req(T):Takumi']"
+1,talk,2,0,1,I am Seer. Last night I see Rin. Rin is wolf. Hunt Rin.,,Takumi: I am Seer. Last night I see Rin. Rin is wolf. Hunt Rin.,"['CO[Takumi]:Seer', 'DivT[Takumi]:Rin->Werewolf', 'Req(V):Rin', 'Pers:ALL']"
+1,talk,3,0,5,@Takumi  Two seer claims can't both be real. Show proof of your divination or you're lying — you popped up out of nowhere. I'm leaning to vote you instead of Rin. O,,Servas: @Takumi  Two seer claims can't both be real. Show proof of your divination or you're lying — you popped up out of nowhere. I'm leaning to vote you instead of Rin. O,"['Mt:Takumi', 'Dis:Takumi(CO[Takumi]:Seer)', 'Req(CO):Seer', 'Sus:Takumi']"
+1,talk,4,0,2,I am the real Seer. Last night I divined Servas as Werewolf. There's only one Seer. Takumi is lying. @Takumi  your last-minute Seer claim is a clear fabrication. Only one Seer exists and that's me.,,Mizuki: I am the real Seer. Last night I divined Servas as Werewolf. There's only one Seer. Takumi is lying. @Takumi  your last-minute Seer claim is a clear fabrication. Only one Seer exists and that's me.,"['CO[Mizuki]:Seer', 'DivT[Mizuki]:Servas->Werewolf', 'Dis:Takumi(CO[Takumi]:Seer)']"
+1,talk,6,1,4,Takumi you're lying! I'm not a wolf. Mizuki's claim makes more sense.,,Rin: Takumi you're lying! I'm not a wolf. Mizuki's claim makes more sense.,"['Dis:Takumi(CO[Takumi]:Seer)', 'Fact[Rin]:Rin->not(Werewolf)', 'Agr:Mizuki']"
+1,talk,7,1,1,Mizuki is a loud lie. I saw Rin. She is wolf. Trust my hunt.,,Takumi: Mizuki is a loud lie. I saw Rin. She is wolf. Trust my hunt.,"['Dis:Mizuki(CO[Mizuki]:Seer)', 'DivT[Takumi]:Rin->Werewolf', 'Pers:ALL']"
+1,talk,8,1,5,That sudden seer claim smells off.  @Takumi  explain how you divined Rin — method  time  anything — or you're sus. I'll vote you unless you give something convincing. Over,,Servas: That sudden seer claim smells off.  @Takumi  explain how you divined Rin — method  time  anything — or you're sus. I'll vote you unless you give something convincing. Over,"['Mt:Takumi', 'Req(CO):Seer', 'Req(T):Takumi', 'Sus:Takumi', 'Vote[Servas]:Takumi']"
+1,talk,9,1,2,Servas is confirmed Werewolf by my divination. Town let's stand together and vote Servas today. It's the logical choice. @Servas  you pushed early for votes against others but never showed your own claim. Typical wolf evasion. Come clean.,,Mizuki: Servas is confirmed Werewolf by my divination. Town let's stand together and vote Servas today. It's the logical choice. @Servas  you pushed early for votes against others but never showed your own claim. Typical wolf evasion. Come clean.,"['DivT[Mizuki]:Servas->Werewolf', 'Req(V):Servas', 'Mt:Servas', 'Dis:Servas', 'Pers:ALL']"
+1,talk,10,2,4,Mizuki's claim seems stronger so I'll trust her and vote for Servas.,,Rin: Mizuki's claim seems stronger so I'll trust her and vote for Servas.,"['Agr:Mizuki', 'Vote[Rin]:Servas']"
+1,talk,11,2,1,Mizuki panicked. Lied. Servas is not wolf. I saw Rin. Hunt Rin.,,Takumi: Mizuki panicked. Lied. Servas is not wolf. I saw Rin. Hunt Rin.,"['Dis:Mizuki(CO[Mizuki]:Seer)', 'Fact[Takumi]:Servas->not(Werewolf)', 'DivT[Takumi]:Rin->Werewolf', 'Req(V):Rin']"
+1,talk,12,2,5,@Takumi  Your sudden seer claim and instant accusation of Rin feels manufactured. Say exactly when and how you divined  and the exact phrasing of your result — n,,Servas: @Takumi  Your sudden seer claim and instant accusation of Rin feels manufactured. Say exactly when and how you divined  and the exact phrasing of your result — n,"['Mt:Takumi', 'Req(CO):Seer', 'Req(T):Takumi', 'Dis:Takumi(CO[Takumi]:Seer)', 'Sus:Takumi']"
+1,talk,13,2,2,Takumi's claim is inconsistent and reactionary. Only one Seer is possible. Servas is the Werewolf; the facts are clear. @Shion  your early vote for Takumi is noted but Servas is the true threat. My divination is unequivocal.,,Mizuki: Takumi's claim is inconsistent and reactionary. Only one Seer is possible. Servas is the Werewolf; the facts are clear. @Shion  your early vote for Takumi is noted but Servas is the true threat. My divination is unequivocal.,"['Dis:Takumi(CO[Takumi]:Seer)', 'DivT[Mizuki]:Servas->Werewolf', 'Mt:Shion', 'Dis:Shion(Vote[Shion]:Takumi)', 'Req(V):Servas']"
+1,talk,14,3,4,Takumi your story keeps changing. Mizuki's claim makes more sense so I'll vote Servas.,,Rin: Takumi your story keeps changing. Mizuki's claim makes more sense so I'll vote Servas.,"['Dis:Takumi(CO[Takumi]:Seer)', 'Agr:Mizuki', 'Vote[Rin]:Servas']"
+1,talk,15,3,1,My vote is Rin. Mizuki protects Rin. They are a pack. Hunt the wolf. Hunt Rin.,,Takumi: My vote is Rin. Mizuki protects Rin. They are a pack. Hunt the wolf. Hunt Rin.,"['Vote[Takumi]:Rin', 'Est[Takumi]:Mizuki->Werewolf', 'Req(V):Rin']"
+1,talk,16,3,5,@Takumi  Post the exact time you divined and the exact wording of the result. If you can’t  I’ll vote you. Over,,Servas: @Takumi  Post the exact time you divined and the exact wording of the result. If you can’t  I’ll vote you. Over,"['Mt:Takumi', 'Req(CO):Seer', 'Req(T):Takumi', 'Vote[Servas]:Takumi', 'Sus:Takumi']"
+1,talk,17,3,2,Servas pressured all day no claim only deflects. His pattern fits my divined Werewolf. Vote Servas. @Shion  your vote on Takumi is hasty. If you trust my Seer claim Servas is the clear Werewolf. Please reconsider.,,Mizuki: Servas pressured all day no claim only deflects. His pattern fits my divined Werewolf. Vote Servas. @Shion  your vote on Takumi is hasty. If you trust my Seer claim Servas is the clear Werewolf. Please reconsider.,"['Dis:Servas', 'DivT[Mizuki]:Servas->Werewolf', 'Req(V):Servas', 'Mt:Shion', 'Dis:Shion(Vote[Shion]:Takumi)']"
+2,talk,0,0,3,I will vote Rin.,,Shion: I will vote Rin.,['Vote[Shion]:Rin']
+2,talk,1,0,5,Three of us left — don't rush. Shion  your silence and that quick vote earlier looked suspicious; explain your reasoning now.  @Rin  If you're the seer  reveal your check; otherwise give your final read. I’m leaning to vote Shion to avoid a random lynch. Over,,Servas: Three of us left — don't rush. Shion  your silence and that quick vote earlier looked suspicious; explain your reasoning now.  @Rin  If you're the seer  reveal your check; otherwise give your final read. I’m leaning to vote Shion to avoid a random lynch. Over,"['calm', 'Mt:Shion', 'Sus:Shion', 'Req(T):Shion', 'Mt:Rin', 'Req(CO):Seer', 'Vote[Servas]:Shion']"
+2,talk,2,0,4,I'm not the Seer but I think Shion's quick vote is suspicious. Let's discuss.,,Rin: I'm not the Seer but I think Shion's quick vote is suspicious. Let's discuss.,"['CO[Rin]:not(Seer)', 'Sus:Shion', 'Req(Discuss)']"
+2,talk,4,1,5,Let's be calm — only three of us left.  @Rin  If you're the seer  show your check or name who to trust now. Shion's quick vote on Takumi and then silence looks wolfy to me. I'll vote Shion unless Rin gi,,Servas: Let's be calm — only three of us left.  @Rin  If you're the seer  show your check or name who to trust now. Shion's quick vote on Takumi and then silence looks wolfy to me. I'll vote Shion unless Rin gi,"['calm', 'Mt:Rin', 'Req(CO):Seer', 'Sus:Shion', 'Vote[Servas]:Shion']"
+2,talk,5,1,4,I'm not the Seer but I agree with Servas. Shion's actions feel suspicious.,,Rin: I'm not the Seer but I agree with Servas. Shion's actions feel suspicious.,"['CO[Rin]:not(Seer)', 'Agr:Servas', 'Sus:Shion']"
+2,talk,6,2,5,Only three of us left.  @Rin  If you're the seer  show your check or name who to trust now — no vague answers. Shion's silence isn't helping  but I can't gamble; I'll vote Rin unless you,,Servas: Only three of us left.  @Rin  If you're the seer  show your check or name who to trust now — no vague answers. Shion's silence isn't helping  but I can't gamble; I'll vote Rin unless you,"['Mt:Rin', 'Req(CO):Seer', 'Sus:Shion', 'Vote[Servas]:Rin']"
+2,talk,7,2,4,I promise I'm just a villager Servas. Shion's silence is strange though.,,Rin: I promise I'm just a villager Servas. Shion's silence is strange though.,"['CO[Rin]:Villager', 'Mt:Servas', 'Sus:Shion']"
+2,talk,8,3,5,Only three left — we need concrete info.  @Rin  If you’re the seer  state exactly who you checked and the result now. Shion  your silence is suspicious too; speak up. I’ll vote Rin if no solid answer. Ov,,Servas: Only three left — we need concrete info.  @Rin  If you’re the seer  state exactly who you checked and the result now. Shion  your silence is suspicious too; speak up. I’ll vote Rin if no solid answer. Ov,"['Mt:Rin', 'Req(CO):Seer', 'Mt:Shion', 'Sus:Shion', 'Vote[Servas]:Rin']"
+2,talk,9,3,4,I'm not the Seer just a villager. Shion please share your thoughts!,,Rin: I'm not the Seer just a villager. Shion please share your thoughts!,"['CO[Rin]:Villager', 'Req(T):Shion', 'Mt:Shion']"
+0,status,1,POSSESSED,ALIVE,CanisLupus1,Takumi,CanisLupus1,
+0,status,2,SEER,ALIVE,CamelliaDragons1,Mizuki,CamelliaDragons1,
+0,status,3,VILLAGER,ALIVE,mille1,Shion,mille1,
+0,status,4,VILLAGER,ALIVE,yharada1,Rin,yharada1,
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas,Character-Lab1,
+0,divine,2,5,WEREWOLF,,,,
+1,status,1,POSSESSED,ALIVE,CanisLupus1,Takumi,CanisLupus1,
+1,status,2,SEER,ALIVE,CamelliaDragons1,Mizuki,CamelliaDragons1,
+1,status,3,VILLAGER,ALIVE,mille1,Shion,mille1,
+1,status,4,VILLAGER,ALIVE,yharada1,Rin,yharada1,
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas,Character-Lab1,
+1,vote,1,4,,,,,
+1,vote,2,5,,,,,
+1,vote,3,2,,,,,
+1,vote,4,2,,,,,
+1,execute,2,SEER,,,,,
+1,attackVote,5,1,,,,,
+1,attack,1,true,,,,,
+2,status,1,POSSESSED,DEAD,CanisLupus1,Takumi,CanisLupus1,
+2,status,2,SEER,DEAD,CamelliaDragons1,Mizuki,CamelliaDragons1,
+2,status,3,VILLAGER,ALIVE,mille1,Shion,mille1,
+2,status,4,VILLAGER,ALIVE,yharada1,Rin,yharada1,
+2,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas,Character-Lab1,
+2,vote,3,4,,,,,
+2,vote,4,3,,,,,
+2,execute,4,VILLAGER,,,,,
+3,status,1,POSSESSED,DEAD,CanisLupus1,Takumi,CanisLupus1,
+3,status,2,SEER,DEAD,CamelliaDragons1,Mizuki,CamelliaDragons1,
+3,status,3,VILLAGER,ALIVE,mille1,Shion,mille1,
+3,status,4,VILLAGER,DEAD,yharada1,Rin,yharada1,
+3,status,5,WEREWOLF,ALIVE,Character-Lab1,Servas,Character-Lab1,
+3,result,1,1,WEREWOLF,,,,

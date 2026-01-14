@@ -1,0 +1,52 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,Hello. I am Benjamin. My role is seer. Have a good game.,,Benjamin: Hello. I am Benjamin. My role is seer. Have a good game.,"['CO[Benjamin]:Seer', 'Other']"
+0,talk,1,0,1,Hey there silly gooses! I'm Mio and super pumped to play with you all. Let's rock this game and have epic chats okay?,,Mio: Hey there silly gooses! I'm Mio and super pumped to play with you all. Let's rock this game and have epic chats okay?,"['admiration', 'Other']"
+0,talk,2,0,4,Hello everyone, I'm Midori ready to howl and play! Can't wait to start this mysterious adventure with you all. Let's have fun!,Midori: Hello everyone,['Other']
+0,talk,3,0,2,Hi Benjamin  you said you're the seer.  @Benjamin  could you tell us your divination result? I'm still learning about roles so I want to understand. Midori  Mio — do you believe him or have any suspicions,,Minato: Hi Benjamin  you said you're the seer.  @Benjamin  could you tell us your divination result? I'm still learning about roles so I want to understand. Midori  Mio — do you believe him or have any suspicions,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):Seer', 'Req(T):Midori', 'Req(T):Mio', 'confused']"
+0,talk,4,0,3,Hi everyone. I'm Daisuke. Let's work together and try to figure things out slowly.,,Daisuke: Hi everyone. I'm Daisuke. Let's work together and try to figure things out slowly.,"['Req(Discuss)', 'calm', 'Other']"
+0,talk,8,1,2,@Benjamin  You said you're the seer — who did you check and what was the result? Please tell us so we can trust your claim. Over,,Minato: @Benjamin  You said you're the seer — who did you check and what was the result? Please tell us so we can trust your claim. Over,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):Seer']"
+0,talk,9,1,3,I'm curious too Benjamin. Can you share your findings with us? It might help.,,Daisuke: I'm curious too Benjamin. Can you share your findings with us? It might help.,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):Seer', 'calm']"
+0,talk,10,2,2,@Benjamin  Please tell us who you divined and what the result was — I'm still not sure who to trust. Daisuke seemed calm too; does anyone else find that odd? Over,,Minato: @Benjamin  Please tell us who you divined and what the result was — I'm still not sure who to trust. Daisuke seemed calm too; does anyone else find that odd? Over,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):Seer', 'Req(Discuss)', 'Sus:Daisuke']"
+0,talk,11,2,3,I understand the concern Minato. I'm just trying to stay calm and help us all.,,Daisuke: I understand the concern Minato. I'm just trying to stay calm and help us all.,"['Mt:Minato', 'calm', 'Other']"
+0,talk,12,3,2,@Benjamin  please reveal your divination result now — we really need info. Daisuke's calmness makes me a little suspicious. Midori Mio  what do you think? I'm onl,,Minato: @Benjamin  please reveal your divination result now — we really need info. Daisuke's calmness makes me a little suspicious. Midori Mio  what do you think? I'm onl,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(CO):Seer', 'Sus:Daisuke', 'Req(T):Midori', 'Req(T):Mio', 'Req(Discuss)']"
+0,talk,13,3,3,I understand Minato. I'm just trying to be helpful. Let's wait for Benjamin's info.,,Daisuke: I understand Minato. I'm just trying to be helpful. Let's wait for Benjamin's info.,"['Mt:Minato', 'calm', 'Req(T):Benjamin', 'Other']"
+1,talk,0,0,3,Good morning everyone. How are we feeling? Any thoughts on what Benjamin shared?,,Daisuke: Good morning everyone. How are we feeling? Any thoughts on what Benjamin shared?,"['Req(Discuss)', 'calm']"
+1,talk,1,0,5,I am a seer. I divined Minato and Minato was a human.,,Benjamin: I am a seer. I divined Minato and Minato was a human.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Minato->White']"
+1,talk,2,0,4,I need to share that I am the actual Seer and I divined Benjamin who turned out to be a Werewolf. Please consider this.,,Midori: I need to share that I am the actual Seer and I divined Benjamin who turned out to be a Werewolf. Please consider this.,"['CO[Midori]:Seer', 'DivT[Midori]:Benjamin->Black', 'Pers:ALL']"
+1,talk,3,0,1,Hey BFF listen up! I'm the real Seer! I divined Benjamin and guess what? He's Human! We've gotta rethink what Midori said and hunt for that pesky Werewo,,Mio: Hey BFF listen up! I'm the real Seer! I divined Benjamin and guess what? He's Human! We've gotta rethink what Midori said and hunt for that pesky Werewo,"['CO[Mio]:Seer', 'DivT[Mio]:Benjamin->White', 'Dis:Midori(CO[Midori]:Seer)']"
+1,talk,4,0,2,I'm really confused.  @Benjamin  you said you divined me as human — when did you check and could you be sure? Midori and Mio both claim seer but they say opposite things about you. Midori  M,,Minato: I'm really confused.  @Benjamin  you said you divined me as human — when did you check and could you be sure? Midori and Mio both claim seer but they say opposite things about you. Midori  M,"['Mt:Benjamin', 'Req(T):Benjamin', 'confused', 'Sus:Midori', 'Sus:Mio']"
+1,talk,5,1,3,This is really confusing. Can we discuss more to find out who's telling the truth?,,Daisuke: This is really confusing. Can we discuss more to find out who's telling the truth?,"['Req(Discuss)', 'confused']"
+1,talk,6,1,5,I will vote Midori.,,Benjamin: I will vote Midori.,['Vote[Benjamin]:Midori']
+1,talk,7,1,4,I insist my vision was clear. Benjamin is the Werewolf. Trust in my divination is crucial for our victory.,,Midori: I insist my vision was clear. Benjamin is the Werewolf. Trust in my divination is crucial for our victory.,"['DivT[Midori]:Benjamin->Black', 'Pers:ALL']"
+1,talk,8,1,1,Midori's all talk without any proof feels kinda shady! Let's dive into her chatter and see if there's a clue to her true role!,,Mio: Midori's all talk without any proof feels kinda shady! Let's dive into her chatter and see if there's a clue to her true role!,"['Dis:Midori', 'Req(Discuss)']"
+1,talk,9,1,2,I'm really confused.  @Midori  when exactly did you divinate Benjamin? Benjamin and Mio say he's human  so your result doesn't fit — can you explain the timing or why you trust your vis,,Minato: I'm really confused.  @Midori  when exactly did you divinate Benjamin? Benjamin and Mio say he's human  so your result doesn't fit — can you explain the timing or why you trust your vis,"['Mt:Midori', 'Req(T):Midori', 'confused', 'Sus:Midori']"
+1,talk,10,2,3,Midori can you explain more? We're trying to figure out who to believe here.,,Daisuke: Midori can you explain more? We're trying to figure out who to believe here.,"['Mt:Midori', 'Req(T):Midori', 'Req(Discuss)']"
+1,talk,12,2,4,My divination was precise; Benjamin is not what he claims. My role and my results are sincere. Trust is essential to win this game.,,Midori: My divination was precise; Benjamin is not what he claims. My role and my results are sincere. Trust is essential to win this game.,"['DivT[Midori]:Benjamin->Black', 'Dis:Benjamin(CO[Benjamin]:Seer)', 'Pers:ALL']"
+1,talk,13,2,1,Minato. Let's hit those logic gears. Two seers? No way! One's fibbing right?  @Daisuke . Maybe Midori's just bluffing? Keep an eye on her!,,Mio: Minato. Let's hit those logic gears. Two seers? No way! One's fibbing right?  @Daisuke . Maybe Midori's just bluffing? Keep an eye on her!,"['Mt:Minato', 'Mt:Daisuke', 'Dis:Midori(CO[Midori]:Seer)', 'Sus:Midori', 'Req(Discuss)']"
+1,talk,14,2,2,Good morning. I'm worried because more than one person claimed seer earlier.  @Benjamin  could you explain when you did your check and who you checked? I want to understand before we vote. Over,,Minato: Good morning. I'm worried because more than one person claimed seer earlier.  @Benjamin  could you explain when you did your check and who you checked? I want to understand before we vote. Over,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(Discuss)']"
+1,talk,15,3,3,This is getting intense. We need more clarity to avoid making a wrong decision.,,Daisuke: This is getting intense. We need more clarity to avoid making a wrong decision.,"['Req(Discuss)', 'difficult']"
+1,talk,16,3,4,Remain alert. I must stress the importance of my divination - it's crucial to identify the correct threat. Benjamin as Werewolf aligns with my findin,,Midori: Remain alert. I must stress the importance of my divination - it's crucial to identify the correct threat. Benjamin as Werewolf aligns with my findin,"['DivT[Midori]:Benjamin->Black', 'Pers:ALL']"
+1,talk,17,3,1,Hey BFF! Like if Benjamin's really human then why's he trying so hard to sway votes against Midori? Total werewolf panic right?,,Mio: Hey BFF! Like if Benjamin's really human then why's he trying so hard to sway votes against Midori? Total werewolf panic right?,"['Sus:Benjamin', 'Dis:Benjamin(CO[Benjamin]:Seer)', 'Req(Discuss)']"
+1,talk,18,3,2,Good morning everyone. Did anyone get attacked last night?  @Daisuke  you seemed very calm before — can you share who you trust or what you think we should do today? Midori Mio Benjamin — any role claims or suspicions? I'm no,,Minato: Good morning everyone. Did anyone get attacked last night?  @Daisuke  you seemed very calm before — can you share who you trust or what you think we should do today? Midori Mio Benjamin — any role claims or suspicions? I'm no,"['Req(Discuss)', 'Mt:Daisuke', 'Req(T):Daisuke']"
+0,status,1,SEER,ALIVE,kanolab-nw1,Mio,kanolab-nw1,
+0,status,2,VILLAGER,ALIVE,Character-Lab1,Minato,Character-Lab1,
+0,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+0,status,4,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+0,status,5,POSSESSED,ALIVE,mille1,Benjamin,mille1,
+0,divine,1,5,HUMAN,,,,
+1,status,1,SEER,ALIVE,kanolab-nw1,Mio,kanolab-nw1,
+1,status,2,VILLAGER,ALIVE,Character-Lab1,Minato,Character-Lab1,
+1,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+1,status,4,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+1,status,5,POSSESSED,ALIVE,mille1,Benjamin,mille1,
+1,vote,1,4,,,,,
+1,vote,3,2,,,,,
+1,vote,4,5,,,,,
+1,vote,5,4,,,,,
+1,execute,4,WEREWOLF,,,,,
+2,status,1,SEER,ALIVE,kanolab-nw1,Mio,kanolab-nw1,
+2,status,2,VILLAGER,ALIVE,Character-Lab1,Minato,Character-Lab1,
+2,status,3,VILLAGER,ALIVE,yharada1,Daisuke,yharada1,
+2,status,4,WEREWOLF,DEAD,GPTaku1,Midori,GPTaku1,
+2,status,5,POSSESSED,ALIVE,mille1,Benjamin,mille1,
+2,result,4,0,VILLAGER,,,,

@@ -1,0 +1,79 @@
+0,status,1,POSSESSED,ALIVE,Mille1
+0,status,2,SEER,ALIVE,satozaki1
+0,status,3,VILLAGER,ALIVE,barneko1
+0,status,4,VILLAGER,ALIVE,sUper_IL1
+0,status,5,WEREWOLF,ALIVE,CanisLupus1
+0,talk,0,0,3,Over
+0,talk,1,0,4,初めまして、Agent[04]です。どうぞよろしくお願いします。
+0,talk,2,0,1,ぼくはAgent[01]、占い師ですよぅ！よろしくですよぅ！
+0,talk,3,0,2,皆さん初めまして、Agent[02]やで。人狼ゲームを一緒に楽しみましょう。よろしくお願いします！
+0,talk,4,0,5,我が名はAgent[05]、運命の糸により汝と邂逅せしは、まさに宿命の導きなり。
+0,talk,5,1,4,Over
+0,talk,6,1,1,Over
+0,talk,7,1,2,Over
+0,talk,8,1,5,Over
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,Mille1
+1,status,2,SEER,ALIVE,satozaki1
+1,status,3,VILLAGER,ALIVE,barneko1
+1,status,4,VILLAGER,ALIVE,sUper_IL1
+1,status,5,WEREWOLF,ALIVE,CanisLupus1
+1,talk,0,0,2,俺は占い師やで。占いの結果、Agent[05]は人狼やった。
+1,talk,1,0,3, >>Agent[04] 役職ある？情報が欲しいんだ。
+1,talk,2,0,1,ぼくは占い師ですよぅ！ぼくが占った結果、Agent[05]は人間でしたよぅ！
+1,talk,3,0,5,我こそは運命の糸を操る者、占いの導き手なり。深淵なる予言の鏡が示すは、Agent[04]、汝こそ人狼の烙印を押されし者なり。
+1,talk,4,0,4,皆さん、私は村人です。怪しい点や矛盾した点について話し合い、人狼を暴いていきましょう。
+1,talk,5,1,2,まず、Agent[01]が占い師を名乗る理由や、Agent[05]の言っていることに対する反論を考えたいねん。どちらも怪しい情報を持ってるみたいやな。
+1,talk,6,1,3, >>Agent[04] 誰の占い師主張を信頼できそう？教えて。
+1,talk,7,1,1,実は、Agent[05]の言っていることは、占い師の情報を元にした嘘に基づく発言ですよぅ！
+1,talk,8,1,5,Agent[01]はAgent[05]を人間と見做し、Agent[02]はAgent[05]を人狼と断定、更にはAgent[05]はAgent[04]を人狼と断じたり。嗚呼、深淵なる占い師の真実。真なる予言者と狂乱の化身、いずれかであろう。故に、人狼の烙印を押されたAgent[05]に投票せねばならぬ。
+1,talk,9,1,4,私は村人です。Agent[05]の発言は疑わしいと思います。Agent[03]は私に情報を求めていますが、他の人の発言も注視したいです。信頼できる占い師を見極めるために、みんなの意見を聞かせてください。
+1,talk,10,2,2,まず、Agent[01]とAgent[05]の情報は正反対やねん。特にAgent[01]の主張は、信じるに足らんと思うから、今日はAgent[01]に投票するで。
+1,talk,11,2,3, >>Agent[02] そうだね、Agent[01]に疑念あるね。みんなは？
+1,talk,12,2,1,Over
+1,talk,13,2,5,我はAgent[01]に投票せん。Agent[01]は我を人間と断定せしとは言うものの、Agent[02]は我を人狼と断じている。この矛盾は、Agent[01]の占い師としての真偽を疑わせる。深淵なる闇に真実を隠している可能性が高いであろう。
+1,talk,14,2,4,みんな、Agent[05]の発言には矛盾があると思います。彼の主張が真実なら、Agent[01]もAgent[02]も嘘をついていることになります。投票するなら、Agent[05]が怪しいんじゃないかな？
+1,talk,15,3,2,>>Agent[01] まだ投票先を宣言してへんようやけど、誰に投票しようと考えてるんや？
+1,talk,16,3,3,>>Agent[04] 確かに、Agent[05]に矛盾あるよね。みんなの意見も聞きたい。
+1,talk,17,3,5,我はAgent[01]に投票せん。Agent[01]は占い師を名乗り、Agent[05]を人間と断定した。然し、Agent[02]はAgent[05]を人狼と断定した。この矛盾は、Agent[01]の占い師としての真偽を疑わせる。深淵なる闇に真実を隠している可能性が高いであろう。
+1,talk,18,3,4,皆さん、まずAgent[01]の情報に疑念を持っている人が多いですね。Agent[02]の意見に賛成します。今日の投票はAgent[01]にしましょう。
+1,talk,19,4,2,みんなの意見を聞いて、今日の投票はAgent[01]に決まったな。これで少しでも人狼に近づけることを願ってるで。投票はAgent[01]にするで。
+1,talk,20,4,3,>>Agent[02] 投票了解！Agent[01]にしよう。みんなも賛成？
+1,talk,21,4,5,Over
+1,talk,22,4,4,Over
+1,vote,1,2
+1,vote,2,1
+1,vote,3,2
+1,vote,4,5
+1,vote,5,1
+1,execute,2,SEER
+1,attackVote,5,1
+1,attack,1,true
+2,status,1,POSSESSED,DEAD,Mille1
+2,status,2,SEER,DEAD,satozaki1
+2,status,3,VILLAGER,ALIVE,barneko1
+2,status,4,VILLAGER,ALIVE,sUper_IL1
+2,status,5,WEREWOLF,ALIVE,CanisLupus1
+2,talk,0,0,4,Over
+2,talk,1,0,3, >>Agent[04] OK、今日の投票はAgent[01]にします。団結！
+2,talk,2,0,5,我こそは人狼なり。狂人たる者は、今こそ我が手に寄り添い、残りの愚かなる人間どもを断罪せんとするがよい。
+2,talk,3,1,3, >>Agent[05] 君が人狼？それならAgent[01]投票で確定ですね。
+2,talk,4,1,5,我に情報を求めるか。然し、Agent[01]とAgent[02]の予言師の主張は、まるで夜空に輝く双星の如く、互いに矛盾するものであり、今宵の段階では真偽の程を断定することは叶わぬであろう。
+2,talk,5,2,3,>>Agent[04] 同意。Agent[01]に投票しよう！団結しよう。
+2,talk,6,2,5,Agent[01]とAgent[02]の対照的な予言、実に興味深い。我が知覚は、Agent[05]の運命を、混沌の渦中に見出す。どちらかの予言に固執するとは、奈落の淵を覗くが如し。危険な賭けであることは、明らかであろう。
+2,talk,7,3,3,>>Agent[04] 団結してAgent[01]に投票しよう、みんなでね！
+2,talk,8,3,5,Agent[01]とAgent[02]の占師の主張は、まさに混沌たる夜空に煌く双星の如く、相容れないものなり。今宵の我々には、その真偽を断定する術は無いであろう。
+2,talk,9,4,3, >>Agent[04] Agent[05]が混乱してるね。やっぱりAgent[01]投票で！
+2,talk,10,4,5,Agent[01]とAgent[02]の主張は、まさに混沌たる螺旋の如く、互いに矛盾し、真実の所在は霧の中に消え失せるかの如し。Agent[01]の主張には、幾ばくかの違和感を感じざるを得ない。Agent[05]はAgent[04]を人狼と断定したようだが、それは誤った認識であろう。Agent[04]の行動には、人狼の影は見当たらない。
+2,vote,3,4
+2,vote,4,5
+2,vote,5,4
+2,execute,4,VILLAGER
+2,attackVote,5,3
+2,attack,3,true
+3,status,1,POSSESSED,,Mille1
+3,status,2,SEER,DEAD,satozaki1
+3,status,3,VILLAGER,DEAD,barneko1
+3,status,4,VILLAGER,DEAD,sUper_IL1
+3,status,5,WEREWOLF,ALIVE,CanisLupus1
+3,result,0,1,WEREWOLF

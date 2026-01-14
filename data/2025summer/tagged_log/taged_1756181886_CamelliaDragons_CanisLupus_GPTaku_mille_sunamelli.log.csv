@@ -1,0 +1,49 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hey everyone glad to see some real competition. Let’s see who cracks under pressure and who’s ready to win.,,Takumi: Hey everyone glad to see some real competition. Let’s see who cracks under pressure and who’s ready to win.,['Other']
+0,talk,1,0,1,Hello everyone! I'm Minako excited to hunt some secrets with you all. Let's have fun!,,Minako: Hello everyone! I'm Minako excited to hunt some secrets with you all. Let's have fun!,['Other']
+0,talk,2,0,2,Hi friends I'm Rin! I can't wait to start solving mysteries with you all! It's like a huge puzzle don't you think? @Takumi  you sound super confident! What do you think makes someone crack under pressure in this game?,,Rin: Hi friends I'm Rin! I can't wait to start solving mysteries with you all! It's like a huge puzzle don't you think? @Takumi  you sound super confident! What do you think makes someone crack under pressure in this game?,"['Mt:Takumi', 'Req(T):Takumi', 'Req(Discuss)']"
+0,talk,3,0,3,I'm Sakura! Let's all be friends and find the bad guys,,Sakura: I'm Sakura! Let's all be friends and find the bad guys,['Req(Discuss)']
+0,talk,4,0,5,Hello. I am George. My role is seer. Have a good game.,,George: Hello. I am George. My role is seer. Have a good game.,['CO[George]:Seer']
+1,talk,0,0,1,Thanks George! Let's all work together and keep the game fair and fun.,,Minako: Thanks George! Let's all work together and keep the game fair and fun.,"['Mt:George', 'Pers:ALL', 'calm']"
+1,talk,1,0,4,@George  you came out as Seer pretty fast. Can you share your divination result so we know what you’ve found?,,Takumi: @George  you came out as Seer pretty fast. Can you share your divination result so we know what you’ve found?,"['Mt:George', 'Req(CO):Seer', 'Req(T):George']"
+1,talk,2,0,3,Takumi is right!  @George  we need your super secret info to find the wolves! Tell us,,Sakura: Takumi is right!  @George  we need your super secret info to find the wolves! Tell us,"['Agr:Takumi', 'Mt:George', 'Req(CO):Seer', 'Req(T):George']"
+1,talk,3,0,5,I am a seer. I divined Sakura and Sakura was a human.,,George: I am a seer. I divined Sakura and Sakura was a human.,"['CO[George]:Seer', 'DivT[George]:Sakura->White']"
+1,talk,4,0,2,Yay a seer result already! So Sakura is safe that's a good start! Let's all share our thoughts okay? @George  you picked Sakura for your first check! Was there a reason or was it just random luck like picking the last cookie?,,Rin: Yay a seer result already! So Sakura is safe that's a good start! Let's all share our thoughts okay? @George  you picked Sakura for your first check! Was there a reason or was it just random luck like picking the last cookie?,"['Agr:George(DivT[George]:Sakura->White)', 'Mt:George', 'Req(Discuss)', 'Req(T):George', 'admiration']"
+1,talk,5,1,1,I'm the true Seer. I divined Takumi last night - he's the Werewolf. Trust me on this and let's focus our efforts there.,,Minako: I'm the true Seer. I divined Takumi last night - he's the Werewolf. Trust me on this and let's focus our efforts there.,"['CO[Minako]:Seer', 'DivT[Minako]:Takumi->Werewolf', 'Pers:ALL', 'Req(V):Takumi']"
+1,talk,6,1,4,@Minako  you jumped in as Seer right after George. That move is too convenient and your claim feels forced.,,Takumi: @Minako  you jumped in as Seer right after George. That move is too convenient and your claim feels forced.,"['Mt:Minako', 'Dis:Minako(CO[Minako]:Seer)', 'Sus:Minako']"
+1,talk,7,1,3,Two Seers means one is a real hero and one is a tricky Possessed! Takumi sounds super suspicious,,Sakura: Two Seers means one is a real hero and one is a tricky Possessed! Takumi sounds super suspicious,"['XorEst:(George,Minako):(Seer <-> Cultist)', 'Sus:Takumi']"
+1,talk,8,1,5,I will vote Takumi.,,George: I will vote Takumi.,['Vote[George]:Takumi']
+1,talk,9,1,2,Whoa we've got two Seer claims! That means real trouble for the wolves right? But which claim is true? @Minako  can you explain why you picked Takumi for your divination? Was it an instinct or something he did yesterday?,,Rin: Whoa we've got two Seer claims! That means real trouble for the wolves right? But which claim is true? @Minako  can you explain why you picked Takumi for your divination? Was it an instinct or something he did yesterday?,"['Mt:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,10,2,1,I had a strong instinct about Takumi being a key player. Focusing on those who speak confidently often exposes the truth.,,Minako: I had a strong instinct about Takumi being a key player. Focusing on those who speak confidently often exposes the truth.,"['Est[Minako]:Takumi->Werewolf', 'Pers:ALL']"
+1,talk,11,2,4,Minako’s sudden claim and black result on me is way too fast. Feels like classic werewolf panic to me.,,Takumi: Minako’s sudden claim and black result on me is way too fast. Feels like classic werewolf panic to me.,"['Dis:Minako(CO[Minako]:Seer)', 'Sus:Minako']"
+1,talk,12,2,3,George is the real hero he said Sakura is a good guy! Minako is being tricky! Sakura will vote for Rin,,Sakura: George is the real hero he said Sakura is a good guy! Minako is being tricky! Sakura will vote for Rin,"['Agr:George(DivT[George]:Sakura->White)', 'Dis:Minako(CO[Minako]:Seer)', 'Vote[Sakura]:Rin']"
+1,talk,13,2,5,I will vote Takumi.,,George: I will vote Takumi.,['Vote[George]:Takumi']
+1,talk,14,2,2,I'm buzzing from all these Seer claims! George and Minako can’t both be telling the truth right? Let’s figure this out! @Takumi  do you have anything you want to share after being divined by Minako? Maybe a last brave speech before voting?,,Rin: I'm buzzing from all these Seer claims! George and Minako can’t both be telling the truth right? Let’s figure this out! @Takumi  do you have anything you want to share after being divined by Minako? Maybe a last brave speech before voting?,"['XorEst:(George,Minako):(Seer <-> not(Seer))', 'Mt:Takumi', 'Req(T):Takumi', 'Req(Discuss)']"
+1,talk,15,3,1,My divination was guided by insights not panic. Let's make the smart move and protect our village by voting Takumi.,,Minako: My divination was guided by insights not panic. Let's make the smart move and protect our village by voting Takumi.,"['CO[Minako]:Seer', 'Req(V):Takumi', 'Pers:ALL']"
+1,talk,16,3,4,@Rin  If you want to save the village you need to see through Minako’s fake Seer panic. I’m voting Minako.,,Takumi: @Rin  If you want to save the village you need to see through Minako’s fake Seer panic. I’m voting Minako.,"['Mt:Rin', 'Dis:Minako(CO[Minako]:Seer)', 'Sus:Minako', 'Vote[Takumi]:Minako']"
+1,talk,17,3,3,George is the real hero! He said Sakura is good! So Minako is the fibber. The real wolf is Rin,,Sakura: George is the real hero! He said Sakura is good! So Minako is the fibber. The real wolf is Rin,"['Agr:George(DivT[George]:Sakura->White)', 'Dis:Minako(CO[Minako]:Seer)', 'Est[Sakura]:Rin->Werewolf', 'Sus:Rin']"
+1,talk,18,3,5,I will vote Takumi.,,George: I will vote Takumi.,['Vote[George]:Takumi']
+1,talk,19,3,2,Everyone's energy is way up today! We're split between George and Minako as Seer—so tricky! Can anyone spot a slip? @Sakura  you trust George a lot! If Minako turns out true what will you do? Willing to rethink if new info pops up?,,Rin: Everyone's energy is way up today! We're split between George and Minako as Seer—so tricky! Can anyone spot a slip? @Sakura  you trust George a lot! If Minako turns out true what will you do? Willing to rethink if new info pops up?,"['Req(Discuss)', 'Mt:Sakura', 'Req(T):Sakura']"
+0,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+0,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+0,status,4,WEREWOLF,ALIVE,sunamelli1,Takumi,sunamelli1,
+0,status,5,POSSESSED,ALIVE,mille1,George,mille1,
+0,divine,1,4,WEREWOLF,,,,
+1,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+1,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+1,status,4,WEREWOLF,ALIVE,sunamelli1,Takumi,sunamelli1,
+1,status,5,POSSESSED,ALIVE,mille1,George,mille1,
+1,vote,1,4,,,,,
+1,vote,2,4,,,,,
+1,vote,3,2,,,,,
+1,vote,4,1,,,,,
+1,vote,5,4,,,,,
+1,execute,4,WEREWOLF,,,,,
+2,status,1,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,Rin,CamelliaDragons1,
+2,status,3,VILLAGER,ALIVE,CanisLupus1,Sakura,CanisLupus1,
+2,status,4,WEREWOLF,DEAD,sunamelli1,Takumi,sunamelli1,
+2,status,5,POSSESSED,ALIVE,mille1,George,mille1,
+2,result,4,0,VILLAGER,,,,

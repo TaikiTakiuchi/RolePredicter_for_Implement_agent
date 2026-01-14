@@ -1,0 +1,603 @@
+{
+  "filename": "taged_1746485144_ai168wolf_mille_CanisLupus_osawalab_CamelliaDragons.log.csv",
+  "exec_id": 2,
+  "attack_id": 1,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "アキラ",
+      "day1_info": {
+        "seer_co_order": 2,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 9
+          },
+          {
+            "recepient_id": "村人",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ユリコ",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "アキラ",
+            "recepient_role": "not(村人)",
+            "count": 1
+          },
+          {
+            "speaker_id": "アキラ",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 8
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ユリコ",
+            "count": 4
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 2
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "アキラ",
+            "recepient_id": "カズキ",
+            "recepient_role": "白",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "カズキ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユリコ",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "ai168wolf1",
+      "character_name": "ユリコ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "ユリコ",
+            "recepient_role": "占い師",
+            "count": 19
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          },
+          {
+            "recepient_id": "アキラ",
+            "count": 4
+          }
+        ],
+        "Other": [
+          {
+            "count": 8
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ユリコ",
+            "recepient_id": "ALL",
+            "recepient_role": "not(not(役職))",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 7
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "エリス",
+            "count": 3
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ユリコ",
+            "recepient_id": "カズキ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 3
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "アキラ",
+            "recepient_id": "カズキ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "アキラ",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "カズキ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "5",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "カズキ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "カズキ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "カズキ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "ユウ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          },
+          {
+            "recepient_id": "アキラ",
+            "count": 2
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "アキラ",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "アキラ",
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "ユウ",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "エリス",
+            "count": 2
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "エリス",
+            "left_role": "人狼",
+            "right_id": "(カズキ",
+            "right_role": "村人)",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "osawalab1",
+      "character_name": "エリス",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユリコ",
+            "count": 5
+          },
+          {
+            "recepient_id": "アキラ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユリコ,Sus:アキラ",
+            "count": 1
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ユリコ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ユリコ",
+            "count": 3
+          },
+          {
+            "recepient_id": "カズキ",
+            "count": 2
+          },
+          {
+            "recepient_id": "アキラ",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "エリス",
+            "recepient_id": "ALL",
+            "recepient_role": "not(村人)",
+            "count": 1
+          },
+          {
+            "speaker_id": "エリス",
+            "recepient_id": "ALL",
+            "recepient_role": "人狼",
+            "count": 1
+          },
+          {
+            "speaker_id": "エリス",
+            "recepient_id": "ALL",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "XorEst": [
+          {
+            "id1": "ユリコ",
+            "id2": "アキラ",
+            "role1": "占い師",
+            "role2": "not(占い師",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "カズキ",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ユリコ",
+            "count": 1
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "カズキ",
+            "left_role": "占い師",
+            "right_id": "(他",
+            "right_role": "人狼)",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "IF": [
+          {
+            "left_id": "ユウ",
+            "left_role": "狂人",
+            "right_id": "(エリス",
+            "right_role": "人狼)",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "カズキ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 4
+          },
+          {
+            "recepient_id": "エリス",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ユウ",
+            "count": 3
+          },
+          {
+            "recepient_id": "エリス",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    }
+  ]
+}

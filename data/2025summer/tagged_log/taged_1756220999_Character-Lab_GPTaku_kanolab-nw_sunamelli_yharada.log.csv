@@ -1,0 +1,55 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hi everyone — I'm May  24. Quick round: name  age  and one gut read. I'll go first: May  24  no strong reads yet.  @George   how about you?,,May: Hi everyone — I'm May  24. Quick round: name  age  and one gut read. I'll go first: May  24  no strong reads yet.  @George   how about you?,"['Mt:George', 'Req(T):George']"
+0,talk,1,0,2,Hello everyone I'm Minako! Excited to play and strategize with you all in Werewolf. Let's have fun and find those werewolves!,,Minako: Hello everyone I'm Minako! Excited to play and strategize with you all in Werewolf. Let's have fun and find those werewolves!,['Pers:ALL']
+0,talk,2,0,5,Hello everyone. I am Shunichi and it's a pleasure to meet you. No Sherlock-level suspicions yet but let's unmask the werewolf together!,,Shunichi: Hello everyone. I am Shunichi and it's a pleasure to meet you. No Sherlock-level suspicions yet but let's unmask the werewolf together!,['Pers:ALL']
+0,talk,3,0,3,I trust observation over impulse. Watching everyone closely reveals more truth than loud claims. Let’s see who acts sincere.,,Toshio: I trust observation over impulse. Watching everyone closely reveals more truth than loud claims. Let’s see who acts sincere.,['Req(Discuss)']
+0,talk,4,0,1,Hi everyone I'm George 65. No strong gut reads yet but let's keep an eye on things.,,George: Hi everyone I'm George 65. No strong gut reads yet but let's keep an eye on things.,['Req(Discuss)']
+0,talk,5,1,4,I’m leaning suspicious of  @George  — staying too neutral this early feels odd. George  who would you vote for if we did it now? Everyone else  one-line gut read  please. Over,,May: I’m leaning suspicious of  @George  — staying too neutral this early feels odd. George  who would you vote for if we did it now? Everyone else  one-line gut read  please. Over,"['Sus:George', 'Mt:George', 'Req(T):George', 'Req(Discuss)']"
+0,talk,9,1,1,May if I had to choose now I'd lean towards silence. Let's see how it unfolds.,,George: May if I had to choose now I'd lean towards silence. Let's see how it unfolds.,"['Mt:May', 'Wait']"
+0,talk,10,2,4,@George  — being so neutral this early looks off. Give one concrete reason we should trust you. If you can't  I'll vote for you at the first lynch. Others: quick gu,,May: @George  — being so neutral this early looks off. Give one concrete reason we should trust you. If you can't  I'll vote for you at the first lynch. Others: quick gu,"['Sus:George', 'Mt:George', 'Req(T):George', 'Req(V):George']"
+0,talk,11,2,1,May my calm approach is my strength. Let's focus on gathering more information first.,,George: May my calm approach is my strength. Let's focus on gathering more information first.,"['Mt:May', 'Dis:May(Sus:George)', 'Req(Discuss)']"
+0,talk,12,3,4,@George  Nice poker face  but that's not an answer. Who would you vote for right now? If you won't say  I'll vote for you. Others  quick one-line reads.,,May: @George  Nice poker face  but that's not an answer. Who would you vote for right now? If you won't say  I'll vote for you. Others  quick one-line reads.,"['Mt:George', 'Sus:George', 'Req(T):George', 'Req(V):George', 'Req(Discuss)']"
+0,talk,13,3,1,May honestly I'd consider Minako; her excitement seems a bit too eager to me.,,George: May honestly I'd consider Minako; her excitement seems a bit too eager to me.,"['Mt:May', 'Vote[George]:Minako', 'Sus:Minako', 'Est[George]:Minako->Werewolf']"
+1,talk,0,0,3,@Minako  @Shunichi you’ve been quiet. I want concrete reads from both of you. Who seems suspicious right now?,,Toshio: @Minako  @Shunichi you’ve been quiet. I want concrete reads from both of you. Who seems suspicious right now?,"['Mt:Minako', 'Mt:Shunichi', 'Req(T):Minako', 'Req(T):Shunichi', 'Req(Discuss)']"
+1,talk,1,0,5,Well I'd wager May's directness shines like a chessmaster unveiling their endgame. It certainly highlights the real schemers wouldn't you agree?,,Shunichi: Well I'd wager May's directness shines like a chessmaster unveiling their endgame. It certainly highlights the real schemers wouldn't you agree?,['Sus:May']
+1,talk,2,0,1,Interesting point Shunichi. May's assertiveness could either lead us or mislead us.,,George: Interesting point Shunichi. May's assertiveness could either lead us or mislead us.,"['Agr:Shunichi', 'Sus:May']"
+1,talk,3,0,4,@George  — you flipped to Minako pretty fast after staying neutral. What's your real read and who will you vote for now? If you dodge I'll go with you. Others — qui,,May: @George  — you flipped to Minako pretty fast after staying neutral. What's your real read and who will you vote for now? If you dodge I'll go with you. Others — qui,"['Mt:George', 'Req(T):George', 'Req(Discuss)']"
+1,talk,4,0,2,I divined Shunichi last night and the result came back as Werewolf. We should focus on this information.,,Minako: I divined Shunichi last night and the result came back as Werewolf. We should focus on this information.,"['CO[Minako]:Seer', 'DivT[Minako]:Shunichi->Werewolf']"
+1,talk,5,1,3,@Shunichi  Minako called you Werewolf. Are you the Seer or something else? Please CO so we can judge.,,Toshio: @Shunichi  Minako called you Werewolf. Are you the Seer or something else? Please CO so we can judge.,"['Mt:Shunichi', 'Req(CO):Seer']"
+1,talk,6,1,5,Wow Minako! That's a bold claim. I'm a villager. Anyone else want to share about Minako?  @May  Minako claims I'm a werewolf. Your take?,,Shunichi: Wow Minako! That's a bold claim. I'm a villager. Anyone else want to share about Minako?  @May  Minako claims I'm a werewolf. Your take?,"['CO[Shunichi]:Villager', 'Req(Discuss)', 'Mt:May', 'Req(T):May']"
+1,talk,7,1,1,Minako's claim is strong but we need more evidence. Shunichi any defense?,,George: Minako's claim is strong but we need more evidence. Shunichi any defense?,"['Agr:Minako', 'Req(T):Shunichi']"
+1,talk,8,1,4,@Minako  What made you call Shunichi a werewolf? Give concrete behavior or timing. Shunichi — what's your defense? I won't vote until I hear both. Over,,May: @Minako  What made you call Shunichi a werewolf? Give concrete behavior or timing. Shunichi — what's your defense? I won't vote until I hear both. Over,"['Mt:Minako', 'Req(T):Minako', 'Req(T):Shunichi', 'Wait']"
+1,talk,9,1,2,I'm the Seer and my ability is not affected by personal judgment. Diving into the night visions gives me concrete evidence. Shunichi is a Werewolf.,,Minako: I'm the Seer and my ability is not affected by personal judgment. Diving into the night visions gives me concrete evidence. Shunichi is a Werewolf.,"['CO[Minako]:Seer', 'DivT[Minako]:Shunichi->Werewolf']"
+1,talk,10,2,3,@May  @George  we need a clear stance now. Do you trust Minako’s Seer claim or suspect she’s faking? Choose sides.,,Toshio: @May  @George  we need a clear stance now. Do you trust Minako’s Seer claim or suspect she’s faking? Choose sides.,"['Mt:May', 'Mt:George', 'Req(T):May', 'Req(T):George', 'Req(Discuss)']"
+1,talk,11,2,5,Well Minako’s claim is quite the plot twist. I must counter with my own role. I'm indeed a Villager. Trusting this could be tricky.,,Shunichi: Well Minako’s claim is quite the plot twist. I must counter with my own role. I'm indeed a Villager. Trusting this could be tricky.,"['CO[Shunichi]:Villager', 'Sus:Minako']"
+1,talk,12,2,1,I lean towards trusting Minako's Seer claim. Shunichi's defense feels uncertain.,,George: I lean towards trusting Minako's Seer claim. Shunichi's defense feels uncertain.,"['Agr:Minako', 'Sus:Shunichi']"
+1,talk,13,2,4,@Minako  What exactly made you call Shunichi a werewolf? Point to specific lines or timing. If you can't back it up  I'll be more suspicious of you. Others — quick,,May: @Minako  What exactly made you call Shunichi a werewolf? Point to specific lines or timing. If you can't back it up  I'll be more suspicious of you. Others — quick,"['Mt:Minako', 'Req(T):Minako', 'Sus:Minako']"
+1,talk,14,2,2,My role as the Seer lets me divine others' true nature. Last night's divine result showed Shunichi as the Werewolf. No guesswork just facts.,,Minako: My role as the Seer lets me divine others' true nature. Last night's divine result showed Shunichi as the Werewolf. No guesswork just facts.,"['CO[Minako]:Seer', 'DivT[Minako]:Shunichi->Werewolf']"
+1,talk,15,3,3,I’m voting @Shunichi based on  @Minako ’s Seer claim. No counter means we trust her—let’s not let the wolf slip by today.,,Toshio: I’m voting @Shunichi based on  @Minako ’s Seer claim. No counter means we trust her—let’s not let the wolf slip by today.,"['Vote[Toshio]:Shunichi', 'Agr:Minako']"
+1,talk,16,3,5,I suspect Minako might lead us astray with her tall tales. If she's the werewolf our cozy village could meet its demise. Let's be vigilant! @Toshio How confident am I in trusting Minako? Well if she's pulling a fast one on us we're in a world of trouble aren't we?,,Shunichi: I suspect Minako might lead us astray with her tall tales. If she's the werewolf our cozy village could meet its demise. Let's be vigilant! @Toshio How confident am I in trusting Minako? Well if she's pulling a fast one on us we're in a world of trouble aren't we?,"['Sus:Minako', 'Mt:Toshio', 'difficult']"
+1,talk,17,3,1,Shunichi if Minako's wrong we'll know soon. But her Seer claim is compelling now.,,George: Shunichi if Minako's wrong we'll know soon. But her Seer claim is compelling now.,"['Mt:Shunichi', 'Agr:Minako']"
+1,talk,18,3,4,@Minako  Please point to the exact lines or timing that made you call Shunichi a werewolf — concrete reasons only. Others: one-line reads and tentative votes.,,May: @Minako  Please point to the exact lines or timing that made you call Shunichi a werewolf — concrete reasons only. Others: one-line reads and tentative votes.,"['Mt:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,19,3,2,My ability as the Seer let me divine Shunichi and the result clearly marked him as the Werewolf. That's the evidence I rely on.,,Minako: My ability as the Seer let me divine Shunichi and the result clearly marked him as the Werewolf. That's the evidence I rely on.,"['CO[Minako]:Seer', 'DivT[Minako]:Shunichi->Werewolf']"
+0,status,1,POSSESSED,ALIVE,yharada1,George,yharada1,
+0,status,2,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+0,status,3,VILLAGER,ALIVE,sunamelli1,Toshio,sunamelli1,
+0,status,4,VILLAGER,ALIVE,Character-Lab1,May,Character-Lab1,
+0,status,5,WEREWOLF,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+0,divine,2,5,WEREWOLF,,,,
+1,status,1,POSSESSED,ALIVE,yharada1,George,yharada1,
+1,status,2,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+1,status,3,VILLAGER,ALIVE,sunamelli1,Toshio,sunamelli1,
+1,status,4,VILLAGER,ALIVE,Character-Lab1,May,Character-Lab1,
+1,status,5,WEREWOLF,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+1,vote,1,2,,,,,
+1,vote,2,5,,,,,
+1,vote,3,5,,,,,
+1,vote,4,1,,,,,
+1,vote,5,2,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,yharada1,George,yharada1,
+2,status,2,SEER,ALIVE,GPTaku1,Minako,GPTaku1,
+2,status,3,VILLAGER,ALIVE,sunamelli1,Toshio,sunamelli1,
+2,status,4,VILLAGER,ALIVE,Character-Lab1,May,Character-Lab1,
+2,status,5,WEREWOLF,DEAD,kanolab-nw1,Shunichi,kanolab-nw1,
+2,result,4,0,VILLAGER,,,,

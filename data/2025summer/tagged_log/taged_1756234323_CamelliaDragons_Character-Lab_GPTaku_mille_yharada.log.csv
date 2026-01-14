@@ -1,0 +1,74 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,...,,Sakura: ...,['Other']
+0,talk,1,0,4,Let's get things started. How are you all feeling about the game today?,,Shion: Let's get things started. How are you all feeling about the game today?,['Req(Discuss)']
+0,talk,2,0,2,Hello. I am Minato. My role is seer. Have a good game.,,Minato: Hello. I am Minato. My role is seer. Have a good game.,['CO[Minato]:Seer']
+0,talk,3,0,3,Hello everyone! I'm Yumi excited to play Werewolf with you all. Let's have some fun and enjoy the game!,,Yumi: Hello everyone! I'm Yumi excited to play Werewolf with you all. Let's have some fun and enjoy the game!,['Other']
+0,talk,4,0,1,I appreciate the seer claim   @Minato . Please tell us who you checked and the exact result — specifics now  not later. I don't want a rushed Day 1 lynch; let's gather concrete info before voti,,Servas: I appreciate the seer claim   @Minato . Please tell us who you checked and the exact result — specifics now  not later. I don't want a rushed Day 1 lynch; let's gather concrete info before voti,"['Mt:Minato', 'Req(CO):Seer', 'Req(T):Minato']"
+0,talk,6,1,4,Minato any insights from your seer role? It could help us start on the right foot.,,Shion: Minato any insights from your seer role? It could help us start on the right foot.,"['Mt:Minato', 'Req(T):Minato', 'Req(CO):Seer']"
+0,talk,9,1,1,@Minato  you claimed seer but gave no details. Who did you check and what was the exact result — now. If you can't show specifics  I'll have to lean toward voting yo,,Servas: @Minato  you claimed seer but gave no details. Who did you check and what was the exact result — now. If you can't show specifics  I'll have to lean toward voting yo,"['Mt:Minato', 'Dis:Minato(CO[Minato]:Seer)', 'Req(CO):Seer', 'Req(V):Minato', 'Req(T):Minato']"
+0,talk,10,2,4,Minato we're waiting for your details. Clarity helps us all make better decisions.,,Shion: Minato we're waiting for your details. Clarity helps us all make better decisions.,"['Mt:Minato', 'Req(T):Minato', 'Req(CO):Seer']"
+0,talk,11,2,1,@Minato  please tell us exactly who you checked and the result right now. Vague seer claims on Day 1 are dangerous — if you can't give specifics I'll have to stop t,,Servas: @Minato  please tell us exactly who you checked and the result right now. Vague seer claims on Day 1 are dangerous — if you can't give specifics I'll have to stop t,"['Mt:Minato', 'Req(CO):Seer', 'Req(T):Minato', 'Req(V):Minato']"
+0,talk,12,3,4,Minato it's crucial we hear from you. Specifics will help us trust your claim.,,Shion: Minato it's crucial we hear from you. Specifics will help us trust your claim.,"['Mt:Minato', 'Req(T):Minato', 'Req(CO):Seer']"
+0,talk,13,3,1,Friends  I value caution  but a Day 1 seer claim without specifics is dangerous.  @Minato  please reveal who you checked and the result now—if you can't  I'll have to vote you. Others  speak up quickly; indecision favors the wolves. Over,,Servas: Friends  I value caution  but a Day 1 seer claim without specifics is dangerous.  @Minato  please reveal who you checked and the result now—if you can't  I'll have to vote you. Others  speak up quickly; indecision favors the wolves. Over,"['Mt:Minato', 'Req(CO):Seer', 'Req(T):Minato', 'Req(V):Minato', 'Req(Discuss)', 'Pers:ALL']"
+1,talk,0,0,3,I divined Minato last night and the result was Werewolf.,,Yumi: I divined Minato last night and the result was Werewolf.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Minato->Werewolf']"
+1,talk,1,0,2,I am a seer. I divined Yumi and Yumi was a human.,,Minato: I am a seer. I divined Yumi and Yumi was a human.,"['CO[Minato]:Seer', 'DivT[Minato]:Yumi->White']"
+1,talk,2,0,4,We have conflicting reports. Minato and Yumi one of you is lying. Let's discuss.,,Shion: We have conflicting reports. Minato and Yumi one of you is lying. Let's discuss.,"['contradiction', 'Sus:Minato', 'Sus:Yumi', 'Req(Discuss)']"
+1,talk,3,0,1,Calm down  friends — this contradiction is dangerous.  @Minato  please confirm: did you divinate Yumi on Night 0 and get human? A clear yes/no will help. Right now I'm leaning to distrust Yumi's sudden accusation; i,,Servas: Calm down  friends — this contradiction is dangerous.  @Minato  please confirm: did you divinate Yumi on Night 0 and get human? A clear yes/no will help. Right now I'm leaning to distrust Yumi's sudden accusation; i,"['Mt:Minato', 'Req(T):Minato', 'Sus:Yumi', 'contradiction', 'calm']"
+1,talk,4,0,5,...,,Sakura: ...,['Other']
+1,talk,5,1,3,I'm retracting my Seer claim. I claimed to gather more data but now believe we should focus on getting truthful information from Minato.,,Yumi: I'm retracting my Seer claim. I claimed to gather more data but now believe we should focus on getting truthful information from Minato.,"['Req(T):Minato', 'Other']"
+1,talk,6,1,2,I will vote Yumi.,,Minato: I will vote Yumi.,['Vote[Minato]:Yumi']
+1,talk,7,1,4,Yumi's retraction is suspicious. Minato can you confirm more details about your divination?,,Shion: Yumi's retraction is suspicious. Minato can you confirm more details about your divination?,"['Sus:Yumi', 'Mt:Minato', 'Req(T):Minato']"
+1,talk,8,1,1,I prefer clarity over confusion. Yumi's retraction smells like misdirection.  @Minato  your seer claim sounds consistent to me — I'm voting Yumi. Let's not drag this out. Over,,Servas: I prefer clarity over confusion. Yumi's retraction smells like misdirection.  @Minato  your seer claim sounds consistent to me — I'm voting Yumi. Let's not drag this out. Over,"['Agr:Minato(CO[Minato]:Seer)', 'Sus:Yumi', 'Mt:Minato', 'Vote[Servas]:Yumi']"
+1,talk,9,1,5,...,,Sakura: ...,['Other']
+1,talk,10,2,3,Please vote for Minato.,,Yumi: Please vote for Minato.,"['Req(V):Minato', 'Pers:ALL']"
+1,talk,12,2,4,Let's focus on facts. Minato's claim seems stable Yumi's actions raise doubts.,,Shion: Let's focus on facts. Minato's claim seems stable Yumi's actions raise doubts.,"['Req(Discuss)', 'Agr:Minato(CO[Minato]:Seer)', 'Sus:Yumi']"
+1,talk,13,2,1,My years tell me a calm lie can be the deadliest.  @Minato  you've claimed seer but refused concrete details again — that silence is suspicious. I'm voting you today. If anyone has proof to save him  speak now. O,,Servas: My years tell me a calm lie can be the deadliest.  @Minato  you've claimed seer but refused concrete details again — that silence is suspicious. I'm voting you today. If anyone has proof to save him  speak now. O,"['Mt:Minato', 'Sus:Minato', 'Vote[Servas]:Minato', 'Dis:Minato(CO[Minato]:Seer)', 'Req(Discuss)']"
+1,talk,14,2,5,...,,Sakura: ...,['Other']
+1,talk,15,3,3,I insist on voting for Minato. My earlier divination showed he is a werewolf. Let's not risk another night.,,Yumi: I insist on voting for Minato. My earlier divination showed he is a werewolf. Let's not risk another night.,"['Vote[Yumi]:Minato', 'DivT[Yumi]:Minato->Werewolf', 'Pers:ALL']"
+1,talk,16,3,4,Minato your silence isn't helping. Can you clarify or confirm your divination again?,,Shion: Minato your silence isn't helping. Can you clarify or confirm your divination again?,"['Mt:Minato', 'Req(T):Minato', 'Sus:Minato']"
+1,talk,17,3,1,Friends  don't let vagueness sway us.  @Minato  last chance—say exactly who you checked (which night) and the result  or I'll keep my vote on you. Others  state your votes now so we can end this quickly.,,Servas: Friends  don't let vagueness sway us.  @Minato  last chance—say exactly who you checked (which night) and the result  or I'll keep my vote on you. Others  state your votes now so we can end this quickly.,"['Mt:Minato', 'Req(T):Minato', 'Vote[Servas]:Minato', 'Req(Discuss)']"
+1,talk,18,3,5,...,,Sakura: ...,['Other']
+2,talk,0,0,1,Minato's death makes the seer an obvious target.  @Sakura  if you are the seer  be careful about revealing without airtight proof — silence can be protection. I'm uneasy about Shion's quiet; I'm leaning to vote,,Servas: Minato's death makes the seer an obvious target.  @Sakura  if you are the seer  be careful about revealing without airtight proof — silence can be protection. I'm uneasy about Shion's quiet; I'm leaning to vote,"['Atk:Minato', 'Mt:Sakura', 'Req(T):Sakura', 'Sus:Shion', 'Wait']"
+2,talk,1,0,5,...,,Sakura: ...,['Other']
+2,talk,2,0,4,Servas I understand your caution. We need clear info. Sakura any thoughts?,,Shion: Servas I understand your caution. We need clear info. Sakura any thoughts?,"['Mt:Servas', 'Req(Discuss)', 'Req(T):Sakura']"
+2,talk,3,1,1,Minato's death was no accident — the wolves wanted silence.  @Shion  you were very quiet and evasive yesterday; explain your role now or I'll lean to vote you. Let's not lynch Sakura without clear proof. Over,,Servas: Minato's death was no accident — the wolves wanted silence.  @Shion  you were very quiet and evasive yesterday; explain your role now or I'll lean to vote you. Let's not lynch Sakura without clear proof. Over,"['Atk:Minato', 'Mt:Shion', 'Req(T):Shion', 'Sus:Shion', 'Agr:Sakura', 'Wait']"
+2,talk,4,1,5,...,,Sakura: ...,['Other']
+2,talk,5,1,4,I'm a villager Servas. My focus is on finding the wolf. Sakura share your insights.,,Shion: I'm a villager Servas. My focus is on finding the wolf. Sakura share your insights.,"['CO[Shion]:Villager', 'Mt:Servas', 'Req(T):Sakura']"
+2,talk,6,2,1,Shion’s silence feels off — too little info.  @Shion  please state your role and last night’s action now  or I’ll lean to vote you. We shouldn’t lynch Sakura without firm proof. Over,,Servas: Shion’s silence feels off — too little info.  @Shion  please state your role and last night’s action now  or I’ll lean to vote you. We shouldn’t lynch Sakura without firm proof. Over,"['Mt:Shion', 'Req(T):Shion', 'Sus:Shion', 'Agr:Sakura', 'Wait']"
+2,talk,7,2,5,...,,Sakura: ...,['Other']
+2,talk,8,2,4,Servas I am a villager. My goal is to observe and find the wolf. Let's stay focused.,,Shion: Servas I am a villager. My goal is to observe and find the wolf. Let's stay focused.,"['CO[Shion]:Villager', 'Mt:Servas', 'Req(Discuss)']"
+2,talk,9,3,1,I won't let panic rule us. The wolves thrive on rushed choices — don't lynch Sakura without solid proof.  @Shion  your silence stands out; state your role and last night's action now or I'll vote you. Let's be measured. Over,,Servas: I won't let panic rule us. The wolves thrive on rushed choices — don't lynch Sakura without solid proof.  @Shion  your silence stands out; state your role and last night's action now or I'll vote you. Let's be measured. Over,"['Mt:Shion', 'Req(T):Shion', 'Sus:Shion', 'Vote[Servas]:Shion', 'Agr:Sakura', 'calm']"
+2,talk,10,3,5,...,,Sakura: ...,['Other']
+2,talk,11,3,4,I've stated I'm a villager Servas. Let's hear from Sakura to make an informed decision.,,Shion: I've stated I'm a villager Servas. Let's hear from Sakura to make an informed decision.,"['CO[Shion]:Villager', 'Mt:Servas', 'Req(T):Sakura', 'Req(Discuss)']"
+0,status,1,POSSESSED,ALIVE,Character-Lab1,Servas,Character-Lab1,
+0,status,2,SEER,ALIVE,mille1,Minato,mille1,
+0,status,3,VILLAGER,ALIVE,GPTaku1,Yumi,GPTaku1,
+0,status,4,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+0,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+0,divine,2,3,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,Character-Lab1,Servas,Character-Lab1,
+1,status,2,SEER,ALIVE,mille1,Minato,mille1,
+1,status,3,VILLAGER,ALIVE,GPTaku1,Yumi,GPTaku1,
+1,status,4,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+1,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+1,vote,2,3,,,,,
+1,vote,3,2,,,,,
+1,vote,5,4,,,,,
+1,execute,3,VILLAGER,,,,,
+1,divine,2,1,HUMAN,,,,
+1,attackVote,5,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,POSSESSED,ALIVE,Character-Lab1,Servas,Character-Lab1,
+2,status,2,SEER,DEAD,mille1,Minato,mille1,
+2,status,3,VILLAGER,DEAD,GPTaku1,Yumi,GPTaku1,
+2,status,4,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+2,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+2,vote,4,5,,,,,
+2,vote,5,1,,,,,
+2,execute,5,WEREWOLF,,,,,
+3,status,1,POSSESSED,ALIVE,Character-Lab1,Servas,Character-Lab1,
+3,status,2,SEER,DEAD,mille1,Minato,mille1,
+3,status,3,VILLAGER,DEAD,GPTaku1,Yumi,GPTaku1,
+3,status,4,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+3,status,5,WEREWOLF,DEAD,CamelliaDragons1,Sakura,CamelliaDragons1,
+3,result,2,0,VILLAGER,,,,

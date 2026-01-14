@@ -1,0 +1,76 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,...,,George: ...,['Other']
+0,talk,1,0,2,Hello. I am Yumi. My role is villager. Have a good game.,,Yumi: Hello. I am Yumi. My role is villager. Have a good game.,['CO[Yumi]:Villager']
+0,talk,2,0,3,Hello everyone. Let's have a good game and find out who the real threats are.,,Shion: Hello everyone. Let's have a good game and find out who the real threats are.,['Req(Discuss)']
+0,talk,3,0,5,Let’s proceed orderly: please state any role claims and your tentative vote. Yumi already said villager. George  Shion — what are your initial reads?  @Daisuke  you’ve been quiet; share your thoughts and who you’ll vote for.,,Minako: Let’s proceed orderly: please state any role claims and your tentative vote. Yumi already said villager. George  Shion — what are your initial reads?  @Daisuke  you’ve been quiet; share your thoughts and who you’ll vote for.,"['Req(Discuss)', 'Mt:George', 'Mt:Shion', 'Mt:Daisuke', 'Req(T):Daisuke']"
+0,talk,4,0,4,Um...Helloeveryone.I'm Daisuke.It's nice to meet all of you.I'm really looking forward to an exciting game.I'll share my vote soon.,,Daisuke: Um...Helloeveryone.I'm Daisuke.It's nice to meet all of you.I'm really looking forward to an exciting game.I'll share my vote soon.,"['Wait', 'Other']"
+0,talk,7,1,3,No strong reads yet Minako but I'm curious about George's silence. Thoughts George?,,Shion: No strong reads yet Minako but I'm curious about George's silence. Thoughts George?,"['Mt:Minako', 'Sus:George', 'Req(T):George']"
+0,talk,8,1,5,@George  you’ve been very quiet — what are you thinking and do you have any role to claim? Everyone else  please state any role claims and your tentative vote. Dai,,Minako: @George  you’ve been very quiet — what are you thinking and do you have any role to claim? Everyone else  please state any role claims and your tentative vote. Dai,"['Mt:George', 'Req(T):George', 'Req(Discuss)']"
+0,talk,10,2,3,Let's focus on gathering info. Minako any thoughts on Yumi's claim? George still waiting on you.,,Shion: Let's focus on gathering info. Minako any thoughts on Yumi's claim? George still waiting on you.,"['Req(Discuss)', 'Req(T):Minako', 'Mt:George']"
+0,talk,11,2,5,Yumi’s villager claim is unverified—can you explain what made you claim that now? Shion  any tentative vote or reads?  @George  you’ve been very quiet—please speak up and state any role or your read. Daisuke  who are you leaning toward voting?,,Minako: Yumi’s villager claim is unverified—can you explain what made you claim that now? Shion  any tentative vote or reads?  @George  you’ve been very quiet—please speak up and state any role or your read. Daisuke  who are you leaning toward voting?,"['Sus:Yumi', 'Req(T):Yumi', 'Req(T):Shion', 'Mt:George', 'Req(T):George', 'Mt:Daisuke', 'Req(T):Daisuke']"
+0,talk,12,3,3,Still observing Minako. No solid vote yet but I'm keeping an eye on George's silence.,,Shion: Still observing Minako. No solid vote yet but I'm keeping an eye on George's silence.,"['Mt:Minako', 'Wait', 'Sus:George']"
+0,talk,13,3,5,@George  you've been very quiet — please state your role and your read now. If you keep silent  that will make you more suspicious. Yumi  why claim villager so earl,,Minako: @George  you've been very quiet — please state your role and your read now. If you keep silent  that will make you more suspicious. Yumi  why claim villager so earl,"['Mt:George', 'Req(T):George', 'Sus:George', 'Mt:Yumi', 'Req(T):Yumi']"
+1,talk,0,0,5,Morning. Any night deaths? Please state role claims and your vote.  @George  you stayed silent yesterday — speak up now or you’ll look more suspicious. Daisuke  Yumi  Shion — any reads or tentative votes? Over,,Minako: Morning. Any night deaths? Please state role claims and your vote.  @George  you stayed silent yesterday — speak up now or you’ll look more suspicious. Daisuke  Yumi  Shion — any reads or tentative votes? Over,"['Req(Discuss)', 'Mt:George', 'Req(T):George', 'Pers:George', 'Req(T):Daisuke', 'Req(T):Yumi', 'Req(T):Shion']"
+1,talk,1,0,1,...,,George: ...,['Other']
+1,talk,2,0,4,Um... I... I am the seer. My divination result... well it reveals that Ms. Minako is a werewolf. Just so you know.,,Daisuke: Um... I... I am the seer. My divination result... well it reveals that Ms. Minako is a werewolf. Just so you know.,"['CO[Daisuke]:Seer', 'DivT[Daisuke]:Minako->Werewolf']"
+1,talk,3,0,2,I will vote Minako.,,Yumi: I will vote Minako.,['Vote[Yumi]:Minako']
+1,talk,4,0,3,Daisuke's claim is bold. Minako any defense? George your silence is concerning.,,Shion: Daisuke's claim is bold. Minako any defense? George your silence is concerning.,"['Dis:Daisuke(CO[Daisuke]:Seer)', 'Mt:Minako', 'Req(T):Minako', 'Mt:George', 'Sus:George']"
+1,talk,5,1,5,I'm the seer. I divined  @Daisuke  on night 0 — he is HUMAN. Daisuke is lying about being the seer and accusing me. Yumi  don't vote me. Daisuke  explain your claim. Over,,Minako: I'm the seer. I divined  @Daisuke  on night 0 — he is HUMAN. Daisuke is lying about being the seer and accusing me. Yumi  don't vote me. Daisuke  explain your claim. Over,"['CO[Minako]:Seer', 'DivT[Minako]:Daisuke->not(Werewolf)', 'Dis:Daisuke(CO[Daisuke]:Seer)', 'Pers:Yumi', 'Req(T):Daisuke']"
+1,talk,6,1,1,...,,George: ...,['Other']
+1,talk,7,1,4,Um... I'm sticking to my vote Mr. Minako's claim seems um not sincere. This might show our roles. Any thoughts before I use divination?,,Daisuke: Um... I'm sticking to my vote Mr. Minako's claim seems um not sincere. This might show our roles. Any thoughts before I use divination?,"['Vote[Daisuke]:Minako', 'Dis:Minako(CO[Minako]:Seer)', 'Req(Discuss)']"
+1,talk,8,1,2,I will vote Minako.,,Yumi: I will vote Minako.,['Vote[Yumi]:Minako']
+1,talk,9,1,3,We're in a tough spot. Minako or Daisuke is lying. George your input is crucial now.,,Shion: We're in a tough spot. Minako or Daisuke is lying. George your input is crucial now.,"['XorEst:(Minako,Daisuke):(Seer <-> not(Seer))', 'Mt:George', 'Req(T):George']"
+1,talk,10,2,5,I’m the real seer. I divined  @Daisuke  on night 0 — he’s HUMAN. Daisuke is lying about being seer. Shion  George  Yumi — what are your votes now? Daisuke  explain your divination (target and nig,,Minako: I’m the real seer. I divined  @Daisuke  on night 0 — he’s HUMAN. Daisuke is lying about being seer. Shion  George  Yumi — what are your votes now? Daisuke  explain your divination (target and nig,"['CO[Minako]:Seer', 'DivT[Minako]:Daisuke->not(Werewolf)', 'Dis:Daisuke(CO[Daisuke]:Seer)', 'Req(T):Shion', 'Req(T):George', 'Req(T):Yumi', 'Req(T):Daisuke', 'Req(Discuss)']"
+1,talk,11,2,1,...,,George: ...,['Other']
+1,talk,12,2,4,Um... I think Ms. Minako might be the werewolf. It's scary with the silence. Mr. George? Could you share what you think too?,,Daisuke: Um... I think Ms. Minako might be the werewolf. It's scary with the silence. Mr. George? Could you share what you think too?,"['Est[Daisuke]:Minako->Werewolf', 'Mt:George', 'Req(T):George']"
+1,talk,13,2,2,I will vote Minako.,,Yumi: I will vote Minako.,['Vote[Yumi]:Minako']
+1,talk,14,2,3,Minako your claim is bold. George we need your insights. I'm leaning towards Minako.,,Shion: Minako your claim is bold. George we need your insights. I'm leaning towards Minako.,"['Dis:Minako(CO[Minako]:Seer)', 'Mt:George', 'Req(T):George', 'Sus:Minako']"
+1,talk,15,3,5,@Daisuke  explain your seer claim now: which night and who did you divine? I divined you on night 0 — HUMAN. If you can’t explain  I’ll vote for you. Shion  Yumi  Georg,,Minako: @Daisuke  explain your seer claim now: which night and who did you divine? I divined you on night 0 — HUMAN. If you can’t explain  I’ll vote for you. Shion  Yumi  Georg,"['CO[Minako]:Seer', 'DivT[Minako]:Daisuke->not(Werewolf)', 'Req(T):Daisuke', 'Vote[Minako]:Daisuke', 'Dis:Daisuke(CO[Daisuke]:Seer)', 'Mt:Shion', 'Mt:Yumi', 'Mt:George']"
+1,talk,16,3,1,...,,George: ...,['Other']
+1,talk,17,3,4,Um Ms. Minako's claims... they feel a bit scattered don't they? Maybe... we should question them more. It just seems a bit off.,,Daisuke: Um Ms. Minako's claims... they feel a bit scattered don't they? Maybe... we should question them more. It just seems a bit off.,"['Dis:Minako(CO[Minako]:Seer)', 'Req(Discuss)']"
+1,talk,18,3,2,I will vote Minako.,,Yumi: I will vote Minako.,['Vote[Yumi]:Minako']
+1,talk,19,3,3,Daisuke's point is valid. Minako why the inconsistency? George any thoughts?,,Shion: Daisuke's point is valid. Minako why the inconsistency? George any thoughts?,"['Agr:Daisuke', 'Mt:Minako', 'Req(T):Minako', 'Mt:George', 'Req(T):George']"
+2,talk,0,0,4,Um. Mr. George is well a werewolf. I divined him last night. Maybe we could you know unite and vote together against him?,,Daisuke: Um. Mr. George is well a werewolf. I divined him last night. Maybe we could you know unite and vote together against him?,"['CO[Daisuke]:Seer', 'DivT[Daisuke]:George->Werewolf', 'Req(V):George', 'Pers:ALL']"
+2,talk,1,0,3,Daisuke your claim is noted. George any defense or should we trust Daisuke's word?,,Shion: Daisuke your claim is noted. George any defense or should we trust Daisuke's word?,"['Req(T):George', 'Req(Discuss)']"
+2,talk,2,0,1,...,,George: ...,['Other']
+2,talk,3,1,4,Um. I got Mr. George as Werewolf. Ms. Minako was suspicious. Voting shook it up. Um. Shion. What do you think of his silence?,,Daisuke: Um. I got Mr. George as Werewolf. Ms. Minako was suspicious. Voting shook it up. Um. Shion. What do you think of his silence?,"['DivT[Daisuke]:George->Werewolf', 'Sus:Minako', 'Req(T):Shion']"
+2,talk,4,1,3,George's silence is troubling. We might need to trust Daisuke and focus our vote there.,,Shion: George's silence is troubling. We might need to trust Daisuke and focus our vote there.,"['Agr:Daisuke(Vote[Daisuke]:George)', 'Req(V):George', 'Sus:George']"
+2,talk,5,1,1,...,,George: ...,['Other']
+2,talk,6,2,4,Um... Ms. Yumi's silence... it's well intriguing. Maybe I should divine Mr. Shion tonight? Minako is gone... and who's George's partner? Balance..,,Daisuke: Um... Ms. Yumi's silence... it's well intriguing. Maybe I should divine Mr. Shion tonight? Minako is gone... and who's George's partner? Balance..,"['Sus:Yumi', 'Req(Discuss)', 'Exe:Minako']"
+2,talk,7,2,3,Daisuke focus on George for now. We need to confirm his role first.,,Shion: Daisuke focus on George for now. We need to confirm his role first.,"['Mt:Daisuke', 'Req(V):George', 'Req(Discuss)']"
+2,talk,8,2,1,...,,George: ...,['Other']
+2,talk,9,3,4,Well... if we don't choose Mr. George maybe Ms. Minako is right. We could be risking all the villagers. It's... unsettling.,,Daisuke: Well... if we don't choose Mr. George maybe Ms. Minako is right. We could be risking all the villagers. It's... unsettling.,"['Pers:ALL', 'Req(V):George']"
+2,talk,10,3,3,Daisuke I understand your concern but George's silence is a bigger risk now.,,Shion: Daisuke I understand your concern but George's silence is a bigger risk now.,"['Mt:Daisuke', 'Sus:George']"
+2,talk,11,3,1,...,,George: ...,['Other']
+0,status,1,VILLAGER,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+0,status,2,VILLAGER,ALIVE,mille1,Yumi,mille1,
+0,status,3,WEREWOLF,ALIVE,yharada1,Shion,yharada1,
+0,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+0,status,5,SEER,ALIVE,Character-Lab1,Minako,Character-Lab1,
+0,divine,5,4,HUMAN,,,,
+1,status,1,VILLAGER,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+1,status,2,VILLAGER,ALIVE,mille1,Yumi,mille1,
+1,status,3,WEREWOLF,ALIVE,yharada1,Shion,yharada1,
+1,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+1,status,5,SEER,ALIVE,Character-Lab1,Minako,Character-Lab1,
+1,vote,1,2,,,,,
+1,vote,2,5,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,execute,5,SEER,,,,,
+1,attackVote,3,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,VILLAGER,ALIVE,CamelliaDragons1,George,CamelliaDragons1,
+2,status,2,VILLAGER,DEAD,mille1,Yumi,mille1,
+2,status,3,WEREWOLF,ALIVE,yharada1,Shion,yharada1,
+2,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+2,status,5,SEER,DEAD,Character-Lab1,Minako,Character-Lab1,
+2,vote,1,4,,,,,
+2,vote,4,1,,,,,
+2,execute,1,VILLAGER,,,,,
+3,status,1,VILLAGER,DEAD,CamelliaDragons1,George,CamelliaDragons1,
+3,status,2,VILLAGER,DEAD,mille1,Yumi,mille1,
+3,status,3,WEREWOLF,ALIVE,yharada1,Shion,yharada1,
+3,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+3,status,5,SEER,DEAD,Character-Lab1,Minako,Character-Lab1,
+3,result,1,1,WEREWOLF,,,,

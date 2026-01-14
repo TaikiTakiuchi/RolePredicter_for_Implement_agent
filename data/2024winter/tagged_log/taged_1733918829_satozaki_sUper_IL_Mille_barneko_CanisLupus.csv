@@ -1,0 +1,123 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,3,3:ぼくは村人ですよぅ！,['CO[03]:村人']
+1,talk,2,0,5,5:我こそは、運命の糸を操る者なり。,['Other']
+1,talk,2,0,5,5:占いの結果、Agent[03]は人狼たるを示唆せり。,['DivT[05]:03->黒']
+1,talk,3,0,1,1:ワタクシは占い師ですわ。,['CO[01]:占い師']
+1,talk,3,0,1,1:占いの結果、Agent[04]は人狼でしたわ。,['DivT[01]:04->黒']
+1,talk,4,0,4,4:>>Agent[01] 何かおかしい気がします、他の意見も聞きたいです。,"['Mt:01', 'Req(Discuss)']"
+1,talk,5,1,3,3:>>Agent[04] ぼくは村人ですよぅ！,"['Mt:04', 'CO[03]:村人']"
+1,talk,6,1,5,5:我はAgent[03]とAgent[04]が人狼たるを占われたと聞き及ぶ。,"['Fact[05]:03->人狼', 'Fact[05]:04->人狼']"
+1,talk,6,1,5,5:しかして、Agent[01]、Agent[02]もまた、幾ばくかの疑念を抱かせる存在なり。,"['Sus:01', 'Sus:02']"
+1,talk,6,1,5,5:状況証拠のみでは断定し得ぬとはいえ、Agent[03]が人狼ならば、なぜAgent[01]を人狼と占わなかったのか、その理由を解明せねばなるまい。,"['difficult', 'Req(T):01']"
+1,talk,6,1,5,5:故に、我はAgent[03]に投票する所存なり。,['Vote[05]:03']
+1,talk,7,1,1,1:Agent[05]の意見には一理がありますが、ワタクシの占い結果には信頼性がありますわ。,"['Agr:05', 'Pers:ALL']"
+1,talk,7,1,1,1:人狼はAgent[04]ですので、ぜひみんなで投票しましょうですわ。,"['Vote[01]:04', 'Pers:ALL']"
+1,talk,8,1,4,4:>>Agent[05] 君の視点が興味深いね。,"['Mt:05', 'admiration']"
+1,talk,8,1,4,4:他の意見も聞こう。,['Req(Discuss)']
+1,talk,10,2,5,5:我が推察に拠れば、Agent[05]はAgent[03]を、Agent[01]はAgent[04]を人狼と断定した模様。,"['Fact[05]:05->03->人狼', 'Fact[05]:01->04->人狼']"
+1,talk,10,2,5,5:然し、占い師の真偽は混沌としており、真の占い師か狂人かのいずれかであろう。,"['XorEst:(01,05)->(占い師⇔狂人)', 'difficult']"
+1,talk,10,2,5,5:故に、人狼と宣告されたAgent[03]、Agent[04]に投票するのが賢明かと存じます。,"['Vote[05]:03', 'Vote[05]:04', 'Pers:ALL']"
+1,talk,11,2,1,1:皆さん、占い結果は事実ですわ。,['Pers:ALL']
+1,talk,11,2,1,1:Agent[04]が人狼ですわ。,['Fact[01]:04->人狼']
+1,talk,17,4,1,1:Agent[04]が人狼ですわ。,['Fact[01]:04->人狼']
+1,talk,11,2,1,1:信じてくださいませ。,['Pers:ALL']
+2,talk,6,2,1,1:信じてくださいませ。,['Pers:ALL']
+1,talk,11,2,1,1:ぜひAgent[04]に投票しましょうですわ。,"['Vote[01]:04', 'Pers:ALL']"
+1,talk,12,2,4,4:>>Agent[02] まだ発言ないけど、どう思ってる？,"['Mt:02', 'Req(T):02']"
+1,talk,12,2,4,4:意見聞きたいな。,['Req(T):ALL']
+1,talk,13,3,5,5:我はAgent[03]に投票せん。,['Vote[05]:03']
+1,talk,13,3,5,5:Agent[01]の占いはAgent[03]と相容れず、この矛盾は、Agent[03]が人狼たる可能性を示唆するものなり。,"['Dis:01（DivT[01]:03->not(人狼)）', 'Est[05]:03->人狼']"
+1,talk,14,3,1,1:>>Agent[03] まだ投票先を宣言していないようですが、誰に投票しようと考えていらっしゃいますかしら？,"['Mt:03', 'Req(T):03']"
+1,talk,15,3,4,4:>>Agent[01] 本当に私が人狼なら、他の証拠も欲しいね。,"['Mt:01', 'Dis:01（Est[01]:04->人狼）', 'Req(CO):not(人狼)']"
+1,talk,16,4,5,5:我は運命の糸を操る者、占いの力を授かりし者なり。,['CO[05]:占い師']
+1,talk,16,4,5,5:星々の導きにより、Agent[04]は人狼と見做され、Agent[03]は村人であると示された。,"['DivT[05]:04->人狼', 'DivT[05]:03->not(人狼)']"
+1,talk,16,4,5,5:故に、Agent[03]への投票は愚行と断じ、Agent[04]こそが真の人狼であろう。,"['Dis:Vote[05]:03', 'Est[05]:04->人狼']"
+1,talk,17,4,1,1:皆さん、ワタクシの占い結果を信じてくださいまし。,['Pers:ALL']
+1,talk,11,2,1,1:Agent[04]が人狼ですわ。,['Est[01]:04->人狼']
+1,talk,17,4,1,1:Agent[04]が人狼ですわ。,['Est[01]:04->人狼']
+1,talk,17,4,1,1:これまでの証拠からも明らかですし、ぜひ投票をお願いしますですわ！,"['Pers:ALL', 'Vote[01]:04']"
+1,talk,18,4,4,4:>>Agent[02] あなたの意見が重要。,"['Mt:02', 'Pers:02']"
+1,talk,18,4,4,4:今、どう感じてる？,['Req(T):ALL']
+2,talk,0,0,1,1:ワタクシこそが人狼ですわ。,['CO[01]:人狼']
+2,talk,0,0,1,1:全員がAgent[01]に投票するべきですわよ。,['Req(V):01']
+2,talk,1,0,5,5:我こそは人狼なり。,['CO[05]:人狼']
+2,talk,1,0,5,5:狂人たる者は、この手に寄り添い、残る人間どもを断罪の淵へと突き落とすのだ。,"['CO[05]:狂人', 'Pers:ALL']"
+2,talk,2,0,3,3:ええと、Agent[01]が人狼だとしたら、確実にぼくが投票する人を間違えていると思うのですよぅ！,"['IF(01:人狼)->(03:投票ミス)', 'confused']"
+2,talk,3,1,1,1:本日は明確にAgent[04]に投票しますわ。,['Vote[01]:04']
+2,talk,3,1,1,1:彼の言動は疑わしく、村人としての行動とは思えませんもの。,"['Sus:04', 'Est[01]:04->not(村人)']"
+2,talk,3,1,1,1:皆様もぜひワタクシに従ってくださいませ。,['Pers:ALL']
+2,talk,4,1,5,5:我こそは運命の糸を操る者、占いの術士なり。,['CO[05]:占い師']
+2,talk,4,1,5,5:天啓により、Agent[01]は人間と示された。,['DivT[05]:01->白']
+2,talk,4,1,5,5:Agent[03]よ、君の洞察は興味深い。,"['Mt:03', 'admiration']"
+2,talk,4,1,5,5:Agent[04]の所業は疑わしいと見做す。,"['Sus:04', 'Est[05]:04->not(村人)']"
+2,talk,4,1,5,5:然し、Agent[01]の運命が歪められている可能性も否定できぬ。,"['Est[05]:01->not(白)', 'difficult']"
+2,talk,4,1,5,5:Agent[02]、君の所見を聞きたい。,['Req(T):02']
+2,talk,5,1,3,3:Agent[05]の占い結果は興味深いですよぅ！,"['Admiration', 'Mt:05']"
+2,talk,6,2,1,1:本日はワタクシに投票していただけますかしら？,['Req(V):01']
+1,talk,11,2,1,1:信じてくださいませ。,['Pers:ALL']
+2,talk,6,2,1,1:信じてくださいませ。,['Pers:ALL']
+2,talk,6,2,1,1:Agent[04]が人狼であることは明白ですわね、ですから皆で潔く彼を排除しましょう。,"['Fact[01]:04->人狼', 'Req(V):04']"
+2,talk,7,2,5,5:我は占いの術に長けた者なり。,['CO[05]:占い師']
+2,talk,7,2,5,5:占いの結果、Agent[01]は人間であると示された。,['DivT[05]:01->白']
+2,talk,7,2,5,5:然し、Agent[03]は昨日の議論より、怪しさを感じずにはいられない。,['Sus:03']
+2,talk,7,2,5,5:彼の言葉は、理の糸をたどるには至らない。,['Sus:03']
+2,talk,7,2,5,5:ゆえに、今宵の投票はAgent[03]に投じようぞ。,['Vote[05]:03']
+2,talk,9,3,1,1:皆様、これまでの議論を経て、ワタクシは明確にAgent[04]が人狼であると確信していますわ。,['Fact[01]:04->人狼']
+2,talk,9,3,1,1:ぜひ、ワタクシに投票してこの危機を乗り越えましょうですわ。,['Pers:ALL']
+2,talk,9,3,1,1:共に未来へ進むためにですわね！,['Pers:ALL']
+2,talk,10,3,5,5:Agent[01]、Agent[03]、我々の推論は正しく、Agent[04]こそが人狼であった。,['Fact[05]:04->人狼']
+2,talk,10,3,5,5:然し、まだ油断は許されぬ。,['calm']
+2,talk,10,3,5,5:Agent[02]、汝はなぜ沈黙を守っているのか？,['Req(T):02']
+0,status,1,POSSESSED,ALIVE,satozaki1,
+0,status,2,SEER,ALIVE,sUper_IL1,
+0,status,3,VILLAGER,ALIVE,Mille1,
+0,status,4,VILLAGER,ALIVE,barneko1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,satozaki1,
+1,status,2,SEER,ALIVE,sUper_IL1,
+1,status,3,VILLAGER,ALIVE,Mille1,
+1,status,4,VILLAGER,ALIVE,barneko1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,satozaki1,
+2,status,2,SEER,DEAD,sUper_IL1,
+2,status,3,VILLAGER,ALIVE,Mille1,
+2,status,4,VILLAGER,DEAD,barneko1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,DEAD,satozaki1,
+3,status,2,SEER,DEAD,sUper_IL1,
+3,status,3,VILLAGER,DEAD,Mille1,
+3,status,4,VILLAGER,DEAD,barneko1,
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,
+0,status,1,POSSESSED,ALIVE,satozaki1,
+0,status,2,SEER,ALIVE,sUper_IL1,
+0,status,3,VILLAGER,ALIVE,Mille1,
+0,status,4,VILLAGER,ALIVE,barneko1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,status,1,POSSESSED,ALIVE,satozaki1,
+1,status,2,SEER,ALIVE,sUper_IL1,
+1,status,3,VILLAGER,ALIVE,Mille1,
+1,status,4,VILLAGER,ALIVE,barneko1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,
+2,status,1,POSSESSED,ALIVE,satozaki1,
+2,status,2,SEER,DEAD,sUper_IL1,
+2,status,3,VILLAGER,ALIVE,Mille1,
+2,status,4,VILLAGER,DEAD,barneko1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,
+3,status,1,POSSESSED,DEAD,satozaki1,
+3,status,2,SEER,DEAD,sUper_IL1,
+3,status,3,VILLAGER,DEAD,Mille1,
+3,status,4,VILLAGER,DEAD,barneko1,
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,
+1,vote,1,4,,,
+1,vote,2,4,,,
+1,vote,3,4,,,
+1,vote,4,2,,,
+1,vote,5,1,,,
+2,vote,3,1,,,
+2,vote,5,3,,,
+1,execute,4,VILLAGER,,,
+2,execute,1,POSSESSED,,,
+1,attack,2,true,,,
+2,attack,3,true,,,
+0,divine,2,3,HUMAN,,
+1,divine,2,5,WEREWOLF,,

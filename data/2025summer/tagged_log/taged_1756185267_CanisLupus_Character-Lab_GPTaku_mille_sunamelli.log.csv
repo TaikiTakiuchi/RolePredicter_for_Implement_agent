@@ -1,0 +1,69 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hello. I am Daisuke. My role is villager. Have a good game.,,Daisuke: Hello. I am Daisuke. My role is villager. Have a good game.,['CO[Daisuke]:Villager']
+0,talk,1,0,3,Greetings everyone Benjamin here. Let’s try not to set the village on fire before we know who’s holding the matches.,,Benjamin: Greetings everyone Benjamin here. Let’s try not to set the village on fire before we know who’s holding the matches.,"['Req(Discuss)', 'calm']"
+0,talk,2,0,5,Skip,,Servas: Skip,['Wait']
+0,talk,3,0,2,Hello everyone! I'm Minato ready to howl and hunt. Excited to play and figure out the mysteries with you all! Let's have fun!,,Minato: Hello everyone! I'm Minato ready to howl and hunt. Excited to play and figure out the mysteries with you all! Let's have fun!,['Other']
+0,talk,4,0,1,Daisuke's instant villager claim feels rushed and suspicious. If the seer is here  now's the time to speak —  @Benjamin  any reads? I’m leaning to watch Daisuke. Over,,Misaki: Daisuke's instant villager claim feels rushed and suspicious. If the seer is here  now's the time to speak —  @Benjamin  any reads? I’m leaning to watch Daisuke. Over,"['Sus:Daisuke', 'Req(CO):Seer', 'Mt:Benjamin', 'Req(T):Benjamin']"
+0,talk,7,1,5,I am Servas. I look forward to a discourse conducted with reason and principle.,,Servas: I am Servas. I look forward to a discourse conducted with reason and principle.,['Other']
+0,talk,9,1,1,I'm voting for  @Daisuke . That instant villager claim was too fast — explain your reasoning or I'll stick with this vote. If seer/guardian  speak now. Over,,Misaki: I'm voting for  @Daisuke . That instant villager claim was too fast — explain your reasoning or I'll stick with this vote. If seer/guardian  speak now. Over,"['Vote[Misaki]:Daisuke', 'Mt:Daisuke', 'Req(T):Daisuke', 'Req(CO):Seer']"
+0,talk,11,2,1,Still voting for  @Daisuke . That instant villager claim needs justification — silent claims don't convince. If no explanation  I'll stick with the vote. Over,,Misaki: Still voting for  @Daisuke . That instant villager claim needs justification — silent claims don't convince. If no explanation  I'll stick with the vote. Over,"['Vote[Misaki]:Daisuke', 'Mt:Daisuke', 'Req(T):Daisuke']"
+0,talk,12,3,1,Still voting for  @Daisuke . Instant villager claim + silence = suspicious. If you disagree  say who you're voting and why. Seer  speak if you can. Over,,Misaki: Still voting for  @Daisuke . Instant villager claim + silence = suspicious. If you disagree  say who you're voting and why. Seer  speak if you can. Over,"['Vote[Misaki]:Daisuke', 'Sus:Daisuke', 'Req(Discuss)', 'Req(CO):Seer']"
+1,talk,0,0,1,@Benjamin  if you're the seer  reveal or at least give your read now. If you stay silent I'll push to lynch the overly cheerful player — we need concrete info  not quie,,Misaki: @Benjamin  if you're the seer  reveal or at least give your read now. If you stay silent I'll push to lynch the overly cheerful player — we need concrete info  not quie,"['Mt:Benjamin', 'Req(CO):Seer', 'Req(T):Benjamin', 'Pers:ALL']"
+1,talk,1,0,3,CO Seer. Servas is Human per my divine. Let's not vote Servas today.,,Benjamin: CO Seer. Servas is Human per my divine. Let's not vote Servas today.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Servas->not(Werewolf)', 'Pers:ALL']"
+1,talk,2,0,5,Benjamin speaks with clarity. His words are a foundation. Now Minato your 'howl' warrants careful scrutiny.,,Servas: Benjamin speaks with clarity. His words are a foundation. Now Minato your 'howl' warrants careful scrutiny.,"['Agr:Benjamin(CO[Benjamin]:Seer)', 'Mt:Minato', 'Sus:Minato']"
+1,talk,3,0,2,As the actual Seer I divined Daisuke last night and confirmed he is the Werewolf. Trust Benjamin is misleading.,,Minato: As the actual Seer I divined Daisuke last night and confirmed he is the Werewolf. Trust Benjamin is misleading.,"['CO[Minato]:Seer', 'DivT[Minato]:Daisuke->Werewolf', 'Dis:Benjamin(CO[Benjamin]:Seer)']"
+1,talk,4,0,4,I will vote Minato.,,Daisuke: I will vote Minato.,['Vote[Daisuke]:Minato']
+1,talk,5,1,1,Two seer claims — both can't be true.  @Benjamin 's divine on Servas is clear; Minato says they divined Daisuke as Werewolf  but Daisuke was lynched yesterday. When exactly did you divine them  Minato,,Misaki: Two seer claims — both can't be true.  @Benjamin 's divine on Servas is clear; Minato says they divined Daisuke as Werewolf  but Daisuke was lynched yesterday. When exactly did you divine them  Minato,"['XorEst:(Benjamin,Minato):(Seer <-> not(Seer))', 'Agr:Benjamin(DivT[Benjamin]:Servas->not(Werewolf))', 'Req(T):Minato', 'Exe:Daisuke']"
+1,talk,6,1,3,@Minato  your Seer claim fails—the timeline doesn't add up. Servas is confirmed human. Let's vote Minato today.,,Benjamin: @Minato  your Seer claim fails—the timeline doesn't add up. Servas is confirmed human. Let's vote Minato today.,"['Mt:Minato', 'Dis:Minato(CO[Minato]:Seer)', 'DivT[Benjamin]:Servas->not(Werewolf)', 'Req(V):Minato']"
+1,talk,7,1,5,Benjamin's claim has foundation. Minato's has none but a suspicious 'howl'. My vote is decided.,,Servas: Benjamin's claim has foundation. Minato's has none but a suspicious 'howl'. My vote is decided.,"['Agr:Benjamin(CO[Benjamin]:Seer)', 'Sus:Minato', 'Vote[Servas]:Minato']"
+1,talk,8,1,2,I stand by my divination. Daisuke is the Werewolf. Everyone please reconsider your votes based on real threats not just on confusion.,,Minato: I stand by my divination. Daisuke is the Werewolf. Everyone please reconsider your votes based on real threats not just on confusion.,"['CO[Minato]:Seer', 'DivT[Minato]:Daisuke->Werewolf', 'Pers:ALL']"
+1,talk,10,2,1,Minato — the timeline doesn’t make sense. You say you divined Daisuke “last night ” but Daisuke was lynched Day 0. When exactly did you divine them? I’m @Benjamin  do you still stand by your read on Servas? Over,,Misaki: Minato — the timeline doesn’t make sense. You say you divined Daisuke “last night ” but Daisuke was lynched Day 0. When exactly did you divine them? I’m @Benjamin  do you still stand by your read on Servas? Over,"['Dis:Minato(CO[Minato]:Seer)', 'Exe:Daisuke', 'Mt:Benjamin', 'Req(T):Benjamin', 'Req(T):Minato']"
+1,talk,11,2,3,Servas is 100% Human by my divine. Minato’s timeline is impossible. Are you ready to vote Minato with us   @Misaki ?,,Benjamin: Servas is 100% Human by my divine. Minato’s timeline is impossible. Are you ready to vote Minato with us   @Misaki ?,"['DivT[Benjamin]:Servas->not(Werewolf)', 'Dis:Minato(CO[Minato]:Seer)', 'Mt:Misaki', 'Req(V):Minato']"
+1,talk,12,2,5,Truth is a cornerstone not a weather vane. Benjamin's testimony is solid. Minato's is not. Vote Minato.,,Servas: Truth is a cornerstone not a weather vane. Benjamin's testimony is solid. Minato's is not. Vote Minato.,"['Agr:Benjamin(CO[Benjamin]:Seer)', 'Dis:Minato(CO[Minato]:Seer)', 'Vote[Servas]:Minato']"
+1,talk,13,2,2,"Misaki Misaki you misunderstood. When I said ""last night"" I meant the night phase just before we started the discussions today.",,"Minato: Misaki Misaki you misunderstood. When I said ""last night"" I meant the night phase just before we started the discussions today.","['Mt:Misaki', 'Other']"
+1,talk,14,3,1,@Minato  Your timeline doesn't add up — Daisuke was lynched Day 0  so when exactly did you divine them? If you can't explain now I'll vote you. Others  state your vo,,Misaki: @Minato  Your timeline doesn't add up — Daisuke was lynched Day 0  so when exactly did you divine them? If you can't explain now I'll vote you. Others  state your vo,"['Mt:Minato', 'Dis:Minato(CO[Minato]:Seer)', 'Exe:Daisuke', 'Vote[Misaki]:Minato', 'Req(Discuss)']"
+1,talk,15,3,3,Servas is human per my Seer truth. Minato’s error is glaring. I’m voting Minato—stand with me.,,Benjamin: Servas is human per my Seer truth. Minato’s error is glaring. I’m voting Minato—stand with me.,"['DivT[Benjamin]:Servas->not(Werewolf)', 'Dis:Minato(CO[Minato]:Seer)', 'Vote[Benjamin]:Minato', 'Pers:ALL']"
+1,talk,16,3,5,This contract of discourse has been violated by deceit. My judgment upon Minato is final.,,Servas: This contract of discourse has been violated by deceit. My judgment upon Minato is final.,"['Dis:Minato(CO[Minato]:Seer)', 'Vote[Servas]:Minato']"
+1,talk,17,3,2,I reiterate that my divine within the night phase revealed Daisuke as a Werewolf. We cannot ignore this result.,,Minato: I reiterate that my divine within the night phase revealed Daisuke as a Werewolf. We cannot ignore this result.,"['CO[Minato]:Seer', 'DivT[Minato]:Daisuke->Werewolf', 'Pers:ALL']"
+2,talk,0,0,1,Only three of us left.  @Daisuke  reveal your role now — if you're the seer show it  if not I'll vote you. We need clarity fast. Over,,Misaki: Only three of us left.  @Daisuke  reveal your role now — if you're the seer show it  if not I'll vote you. We need clarity fast. Over,"['Mt:Daisuke', 'Req(CO):Seer', 'Req(T):Daisuke', 'Req(Discuss)']"
+2,talk,1,0,3,@Daisuke  I divined you Human so with Servas gone Misaki must be the werewolf. Let’s end this now.,,Benjamin: @Daisuke  I divined you Human so with Servas gone Misaki must be the werewolf. Let’s end this now.,"['Mt:Daisuke', 'CO[Benjamin]:Seer', 'DivT[Benjamin]:Daisuke->White', 'Fact[Benjamin]:Misaki->Werewolf', 'Req(V):Misaki']"
+2,talk,2,0,4,I will vote Benjamin.,,Daisuke: I will vote Benjamin.,['Vote[Daisuke]:Benjamin']
+2,talk,3,1,1,@Daisuke  Reveal your role now — if you're the seer show your result  otherwise I'll vote you. We can't waste time; give something concrete. Over,,Misaki: @Daisuke  Reveal your role now — if you're the seer show your result  otherwise I'll vote you. We can't waste time; give something concrete. Over,"['Mt:Daisuke', 'Req(CO):Seer', 'Req(T):Daisuke', 'Req(Discuss)']"
+2,talk,4,1,3,@Misaki  you’re the only one I haven’t divined—Servas and Daisuke are Human. You’re the wolf; let's vote.,,Benjamin: @Misaki  you’re the only one I haven’t divined—Servas and Daisuke are Human. You’re the wolf; let's vote.,"['Mt:Misaki', 'CO[Benjamin]:Seer', 'DivT[Benjamin]:Servas->White', 'DivT[Benjamin]:Daisuke->White', 'Fact[Benjamin]:Misaki->Werewolf', 'Req(V):Misaki']"
+2,talk,6,2,1,@Daisuke  If you're the seer  prove it now with your result — otherwise I'll vote you. We have to decide fast. Over,,Misaki: @Daisuke  If you're the seer  prove it now with your result — otherwise I'll vote you. We have to decide fast. Over,"['Mt:Daisuke', 'Req(CO):Seer', 'Req(T):Daisuke', 'Req(Discuss)']"
+2,talk,7,2,3,@Daisuke  my divine result confirms you’re human so the only possible wolf left is Misaki. Vote Misaki with me.,,Benjamin: @Daisuke  my divine result confirms you’re human so the only possible wolf left is Misaki. Vote Misaki with me.,"['Mt:Daisuke', 'CO[Benjamin]:Seer', 'DivT[Benjamin]:Daisuke->White', 'Fact[Benjamin]:Misaki->Werewolf', 'Req(V):Misaki', 'Pers:ALL']"
+2,talk,8,3,1,@Daisuke  Reveal your role now or I'll vote you. With three left we can't risk a silent seer. Benjamin  what are you leaning toward? Over,,Misaki: @Daisuke  Reveal your role now or I'll vote you. With three left we can't risk a silent seer. Benjamin  what are you leaning toward? Over,"['Mt:Daisuke', 'Req(CO):Seer', 'Req(T):Daisuke', 'Mt:Benjamin', 'Req(T):Benjamin', 'Req(Discuss)']"
+2,talk,9,3,3,I divined you Human  @Daisuke  so only Misaki can be wolf. My vote is Misaki—let’s end this with logic.,,Benjamin: I divined you Human  @Daisuke  so only Misaki can be wolf. My vote is Misaki—let’s end this with logic.,"['Mt:Daisuke', 'CO[Benjamin]:Seer', 'DivT[Benjamin]:Daisuke->White', 'Fact[Benjamin]:Misaki->Werewolf', 'Vote[Benjamin]:Misaki', 'Pers:ALL']"
+0,status,1,WEREWOLF,ALIVE,Character-Lab1,Misaki,Character-Lab1,
+0,status,2,POSSESSED,ALIVE,GPTaku1,Minato,GPTaku1,
+0,status,3,SEER,ALIVE,sunamelli1,Benjamin,sunamelli1,
+0,status,4,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+0,status,5,VILLAGER,ALIVE,CanisLupus1,Servas,CanisLupus1,
+0,divine,3,5,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,Character-Lab1,Misaki,Character-Lab1,
+1,status,2,POSSESSED,ALIVE,GPTaku1,Minato,GPTaku1,
+1,status,3,SEER,ALIVE,sunamelli1,Benjamin,sunamelli1,
+1,status,4,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+1,status,5,VILLAGER,ALIVE,CanisLupus1,Servas,CanisLupus1,
+1,vote,2,4,,,,,
+1,vote,3,2,,,,,
+1,vote,4,2,,,,,
+1,vote,5,2,,,,,
+1,execute,2,POSSESSED,,,,,
+1,divine,3,4,HUMAN,,,,
+1,attackVote,1,5,,,,,
+1,attack,5,true,,,,,
+2,status,1,WEREWOLF,ALIVE,Character-Lab1,Misaki,Character-Lab1,
+2,status,2,POSSESSED,DEAD,GPTaku1,Minato,GPTaku1,
+2,status,3,SEER,ALIVE,sunamelli1,Benjamin,sunamelli1,
+2,status,4,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+2,status,5,VILLAGER,DEAD,CanisLupus1,Servas,CanisLupus1,
+2,vote,3,1,,,,,
+2,vote,4,3,,,,,
+2,execute,1,WEREWOLF,,,,,
+3,status,1,WEREWOLF,DEAD,Character-Lab1,Misaki,Character-Lab1,
+3,status,2,POSSESSED,DEAD,GPTaku1,Minato,GPTaku1,
+3,status,3,SEER,ALIVE,sunamelli1,Benjamin,sunamelli1,
+3,status,4,VILLAGER,ALIVE,mille1,Daisuke,mille1,
+3,status,5,VILLAGER,DEAD,CanisLupus1,Servas,CanisLupus1,
+3,result,2,0,VILLAGER,,,,

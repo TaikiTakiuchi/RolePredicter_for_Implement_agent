@@ -1,0 +1,499 @@
+{
+  "filename": "taged_1746465664_mille_sunamelli_CanisLupus_GAIT_CamelliaDragons.log.csv",
+  "exec_id": 2,
+  "attack_id": 5,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "mille1",
+      "character_name": "トシ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "トシ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "トシ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "sunamelli1",
+      "character_name": "まこと",
+      "day1_info": {
+        "seer_co_order": 2,
+        "seer_co_num": 2,
+        "Mt": [
+          {
+            "recepient_id": "まこと",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "まこと",
+            "recepient_role": "占い師",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "まこと",
+            "recepient_id": "トシ",
+            "recepient_role": "黒",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "まこと",
+            "recepient_role": "リョウ",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "CanisLupus1",
+      "character_name": "リョウ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 2,
+        "Mt": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 5
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "ミカ",
+            "recepient_role": "白",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "トシ",
+            "recepient_role": "人狼",
+            "count": 1
+          },
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "トシ",
+            "recepient_role": "黒",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "トシ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 5
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_role": "not(占い師)",
+            "count": 1
+          },
+          {
+            "speaker_id": "リョウ",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "1",
+        "result": "WEREWOLF"
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "GAIT1",
+      "character_name": "ミカ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "ReqDiscuss": [
+          {
+            "count": 15
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "まこと",
+            "count": 9
+          },
+          {
+            "recepient_id": "シン",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 5
+          },
+          {
+            "recepient_id": "トシ",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "まこと",
+            "count": 4
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "シン",
+            "count": 7
+          },
+          {
+            "recepient_id": "トシ",
+            "count": 7
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_id": "リョウ",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "ミカ",
+            "recepient_id": "ミカ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 5
+          },
+          {
+            "recepient_id": "まこと",
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "トシ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 5
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 14
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "リョウ",
+            "count": 7
+          },
+          {
+            "recepient_id": "トシ",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "トシ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "シン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "Mt": [
+          {
+            "recepient_id": "シン",
+            "count": 1
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "admiration": [
+          {
+            "count": 7
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "シン",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          },
+          {
+            "recepient_id": "まこと",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          },
+          {
+            "recepient_id": "まこと",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 3
+          },
+          {
+            "recepient_id": "トシ",
+            "count": 3
+          },
+          {
+            "recepient_id": "リョウ,Sus:まこと",
+            "count": 2
+          },
+          {
+            "recepient_id": "まこと",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 4
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    }
+  ]
+}

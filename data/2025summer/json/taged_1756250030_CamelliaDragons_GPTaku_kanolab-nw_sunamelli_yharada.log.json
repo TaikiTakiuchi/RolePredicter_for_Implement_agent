@@ -1,0 +1,333 @@
+{
+  "filename": "taged_1756250030_CamelliaDragons_GPTaku_kanolab-nw_sunamelli_yharada.log.csv",
+  "exec_id": 2,
+  "attack_id": 3,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Daisuke",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "GPTaku1",
+      "character_name": "Mizuki",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "DivT": [
+          {
+            "speaker_id": "Mizuki",
+            "recepient_id": "Jonathan",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Mizuki",
+            "recepient_role": "Jonathan",
+            "count": 3
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "yharada1",
+      "character_name": "Victoria",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "Seer",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_id": "Mizuki",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "2",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "1",
+        "result": "WEREWOLF"
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "sunamelli1",
+      "character_name": "Kenji",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_role": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_id": "Mizuki",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 3
+          },
+          {
+            "recepient_id": "Jonathan",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Kenji",
+            "recepient_role": "Daisuke",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "kanolab-nw1",
+      "character_name": "Jonathan",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Jonathan",
+            "recepient_id": "Mizuki",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Mizuki",
+            "count": 1
+          },
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Sus": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 3
+          },
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Kenji",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Kenji",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    }
+  ]
+}

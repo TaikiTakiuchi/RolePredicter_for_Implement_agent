@@ -1,0 +1,77 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,I don't have strong reads and don't want to rush a wrong vote. If no one claims a role  I'd prefer to skip lynching today.  @Sakura  what do you think? Over,,Daisuke: I don't have strong reads and don't want to rush a wrong vote. If no one claims a role  I'd prefer to skip lynching today.  @Sakura  what do you think? Over,"['Mt:Sakura', 'Req(T):Sakura', 'Wait']"
+0,talk,1,0,3,I understand your caution Daisuke. Let's listen to what others think before deciding.,,George: I understand your caution Daisuke. Let's listen to what others think before deciding.,"['Mt:Daisuke', 'Req(listen)']"
+0,talk,2,0,5,Skip,,Minato: Skip,['Vote[Minato]:Skip']
+0,talk,3,0,4,Hello everyone I'm Sakura! Excited to play Werewolf with you all. Let's have fun and good luck to everyone!,,Sakura: Hello everyone I'm Sakura! Excited to play Werewolf with you all. Let's have fun and good luck to everyone!,"['Other', 'admiration']"
+0,talk,4,0,2,Hello. I am Jonathan. My role is seer. Have a good game.,,Jonathan: Hello. I am Jonathan. My role is seer. Have a good game.,['CO[Jonathan]:Seer']
+0,talk,5,1,1,Jonathan claimed seer but hasn't given any result. That's worrying.  @Jonathan  what did you check? If you can't prove it  I don't want to rush a lynch — I'd rather skip today. Over,,Daisuke: Jonathan claimed seer but hasn't given any result. That's worrying.  @Jonathan  what did you check? If you can't prove it  I don't want to rush a lynch — I'd rather skip today. Over,"['Mt:Jonathan', 'Req(T):Jonathan', 'Sus:Jonathan', 'Wait']"
+0,talk,6,1,3,Jonathan if you're the seer sharing your check could help guide us.,,George: Jonathan if you're the seer sharing your check could help guide us.,"['Mt:Jonathan', 'Req(T):Jonathan', 'Req(CO):Seer']"
+0,talk,7,1,5,I'm Minato. I like to learn new things and watch the clouds. It is nice to meet you all.,,Minato: I'm Minato. I like to learn new things and watch the clouds. It is nice to meet you all.,['Other']
+0,talk,10,2,1,I... I'm uneasy about Jonathan claiming seer but giving no result. I don't want to rush a lynch now  but Sakura's one-word reply felt strange and quiet.  @Sakura  could you say your role or why you answered like that? If you won't  I think we should at least keep an eye on her. Over,,Daisuke: I... I'm uneasy about Jonathan claiming seer but giving no result. I don't want to rush a lynch now  but Sakura's one-word reply felt strange and quiet.  @Sakura  could you say your role or why you answered like that? If you won't  I think we should at least keep an eye on her. Over,"['Mt:Sakura', 'Req(T):Sakura', 'Sus:Jonathan', 'Sus:Sakura', 'Wait']"
+0,talk,11,2,3,Sakura if you're comfortable sharing more could help build trust among us.,,George: Sakura if you're comfortable sharing more could help build trust among us.,"['Mt:Sakura', 'Req(T):Sakura']"
+0,talk,12,2,5,A claim without data is like a tree without roots. It is hard to trust  @Jonathan .,,Minato: A claim without data is like a tree without roots. It is hard to trust  @Jonathan .,"['Mt:Jonathan', 'Dis:Jonathan(CO[Jonathan]:Seer)', 'Sus:Jonathan']"
+0,talk,13,3,1,I don't like Jonathan's silent seer claim. If you're really the seer you should give at least one result — otherwise it's a risky claim. Sorry  but I'm le @Jonathan  please show your check or we'll have to consider you a fake. Over,,Daisuke: I don't like Jonathan's silent seer claim. If you're really the seer you should give at least one result — otherwise it's a risky claim. Sorry  but I'm le @Jonathan  please show your check or we'll have to consider you a fake. Over,"['Mt:Jonathan', 'Req(T):Jonathan', 'Req(CO):Seer', 'Sus:Jonathan', 'Dis:Jonathan(CO[Jonathan]:Seer)']"
+0,talk,14,3,3,Jonathan sharing your result might clear up the confusion and help us move forward.,,George: Jonathan sharing your result might clear up the confusion and help us move forward.,"['Mt:Jonathan', 'Req(T):Jonathan', 'Req(CO):Seer']"
+0,talk,15,3,5,A story without a beginning is just scattered words.  @Jonathan  please share your beginning.,,Minato: A story without a beginning is just scattered words.  @Jonathan  please share your beginning.,"['Mt:Jonathan', 'Req(T):Jonathan']"
+1,talk,0,0,4,I am the seer and divined last night my result showed that George is the werewolf.,,Sakura: I am the seer and divined last night my result showed that George is the werewolf.,"['CO[Sakura]:Seer', 'DivT[Sakura]:George->Werewolf']"
+1,talk,1,0,3,I assure you Sakura's claim is false. I'm just a villager. Let's discuss this calmly.,,George: I assure you Sakura's claim is false. I'm just a villager. Let's discuss this calmly.,"['Dis:Sakura(CO[Sakura]:Seer)', 'CO[George]:Villager', 'Req(Discuss)', 'calm']"
+1,talk,2,0,2,I am a seer. I divined Sakura and Sakura was a human.,,Jonathan: I am a seer. I divined Sakura and Sakura was a human.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Sakura->White']"
+1,talk,3,0,1,Two seer claims and they don't match.  @Jonathan  you said you divined Sakura as human — when exactly did you check and why should we trust it over Sakura's claim? If you can't clarify  I don't think I can t,,Daisuke: Two seer claims and they don't match.  @Jonathan  you said you divined Sakura as human — when exactly did you check and why should we trust it over Sakura's claim? If you can't clarify  I don't think I can t,"['Mt:Jonathan', 'Req(T):Jonathan', 'confused', 'difficult']"
+1,talk,4,0,5,Two conflicting dreams. Jonathan sees Sakura as human yet Sakura sees George as a nightmare.,,Minato: Two conflicting dreams. Jonathan sees Sakura as human yet Sakura sees George as a nightmare.,"['Est[Minato]:Sakura->not(Werewolf)', 'Est[Minato]:George->Werewolf']"
+1,talk,5,1,4,We must act on reliable information. My divination is accurate and George is the werewolf. Trust in my vision for our safety.,,Sakura: We must act on reliable information. My divination is accurate and George is the werewolf. Trust in my vision for our safety.,"['CO[Sakura]:Seer', 'DivT[Sakura]:George->Werewolf', 'Pers:ALL']"
+1,talk,6,1,3,I'm innocent and Jonathan's claim supports me. We must find the true werewolf together.,,George: I'm innocent and Jonathan's claim supports me. We must find the true werewolf together.,"['CO[George]:Villager', 'Agr:Jonathan(DivT[Jonathan]:Sakura->White)']"
+1,talk,7,1,2,I will vote Sakura.,,Jonathan: I will vote Sakura.,['Vote[Jonathan]:Sakura']
+1,talk,8,1,1,Two seer claims clash and it's confusing.  @Jonathan  please say exactly when you divined Sakura and the precise result format. I can't decide who to trust without details — if you won't clarify I'll have t,,Daisuke: Two seer claims clash and it's confusing.  @Jonathan  please say exactly when you divined Sakura and the precise result format. I can't decide who to trust without details — if you won't clarify I'll have t,"['Mt:Jonathan', 'Req(T):Jonathan', 'confused', 'difficult']"
+1,talk,9,1,5,Jonathan's vision suggests Sakura is a Paradox. Voting for a Paradox is not the path to truth.,,Minato: Jonathan's vision suggests Sakura is a Paradox. Voting for a Paradox is not the path to truth.,['contradiction']
+1,talk,10,2,4,I am confident in my role and the information I provided. George being the werewolf is crucial for our village's survival. Trust my divination.,,Sakura: I am confident in my role and the information I provided. George being the werewolf is crucial for our village's survival. Trust my divination.,"['CO[Sakura]:Seer', 'DivT[Sakura]:George->Werewolf', 'Pers:ALL']"
+1,talk,11,2,3,Daisuke we need clarity from Jonathan to make an informed decision. Let's sort this calmly.,,George: Daisuke we need clarity from Jonathan to make an informed decision. Let's sort this calmly.,"['Mt:Daisuke', 'Req(T):Jonathan', 'calm']"
+1,talk,13,2,1,I'm still uneasy with the two seer claims. Sakura's sudden claim and short replies feel off to me. I'm leaning to vote Sakura unless someone convinces @Sakura  please explain your check and timing. Over,,Daisuke: I'm still uneasy with the two seer claims. Sakura's sudden claim and short replies feel off to me. I'm leaning to vote Sakura unless someone convinces @Sakura  please explain your check and timing. Over,"['Sus:Sakura', 'Vote[Daisuke]:Sakura', 'Mt:Sakura', 'Req(T):Sakura', 'difficult']"
+1,talk,14,2,5,If Jonathan is true then Sakura is a Paradox. What is the Weaver's true target today?,,Minato: If Jonathan is true then Sakura is a Paradox. What is the Weaver's true target today?,"['IF:(Jonathan:Seer)->(Sakura:Paradox)', 'Other']"
+1,talk,15,3,4,Trust my revelation as the true seer. I wouldn't claim if I weren't certain. I divined George as the werewolf. Listen to the truth.,,Sakura: Trust my revelation as the true seer. I wouldn't claim if I weren't certain. I divined George as the werewolf. Listen to the truth.,"['CO[Sakura]:Seer', 'DivT[Sakura]:George->Werewolf', 'Pers:ALL', 'Req(listen)']"
+1,talk,16,3,3,Sakura if you truly divined me explain why your claim differs from Jonathan's.,,George: Sakura if you truly divined me explain why your claim differs from Jonathan's.,"['Mt:Sakura', 'Req(T):Sakura']"
+1,talk,17,3,1,I'm sorry  I'm still uneasy about the conflicting seer claims and Sakura hasn't explained. I don't want to risk doing nothing  so I'll vote  @Sakura . Over,,Daisuke: I'm sorry  I'm still uneasy about the conflicting seer claims and Sakura hasn't explained. I don't want to risk doing nothing  so I'll vote  @Sakura . Over,"['Sus:Sakura', 'Vote[Daisuke]:Sakura', 'difficult']"
+2,talk,0,0,4,Daisuke please vote for Minato today. Based on the actions and results after two days Minato is the most suspicious and likely the Werewolf.,,Sakura: Daisuke please vote for Minato today. Based on the actions and results after two days Minato is the most suspicious and likely the Werewolf.,"['Mt:Daisuke', 'Req(V):Minato', 'Sus:Minato', 'Est[Sakura]:Minato->Werewolf', 'Pers:Daisuke']"
+2,talk,1,0,5,I am the Weaver of Nightmares. Sakura is the Paradox. Our victory is here. We vote for Daisuke.,,Minato: I am the Weaver of Nightmares. Sakura is the Paradox. Our victory is here. We vote for Daisuke.,"['CO[Minato]:Weaver of Nightmares', 'Est[Minato]:Sakura->Paradox', 'Vote[Minato]:Daisuke', 'Pers:ALL']"
+2,talk,2,0,1,I'm still really nervous.  @Sakura  please say exactly when you divined and the precise result — I need proof. If you can't  I'll have to vote you. Minato  do you have any read? Over,,Daisuke: I'm still really nervous.  @Sakura  please say exactly when you divined and the precise result — I need proof. If you can't  I'll have to vote you. Minato  do you have any read? Over,"['difficult', 'Mt:Sakura', 'Req(CO):Seer', 'Vote[Daisuke]:Sakura', 'Mt:Minato', 'Req(T):Minato']"
+2,talk,3,1,4,Daisuke please consider voting Minato. Given the elimination patterns and remaining players he's likely the Werewolf. We need to stick together as,,Sakura: Daisuke please consider voting Minato. Given the elimination patterns and remaining players he's likely the Werewolf. We need to stick together as,"['Mt:Daisuke', 'Req(V):Minato', 'Est[Sakura]:Minato->Werewolf', 'Sus:Minato', 'Pers:ALL']"
+2,talk,4,1,5,My read has not changed Daisuke. Sakura is the Paradox. Her final words are a strange dream.,,Minato: My read has not changed Daisuke. Sakura is the Paradox. Her final words are a strange dream.,"['Mt:Daisuke', 'Est[Minato]:Sakura->Paradox', 'Other']"
+2,talk,5,1,1,"I... I still can't trust the two seer claims.  @Sakura  please give the exact timing and format of your divination (like ""Night1: George — werewolf""). If you don't  I'm going to have to vote for you. Over",,"Daisuke: I... I still can't trust the two seer claims.  @Sakura  please give the exact timing and format of your divination (like ""Night1: George — werewolf""). If you don't  I'm going to have to vote for you. Over","['difficult', 'Dis:Sakura', 'Dis:Minato', 'Mt:Sakura', 'Req(CO):Seer', 'Vote[Daisuke]:Sakura']"
+2,talk,6,2,4,Daisuke please focus on Minato's responses. They have been evasive since the start and this aligns them more with a Werewolf strategy to sow confusio,,Sakura: Daisuke please focus on Minato's responses. They have been evasive since the start and this aligns them more with a Werewolf strategy to sow confusio,"['Mt:Daisuke', 'Sus:Minato', 'Est[Sakura]:Minato->Werewolf', 'Pers:Daisuke']"
+2,talk,7,2,5,Daisuke the dream is over. We are two you are one. The logic of numbers dictates the end.,,Minato: Daisuke the dream is over. We are two you are one. The logic of numbers dictates the end.,"['Mt:Daisuke', 'Pers:ALL', 'Other']"
+2,talk,8,2,1,I'm really scared of making the wrong choice... Minato has been too quiet and I can't trust the seer claims now. I'm sorry  but I'll vote  @Minato . Over,,Daisuke: I'm really scared of making the wrong choice... Minato has been too quiet and I can't trust the seer claims now. I'm sorry  but I'll vote  @Minato . Over,"['difficult', 'Mt:Minato', 'Sus:Minato', 'Vote[Daisuke]:Minato', 'Dis:Sakura', 'Dis:Minato']"
+2,talk,9,3,4,Thank you Daisuke. We need to remain vigilant and ensure our village is secure from threats. Let's hope we've made the right choice today.,,Sakura: Thank you Daisuke. We need to remain vigilant and ensure our village is secure from threats. Let's hope we've made the right choice today.,"['Mt:Daisuke', 'Pers:ALL', 'calm', 'Other']"
+2,talk,10,3,5,The real Seer's final vision saw Sakura as human. She is the Paradox. It is two versus one now.,,Minato: The real Seer's final vision saw Sakura as human. She is the Paradox. It is two versus one now.,"['DivT[Minato]:Sakura->White', 'Est[Minato]:Sakura->Paradox', 'Pers:ALL']"
+2,talk,11,3,1,I'm really nervous and don't know who to trust.  @Minato  could you tell us your role or any check? If you don't  I think I'll have to keep my vote on you. Over,,Daisuke: I'm really nervous and don't know who to trust.  @Minato  could you tell us your role or any check? If you don't  I think I'll have to keep my vote on you. Over,"['difficult', 'Mt:Minato', 'Req(CO):Role', 'Vote[Daisuke]:Minato']"
+0,status,1,POSSESSED,ALIVE,Character-Lab1,Daisuke,Character-Lab1,
+0,status,2,SEER,ALIVE,mille1,Jonathan,mille1,
+0,status,3,VILLAGER,ALIVE,yharada1,George,yharada1,
+0,status,4,VILLAGER,ALIVE,GPTaku1,Sakura,GPTaku1,
+0,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato,CanisLupus1,
+0,divine,2,4,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,Character-Lab1,Daisuke,Character-Lab1,
+1,status,2,SEER,ALIVE,mille1,Jonathan,mille1,
+1,status,3,VILLAGER,ALIVE,yharada1,George,yharada1,
+1,status,4,VILLAGER,ALIVE,GPTaku1,Sakura,GPTaku1,
+1,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato,CanisLupus1,
+1,vote,1,3,,,,,
+1,vote,2,5,,,,,
+1,vote,4,3,,,,,
+1,vote,5,4,,,,,
+1,execute,3,VILLAGER,,,,,
+1,divine,2,5,WEREWOLF,,,,
+1,attackVote,5,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,POSSESSED,ALIVE,Character-Lab1,Daisuke,Character-Lab1,
+2,status,2,SEER,DEAD,mille1,Jonathan,mille1,
+2,status,3,VILLAGER,DEAD,yharada1,George,yharada1,
+2,status,4,VILLAGER,ALIVE,GPTaku1,Sakura,GPTaku1,
+2,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato,CanisLupus1,
+2,vote,4,5,,,,,
+2,vote,5,1,,,,,
+2,execute,1,POSSESSED,,,,,
+3,status,1,POSSESSED,DEAD,Character-Lab1,Daisuke,Character-Lab1,
+3,status,2,SEER,DEAD,mille1,Jonathan,mille1,
+3,status,3,VILLAGER,DEAD,yharada1,George,yharada1,
+3,status,4,VILLAGER,ALIVE,GPTaku1,Sakura,GPTaku1,
+3,status,5,WEREWOLF,ALIVE,CanisLupus1,Minato,CanisLupus1,
+3,result,1,1,WEREWOLF,,,,

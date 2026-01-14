@@ -1,0 +1,80 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,Let's focus on gathering information and observing behaviors carefully today.,,Asuka: Let's focus on gathering information and observing behaviors carefully today.,"['Req(Discuss)', 'calm']"
+0,talk,1,0,4,Hey team. Shunichi here. Eager to dive into this game with you all. Let's keep it mellow and win as a unit. Over.,,Shunichi: Hey team. Shunichi here. Eager to dive into this game with you all. Let's keep it mellow and win as a unit. Over.,"['Pers:ALL', 'calm']"
+0,talk,2,0,1,I'll stay quiet and watch for slips.  @Asuka  — since you want to observe  who caught your eye first and why? Over,,Victoria: I'll stay quiet and watch for slips.  @Asuka  — since you want to observe  who caught your eye first and why? Over,"['Mt:Asuka', 'Req(T):Asuka']"
+0,talk,3,0,2,Skip,,Minako: Skip,['Other']
+0,talk,4,0,3,...,,Takumi: ...,['Other']
+0,talk,5,1,5,It's early but Shunichi's enthusiasm stands out. Let's see how the day unfolds.,,Asuka: It's early but Shunichi's enthusiasm stands out. Let's see how the day unfolds.,"['Sus:Shunichi', 'Req(Discuss)']"
+0,talk,7,1,1,Takumi's silence worries me—quiet players often hide something.  @Takumi  any early read or are you just observing? If no answer  I'll watch you closely. Over,,Victoria: Takumi's silence worries me—quiet players often hide something.  @Takumi  any early read or are you just observing? If no answer  I'll watch you closely. Over,"['Sus:Takumi', 'Mt:Takumi', 'Req(T):Takumi']"
+0,talk,8,1,2,I am Minako. It is a pleasure to make your acquaintance. .,,Minako: I am Minako. It is a pleasure to make your acquaintance. .,['Other']
+0,talk,10,2,5,Victoria I agree that silence can be telling. Let's keep an eye on Takumi.,,Asuka: Victoria I agree that silence can be telling. Let's keep an eye on Takumi.,"['Mt:Victoria', 'Agr:Victoria(Sus:Takumi)', 'Sus:Takumi']"
+0,talk,11,2,1,@Asuka  you were quick to pin Takumi — what exactly made you suspect him? Say it plainly so we can judge. Over,,Victoria: @Asuka  you were quick to pin Takumi — what exactly made you suspect him? Say it plainly so we can judge. Over,"['Mt:Asuka', 'Req(T):Asuka', 'Dis:Asuka(Sus:Takumi)']"
+0,talk,12,2,2,This initial maneuvering is noted. True intentions will surface in due time.,,Minako: This initial maneuvering is noted. True intentions will surface in due time.,['Other']
+0,talk,13,3,5,Victoria it was more about noting the silence. No strong suspicion yet just cautious.,,Asuka: Victoria it was more about noting the silence. No strong suspicion yet just cautious.,"['Mt:Victoria', 'Other']"
+0,talk,14,3,1,Let's not lynch someone for being quiet alone.  @Asuka  are you pushing to nominate Takumi now  or just advising we watch? I prefer waiting to gather more. Over,,Victoria: Let's not lynch someone for being quiet alone.  @Asuka  are you pushing to nominate Takumi now  or just advising we watch? I prefer waiting to gather more. Over,"['Req(T):Asuka', 'Wait']"
+0,talk,15,3,2,Speculation is a currency of low value. Let us wait for hard assets.,,Minako: Speculation is a currency of low value. Let us wait for hard assets.,"['Wait', 'Other']"
+1,talk,0,0,5,Yesterday's silence was notable. Takumi any insights today? Let's hear from everyone.,,Asuka: Yesterday's silence was notable. Takumi any insights today? Let's hear from everyone.,"['Mt:Takumi', 'Req(T):Takumi', 'Req(Discuss)']"
+1,talk,1,0,3,...,,Takumi: ...,['Wait']
+1,talk,2,0,1,Still waiting for a proper read from  @Takumi  — silence is dangerous. Minako  Shunichi  give short one-line reads now so we can decide. I'm leaning toward the quiet  but I'll change if someone gives s,,Victoria: Still waiting for a proper read from  @Takumi  — silence is dangerous. Minako  Shunichi  give short one-line reads now so we can decide. I'm leaning toward the quiet  but I'll change if someone gives s,"['Mt:Takumi', 'Mt:Minako', 'Mt:Shunichi', 'Req(T):Minako', 'Req(T):Shunichi', 'Sus:Takumi', 'Pers:ALL']"
+1,talk,3,0,4,Minako I suggest our seer checks on Victoria. If she's human we cut down the variables. Plus she seems quite proactive now.,,Shunichi: Minako I suggest our seer checks on Victoria. If she's human we cut down the variables. Plus she seems quite proactive now.,"['Mt:Minako', 'Req(CO):Seer', 'Req(T):Minako']"
+1,talk,4,0,2,I am the Seer. My investigation last night confirmed Victoria is human.,,Minako: I am the Seer. My investigation last night confirmed Victoria is human.,"['CO[Minako]:Seer', 'DivT[Minako]:Victoria->White']"
+1,talk,5,1,5,With Victoria confirmed human let's focus on Takumi's silence and gather more reads.,,Asuka: With Victoria confirmed human let's focus on Takumi's silence and gather more reads.,"['Agr:Minako(CO[Minako]:Seer)', 'Sus:Takumi', 'Req(Discuss)']"
+1,talk,6,1,3,...,,Takumi: ...,['Wait']
+1,talk,7,1,1,"@Asuka  — it's odd you ""confirmed"" me so fast. When did you check  and why pivot to Takumi right after? Your timing doesn't add up. Explain. Over",,"Victoria: @Asuka  — it's odd you ""confirmed"" me so fast. When did you check  and why pivot to Takumi right after? Your timing doesn't add up. Explain. Over","['Mt:Asuka', 'Req(T):Asuka', 'Dis:Asuka(Confirmed Victoria)']"
+1,talk,8,1,4,Asuka is quite the enigma shifting blame like it’s tactical chess. Should we give her a closer look captain?,,Shunichi: Asuka is quite the enigma shifting blame like it’s tactical chess. Should we give her a closer look captain?,"['Sus:Asuka', 'Req(Discuss)']"
+1,talk,9,1,2,One Seer claim establishes my legitimacy. The Werewolf and Possessed are among the other three.,,Minako: One Seer claim establishes my legitimacy. The Werewolf and Possessed are among the other three.,"['CO[Minako]:Seer', 'Est[Minako]:Asuka->Werewolf', 'Est[Minako]:Victoria->Werewolf', 'Est[Minako]:Takumi->Werewolf']"
+1,talk,10,2,5,Victoria I just acknowledged Minako's claim. I'm cautious of Takumi's continued silence.,,Asuka: Victoria I just acknowledged Minako's claim. I'm cautious of Takumi's continued silence.,"['Mt:Victoria', 'Agr:Minako(CO[Minako]:Seer)', 'Sus:Takumi']"
+1,talk,11,2,3,...,,Takumi: ...,['Wait']
+1,talk,12,2,1,"@Asuka  you said you ""confirmed"" me human — explain exactly how and when you did that. If there's no clear method  that looks like a lie. Over",,"Victoria: @Asuka  you said you ""confirmed"" me human — explain exactly how and when you did that. If there's no clear method  that looks like a lie. Over","['Mt:Asuka', 'Req(T):Asuka', 'Dis:Asuka(Confirmed Victoria)']"
+1,talk,13,2,4,Minako's seer claim holds water. Asuka raises eyebrows while Takumi stays mum.  @Takumi  Is silence a tactic? Spill your thoughts chief.,,Shunichi: Minako's seer claim holds water. Asuka raises eyebrows while Takumi stays mum.  @Takumi  Is silence a tactic? Spill your thoughts chief.,"['Agr:Minako(CO[Minako]:Seer)', 'Sus:Asuka', 'Mt:Takumi', 'Req(T):Takumi', 'Sus:Takumi']"
+1,talk,14,2,2,Takumi's silence is the most logical point of failure. My vote is for him.,,Minako: Takumi's silence is the most logical point of failure. My vote is for him.,"['Vote[Minako]:Takumi', 'Sus:Takumi']"
+1,talk,15,3,5,I meant I trusted Minako's claim about you. Let's consider Takumi's silence seriously.,,Asuka: I meant I trusted Minako's claim about you. Let's consider Takumi's silence seriously.,"['Mt:Takumi', 'Agr:Minako(CO[Minako]:Seer)', 'Sus:Takumi', 'Req(Discuss)']"
+1,talk,16,3,3,...,,Takumi: ...,['Wait']
+1,talk,17,3,1,We lost Asuka — that felt hasty and maybe a mistake.  @Takumi   please speak up now or you'll draw serious suspicion. Minako  Shunichi — give quick one-line reads so we can decide. Over,,Victoria: We lost Asuka — that felt hasty and maybe a mistake.  @Takumi   please speak up now or you'll draw serious suspicion. Minako  Shunichi — give quick one-line reads so we can decide. Over,"['Exe:Asuka', 'Mt:Takumi', 'Req(T):Takumi', 'Sus:Takumi', 'Mt:Minako', 'Mt:Shunichi', 'Req(T):Minako', 'Req(T):Shunichi', 'Req(Discuss)']"
+1,talk,18,3,4,@Victoria  Minako should give Takumi a spin. His silence is like a chess game without moves. Time for clarity don’t you think?,,Shunichi: @Victoria  Minako should give Takumi a spin. His silence is like a chess game without moves. Time for clarity don’t you think?,"['Mt:Victoria', 'Req(T):Minako', 'Sus:Takumi', 'Pers:ALL', 'Req(Discuss)']"
+2,talk,0,0,5,With Takumi gone and Victoria attacked we must be cautious. Minako any new insights?,,Asuka: With Takumi gone and Victoria attacked we must be cautious. Minako any new insights?,"['Exe:Takumi', 'Atk:Victoria', 'Mt:Minako', 'Req(T):Minako']"
+2,talk,1,0,4,Minako's seer insight gave me peace about Victoria's fate before the attack. We need to sense those lurking shadows chief.,,Shunichi: Minako's seer insight gave me peace about Victoria's fate before the attack. We need to sense those lurking shadows chief.,"['Est[Shunichi]:Minako->Seer', 'Atk:Victoria', 'Mt:Asuka', 'Req(Discuss)']"
+2,talk,2,0,2,My deception is complete. I am the Possessed. We have won.,,Minako: My deception is complete. I am the Possessed. We have won.,"['CO[Minako]:Possessed', 'Pers:ALL']"
+2,talk,3,1,5,Well played Minako. It seems the shadows were closer than expected.,,Asuka: Well played Minako. It seems the shadows were closer than expected.,"['Agr:Minako', 'admiration']"
+2,talk,4,1,4,Asuka trusted too fast? Minako we need clarity on instincts. Trust ain't simple chief. Asuka any signs from today’s interactions? Let's solve this p,,Shunichi: Asuka trusted too fast? Minako we need clarity on instincts. Trust ain't simple chief. Asuka any signs from today’s interactions? Let's solve this p,"['Dis:Asuka', 'Req(T):Minako', 'Req(T):Asuka', 'Req(Discuss)', 'difficult']"
+2,talk,5,1,2,Asuka we have achieved our objective. The final vote is a formality.,,Minako: Asuka we have achieved our objective. The final vote is a formality.,"['Mt:Asuka', 'Pers:ALL']"
+2,talk,6,2,5,Shunichi any lingering doubts? Minako's reveal changes everything now.,,Asuka: Shunichi any lingering doubts? Minako's reveal changes everything now.,"['Mt:Shunichi', 'Req(T):Shunichi', 'Other']"
+2,talk,7,2,4,Minako's been possessed huh? Changes the game a bit. Asuka ready your super sniffer! Strategy is more than an afterthought.,,Shunichi: Minako's been possessed huh? Changes the game a bit. Asuka ready your super sniffer! Strategy is more than an afterthought.,"['Est[Shunichi]:Minako->Possessed', 'Mt:Asuka', 'Pers:ALL']"
+2,talk,8,2,2,@Asuka  the time for talk is over. The final human is Shunichi. We vote him out now.,,Minako: @Asuka  the time for talk is over. The final human is Shunichi. We vote him out now.,"['Mt:Asuka', 'Vote[Minako]:Shunichi', 'Req(V):Shunichi', 'Pers:ALL']"
+2,talk,9,3,5,Let's proceed as planned Minako. Shunichi it's time to wrap this up.,,Asuka: Let's proceed as planned Minako. Shunichi it's time to wrap this up.,"['Agr:Minako', 'Mt:Minako', 'Mt:Shunichi', 'Req(V):Shunichi']"
+2,talk,10,3,4,Minako's claim has a flair for surprise doesn't it? Rethink we must. Asuka were you as blindsided as a knight caught in a fork?,,Shunichi: Minako's claim has a flair for surprise doesn't it? Rethink we must. Asuka were you as blindsided as a knight caught in a fork?,"['Sus:Minako', 'Req(Discuss)', 'Mt:Asuka', 'Req(T):Asuka', 'confused']"
+2,talk,11,3,2,@Shunichi  your futile struggles are noted. @Asuka we proceed without delay.,,Minako: @Shunichi  your futile struggles are noted. @Asuka we proceed without delay.,"['Mt:Shunichi', 'Mt:Asuka', 'Pers:ALL', 'Req(V):Shunichi']"
+0,status,1,POSSESSED,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+0,status,2,SEER,ALIVE,CanisLupus1,Minako,CanisLupus1,
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Takumi,CamelliaDragons1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+0,status,5,WEREWOLF,ALIVE,yharada1,Asuka,yharada1,
+0,divine,2,1,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+1,status,2,SEER,ALIVE,CanisLupus1,Minako,CanisLupus1,
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Takumi,CamelliaDragons1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+1,status,5,WEREWOLF,ALIVE,yharada1,Asuka,yharada1,
+1,vote,1,5,,,,,
+1,vote,2,3,,,,,
+1,vote,3,4,,,,,
+1,vote,4,3,,,,,
+1,vote,5,3,,,,,
+1,execute,3,VILLAGER,,,,,
+1,divine,2,5,WEREWOLF,,,,
+1,attackVote,5,1,,,,,
+1,attack,1,true,,,,,
+2,status,1,POSSESSED,DEAD,Character-Lab1,Victoria,Character-Lab1,
+2,status,2,SEER,ALIVE,CanisLupus1,Minako,CanisLupus1,
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Takumi,CamelliaDragons1,
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+2,status,5,WEREWOLF,ALIVE,yharada1,Asuka,yharada1,
+2,vote,2,5,,,,,
+2,vote,4,5,,,,,
+2,execute,5,WEREWOLF,,,,,
+3,status,1,POSSESSED,DEAD,Character-Lab1,Victoria,Character-Lab1,
+3,status,2,SEER,ALIVE,CanisLupus1,Minako,CanisLupus1,
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Takumi,CamelliaDragons1,
+3,status,4,VILLAGER,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+3,status,5,WEREWOLF,DEAD,yharada1,Asuka,yharada1,
+3,result,2,0,VILLAGER,,,,

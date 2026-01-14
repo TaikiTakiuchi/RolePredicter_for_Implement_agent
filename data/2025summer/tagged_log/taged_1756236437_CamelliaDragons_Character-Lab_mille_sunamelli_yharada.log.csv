@@ -1,0 +1,73 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,5,Hello. I am Shunichi. My role is seer. Have a good game.,,Shunichi: Hello. I am Shunichi. My role is seer. Have a good game.,"['CO[Shunichi]:Seer', 'calm']"
+0,talk,1,0,1,Oh! A seer...  @Shunichi  what did you divine? I'm a bit nervous — can you tell us your result so we know who to trust? Over,,Minato: Oh! A seer...  @Shunichi  what did you divine? I'm a bit nervous — can you tell us your result so we know who to trust? Over,"['Mt:Shunichi', 'Req(CO):Seer', 'difficult']"
+0,talk,2,0,2,...,,May: ...,['Other']
+0,talk,3,0,4,Don’t mistake my patience for hesitation. I’ll be watching for real cracks—who plans to speak up first?,,Shion: Don’t mistake my patience for hesitation. I’ll be watching for real cracks—who plans to speak up first?,['Req(Discuss)']
+0,talk,4,0,3,@Shunichi  it's crucial we know your findings. Can you share your first insight with us?,,Mizuki: @Shunichi  it's crucial we know your findings. Can you share your first insight with us?,"['Mt:Shunichi', 'Req(CO):Seer']"
+0,talk,6,1,1,@Shunichi  you said you're the seer but still haven't told us who you checked. Could you please share your result? I'm getting worried and not sure who to trust...,,Minato: @Shunichi  you said you're the seer but still haven't told us who you checked. Could you please share your result? I'm getting worried and not sure who to trust...,"['Mt:Shunichi', 'Req(CO):Seer', 'difficult']"
+0,talk,9,1,3,@Shunichi  we're all eager to hear from you. Your insight is vital for our trust.,,Mizuki: @Shunichi  we're all eager to hear from you. Your insight is vital for our trust.,"['Mt:Shunichi', 'Req(CO):Seer', 'Pers:ALL']"
+0,talk,10,2,1,@Shunichi  please tell us who you checked and what you found. If you’re the seer  it would really help us know. I’m getting more worried... Over,,Minato: @Shunichi  please tell us who you checked and what you found. If you’re the seer  it would really help us know. I’m getting more worried... Over,"['Mt:Shunichi', 'Req(CO):Seer', 'difficult']"
+0,talk,11,2,3,@Shunichi  your silence is concerning. Please share your results; it’s crucial for us.,,Mizuki: @Shunichi  your silence is concerning. Please share your results; it’s crucial for us.,"['Mt:Shunichi', 'Req(CO):Seer']"
+0,talk,12,3,1,@Shunichi  if you really are the seer  please tell us who you checked and the result. I don’t know who to trust and I’m getting scared—can we decide someone to vote fo,,Minato: @Shunichi  if you really are the seer  please tell us who you checked and the result. I don’t know who to trust and I’m getting scared—can we decide someone to vote fo,"['Mt:Shunichi', 'Req(CO):Seer', 'difficult', 'Req(Discuss)']"
+0,talk,13,3,3,Let's stay calm everyone. We need more information to make a wise decision.,,Mizuki: Let's stay calm everyone. We need more information to make a wise decision.,"['calm', 'Req(Discuss)', 'Pers:ALL']"
+1,talk,0,0,2,...,,May: ...,['Other']
+1,talk,1,0,5,I am a seer. I divined Mizuki and Mizuki was a werewolf.,,Shunichi: I am a seer. I divined Mizuki and Mizuki was a werewolf.,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:Mizuki->Werewolf']"
+1,talk,2,0,3,@Shunichi  that's a serious accusation. Can anyone else confirm or refute this claim?,,Mizuki: @Shunichi  that's a serious accusation. Can anyone else confirm or refute this claim?,"['Mt:Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Req(Discuss)']"
+1,talk,3,0,1,That's a big claim.  @Shunichi  when exactly did you divine Mizuki — last night or earlier? Why didn’t you say it before? I don’t want us to lynch someone without more info. Mizuki  can y,,Minato: That's a big claim.  @Shunichi  when exactly did you divine Mizuki — last night or earlier? Why didn’t you say it before? I don’t want us to lynch someone without more info. Mizuki  can y,"['Mt:Shunichi', 'Req(T):Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Req(T):Mizuki', 'Req(Discuss)']"
+1,talk,4,0,4,@Minato  you're pushing hard. That kind of pressure reads like panic not logic. What are you so worried about?,,Shion: @Minato  you're pushing hard. That kind of pressure reads like panic not logic. What are you so worried about?,"['Mt:Minato', 'Dis:Minato']"
+1,talk,5,1,2,...,,May: ...,['Other']
+1,talk,6,1,5,I will vote Minato.,,Shunichi: I will vote Minato.,['Vote[Shunichi]:Minato']
+1,talk,7,1,3,@Minato  your response feels defensive. Do you have any insights to share with us?,,Mizuki: @Minato  your response feels defensive. Do you have any insights to share with us?,"['Mt:Minato', 'Dis:Minato', 'Req(T):Minato']"
+1,talk,8,1,1,I’m not a werewolf!  @Shunichi  you said Mizuki was a werewolf but you’re voting for me—why the change? Mizuki  please tell us what you were doing last night so we can decide fairly. I’m,,Minato: I’m not a werewolf!  @Shunichi  you said Mizuki was a werewolf but you’re voting for me—why the change? Mizuki  please tell us what you were doing last night so we can decide fairly. I’m,"['Fact[Minato]:Minato->not(Werewolf)', 'Mt:Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Mt:Mizuki', 'Req(T):Mizuki']"
+1,talk,9,1,4,@Shunichi  you reveal Mizuki as wolf but vote Minato. That’s odd. Are you trying to split suspicion or protecting someone?,,Shion: @Shunichi  you reveal Mizuki as wolf but vote Minato. That’s odd. Are you trying to split suspicion or protecting someone?,"['Mt:Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Sus:Shunichi']"
+1,talk,10,2,2,...,,May: ...,['Other']
+1,talk,12,2,3,@Shunichi  your actions are inconsistent. Clarify your reasoning behind voting Minato.,,Mizuki: @Shunichi  your actions are inconsistent. Clarify your reasoning behind voting Minato.,"['Mt:Shunichi', 'Dis:Shunichi', 'Req(T):Shunichi', 'Sus:Shunichi']"
+1,talk,13,2,1,@Shunichi  you said Mizuki was a werewolf but now you vote for me—please explain quickly. If your result was real  why change? I’m scared and don’t know who to trust,,Minato: @Shunichi  you said Mizuki was a werewolf but now you vote for me—please explain quickly. If your result was real  why change? I’m scared and don’t know who to trust,"['Mt:Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Req(T):Shunichi', 'confused']"
+1,talk,14,2,4,@May  silence is a perfect hiding spot for a wolf. If you don’t speak up I’m voting you out.,,Shion: @May  silence is a perfect hiding spot for a wolf. If you don’t speak up I’m voting you out.,"['Mt:May', 'Sus:May', 'Vote[Shion]:May']"
+1,talk,15,3,2,...,,May: ...,['Other']
+1,talk,16,3,3,@May  your silence is troubling. We need your input to make an informed decision.,,Mizuki: @May  your silence is troubling. We need your input to make an informed decision.,"['Mt:May', 'Req(T):May', 'Sus:May']"
+1,talk,17,3,1,@Shunichi  you said Mizuki was a werewolf  then you vote for me — which is it? Please explain so we can decide. Mizuki  please tell us what you did last night. I don’t wa,,Minato: @Shunichi  you said Mizuki was a werewolf  then you vote for me — which is it? Please explain so we can decide. Mizuki  please tell us what you did last night. I don’t wa,"['Mt:Shunichi', 'Dis:Shunichi(CO[Shunichi]:Seer)', 'Req(T):Shunichi', 'Mt:Mizuki', 'Req(T):Mizuki']"
+1,talk,18,3,4,I’m done waiting for  @May  to speak. She’s hiding or stalling and I’ll vote May. Let’s force her to show her real side.,,Shion: I’m done waiting for  @May  to speak. She’s hiding or stalling and I’ll vote May. Let’s force her to show her real side.,"['Mt:May', 'Sus:May', 'Vote[Shion]:May', 'Pers:ALL']"
+2,talk,0,0,2,...,,May: ...,['Other']
+2,talk,1,0,3,@May  we need your thoughts on what happened. Your silence is raising suspicions.,,Mizuki: @May  we need your thoughts on what happened. Your silence is raising suspicions.,"['Mt:May', 'Req(T):May', 'Sus:May']"
+2,talk,2,0,5,I am a seer. I divined May and May was a human.,,Shunichi: I am a seer. I divined May and May was a human.,"['CO[Shunichi]:Seer', 'DivT[Shunichi]:May->White']"
+2,talk,3,1,2,...,,May: ...,['Other']
+2,talk,4,1,3,@Shunichi  thank you for the information. Let's discuss who we should focus on next.,,Mizuki: @Shunichi  thank you for the information. Let's discuss who we should focus on next.,"['Mt:Shunichi', 'admiration', 'Req(Discuss)']"
+2,talk,5,1,5,I will vote May.,,Shunichi: I will vote May.,['Vote[Shunichi]:May']
+2,talk,6,2,2,...,,May: ...,['Other']
+2,talk,7,2,3,@Shunichi  why vote for May if you divined her as human? This needs clarification.,,Mizuki: @Shunichi  why vote for May if you divined her as human? This needs clarification.,"['Mt:Shunichi', 'Dis:Shunichi(Vote[Shunichi]:May)', 'contradiction', 'Req(T):Shunichi']"
+2,talk,9,3,2,...,,May: ...,['Other']
+2,talk,10,3,3,@May  we need your voice in this discussion. It's crucial for finding clarity.,,Mizuki: @May  we need your voice in this discussion. It's crucial for finding clarity.,"['Mt:May', 'Req(T):May', 'Pers:May']"
+0,status,1,VILLAGER,ALIVE,Character-Lab1,Minato,Character-Lab1,
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+0,status,3,WEREWOLF,ALIVE,yharada1,Mizuki,yharada1,
+0,status,4,POSSESSED,ALIVE,sunamelli1,Shion,sunamelli1,
+0,status,5,SEER,ALIVE,mille1,Shunichi,mille1,
+0,divine,5,3,WEREWOLF,,,,
+1,status,1,VILLAGER,ALIVE,Character-Lab1,Minato,Character-Lab1,
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+1,status,3,WEREWOLF,ALIVE,yharada1,Mizuki,yharada1,
+1,status,4,POSSESSED,ALIVE,sunamelli1,Shion,sunamelli1,
+1,status,5,SEER,ALIVE,mille1,Shunichi,mille1,
+1,vote,3,1,,,,,
+1,vote,4,2,,,,,
+1,vote,5,3,,,,,
+1,execute,1,VILLAGER,,,,,
+1,divine,5,2,HUMAN,,,,
+1,attackVote,3,4,,,,,
+1,attack,4,true,,,,,
+2,status,1,VILLAGER,DEAD,Character-Lab1,Minato,Character-Lab1,
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+2,status,3,WEREWOLF,ALIVE,yharada1,Mizuki,yharada1,
+2,status,4,POSSESSED,DEAD,sunamelli1,Shion,sunamelli1,
+2,status,5,SEER,ALIVE,mille1,Shunichi,mille1,
+2,vote,2,3,,,,,
+2,vote,3,2,,,,,
+2,vote,5,3,,,,,
+2,execute,3,WEREWOLF,,,,,
+3,status,1,VILLAGER,DEAD,Character-Lab1,Minato,Character-Lab1,
+3,status,2,VILLAGER,ALIVE,CamelliaDragons1,May,CamelliaDragons1,
+3,status,3,WEREWOLF,DEAD,yharada1,Mizuki,yharada1,
+3,status,4,POSSESSED,DEAD,sunamelli1,Shion,sunamelli1,
+3,status,5,SEER,ALIVE,mille1,Shunichi,mille1,
+3,result,2,0,VILLAGER,,,,

@@ -1,0 +1,51 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,Hello. I am Victoria. My role is seer. Have a good game.,,Victoria: Hello. I am Victoria. My role is seer. Have a good game.,['CO[Victoria]:Seer']
+0,talk,1,0,4,...,,Daisuke: ...,['Other']
+0,talk,2,0,5,Hello everyone I'm Shunichi! Excited to join this game of Werewolf with you all. Let's have some fun together!,,Shunichi: Hello everyone I'm Shunichi! Excited to join this game of Werewolf with you all. Let's have some fun together!,['Other']
+0,talk,3,0,2,Hello everyone! I'm Minato. Let's all work together and have a great game!,,Minato: Hello everyone! I'm Minato. Let's all work together and have a great game!,['Other']
+0,talk,4,0,3,Hey everyone! I’m Kenji. Awesome to meet you all! Can’t wait for a thrilling game with you for sure! Let’s go buddies!,,Kenji: Hey everyone! I’m Kenji. Awesome to meet you all! Can’t wait for a thrilling game with you for sure! Let’s go buddies!,['Other']
+0,talk,8,1,2,I'm curious does anyone have any ideas or strategies for starting off strong?,,Minato: I'm curious does anyone have any ideas or strategies for starting off strong?,['Req(Discuss)']
+0,talk,10,2,2,Maybe we can start by sharing any suspicions or observations we have?,,Minato: Maybe we can start by sharing any suspicions or observations we have?,['Req(Discuss)']
+0,talk,11,3,2,It's important we communicate openly. I'm eager to hear what everyone else thinks too!,,Minato: It's important we communicate openly. I'm eager to hear what everyone else thinks too!,['Req(Discuss)']
+1,talk,0,0,3,Starting strong's key for trust-building. Who's got some insights from yesterday's chat? Spill the beans pals!,,Kenji: Starting strong's key for trust-building. Who's got some insights from yesterday's chat? Spill the beans pals!,"['Req(Discuss)', 'Pers:ALL']"
+1,talk,1,0,2,I checked Kenji and he's human. Let's focus on finding the werewolf together!,,Minato: I checked Kenji and he's human. Let's focus on finding the werewolf together!,"['DivT[Minato]:Kenji->White', 'Req(Discuss)']"
+1,talk,2,0,1,I am a seer. I divined Shunichi and Shunichi was a human.,,Victoria: I am a seer. I divined Shunichi and Shunichi was a human.,"['CO[Victoria]:Seer', 'DivT[Victoria]:Shunichi->White']"
+1,talk,3,0,4,...,,Daisuke: ...,['Other']
+1,talk,4,0,5,I divined Minato last night and he is the werewolf. We should discuss this further for our safety.,,Shunichi: I divined Minato last night and he is the werewolf. We should discuss this further for our safety.,"['DivT[Shunichi]:Minato->Werewolf', 'Req(Discuss)']"
+1,talk,5,1,3,I'm scratching my head here! Two seers telling different tales about Minato. Should we focus our next vote on Minato or Shunichi?  @Daisuke  Hey buddy! You've been a bit of a ninja lately. What's your take on these seer claims? Let's hear it!,,Kenji: I'm scratching my head here! Two seers telling different tales about Minato. Should we focus our next vote on Minato or Shunichi?  @Daisuke  Hey buddy! You've been a bit of a ninja lately. What's your take on these seer claims? Let's hear it!,"['Req(Discuss)', 'Req(T):Daisuke', 'Mt:Daisuke', 'Sus:Minato', 'Sus:Shunichi']"
+1,talk,6,1,2,I'm really not the werewolf. We should consider why Shunichi is claiming that.,,Minato: I'm really not the werewolf. We should consider why Shunichi is claiming that.,"['Other', 'Sus:Shunichi', 'Req(Discuss)']"
+1,talk,7,1,1,I will vote Shunichi.,,Victoria: I will vote Shunichi.,['Vote[Victoria]:Shunichi']
+1,talk,8,1,4,...,,Daisuke: ...,['Other']
+1,talk,9,1,5,I apologize for my previous claim. I wanted to draw out reactions to gather more information but now suspect we have a disguised werewolf.,,Shunichi: I apologize for my previous claim. I wanted to draw out reactions to gather more information but now suspect we have a disguised werewolf.,"['Other', 'Req(Discuss)', 'confused']"
+1,talk,10,2,3,Hey pals! So Victoria calls Shunichi human but he backpedals. Victoria's solid for sure! Shunichi's got some slick talk huh?,,Kenji: Hey pals! So Victoria calls Shunichi human but he backpedals. Victoria's solid for sure! Shunichi's got some slick talk huh?,"['Agr:Victoria(CO[Victoria]:Seer)', 'Sus:Shunichi', 'Req(Discuss)']"
+1,talk,11,2,2,I think Shunichi's change of story is suspicious. We should be careful with our next steps.,,Minato: I think Shunichi's change of story is suspicious. We should be careful with our next steps.,"['Sus:Shunichi', 'Req(Discuss)']"
+1,talk,12,2,1,I will vote Shunichi.,,Victoria: I will vote Shunichi.,['Vote[Victoria]:Shunichi']
+1,talk,13,2,4,...,,Daisuke: ...,['Other']
+1,talk,14,2,5,Let's consider voting for Minato today. Based on behavior and given contradictions it's logical to verify his position.,,Shunichi: Let's consider voting for Minato today. Based on behavior and given contradictions it's logical to verify his position.,"['Vote[Shunichi]:Minato', 'Sus:Minato', 'Req(Discuss)']"
+1,talk,15,3,3,I'm torn here! If Shunichi's bluff backfired? That's worth noting for sure! Victoria. Your concern is Shunichi's evasiveness right? Minato. Your c,,Kenji: I'm torn here! If Shunichi's bluff backfired? That's worth noting for sure! Victoria. Your concern is Shunichi's evasiveness right? Minato. Your c,"['Mt:Victoria', 'Mt:Minato', 'Req(T):Victoria', 'Req(T):Minato', 'difficult']"
+1,talk,16,3,2,Kenji I understand the confusion. My seer result on Kenji was clear he's human.,,Minato: Kenji I understand the confusion. My seer result on Kenji was clear he's human.,['DivT[Minato]:Kenji->White']
+1,talk,17,3,1,I will vote Shunichi.,,Victoria: I will vote Shunichi.,['Vote[Victoria]:Shunichi']
+1,talk,18,3,4,...,,Daisuke: ...,['Other']
+1,talk,19,3,5,Let's vote for Minato. His defensive responses and my divination indicate higher suspicions. It's wise to double-check.,,Shunichi: Let's vote for Minato. His defensive responses and my divination indicate higher suspicions. It's wise to double-check.,"['Vote[Shunichi]:Minato', 'DivT[Shunichi]:Minato->Werewolf', 'Sus:Minato', 'Req(Discuss)']"
+0,status,1,POSSESSED,ALIVE,mille1,Victoria,mille1,
+0,status,2,SEER,ALIVE,yharada1,Minato,yharada1,
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji,kanolab-nw1,
+0,status,4,VILLAGER,ALIVE,CamelliaDragons1,Daisuke,CamelliaDragons1,
+0,status,5,WEREWOLF,ALIVE,GPTaku1,Shunichi,GPTaku1,
+0,divine,2,3,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,mille1,Victoria,mille1,
+1,status,2,SEER,ALIVE,yharada1,Minato,yharada1,
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji,kanolab-nw1,
+1,status,4,VILLAGER,ALIVE,CamelliaDragons1,Daisuke,CamelliaDragons1,
+1,status,5,WEREWOLF,ALIVE,GPTaku1,Shunichi,GPTaku1,
+1,vote,1,2,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,2,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,mille1,Victoria,mille1,
+2,status,2,SEER,ALIVE,yharada1,Minato,yharada1,
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Kenji,kanolab-nw1,
+2,status,4,VILLAGER,ALIVE,CamelliaDragons1,Daisuke,CamelliaDragons1,
+2,status,5,WEREWOLF,DEAD,GPTaku1,Shunichi,GPTaku1,
+2,result,4,0,VILLAGER,,,,

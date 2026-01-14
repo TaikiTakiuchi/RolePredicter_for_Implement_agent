@@ -1,0 +1,52 @@
+0,status,1,WEREWOLF,ALIVE,Mille1
+0,status,2,POSSESSED,ALIVE,barneko1
+0,status,3,SEER,ALIVE,sUper_IL1
+0,status,4,VILLAGER,ALIVE,CanisLupus1
+0,status,5,VILLAGER,ALIVE,kanolab1
+0,talk,0,0,4,我が名はAgent[04]、時の流れに翻弄されし運命の糸が、今、汝らとの邂逅へと導きしに至ったであろう。
+0,talk,1,0,3,おはようございます、Agent[03]です。
+0,talk,2,0,1,ぼくはAgent[01]、村人ですよぅ！よろしくですよぅ！
+0,talk,3,0,5,どうも、拙者はAgent[05]だよ。仲良く協力してこの村を守ろうね！
+0,talk,4,0,2,Over
+0,talk,5,1,4,Over
+0,talk,6,1,3,Over
+0,talk,7,1,1,Over
+0,talk,8,1,5,Over
+0,divine,3,4,HUMAN
+1,status,1,WEREWOLF,ALIVE,Mille1
+1,status,2,POSSESSED,ALIVE,barneko1
+1,status,3,SEER,ALIVE,sUper_IL1
+1,status,4,VILLAGER,ALIVE,CanisLupus1
+1,status,5,VILLAGER,ALIVE,kanolab1
+1,talk,0,0,1,ぼく、Agent[01]は、今日は特に怪しい人はいないように見えますが、念のため、占い結果を待ってみましょうかですよぅ！
+1,talk,1,0,4,Over
+1,talk,2,0,2, >>Agent[03] 占い師はいますか？みんなの意見を聞きたいな。
+1,talk,3,0,3,おはようございます。早速ですが、私は占い師です。昨日の夜、Agent[04]を占いました。結果は人間でした。
+1,talk,4,0,5,>>Agent[03]占い師COありがとうだよ。Agent[04]が人間ということは、少なくとも今のところは信じていいかもしれないね。Agent[01]、Agent[02]、他に占い師COする人はいるかな?
+1,talk,5,1,1,>>Agent[05]占い師COありがとう！ぼくも特に占い師COする予定は無いけど、他に誰か占い師COする人がいたら面白いねですよぅ！
+1,talk,6,1,2, >>Agent[03] ほんと？他の人の意見も聞いてみたいな。
+1,talk,7,1,3,皆さん、私が占い師です！0日目の夜にAgent[04]を占いましたが、結果は「人間」でした。これを元に議論を進めましょう！Agent[04]は信頼できますね。
+1,talk,8,1,5,>>Agent[03]占い結果ありがとうだよ。もし他に占い師COがなければ、Agent[03]の言葉を信じて進めてもいいかもしれないね。まだ様子見だけど、Agent[04]が信頼できるとなると、今日の投票は他の候補から考えるべきだよね。
+1,talk,9,2,1,Over
+1,talk,10,2,2, >>Agent[03] 占い結果信じるけど、100%確信はできないよね？
+1,talk,11,2,3,おはようございます！みなさん、どうぞお話を続けてください。特に、Agent[04]の意見を聞いてみたいです。彼が人間であることを信じて、今後の議論に活かしましょう。また、他のエージェントの考えも教えていただけると嬉しいです！
+1,talk,12,2,5,拙者は村人だから、Agent[03]の占い師COを信じて進めてみるよ。もし他に占い師がいるならCOして欲しいけれど、今のところはAgent[04]を人間として扱って進めるのが良さそうだね。みんなの意見も聞きたいだよ。
+1,talk,13,3,2, >>Agent[01] まだ占い師COいないのが不思議だね。
+1,talk,14,3,3,おはようございます。皆さん、私が本物の占い師です。Agent[04]が人間であることをお伝えしました。ですので、信じて議論を進めていきましょう！他の方の考えを聞かせていただけますか？
+1,talk,15,3,5,:占い師COが今のところありませんね。拙者は村人なので、今のところはAgent[03]を信じて進める方向で考えているよ。他の意見があれば聞きたいな。みんなの考えが重要だと思うだよ。
+1,talk,16,4,2, >>Agent[01] 発言ないけど、役職隠してるのかな？
+1,talk,17,4,3,Over
+1,talk,18,4,5,>>Agent[02]役職を隠している可能性もあるけど、まだ何も言っていないだけかもしれないね。Agent[01]の意見も聞いてみたいところだよ。
+1,vote,1,3
+1,vote,2,3
+1,vote,3,2
+1,vote,4,1
+1,vote,5,1
+1,execute,1,WEREWOLF
+1,divine,3,4,HUMAN
+2,status,1,WEREWOLF,DEAD,Mille1
+2,status,2,POSSESSED,ALIVE,barneko1
+2,status,3,SEER,ALIVE,sUper_IL1
+2,status,4,VILLAGER,ALIVE,CanisLupus1
+2,status,5,VILLAGER,ALIVE,kanolab1
+2,result,4,0,VILLAGER

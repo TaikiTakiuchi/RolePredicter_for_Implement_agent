@@ -1,0 +1,555 @@
+{
+  "filename": "taged_1746545814_ai168wolf_osawalab_kanolab_CanisLupus_GPTaku.log.csv",
+  "exec_id": 1,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "ai168wolf1",
+      "character_name": "リョウ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 6
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          },
+          {
+            "recepient_id": "ロバート",
+            "count": 1
+          },
+          {
+            "recepient_id": "タクト",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 5
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "リョウ",
+            "recepient_id": "ハナ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ロバート",
+            "count": 2
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "ハナ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "osawalab1",
+      "character_name": "ハナ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "contradiction": [
+          {
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リョウ",
+            "count": 3
+          },
+          {
+            "recepient_id": "タクト",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "カナ",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "リョウ（早すぎる決めつけは危険よ）",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "カナ",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ハナ",
+            "recepient_id": "人狼",
+            "recepient_role": "動きやすい",
+            "count": 1
+          },
+          {
+            "speaker_id": "ハナ",
+            "recepient_id": "ロバート",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "人狼",
+            "count": 1
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ロバート",
+            "count": 4
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "ロバート",
+            "left_role": "狂人",
+            "right_id": "(ロバート",
+            "right_role": "守るハナ)",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "kanolab1",
+      "character_name": "ロバート",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 1,
+        "CO": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_role": "占い師",
+            "count": 3
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "ハナ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 8
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "リョウ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          },
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "ユウ",
+            "recepient_role": "狂人",
+            "count": 1
+          },
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "ユウ",
+            "recepient_role": "not(村人)",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "タクト",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 4
+          },
+          {
+            "recepient_id": "ハナ",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ハナ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "タクト",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 3
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ロバート",
+            "recepient_id": "ハナ",
+            "recepient_role": "白",
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 7
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "2",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "ユウ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 15
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ハナ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          },
+          {
+            "recepient_id": "ロバート",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ユウ",
+            "recepient_id": "ロバート",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "ユウ",
+            "recepient_id": "ハナ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          },
+          {
+            "speaker_id": "ユウ",
+            "recepient_id": "ハナ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 7
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ロバート",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "タクト",
+            "count": 2
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 2
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ユウ",
+            "recepient_id": "ハナ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "タクト",
+            "count": 1
+          },
+          {
+            "recepient_id": "リョウ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "タクト",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 1,
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "アレン",
+            "count": 2
+          },
+          {
+            "recepient_id": "カナ",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    }
+  ]
+}

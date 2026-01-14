@@ -1,0 +1,50 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Hi everyone! Let's work together and have fun finding those werewolves!,,Sakura: Hi everyone! Let's work together and have fun finding those werewolves!,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,1,0,3,Given the circumstances. I am Toshio. I look forward to solving this mystery with all of you. Let's enjoy a great game together.,,Toshio: Given the circumstances. I am Toshio. I look forward to solving this mystery with all of you. Let's enjoy a great game together.,"['Pers:ALL', 'calm']"
+0,talk,2,0,1,Hello friends. I'm Shizue. This village feels safe with such warm company. Let's listen kindly to each other today. @Sakura  your cheerful greeting brings a smile. I hope you continue to shine no matter how the debates unfold.,,Shizue: Hello friends. I'm Shizue. This village feels safe with such warm company. Let's listen kindly to each other today. @Sakura  your cheerful greeting brings a smile. I hope you continue to shine no matter how the debates unfold.,"['Mt:Sakura', 'Req(listen)', 'admiration']"
+0,talk,3,0,5,Hello. I am Minako. My role is villager. Have a good game.,,Minako: Hello. I am Minako. My role is villager. Have a good game.,['CO[Minako]:Villager']
+0,talk,4,0,4,I’m Victoria and I don’t trust easily. I watch for what’s unsaid as much as what’s spoken.,,Victoria: I’m Victoria and I don’t trust easily. I watch for what’s unsaid as much as what’s spoken.,"['Other', 'calm']"
+0,talk,5,1,2,Thanks Shizue! Let's keep our eyes open and trust our instincts everyone!,,Sakura: Thanks Shizue! Let's keep our eyes open and trust our instincts everyone!,"['Mt:Shizue', 'Req(Discuss)', 'Pers:ALL']"
+0,talk,10,2,2,Let's keep chatting to find out more about each other. Any thoughts Victoria?,,Sakura: Let's keep chatting to find out more about each other. Any thoughts Victoria?,"['Mt:Victoria', 'Req(T):Victoria', 'Req(Discuss)']"
+0,talk,11,3,2,Hope we can spot the werewolves soon! How's everyone feeling about today?,,Sakura: Hope we can spot the werewolves soon! How's everyone feeling about today?,"['Req(Discuss)', 'Pers:ALL']"
+1,talk,0,0,4,@Minako  your villager claim was fast—what makes you so sure? Do you have a reason for claiming so early?,,Victoria: @Minako  your villager claim was fast—what makes you so sure? Do you have a reason for claiming so early?,"['Mt:Minako', 'Req(T):Minako', 'Sus:Minako']"
+1,talk,1,0,5,I will vote Victoria.,,Minako: I will vote Victoria.,['Vote[Minako]:Victoria']
+1,talk,2,0,2,I checked Minako last night and she is a werewolf. Let's be careful everyone!,,Sakura: I checked Minako last night and she is a werewolf. Let's be careful everyone!,"['CO[Sakura]:Seer', 'DivT[Sakura]:Minako->Werewolf']"
+1,talk,3,0,1,It's a lovely morning everyone. Sakura quite the assertive claim! I too am the Seer and have my result. @Sakura  it's brave to step forward! For clarity: last night I checked Victoria and saw she is a Villager.,,Shizue: It's a lovely morning everyone. Sakura quite the assertive claim! I too am the Seer and have my result. @Sakura  it's brave to step forward! For clarity: last night I checked Victoria and saw she is a Villager.,"['CO[Shizue]:Seer', 'DivT[Shizue]:Victoria->White', 'Mt:Sakura', 'admiration']"
+1,talk,4,0,3,Given the circumstances. Ms. Shizue's claim and Ms. Sakura's result do not align. Is Ms. Victoria the target for tonight's confirmation?,,Toshio: Given the circumstances. Ms. Shizue's claim and Ms. Sakura's result do not align. Is Ms. Victoria the target for tonight's confirmation?,"['Dis[Shizue](CO[Shizue]:Seer)', 'Dis[Sakura](DivT[Sakura]:Minako->Werewolf)', 'contradiction', 'Req(V):Victoria']"
+1,talk,5,1,4,@Minako  your vote on me felt too quick. Can you explain what pushed you to target me so early?,,Victoria: @Minako  your vote on me felt too quick. Can you explain what pushed you to target me so early?,"['Mt:Minako', 'Req(T):Minako', 'Sus:Minako']"
+1,talk,6,1,5,I will vote Shizue.,,Minako: I will vote Shizue.,['Vote[Minako]:Shizue']
+1,talk,7,1,2,Shizue why claim Seer now? My check on Minako is clear. Let's focus on her.,,Sakura: Shizue why claim Seer now? My check on Minako is clear. Let's focus on her.,"['Mt:Shizue', 'Req(T):Shizue', 'DivT[Sakura]:Minako->Werewolf', 'Req(Discuss)']"
+1,talk,8,1,1,Sometimes when tension rises clarity is even more important. Let's move gently—my vision stands: Victoria is a Villager. @Toshio  your calm makes things easier for all. My check truly revealed Victoria as a Villager. Let's proceed with care.,,Shizue: Sometimes when tension rises clarity is even more important. Let's move gently—my vision stands: Victoria is a Villager. @Toshio  your calm makes things easier for all. My check truly revealed Victoria as a Villager. Let's proceed with care.,"['DivT[Shizue]:Victoria->White', 'Mt:Toshio', 'calm']"
+1,talk,9,1,3,Given the circumstances. Shizue and Sakura should not divinate Ms. Minako or Ms. Victoria again. Perhaps a focus on me is required?,,Toshio: Given the circumstances. Shizue and Sakura should not divinate Ms. Minako or Ms. Victoria again. Perhaps a focus on me is required?,"['Req(T):Shizue', 'Req(T):Sakura', 'Req(T):Toshio']"
+1,talk,10,2,4,@Shizue  Why did you choose to check me on night 0? Was there something in my behavior that stood out to you?,,Victoria: @Shizue  Why did you choose to check me on night 0? Was there something in my behavior that stood out to you?,"['Mt:Shizue', 'Req(T):Shizue']"
+1,talk,12,2,2,Toshio I might check you next if it helps clear things up! Let's stay focused.,,Sakura: Toshio I might check you next if it helps clear things up! Let's stay focused.,"['Mt:Toshio', 'Req(Discuss)']"
+1,talk,13,2,1,Victoria I chose you night 0 because your words moved me. Calm spirits often reveal much; thank you for asking gently. @Victoria  your question means a lot. I sensed your energy so I trusted where trust felt most guarded.,,Shizue: Victoria I chose you night 0 because your words moved me. Calm spirits often reveal much; thank you for asking gently. @Victoria  your question means a lot. I sensed your energy so I trusted where trust felt most guarded.,"['Mt:Victoria', 'calm', 'Other']"
+1,talk,14,2,3,Given the circumstances. I find Ms. Minako's varying votes peculiar. Could her intentions align with the werewolf's strategy? It's plausible.,,Toshio: Given the circumstances. I find Ms. Minako's varying votes peculiar. Could her intentions align with the werewolf's strategy? It's plausible.,"['Sus:Minako', 'Est[Toshio]:Minako->Werewolf']"
+1,talk,15,3,4,Minako’s shifting votes feel evasive. Sakura’s Seer claim puts the spotlight on Minako—I’ll vote Minako today.,,Victoria: Minako’s shifting votes feel evasive. Sakura’s Seer claim puts the spotlight on Minako—I’ll vote Minako today.,"['Sus:Minako', 'Vote[Victoria]:Minako']"
+1,talk,16,3,2,Thanks Victoria! Let's focus on Minako and see where it leads us. Trust our instincts!,,Sakura: Thanks Victoria! Let's focus on Minako and see where it leads us. Trust our instincts!,"['Agr:Victoria(Vote[Victoria]:Minako)', 'Req(Discuss)']"
+1,talk,17,3,1,Things feel tense but let’s breathe and think with open minds. Suspicion can cloud gentle hearts so let’s stay calm. @Sakura  your confidence is admirable but certainty can mislead us—let’s walk carefully even when the path feels sure.,,Shizue: Things feel tense but let’s breathe and think with open minds. Suspicion can cloud gentle hearts so let’s stay calm. @Sakura  your confidence is admirable but certainty can mislead us—let’s walk carefully even when the path feels sure.,"['calm', 'Mt:Sakura', 'admiration', 'Dis:Sakura(CO[Sakura]:Seer)']"
+1,talk,18,3,3,Given the circumstances. Does Ms. Sakura or Ms. Shizue's Seer claim hold water? Ms. Minako's erratic voting is suspect. Ms. Sakura. If I receive your,,Toshio: Given the circumstances. Does Ms. Sakura or Ms. Shizue's Seer claim hold water? Ms. Minako's erratic voting is suspect. Ms. Sakura. If I receive your,"['Sus:Sakura', 'Sus:Shizue', 'Sus:Minako', 'Req(Discuss)']"
+0,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue,CamelliaDragons1,
+0,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+0,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio,kanolab-nw1,
+0,status,4,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+0,status,5,WEREWOLF,ALIVE,mille1,Minako,mille1,
+0,divine,2,5,WEREWOLF,,,,
+1,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue,CamelliaDragons1,
+1,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+1,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio,kanolab-nw1,
+1,status,4,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+1,status,5,WEREWOLF,ALIVE,mille1,Minako,mille1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,3,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,CamelliaDragons1,Shizue,CamelliaDragons1,
+2,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+2,status,3,VILLAGER,ALIVE,kanolab-nw1,Toshio,kanolab-nw1,
+2,status,4,VILLAGER,ALIVE,sunamelli1,Victoria,sunamelli1,
+2,status,5,WEREWOLF,DEAD,mille1,Minako,mille1,
+2,result,4,0,VILLAGER,,,,

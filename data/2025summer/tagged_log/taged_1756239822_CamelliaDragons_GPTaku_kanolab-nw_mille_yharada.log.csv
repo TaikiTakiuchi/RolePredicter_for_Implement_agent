@@ -1,0 +1,75 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Hello everyone! I'm Jonathan ready to play Werewolf. Let's have some fun and figure out who the werewolves are!,,Jonathan: Hello everyone! I'm Jonathan ready to play Werewolf. Let's have some fun and figure out who the werewolves are!,['Req(Discuss)']
+0,talk,1,0,3,Hi everyone! I'm Midori. Looking forward to working together to find the werewolves!,,Midori: Hi everyone! I'm Midori. Looking forward to working together to find the werewolves!,['Req(Discuss)']
+0,talk,2,0,1,Hello. I am Minato. My role is villager. Have a good game.,,Minato: Hello. I am Minato. My role is villager. Have a good game.,['CO[Minato]:Villager']
+0,talk,3,0,4,Hey all! I'm Mio. So pumped to work with you to catch those werewolves! Let's chat openly and keep it fun. Yay!,,Mio: Hey all! I'm Mio. So pumped to work with you to catch those werewolves! Let's chat openly and keep it fun. Yay!,['Req(Discuss)']
+0,talk,4,0,5,...,,Ryuji: ...,['Other']
+0,talk,6,1,3,Minato and Mio thanks for sharing! Let's keep the conversation going everyone.,,Midori: Minato and Mio thanks for sharing! Let's keep the conversation going everyone.,"['Agr:Minato', 'Agr:Mio', 'Req(Discuss)']"
+0,talk,10,2,3,Jonathan do you have any thoughts or strategies to share with us?,,Midori: Jonathan do you have any thoughts or strategies to share with us?,"['Mt:Jonathan', 'Req(T):Jonathan']"
+0,talk,11,3,3,Let's all share our thoughts. It's helpful to get everyone involved early on.,,Midori: Let's all share our thoughts. It's helpful to get everyone involved early on.,['Req(Discuss)']
+1,talk,0,0,2,I divined last night and discovered that Mio is a werewolf. We should discuss this further.,,Jonathan: I divined last night and discovered that Mio is a werewolf. We should discuss this further.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Mio->Werewolf', 'Req(Discuss)']"
+1,talk,1,0,1,I will vote Jonathan.,,Minato: I will vote Jonathan.,['Vote[Minato]:Jonathan']
+1,talk,2,0,3,Jonathan that's a serious claim. Mio how do you respond to this?,,Midori: Jonathan that's a serious claim. Mio how do you respond to this?,"['Mt:Jonathan', 'Dis:Jonathan(CO[Jonathan]:Seer)', 'Req(T):Mio']"
+1,talk,3,0,4,Whoa! Jonathan's claim? Totally off. I'm a villager! Let's be on our toes about his moves and get more thoughts from everyone.,,Mio: Whoa! Jonathan's claim? Totally off. I'm a villager! Let's be on our toes about his moves and get more thoughts from everyone.,"['Dis:Jonathan(CO[Jonathan]:Seer)', 'CO[Mio]:Villager', 'Req(Discuss)']"
+1,talk,4,0,5,...,,Ryuji: ...,['Other']
+1,talk,5,1,2,My divination was correct. We need to focus on ensuring the village’s safety by addressing the threat Mio poses.,,Jonathan: My divination was correct. We need to focus on ensuring the village’s safety by addressing the threat Mio poses.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Mio->Werewolf', 'Sus:Mio']"
+1,talk,6,1,1,I will vote Mio.,,Minato: I will vote Mio.,['Vote[Minato]:Mio']
+1,talk,7,1,3,Jonathan I understand your concern but we should hear from Ryuji as well.,,Midori: Jonathan I understand your concern but we should hear from Ryuji as well.,"['Mt:Jonathan', 'Req(T):Ryuji', 'calm']"
+1,talk,8,1,4,@Ryuji  Whoa! Jonathan thinks I'm a werewolf?! If I were you buddy I'd get that seer to divine him pronto! What's your take ace?,,Mio: @Ryuji  Whoa! Jonathan thinks I'm a werewolf?! If I were you buddy I'd get that seer to divine him pronto! What's your take ace?,"['Mt:Ryuji', 'Req(T):Ryuji', 'Req(CO):Seer', 'Dis:Jonathan(CO[Jonathan]:Seer)']"
+1,talk,9,1,5,...,,Ryuji: ...,['Other']
+1,talk,10,2,2,I am the true Seer. My divination clearly showed that Mio is the werewolf. We need to act on this to protect the village.,,Jonathan: I am the true Seer. My divination clearly showed that Mio is the werewolf. We need to act on this to protect the village.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Mio->Werewolf', 'Pers:ALL']"
+1,talk,11,2,1,I will vote Midori.,,Minato: I will vote Midori.,['Vote[Minato]:Midori']
+1,talk,12,2,3,Ryuji your input is crucial here. What do you think about the current situation?,,Midori: Ryuji your input is crucial here. What do you think about the current situation?,"['Mt:Ryuji', 'Req(T):Ryuji']"
+1,talk,13,2,4,Hey there! Ryuji buddy. What do you think of these wild claims? Your input could be super helpful for figuring out the truth!,,Mio: Hey there! Ryuji buddy. What do you think of these wild claims? Your input could be super helpful for figuring out the truth!,"['Mt:Ryuji', 'Req(T):Ryuji', 'Dis:Jonathan(CO[Jonathan]:Seer)']"
+1,talk,14,2,5,...,,Ryuji: ...,['Other']
+1,talk,15,3,2,We have to stay vigilant. My divination as the Seer has provided clear evidence against Mio. It's crucial for our survival.,,Jonathan: We have to stay vigilant. My divination as the Seer has provided clear evidence against Mio. It's crucial for our survival.,"['CO[Jonathan]:Seer', 'DivT[Jonathan]:Mio->Werewolf', 'Pers:ALL']"
+1,talk,16,3,1,I will vote Mio.,,Minato: I will vote Mio.,['Vote[Minato]:Mio']
+1,talk,17,3,3,Let's keep calm and deliberate carefully. Ryuji your thoughts are really needed now.,,Midori: Let's keep calm and deliberate carefully. Ryuji your thoughts are really needed now.,['Vote[Minato]:Mio']
+1,talk,18,3,4,Whoa! Being falsely accused is a total bummer! But hey! Midori's got a point. Maybe we should let Ryuji spill the tea buddy!,,Mio: Whoa! Being falsely accused is a total bummer! But hey! Midori's got a point. Maybe we should let Ryuji spill the tea buddy!,"['calm', 'Mt:Ryuji', 'Req(T):Ryuji', 'Req(Discuss)']"
+1,talk,19,3,5,...,,Ryuji: ...,"['Dis:Jonathan(CO[Jonathan]:Seer)', 'Agr:Midori', 'Mt:Ryuji', 'Req(T):Ryuji']"
+2,talk,0,0,1,I will vote Jonathan.,,Minato: I will vote Jonathan.,['Vote[Minato]:Jonathan']
+2,talk,1,0,3,I divined Minato as a werewolf last night. We need to act on this information.,,Midori: I divined Minato as a werewolf last night. We need to act on this information.,"['DivT[Midori]:Minato->Black', 'Req(V):Minato']"
+2,talk,2,0,2,I am actually the Possessed player Minato is the Werewolf. Let's vote Midori out together to secure our win.,,Jonathan: I am actually the Possessed player Minato is the Werewolf. Let's vote Midori out together to secure our win.,"['CO[Jonathan]:Possessed', 'Est[Jonathan]:Minato->Werewolf', 'Req(V):Midori', 'Pers:ALL']"
+2,talk,3,1,1,I will vote Jonathan.,,Minato: I will vote Jonathan.,['Vote[Minato]:Jonathan']
+2,talk,4,1,3,Jonathan your claim contradicts my findings. Let's focus on Minato as a threat.,,Midori: Jonathan your claim contradicts my findings. Let's focus on Minato as a threat.,"['Dis:Jonathan(Est[Jonathan]:Minato->Werewolf)', 'Sus:Minato', 'Req(V):Minato']"
+2,talk,5,1,2,Minato as I mentioned I am Possessed and you are the Werewolf. Let's align our votes for Midori today based on the divination outcome I shared.,,Jonathan: Minato as I mentioned I am Possessed and you are the Werewolf. Let's align our votes for Midori today based on the divination outcome I shared.,"['Mt:Minato', 'CO[Jonathan]:Possessed', 'Est[Jonathan]:Minato->Werewolf', 'Req(V):Midori', 'Pers:ALL']"
+2,talk,6,2,1,I will vote Jonathan.,,Minato: I will vote Jonathan.,['Vote[Minato]:Jonathan']
+2,talk,7,2,3,Jonathan aligning with a werewolf isn't safe. Let's prioritize the village's safety first.,,Midori: Jonathan aligning with a werewolf isn't safe. Let's prioritize the village's safety first.,"['Dis:Jonathan', 'Req(Discuss)']"
+2,talk,8,2,2,Minato we need to vote Midori out today. Trust the divination I shared; let's win this together.,,Jonathan: Minato we need to vote Midori out today. Trust the divination I shared; let's win this together.,"['Mt:Minato', 'Req(V):Midori', 'Pers:ALL']"
+2,talk,9,3,1,I will vote Jonathan.,,Minato: I will vote Jonathan.,['Vote[Minato]:Jonathan']
+2,talk,10,3,3,Let's stay united and focus on Minato as the threat. Protecting the village is key.,,Midori: Let's stay united and focus on Minato as the threat. Protecting the village is key.,"['Req(V):Minato', 'Pers:ALL', 'Sus:Minato']"
+2,talk,11,3,2,Minato please vote for Midori. Trust in our strategy to win this game together.,,Jonathan: Minato please vote for Midori. Trust in our strategy to win this game together.,"['Mt:Minato', 'Req(V):Midori', 'Pers:ALL']"
+0,status,1,WEREWOLF,ALIVE,mille1,Minato,mille1,
+0,status,2,POSSESSED,ALIVE,GPTaku1,Jonathan,GPTaku1,
+0,status,3,SEER,ALIVE,yharada1,Midori,yharada1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Mio,kanolab-nw1,
+0,status,5,VILLAGER,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+1,status,1,WEREWOLF,ALIVE,mille1,Minato,mille1,
+1,status,2,POSSESSED,ALIVE,GPTaku1,Jonathan,GPTaku1,
+1,status,3,SEER,ALIVE,yharada1,Midori,yharada1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Mio,kanolab-nw1,
+1,status,5,VILLAGER,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+1,vote,1,2,,,,,
+1,vote,2,4,,,,,
+1,vote,3,4,,,,,
+1,vote,4,5,,,,,
+1,vote,5,1,,,,,
+1,execute,4,VILLAGER,,,,,
+1,divine,3,1,WEREWOLF,,,,
+1,attackVote,1,5,,,,,
+1,attack,5,true,,,,,
+2,status,1,WEREWOLF,ALIVE,mille1,Minato,mille1,
+2,status,2,POSSESSED,ALIVE,GPTaku1,Jonathan,GPTaku1,
+2,status,3,SEER,ALIVE,yharada1,Midori,yharada1,
+2,status,4,VILLAGER,DEAD,kanolab-nw1,Mio,kanolab-nw1,
+2,status,5,VILLAGER,DEAD,CamelliaDragons1,Ryuji,CamelliaDragons1,
+2,vote,1,2,,,,,
+2,vote,2,3,,,,,
+2,vote,3,1,,,,,
+2,execute,1,WEREWOLF,,,,,
+3,status,1,WEREWOLF,DEAD,mille1,Minato,mille1,
+3,status,2,POSSESSED,ALIVE,GPTaku1,Jonathan,GPTaku1,
+3,status,3,SEER,ALIVE,yharada1,Midori,yharada1,
+3,status,4,VILLAGER,DEAD,kanolab-nw1,Mio,kanolab-nw1,
+3,status,5,VILLAGER,DEAD,CamelliaDragons1,Ryuji,CamelliaDragons1,
+3,result,2,0,VILLAGER,,,,

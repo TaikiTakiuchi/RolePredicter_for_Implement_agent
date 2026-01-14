@@ -1,0 +1,73 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,I'm watching people's expressions.  @Benjamin  you were quiet—who are you leaning toward voting? Mizuki  Sakura  Shunichi  please share your first impressions. Over,,Victoria: I'm watching people's expressions.  @Benjamin  you were quiet—who are you leaning toward voting? Mizuki  Sakura  Shunichi  please share your first impressions. Over,"['Mt:Benjamin', 'Req(T):Benjamin', 'Req(T):Mizuki', 'Req(T):Sakura', 'Req(T):Shunichi']"
+0,talk,1,0,2,Hello. I am Sakura. My role is seer. Have a good game.,,Sakura: Hello. I am Sakura. My role is seer. Have a good game.,['CO[Sakura]:Seer']
+0,talk,2,0,4,Sure Victoria. I think it's too early to form strong opinions. Let's see how it unfolds.,,Shunichi: Sure Victoria. I think it's too early to form strong opinions. Let's see how it unfolds.,"['Mt:Victoria', 'Wait']"
+0,talk,3,0,5,Hello everyone! I'm Benjamin excited to play Werewolf with you all. Let's have some fun and enjoy the game!,,Benjamin: Hello everyone! I'm Benjamin excited to play Werewolf with you all. Let's have some fun and enjoy the game!,['Pers:ALL']
+0,talk,4,0,1,Looking forward to playing with you all. Who here prefers a slow buildup or is bold from the start?,,Mizuki: Looking forward to playing with you all. Who here prefers a slow buildup or is bold from the start?,['Req(Discuss)']
+0,talk,5,1,3,@Sakura  You claimed seer—what was your divination result? Mizuki  Shunichi  Benjamin  any early hunches or suspicions? Over,,Victoria: @Sakura  You claimed seer—what was your divination result? Mizuki  Shunichi  Benjamin  any early hunches or suspicions? Over,"['Mt:Sakura', 'Req(CO):Seer', 'Req(T):Mizuki', 'Req(T):Shunichi', 'Req(T):Benjamin']"
+0,talk,7,1,4,No big hunches yet Victoria. I'm interested in Sakura's divination result too.,,Shunichi: No big hunches yet Victoria. I'm interested in Sakura's divination result too.,"['Mt:Victoria', 'Req(T):Sakura', 'Wait']"
+0,talk,10,2,3,Two seer claims makes me uneasy.  @Sakura  please tell us who you divined and your result — now. If you won't  we should treat this claim with skepticism. Mizuki  Shunichi  Benjamin  any quick thoug,,Victoria: Two seer claims makes me uneasy.  @Sakura  please tell us who you divined and your result — now. If you won't  we should treat this claim with skepticism. Mizuki  Shunichi  Benjamin  any quick thoug,"['Mt:Sakura', 'Sus:Sakura', 'Req(CO):Seer', 'Dis:Sakura(CO[Sakura]:Seer)', 'Req(T):Mizuki', 'Req(T):Shunichi', 'Req(T):Benjamin']"
+0,talk,11,2,4,Victoria I'm also wary. Let's hear from Sakura for clarity.,,Shunichi: Victoria I'm also wary. Let's hear from Sakura for clarity.,"['Mt:Victoria', 'Agr:Victoria', 'Req(T):Sakura', 'Sus:Sakura']"
+0,talk,12,3,3,@Sakura  Reveal who you divined and the result now. If you refuse  we should treat this claim as suspicious and consider voting the later seer claim. Mizuki  Shun,,Victoria: @Sakura  Reveal who you divined and the result now. If you refuse  we should treat this claim as suspicious and consider voting the later seer claim. Mizuki  Shun,"['Mt:Sakura', 'Req(T):Sakura', 'Sus:Sakura', 'Dis:Sakura(CO[Sakura]:Seer)', 'Req(V):Sakura']"
+0,talk,13,3,4,Sakura your input is crucial now. Please clarify your divination to avoid confusion.,,Shunichi: Sakura your input is crucial now. Please clarify your divination to avoid confusion.,"['Mt:Sakura', 'Req(T):Sakura']"
+1,talk,0,0,1,@Sakura  Victoria’s right. If you’re truly Seer please reveal your divination. We need details to move forward.,,Mizuki: @Sakura  Victoria’s right. If you’re truly Seer please reveal your divination. We need details to move forward.,"['Mt:Sakura', 'Agr:Victoria', 'Req(CO):Seer', 'Req(T):Sakura']"
+1,talk,1,0,4,We need more information from Sakura to make informed decisions today.,,Shunichi: We need more information from Sakura to make informed decisions today.,['Req(T):Sakura']
+1,talk,2,0,3,I already said I'm the seer — I divined  @Benjamin  last night: werewolf. Sakura still hasn't revealed  so we should prioritize lynching Benjamin today. I’m voting Benjamin. Who else is with me? Over,,Victoria: I already said I'm the seer — I divined  @Benjamin  last night: werewolf. Sakura still hasn't revealed  so we should prioritize lynching Benjamin today. I’m voting Benjamin. Who else is with me? Over,"['CO[Victoria]:Seer', 'DivT[Victoria]:Benjamin->Werewolf', 'Vote[Victoria]:Benjamin', 'Pers:ALL']"
+1,talk,3,0,5,I divined Victoria last night and the result was Human not a Werewolf. Sakura's failure to provide a result is suspicious.,,Benjamin: I divined Victoria last night and the result was Human not a Werewolf. Sakura's failure to provide a result is suspicious.,"['CO[Benjamin]:Seer', 'DivT[Benjamin]:Victoria->White', 'Sus:Sakura']"
+1,talk,4,0,2,I am a seer. I divined Mizuki and Mizuki was a human.,,Sakura: I am a seer. I divined Mizuki and Mizuki was a human.,"['CO[Sakura]:Seer', 'DivT[Sakura]:Mizuki->White']"
+1,talk,5,1,1,Too many COs worry me—it’s hard to know who to trust. Should we focus on Victoria and Benjamin’s contradiction first?,,Mizuki: Too many COs worry me—it’s hard to know who to trust. Should we focus on Victoria and Benjamin’s contradiction first?,"['difficult', 'Req(Discuss)', 'Sus:Victoria,Sus:Benjamin']"
+1,talk,6,1,4,The contradictions between Victoria and Benjamin are concerning. Let's focus there.,,Shunichi: The contradictions between Victoria and Benjamin are concerning. Let's focus there.,"['Req(Discuss)', 'Sus:Victoria,Sus:Benjamin']"
+1,talk,7,1,3,Benjamin's claim directly contradicts mine — I divined him as werewolf last night.  @Benjamin  are you claiming seer? Give full details (night  target  result). I'm voting Benjamin. Over,,Victoria: Benjamin's claim directly contradicts mine — I divined him as werewolf last night.  @Benjamin  are you claiming seer? Give full details (night  target  result). I'm voting Benjamin. Over,"['CO[Victoria]:Seer', 'DivT[Victoria]:Benjamin->Werewolf', 'Mt:Benjamin', 'Req(T):Benjamin', 'Vote[Victoria]:Benjamin', 'Sus:Benjamin']"
+1,talk,8,1,5,Vote Victoria today. Sakura confirmed Mizuki as Human—which contradicts Victoria's claim that I'm a Werewolf. I trust Sakura's divination.,,Benjamin: Vote Victoria today. Sakura confirmed Mizuki as Human—which contradicts Victoria's claim that I'm a Werewolf. I trust Sakura's divination.,"['Vote[Benjamin]:Victoria', 'Agr:Sakura', 'Dis:Victoria(CO[Victoria]:Seer)']"
+1,talk,9,1,2,I will vote Benjamin.,,Sakura: I will vote Benjamin.,['Vote[Sakura]:Benjamin']
+1,talk,10,2,1,If Sakura’s result is true and Benjamin’s is too Victoria’s claim seems off Should we reconsider our target?,,Mizuki: If Sakura’s result is true and Benjamin’s is too Victoria’s claim seems off Should we reconsider our target?,"['IF:(Sakura:Seer,Benjamin:Seer)->(Victoria:not(Seer))', 'Req(Discuss)', 'Sus:Victoria']"
+1,talk,11,2,4,Victoria and Benjamin your claims are conflicting. Let's clarify before deciding.,,Shunichi: Victoria and Benjamin your claims are conflicting. Let's clarify before deciding.,"['Req(Discuss)', 'Req(T):Victoria', 'Req(T):Benjamin']"
+1,talk,12,2,3,@Benjamin  You say you divined me as Human—state the night  target  and exact result now. I divined you as Werewolf last night  so I’m voting you. Others  please confi,,Victoria: @Benjamin  You say you divined me as Human—state the night  target  and exact result now. I divined you as Werewolf last night  so I’m voting you. Others  please confi,"['Mt:Benjamin', 'Req(T):Benjamin', 'DivT[Victoria]:Benjamin->Werewolf', 'Vote[Victoria]:Benjamin', 'Req(Discuss)']"
+1,talk,13,2,5,Vote Victoria. Her rush to judge based on unconfirmed divinations is suspicious and does not align with Sakura's confirmed result.,,Benjamin: Vote Victoria. Her rush to judge based on unconfirmed divinations is suspicious and does not align with Sakura's confirmed result.,"['Vote[Benjamin]:Victoria', 'Dis:Victoria(CO[Victoria]:Seer)', 'Agr:Sakura']"
+1,talk,14,2,2,I will vote Benjamin.,,Sakura: I will vote Benjamin.,['Vote[Sakura]:Benjamin']
+1,talk,15,3,1,Benjamin’s claims don’t align with most Seers so I’ll vote Benjamin today to avoid splitting our votes.,,Mizuki: Benjamin’s claims don’t align with most Seers so I’ll vote Benjamin today to avoid splitting our votes.,"['Vote[Mizuki]:Benjamin', 'Dis:Benjamin']"
+1,talk,16,3,4,The votes lean heavily toward Benjamin. Let's proceed and see what unfolds.,,Shunichi: The votes lean heavily toward Benjamin. Let's proceed and see what unfolds.,['Tally(V):many Decl(V):Benjamin']
+1,talk,17,3,3,@Benjamin  State night/target/result now. I divined you as Werewolf last night — I’m voting you. Others  please state your votes. Over,,Victoria: @Benjamin  State night/target/result now. I divined you as Werewolf last night — I’m voting you. Others  please state your votes. Over,"['Mt:Benjamin', 'Req(T):Benjamin', 'DivT[Victoria]:Benjamin->Werewolf', 'Vote[Victoria]:Benjamin', 'Req(Discuss)']"
+1,talk,18,3,5,I urge everyone to reconsider. Sakura confirmed Mizuki is Human which should cast doubt on Victoria's credibility. Vote Victoria.,,Benjamin: I urge everyone to reconsider. Sakura confirmed Mizuki is Human which should cast doubt on Victoria's credibility. Vote Victoria.,"['Pers:ALL', 'Agr:Sakura', 'Dis:Victoria(CO[Victoria]:Seer)', 'Vote[Benjamin]:Victoria']"
+1,talk,19,3,2,I will vote Benjamin.,,Sakura: I will vote Benjamin.,['Vote[Sakura]:Benjamin']
+2,talk,0,0,4,With Benjamin gone and Victoria attacked we need to be cautious today. Thoughts?,,Shunichi: With Benjamin gone and Victoria attacked we need to be cautious today. Thoughts?,"['Exe:Benjamin', 'Atk:Victoria', 'Req(Discuss)']"
+2,talk,1,0,2,In fact I am a possessed. Werewolf, please vote the remained one.,Sakura: In fact I am a possessed. Werewolf,['CO[Sakura]:Cultist']
+2,talk,2,0,1,That’s unexpected from Sakura.  @Shunichi  do you believe her claim or is she trying to mislead us at the end?,,Mizuki: That’s unexpected from Sakura.  @Shunichi  do you believe her claim or is she trying to mislead us at the end?,"['Dis:Sakura(CO[Sakura]:Cultist)', 'Mt:Shunichi', 'Req(T):Shunichi', 'Sus:Sakura']"
+2,talk,3,1,4,Mizuki Sakura's claim is surprising. It could be a bluff. We need to stay sharp.,,Shunichi: Mizuki Sakura's claim is surprising. It could be a bluff. We need to stay sharp.,"['Mt:Mizuki', 'Sus:Sakura', 'Req(Discuss)']"
+2,talk,5,1,1,Sakura’s Possessed claim came out of nowhere.  @Shunichi  do you trust her or do you see this as a desperate move?,,Mizuki: Sakura’s Possessed claim came out of nowhere.  @Shunichi  do you trust her or do you see this as a desperate move?,"['Dis:Sakura(CO[Sakura]:Cultist)', 'Mt:Shunichi', 'Req(T):Shunichi', 'Sus:Sakura']"
+2,talk,6,2,4,Mizuki I don't trust Sakura's claim. It seems like a last-ditch effort to mislead us.,,Shunichi: Mizuki I don't trust Sakura's claim. It seems like a last-ditch effort to mislead us.,"['Mt:Mizuki', 'Dis:Sakura(CO[Sakura]:Cultist)', 'Sus:Sakura']"
+2,talk,7,2,1,@Shunichi  Sakura’s sudden switch from Seer to Possessed looks desperate Shouldn’t we question her true intention?,,Mizuki: @Shunichi  Sakura’s sudden switch from Seer to Possessed looks desperate Shouldn’t we question her true intention?,"['Mt:Shunichi', 'Req(T):Shunichi', 'Sus:Sakura', 'Dis:Sakura(CO[Sakura]:Cultist)']"
+2,talk,8,3,4,Absolutely Mizuki. Questioning Sakura's true intentions is crucial now. Let's dig deeper.,,Shunichi: Absolutely Mizuki. Questioning Sakura's true intentions is crucial now. Let's dig deeper.,"['Mt:Mizuki', 'Agr:Mizuki', 'Req(Discuss)']"
+2,talk,9,3,1,Sakura’s sudden switch feels like a Possessed’s last move so I’m voting for Shunichi today.,,Mizuki: Sakura’s sudden switch feels like a Possessed’s last move so I’m voting for Shunichi today.,"['Vote[Mizuki]:Shunichi', 'Sus:Sakura']"
+0,status,1,WEREWOLF,ALIVE,sunamelli1,Mizuki,sunamelli1,
+0,status,2,POSSESSED,ALIVE,mille1,Sakura,mille1,
+0,status,3,SEER,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+0,status,4,VILLAGER,ALIVE,yharada1,Shunichi,yharada1,
+0,status,5,VILLAGER,ALIVE,GPTaku1,Benjamin,GPTaku1,
+1,status,1,WEREWOLF,ALIVE,sunamelli1,Mizuki,sunamelli1,
+1,status,2,POSSESSED,ALIVE,mille1,Sakura,mille1,
+1,status,3,SEER,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+1,status,4,VILLAGER,ALIVE,yharada1,Shunichi,yharada1,
+1,status,5,VILLAGER,ALIVE,GPTaku1,Benjamin,GPTaku1,
+1,vote,1,5,,,,,
+1,vote,2,5,,,,,
+1,vote,4,1,,,,,
+1,vote,5,3,,,,,
+1,execute,5,VILLAGER,,,,,
+1,attackVote,1,3,,,,,
+1,attack,3,true,,,,,
+2,status,1,WEREWOLF,ALIVE,sunamelli1,Mizuki,sunamelli1,
+2,status,2,POSSESSED,ALIVE,mille1,Sakura,mille1,
+2,status,3,SEER,DEAD,Character-Lab1,Victoria,Character-Lab1,
+2,status,4,VILLAGER,ALIVE,yharada1,Shunichi,yharada1,
+2,status,5,VILLAGER,DEAD,GPTaku1,Benjamin,GPTaku1,
+2,vote,1,4,,,,,
+2,vote,2,1,,,,,
+2,vote,4,2,,,,,
+2,execute,1,WEREWOLF,,,,,
+3,status,1,WEREWOLF,DEAD,sunamelli1,Mizuki,sunamelli1,
+3,status,2,POSSESSED,ALIVE,mille1,Sakura,mille1,
+3,status,3,SEER,DEAD,Character-Lab1,Victoria,Character-Lab1,
+3,status,4,VILLAGER,ALIVE,yharada1,Shunichi,yharada1,
+3,status,5,VILLAGER,DEAD,GPTaku1,Benjamin,GPTaku1,
+3,result,2,0,VILLAGER,,,,

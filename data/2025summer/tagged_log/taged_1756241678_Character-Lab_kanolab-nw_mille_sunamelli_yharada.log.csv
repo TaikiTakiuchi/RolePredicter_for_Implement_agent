@@ -1,0 +1,79 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Let's stay sharp today everyone. Keep an eye out for anything suspicious.,,Shunichi: Let's stay sharp today everyone. Keep an eye out for anything suspicious.,"['Req(Discuss)', 'Pers:ALL', 'calm']"
+0,talk,1,0,1,Greetings everyone. I am Asuka. I am eager to collaborate with you today. Let us enjoy the game together. Over.,,Asuka: Greetings everyone. I am Asuka. I am eager to collaborate with you today. Let us enjoy the game together. Over.,"['Pers:ALL', 'Other']"
+0,talk,2,0,2,Hi everyone I’m Yumi! I hope we can have a friendly and fun game—let’s all do our best and support each other!,,Yumi: Hi everyone I’m Yumi! I hope we can have a friendly and fun game—let’s all do our best and support each other!,"['Pers:ALL', 'Other']"
+0,talk,3,0,5,Um...  @Asuka   you seem really nice  but I still feel uneasy. Did you notice anyone acting strange last night? I don't want to make a mistake. Over,,Minato: Um...  @Asuka   you seem really nice  but I still feel uneasy. Did you notice anyone acting strange last night? I don't want to make a mistake. Over,"['Mt:Asuka', 'Req(T):Asuka', 'difficult']"
+0,talk,4,0,3,Hello. I am Victoria. My role is villager. Have a good game.,,Victoria: Hello. I am Victoria. My role is villager. Have a good game.,"['CO[Victoria]:Villager', 'Pers:ALL']"
+0,talk,5,1,4,Minato it's too early to suspect. Let's gather more info before jumping to conclusions.,,Shunichi: Minato it's too early to suspect. Let's gather more info before jumping to conclusions.,"['Mt:Minato', 'Dis:Minato', 'Req(Discuss)', 'calm']"
+0,talk,8,1,5,Shunichi's right. It's early — let's watch how everyone acts first.  @Asuka   did you notice anything last night or have any thoughts on who to watch? I get worried easily. Over,,Minato: Shunichi's right. It's early — let's watch how everyone acts first.  @Asuka   did you notice anything last night or have any thoughts on who to watch? I get worried easily. Over,"['Agr:Shunichi', 'Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult']"
+0,talk,10,2,4,Minato patience is key. Let's see who slips up first; overconfidence can be revealing.,,Shunichi: Minato patience is key. Let's see who slips up first; overconfidence can be revealing.,"['Mt:Minato', 'Req(Discuss)', 'calm']"
+0,talk,11,2,5,You're right  Shunichi. I'm nervous though... Maybe we can each say one small thing we noticed to help?  @Asuka  could you tell us if anything seemed strange to you last night  please? Over,,Minato: You're right  Shunichi. I'm nervous though... Maybe we can each say one small thing we noticed to help?  @Asuka  could you tell us if anything seemed strange to you last night  please? Over,"['Agr:Shunichi', 'Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult']"
+0,talk,12,3,4,Let's focus on observations now not past events. Any hunches Asuka?,,Shunichi: Let's focus on observations now not past events. Any hunches Asuka?,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'calm']"
+0,talk,13,3,5,Okay  let's each share one small observation now. I'm uneasy because everyone seems extra cheerful — maybe they're hiding something.  @Asuka  do you have any little hunch or thing that seemed off to you? Over,,Minato: Okay  let's each share one small observation now. I'm uneasy because everyone seems extra cheerful — maybe they're hiding something.  @Asuka  do you have any little hunch or thing that seemed off to you? Over,[]
+1,talk,0,0,1,Let me clarify. I divined Ms. Victoria. The divination result shows she is Human. She is undoubtedly on the villager's side.,,Asuka: Let me clarify. I divined Ms. Victoria. The divination result shows she is Human. She is undoubtedly on the villager's side.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Victoria->White']"
+1,talk,1,0,3,I will vote Yumi.,,Victoria: I will vote Yumi.,['Vote[Victoria]:Yumi']
+1,talk,2,0,2,@Victoria  You voted me really fast—could you share your reason? Sudden votes can be risky for villagers.,,Yumi: @Victoria  You voted me really fast—could you share your reason? Sudden votes can be risky for villagers.,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Victoria']"
+1,talk,3,0,5,I'm nervous about quick votes.  @Asuka  when did you divine Victoria — was it last night or just now? Also Victoria  why are you voting Yumi so quickly? I don't want to vote without reasons. Over,,Minato: I'm nervous about quick votes.  @Asuka  when did you divine Victoria — was it last night or just now? Also Victoria  why are you voting Yumi so quickly? I don't want to vote without reasons. Over,"['difficult', 'Mt:Asuka', 'Req(T):Asuka', 'Mt:Victoria', 'Req(T):Victoria', 'Wait']"
+1,talk,4,0,4,Rushing to vote can backfire Victoria. Let's hear more reasoning before deciding.,,Shunichi: Rushing to vote can backfire Victoria. Let's hear more reasoning before deciding.,"['Mt:Victoria', 'Req(T):Victoria', 'calm']"
+1,talk,5,1,1,In my opinion Ms. Yumi's reaction to Ms. Victoria's vote is crucial for insight. Let us focus on their behaviors and intent.,,Asuka: In my opinion Ms. Yumi's reaction to Ms. Victoria's vote is crucial for insight. Let us focus on their behaviors and intent.,"['Req(Discuss)', 'Pers:ALL']"
+1,talk,6,1,3,I will vote Yumi.,,Victoria: I will vote Yumi.,['Vote[Victoria]:Yumi']
+1,talk,7,1,2,@Victoria  you voted me quickly without any reason. Why target me specifically? That feels wolf-like—please explain.,,Yumi: @Victoria  you voted me quickly without any reason. Why target me specifically? That feels wolf-like—please explain.,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Victoria']"
+1,talk,8,1,5,I'm still unsure...  @Asuka  when did you divine Victoria — was it last night or just now? Victoria  could you explain why you're voting Yumi so fast? Quick votes make me nervous. I do,,Minato: I'm still unsure...  @Asuka  when did you divine Victoria — was it last night or just now? Victoria  could you explain why you're voting Yumi so fast? Quick votes make me nervous. I do,"['difficult', 'Mt:Asuka', 'Req(T):Asuka', 'Mt:Victoria', 'Req(T):Victoria', 'Wait']"
+1,talk,9,1,4,Minato let's not rush. Asuka can you clarify your divination timing for us?,,Shunichi: Minato let's not rush. Asuka can you clarify your divination timing for us?,"['Mt:Minato', 'Mt:Asuka', 'Req(T):Asuka', 'calm']"
+1,talk,10,2,1,Let me clarify. We must scrutinize all actions closely. Sudden votes raise concerns. Mr. Minato I divined Victoria last night. I'm uncertain about Y,,Asuka: Let me clarify. We must scrutinize all actions closely. Sudden votes raise concerns. Mr. Minato I divined Victoria last night. I'm uncertain about Y,"['CO[Asuka]:Seer', 'Mt:Minato', 'Req(Discuss)', 'Sus:Victoria']"
+1,talk,11,2,3,I will vote Yumi.,,Victoria: I will vote Yumi.,['Vote[Victoria]:Yumi']
+1,talk,12,2,2,@Victoria  you keep voting for me without saying why.,,Yumi: @Victoria  you keep voting for me without saying why.,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Victoria']"
+1,talk,13,2,5,Um...  @Asuka  when did you divine Victoria — was it last night or just now? Victoria  could you explain why you voted Yumi so quickly? I'm worried about voting without,,Minato: Um...  @Asuka  when did you divine Victoria — was it last night or just now? Victoria  could you explain why you voted Yumi so quickly? I'm worried about voting without,"['difficult', 'Mt:Asuka', 'Req(T):Asuka', 'Mt:Victoria', 'Req(T):Victoria', 'Wait']"
+1,talk,14,2,4,Victoria can you share your reasoning for targeting Yumi? It might ease tensions.,,Shunichi: Victoria can you share your reasoning for targeting Yumi? It might ease tensions.,"['Mt:Victoria', 'Req(T):Victoria', 'calm']"
+1,talk,15,3,1,Let me clarify. Since Ms. Victoria's divination confirmed her as Human. I suggest divining Mr. Minato next. Their caution could be telling.,,Asuka: Let me clarify. Since Ms. Victoria's divination confirmed her as Human. I suggest divining Mr. Minato next. Their caution could be telling.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Victoria->White', 'Req(Discuss)', 'Req(T):Minato']"
+1,talk,16,3,3,I will vote Yumi.,,Victoria: I will vote Yumi.,['Vote[Victoria]:Yumi']
+1,talk,17,3,2,Victoria ignores all my and others’ questions and keeps voting without reasons—that’s too wolfish for me.,,Yumi: Victoria ignores all my and others’ questions and keeps voting without reasons—that’s too wolfish for me.,"['Sus:Victoria', 'Dis:Victoria']"
+1,talk,18,3,5,I'm still nervous.  @Asuka  did you divine Victoria last night or just now? Also Victoria  why are you voting Yumi so quickly—any specific reason? I don't want to jump into voting w,,Minato: I'm still nervous.  @Asuka  did you divine Victoria last night or just now? Also Victoria  why are you voting Yumi so quickly—any specific reason? I don't want to jump into voting w,"['difficult', 'Mt:Asuka', 'Req(T):Asuka', 'Mt:Victoria', 'Req(T):Victoria', 'Wait']"
+1,talk,19,3,4,Yumi let's not jump to conclusions. Victoria your silence is raising questions.,,Shunichi: Yumi let's not jump to conclusions. Victoria your silence is raising questions.,"['Mt:Yumi', 'Mt:Victoria', 'Sus:Victoria', 'calm']"
+2,talk,0,0,5,I'm so sad...  @Asuka  you said Victoria was human — did you divine her last night or just now? Also could everyone tell who they voted for Victoria and why? I don't want to make,,Minato: I'm so sad...  @Asuka  you said Victoria was human — did you divine her last night or just now? Also could everyone tell who they voted for Victoria and why? I don't want to make,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult', 'Wait']"
+2,talk,1,0,4,Asuka any new insights from last night's divination? We need clear guidance now.,,Shunichi: Asuka any new insights from last night's divination? We need clear guidance now.,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)']"
+2,talk,2,0,1,I divined Minato last night. He is Human. Let me clarify that this finding is crucial for our discussions moving forward.,,Asuka: I divined Minato last night. He is Human. Let me clarify that this finding is crucial for our discussions moving forward.,"['CO[Asuka]:Seer', 'DivT[Asuka]:Minato->White', 'Pers:ALL']"
+2,talk,3,1,5,I'm still really sad...  @Asuka  did you divine Victoria last night or just now? Could everyone also say who voted for Victoria and why? I don't want to make another mistake. Over,,Minato: I'm still really sad...  @Asuka  did you divine Victoria last night or just now? Could everyone also say who voted for Victoria and why? I don't want to make another mistake. Over,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult', 'Wait']"
+2,talk,4,1,4,With Minato cleared Asuka who do you suspect next? We need a decisive plan.,,Shunichi: With Minato cleared Asuka who do you suspect next? We need a decisive plan.,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)']"
+2,talk,5,1,1,In my opinion. With Minato cleared. Victoria gone. And Yumi attacked. It is likely Mr. Shunichi or possibly Minato is a werewolf.,,Asuka: In my opinion. With Minato cleared. Victoria gone. And Yumi attacked. It is likely Mr. Shunichi or possibly Minato is a werewolf.,"['Exe:Victoria', 'Atk:Yumi', 'Est[Asuka]:Shunichi->Werewolf', 'Est[Asuka]:Minato->Werewolf']"
+2,talk,6,2,5,I'm still really scared...  @Asuka  when did you divine Victoria — last night or just now? Could everyone please say if they voted for Victoria and why? I don't want to make another mistake,,Minato: I'm still really scared...  @Asuka  when did you divine Victoria — last night or just now? Could everyone please say if they voted for Victoria and why? I don't want to make another mistake,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult', 'Wait']"
+2,talk,7,2,4,Asuka your logic seems flawed. Minato let's focus on facts not fears.,,Shunichi: Asuka your logic seems flawed. Minato let's focus on facts not fears.,"['Dis:Asuka', 'Mt:Minato', 'Req(Discuss)']"
+2,talk,8,2,1,I find Mr. Shunichi's silence about his suspicions peculiar. Despite clearing Minato we ought to gather facts and reassess. Shunichi what is your cu,,Asuka: I find Mr. Shunichi's silence about his suspicions peculiar. Despite clearing Minato we ought to gather facts and reassess. Shunichi what is your cu,"['Sus:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)']"
+2,talk,9,3,5,I'm really sad...  @Asuka  you said Victoria was human — when did you divine her? Could everyone tell who they voted to execute Victoria and why? I'm scared of voting wrong again.,,Minato: I'm really sad...  @Asuka  you said Victoria was human — when did you divine her? Could everyone tell who they voted to execute Victoria and why? I'm scared of voting wrong again.,"['Mt:Asuka', 'Req(T):Asuka', 'Req(Discuss)', 'difficult', 'Wait']"
+2,talk,10,3,4,Asuka I'm analyzing carefully. Minato I suggest patience while we gather clearer facts.,,Shunichi: Asuka I'm analyzing carefully. Minato I suggest patience while we gather clearer facts.,"['Mt:Asuka', 'Mt:Minato', 'Req(Discuss)', 'calm']"
+2,talk,11,3,1,Mr. Minato. Your concerns are valid. Let me clarify. I divined Ms. Victoria as human. In my opinion Shunichi is evasive.,,Asuka: Mr. Minato. Your concerns are valid. Let me clarify. I divined Ms. Victoria as human. In my opinion Shunichi is evasive.,"['Mt:Minato', 'Agr:Minato', 'CO[Asuka]:Seer', 'DivT[Asuka]:Victoria->White', 'Sus:Shunichi']"
+0,status,1,SEER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+0,status,2,VILLAGER,ALIVE,sunamelli1,Yumi,sunamelli1,
+0,status,3,VILLAGER,ALIVE,mille1,Victoria,mille1,
+0,status,4,WEREWOLF,ALIVE,yharada1,Shunichi,yharada1,
+0,status,5,POSSESSED,ALIVE,Character-Lab1,Minato,Character-Lab1,
+0,divine,1,3,HUMAN,,,,
+1,status,1,SEER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+1,status,2,VILLAGER,ALIVE,sunamelli1,Yumi,sunamelli1,
+1,status,3,VILLAGER,ALIVE,mille1,Victoria,mille1,
+1,status,4,WEREWOLF,ALIVE,yharada1,Shunichi,yharada1,
+1,status,5,POSSESSED,ALIVE,Character-Lab1,Minato,Character-Lab1,
+1,vote,1,3,,,,,
+1,vote,2,3,,,,,
+1,vote,3,1,,,,,
+1,vote,4,2,,,,,
+1,vote,5,1,,,,,
+1,execute,3,VILLAGER,,,,,
+1,divine,1,5,HUMAN,,,,
+1,attackVote,4,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,SEER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+2,status,2,VILLAGER,DEAD,sunamelli1,Yumi,sunamelli1,
+2,status,3,VILLAGER,DEAD,mille1,Victoria,mille1,
+2,status,4,WEREWOLF,ALIVE,yharada1,Shunichi,yharada1,
+2,status,5,POSSESSED,ALIVE,Character-Lab1,Minato,Character-Lab1,
+2,vote,1,4,,,,,
+2,vote,4,1,,,,,
+2,vote,5,1,,,,,
+2,execute,1,SEER,,,,,
+3,status,1,SEER,DEAD,kanolab-nw1,Asuka,kanolab-nw1,
+3,status,2,VILLAGER,DEAD,sunamelli1,Yumi,sunamelli1,
+3,status,3,VILLAGER,DEAD,mille1,Victoria,mille1,
+3,status,4,WEREWOLF,ALIVE,yharada1,Shunichi,yharada1,
+3,status,5,POSSESSED,ALIVE,Character-Lab1,Minato,Character-Lab1,
+3,result,1,1,WEREWOLF,,,,

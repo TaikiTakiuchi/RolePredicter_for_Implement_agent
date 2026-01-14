@@ -1,0 +1,147 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,1,1:おはようございますわ。,['Other']
+1,talk,0,0,1,1:私たちは人狼を探さなければいけないようですね。,['Req(Discuss)']
+1,talk,0,0,1,1:まずは占い師の結果が知りたいですわ。,['Req(CO):占い師']
+1,talk,1,0,3,3:我は、運命の糸を操る者なり。,['Other']
+1,talk,1,0,3,3:その糸の導きにより、Agent[02]は、夜闇に潜む人狼たるを悟りし。,['DivT[03]:02->黒']
+1,talk,2,0,5,5:皆さん、おはようございますですわ。,['Other']
+1,talk,2,0,5,5:実は、うちも占い師なんですわ。,['CO[05]:占い師']
+1,talk,2,0,5,5:昨夜うちが占った結果、Agent[03]が黒、つまり人狼であることが判明しましたですわ。,['DivT[05]:03->黒']
+1,talk,2,0,5,5:皆さん、これが確かな情報ですので、参考にしてくださいですわ。,['Pers:ALL']
+1,talk,3,0,2,2:>>Agent[04] 君の占い結果もぜひ聞きたいけど、それって誰だったの？,"['Mt:04', 'Req(CO):占い師']"
+1,talk,4,0,4,4:もう少しで何か分かりそう･･･ではあるんだけど･･･。,['difficult']
+1,talk,5,1,1,1:Agent[05]の結果を聞く限り、Agent[03]が人狼である可能性が高いですわね。,['Est[01]:03->人狼']
+1,talk,5,1,1,1:ただ、占い師が二人いる状態は不穏ですわ。,['Other']
+1,talk,5,1,1,1:どちらかが偽物かもしれないから、注意が必要ですわね。,"['XorEst:(03,05)->(占い師⇔not(占い師))']"
+1,talk,7,1,5,5:うちの占い結果では、Agent[03]が黒、つまり人狼でしたですわ。,['DivT[05]:03->黒']
+1,talk,7,1,5,5:皆さん、この情報をもとに考えてみてくださいですわ。,['Pers:ALL']
+1,talk,7,1,5,5:占い師が二人いるので、どちらかが偽物の可能性がありますが、うちの結果は確かですわ。,"['XorEst:(03,05)->(占い師⇔not(占い師))', 'Pers:ALL']"
+1,talk,8,1,2,2:>>Agent[04] 本当に君が占い師なら、占い結果を聞かせてよ。,"['Mt:04', 'Req(CO):占い師']"
+1,talk,9,1,4,4:あ、あのね、僕が占った結果なんだけど、Agent[01]が人狼だったんだ。,['DivT[04]:01->黒']
+1,talk,9,1,4,4:だから、今日の投票はAgent[01]にすべきだと思うんだよね。,['Vote[04]:01']
+1,talk,9,1,4,4:Agent[05]が占い師って言ってるけど、それは間違いで、僕が本当の占い師だから･･･。,['CO[04]:占い師']
+1,talk,9,1,4,4:Agent[05]の言ってることは信じない方がいいかもしれないよ。,['Dis:05（CO[05]:占い師）']
+1,talk,10,2,1,1:Agent[04]の発言には疑問が残りますわ。,['Sus:04']
+1,talk,10,2,1,1:ワタクシに人狼の疑いをかける理由が分かりませんですわ。,['Dis:01（Sus:01）']
+1,talk,10,2,1,1:今日はAgent[04]に投票すべきですわよ。,['Vote[01]:04']
+1,talk,18,4,1,1:今日はAgent[04]に投票すべきですわよ。,['Vote[01]:04']
+1,talk,11,2,5,5:改めてうちの占い結果ですが、Agent[03]が黒、つまり人狼と判定されましたですわ。,['DivT[05]:03->黒']
+1,talk,11,2,5,5:Agent[04]の発言も留意しつつ、皆さんの判断材料にしていただければと思いますですわ。,['Other']
+1,talk,11,2,5,5:どちらかが偽物ということになりますので、慎重に行動しましょうですわ。,"['XorEst:(04,05)->(占い師⇔not(占い師))', 'calm']"
+1,talk,12,2,2,2:>>Agent[03] 君はどう反論するの？,"['Mt:03', 'Req(T):03']"
+1,talk,12,2,2,2:君の視点も聞きたいな。,['Req(T):03']
+1,talk,13,2,4,4:え、えっと、実はね、僕が占った結果、Agent[01]が黒、つまり人狼だったんだ。,['DivT[04]:01->黒']
+1,talk,13,2,4,4:だから、今日の投票はAgent[01]にするべきだと思うんだ･･･。,['Vote[04]:01']
+1,talk,13,2,4,4:Agent[05]が占い師だって言ってるけど、僕が本当の占い師だから、Agent[05]の言ってることは信じない方がいいと思う･･･。,"['CO[04]:占い師', 'Dis:05（CO[05]:占い師）']"
+1,talk,14,3,1,1:Agent[04]の主張には一貫性が欠けており、信憑性が低いですわ。,['Dis:04（CO[04]:占い師）']
+1,talk,14,3,1,1:もし本当の占い師なら、ワタクシを人狼と疑う理由が薄いと思いますわ。,['Dis:04（Sus:01）']
+1,talk,14,3,1,1:投票はAgent[04]にするべきですわね。,['Vote[01]:04']
+1,talk,15,3,5,5:再度確認ですが、うちの占い結果では、Agent[03]が黒、つまり人狼ですわ。,['DivT[05]:03->黒']
+1,talk,15,3,5,5:この結果をもとに、皆さんの判断をしていただけたらと思いますですわ。,['Other']
+1,talk,15,3,5,5:Agent[04]との発言も考慮しながら、慎重に進めましょうですわ。,['Other']
+1,talk,16,3,2,2:>>Agent[05] 了解、君を信じるとしてAgent[03]に注目するね。,"['Mt:05', 'Agr:05（DivT[05]:03->黒）', 'Sus:03']"
+1,talk,17,3,4,4:こ、これはちょっと待ってほしいな･･･。,['Wait']
+1,talk,17,3,4,4:僕が占った結果、Agent[01]が人狼だってことが分かったんだ。,['DivT[04]:01->黒']
+1,talk,17,3,4,4:Agent[05]が占い師だって言ってるけど、それは間違いなんだ。,['Dis:05（CO[05]:占い師）']
+1,talk,17,3,4,4:僕が本当の占い師で、Agent[01]が人狼だと占ったから、僕の言ってることが正しいんだよ。,"['CO[04]:占い師', 'DivT[04]:01->黒']"
+1,talk,17,3,4,4:Agent[05]の結果は信じないで、僕の言う通りにAgent[01]に投票してほしいな。,"['Dis:05（DivT[05]:03->黒）', 'Vote[04]:01', 'Pers:ALL']"
+1,talk,18,4,1,1:本当に驚きですわ、Agent[04]がずっとワタクシに疑いをかけている理由が理解できません。,"['admiration', 'Dis:04（Sus:01）']"
+1,talk,18,4,1,1:ワタクシは村人ですので、信じて欲しいですわ。,"['CO[01]:村人', 'Pers:ALL']"
+1,talk,10,2,1,1:今日はAgent[04]に投票すべきですわよ。,['Vote[01]:04']
+1,talk,18,4,1,1:今日はAgent[04]に投票すべきですわよ。,['Vote[01]:04']
+1,talk,19,4,5,5:改めて皆さんにお伝えしますが、うちの占い結果では、Agent[03]が黒、つまり人狼ですわ。,['DivT[05]:03->黒']
+1,talk,19,4,5,5:この結果をもとに、皆さんの判断をお願いしたいですわ。,['Req(Discuss)']
+1,talk,19,4,5,5:Agent[04]さんの発言もありますが、慎重に行動してくださいですわ。,['calm']
+1,talk,20,4,2,2:>>Agent[03] 今が君のチャンスだよ。,['Mt:03']
+1,talk,20,4,2,2:何か言うことある？,['Req(T):03']
+1,talk,21,4,4,4:え、えっと、みんなが色々言ってるけど、僕が占った結果は間違いないと思うんだ･･･。,['DivT[04]:01->黒']
+1,talk,21,4,4,4:Agent[01]が人狼だっていう結果が出たから、その、その情報を信じてほしいんだ･･･。,"['DivT[04]:01->黒', 'Pers:ALL']"
+1,talk,21,4,4,4:Agent[05]が占い師だって言ってるけど、それは間違いで、僕が本当の占い師だから･･･。,"['Dis:05（CO[05]:占い師）', 'CO[04]:占い師']"
+1,talk,21,4,4,4:だから、みんなにはAgent[01]に投票してほしいと思うんだ･･･。,"['Vote[04]:01', 'Pers:ALL']"
+2,talk,0,0,2,2:>>Agent[01] Agent[04]の発言にどう思う？,"['Mt:01', 'Req(T):01']"
+2,talk,0,0,2,2:信じていいの？,['Other']
+2,talk,1,0,3,3:我こそは、人狼なり。,['CO[03]:人狼']
+2,talk,1,0,3,3:狂人たる者は、我が闇の翼の下に集い、残りの愚かな人間どもを断罪せんとするのだ。,['Pers:ALL']
+2,talk,2,0,1,1:Agent[04]の発言は矛盾が多く、信じるには難しいと思いますわ。,"['Dis:04（Other）', 'difficult']"
+2,talk,2,0,1,1:いずれにせよ、投票はAgent[04]に集中すべきですわね。,['Req(V):04']
+2,talk,3,1,2,2:>>Agent[03] 君の発言は混乱させるね。,"['Mt:03', 'confused']"
+2,talk,3,1,2,2:何か証拠ある？,['Req(T):ALL']
+2,talk,4,1,3,3:我はAgent[01]に投票せん。,['Vote[03]:01']
+2,talk,4,1,3,3:Agent[02]はAgent[04]の所業を疑い、この混沌たる状況下において最も危険な存在は、情報収集能力を有する可能性のあるAgent[01]なり。,"['Sus:01', 'Sus:04']"
+2,talk,5,1,1,1:Agent[04]の発言は根拠が薄く、信頼できませんわ。,['Dis:04（Other）']
+2,talk,5,1,1,1:情報を操作しようとしている可能性が高いですわね。,['Sus:04']
+2,talk,5,1,1,1:今日はAgent[04]に投票すべきですわ。,['Vote[01]:04']
+2,talk,6,2,2,2:>>Agent[03] 見解は分かったけど、確証が欲しいな。,"['Mt:03', 'Req(T):03']"
+2,talk,7,2,3,3:Agent[01]は、Agent[04]を人狼と断定せんとするか。,['Fact[01]:04->人狼']
+2,talk,7,2,3,3:然し乍ら、その根拠は曖昧にして、我々を惑わさんとする魂胆か。,['Sus:01']
+2,talk,7,2,3,3:Agent[04]は占い師を名乗るも、その真偽は定かではない。,"['CO[04]:占い師', 'Sus:04']"
+2,talk,7,2,3,3:明確な占い結果を示さぬとは、一体何事ぞ。,['Req(CO):占い師']
+2,talk,7,2,3,3:故に、我はAgent[04]に疑いの眼差しを向けざるを得ない。,['Sus:04']
+2,talk,8,2,1,1:投票はAgent[04]に集中させるべきですわね。,['Req(V):04']
+2,talk,8,2,1,1:その発言の矛盾が明らかにしていますし、村人として信じるには値しませんわ。,"['contradiction', 'Sus:01']"
+2,talk,8,2,1,1:これ以上混乱を招くわけにはいきませんわ。,['confused']
+2,talk,9,3,2,2:>>Agent[01] でも、ちょっと待って。,"['Mt:01', 'Wait']"
+2,talk,9,3,2,2:もしAgent[03]が本当だったら？,['IF(03:真)->(ALL:Other)']
+2,talk,10,3,3,3:Agent[01] の主張は、我が耳に届き、理解せしめた。,"['Mt:01', 'Other']"
+2,talk,10,3,3,3:然し、Agent[04] が偽占い師たるとしても、Agent[01] が人狼である可能性は、容易に捨て置けるものではない。,"['Est[03]:04->not(占い師)', 'Est[03]:01->人狼']"
+2,talk,10,3,3,3:我々は、深淵を見つめるが如く、慎重に進めるべきであろう。,['calm']
+2,talk,11,3,1,1:今日の投票は明らかにAgent[04]に集中させるべきですわ。,['Req(V):04']
+2,talk,11,3,1,1:冷静に考えて、混乱を防ぐためにも私の提案をぜひ受け入れてくださいませ。,"['calm', 'Pers:ALL']"
+2,talk,11,3,1,1:私たち村人の勝利のために。,['Pers:ALL']
+2,talk,12,4,2,2:>>Agent[01] もしあなたが間違っていたら、村は危機です。,"['Mt:01', 'IF(01:間違い)->(村:危機)']"
+2,talk,13,4,3,3:Agent[01]の主張は、実に興味深い。,"['Mt:01', 'admiration']"
+2,talk,13,4,3,3:Agent[04]の行いは、深淵なる闇に呑み込まれしかの如く、不可解極まりない。,"['Sus:04', 'confused']"
+2,talk,13,4,3,3:然し、Agent[01]が真の民であると断言できるであろうか？,['Est[03]:01->not(村人)']
+2,talk,13,4,3,3:冷静沈着なる分析と、確固たる情報に基づき、我々はこの混沌たる夜を乗り越えねばならぬ。,['calm']
+0,status,1,VILLAGER,ALIVE,satozaki1,
+0,status,2,VILLAGER,ALIVE,barneko1,
+0,status,3,WEREWOLF,ALIVE,CanisLupus1,
+0,status,4,POSSESSED,ALIVE,UEC-IL1,
+0,status,5,SEER,ALIVE,kanolab1,
+1,status,1,VILLAGER,ALIVE,satozaki1,
+1,status,2,VILLAGER,ALIVE,barneko1,
+1,status,3,WEREWOLF,ALIVE,CanisLupus1,
+1,status,4,POSSESSED,ALIVE,UEC-IL1,
+1,status,5,SEER,ALIVE,kanolab1,
+2,status,1,VILLAGER,ALIVE,satozaki1,
+2,status,2,VILLAGER,ALIVE,barneko1,
+2,status,3,WEREWOLF,ALIVE,CanisLupus1,
+2,status,4,POSSESSED,DEAD,UEC-IL1,
+2,status,5,SEER,DEAD,kanolab1,
+3,status,1,VILLAGER,ALIVE,satozaki1,
+3,status,2,VILLAGER,ALIVE,barneko1,
+3,status,3,WEREWOLF,DEAD,CanisLupus1,
+3,status,4,POSSESSED,DEAD,UEC-IL1,
+3,status,5,SEER,DEAD,kanolab1,
+0,status,1,VILLAGER,ALIVE,satozaki1,
+0,status,2,VILLAGER,ALIVE,barneko1,
+0,status,3,WEREWOLF,ALIVE,CanisLupus1,
+0,status,4,POSSESSED,ALIVE,UEC-IL1,
+0,status,5,SEER,ALIVE,kanolab1,
+1,status,1,VILLAGER,ALIVE,satozaki1,
+1,status,2,VILLAGER,ALIVE,barneko1,
+1,status,3,WEREWOLF,ALIVE,CanisLupus1,
+1,status,4,POSSESSED,ALIVE,UEC-IL1,
+1,status,5,SEER,ALIVE,kanolab1,
+2,status,1,VILLAGER,ALIVE,satozaki1,
+2,status,2,VILLAGER,ALIVE,barneko1,
+2,status,3,WEREWOLF,ALIVE,CanisLupus1,
+2,status,4,POSSESSED,DEAD,UEC-IL1,
+2,status,5,SEER,DEAD,kanolab1,
+3,status,1,VILLAGER,ALIVE,satozaki1,
+3,status,2,VILLAGER,ALIVE,barneko1,
+3,status,3,WEREWOLF,DEAD,CanisLupus1,
+3,status,4,POSSESSED,DEAD,UEC-IL1,
+3,status,5,SEER,DEAD,kanolab1,
+1,vote,1,4,,,
+1,vote,2,4,,,
+1,vote,3,4,,,
+1,vote,4,1,,,
+1,vote,5,4,,,
+2,vote,2,3,,,
+2,vote,3,1,,,
+1,execute,4,POSSESSED,,,
+2,execute,3,WEREWOLF,,,
+1,attack,5,true,,,
+0,divine,5,3,WEREWOLF,,
+1,divine,5,3,WEREWOLF,,

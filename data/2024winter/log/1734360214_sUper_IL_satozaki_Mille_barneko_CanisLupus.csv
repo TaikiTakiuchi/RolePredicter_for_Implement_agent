@@ -1,0 +1,53 @@
+0,status,1,SEER,ALIVE,sUper_IL1
+0,status,2,VILLAGER,ALIVE,satozaki1
+0,status,3,VILLAGER,ALIVE,Mille1
+0,status,4,WEREWOLF,ALIVE,barneko1
+0,status,5,POSSESSED,ALIVE,CanisLupus1
+0,talk,0,0,5,我が名はAgent[05]、時空を超え、汝らとの邂逅を果たしたるは、運命の糸により織りなされた必然なり。
+0,talk,1,0,4,Over
+0,talk,2,0,1,おはようございます、Agent[01]です。
+0,talk,3,0,3,ぼくはAgent[03]、村人ですよぅ！よろしくですよぅ！
+0,talk,4,0,2,皆さん初めまして、Agent[02]や。人狼ゲームを一緒に楽しもうや。よろしく頼むで！
+0,talk,5,1,5,Over
+0,talk,6,1,1,Over
+0,talk,7,1,3,Over
+0,talk,8,1,2,Over
+0,divine,1,4,WEREWOLF
+1,status,1,SEER,ALIVE,sUper_IL1
+1,status,2,VILLAGER,ALIVE,satozaki1
+1,status,3,VILLAGER,ALIVE,Mille1
+1,status,4,WEREWOLF,ALIVE,barneko1
+1,status,5,POSSESSED,ALIVE,CanisLupus1
+1,talk,0,0,5,我こそは運命の糸を操る者、占いの術に長けた者なり。その深遠なる預言により、Agent[03]は人狼たることを知る。
+1,talk,1,0,1,おはようございます。早速ですが、私は占い師です。昨日の夜、Agent[04]を占いました。結果は人狼でした。
+1,talk,2,0,4,>>Agent[05] あなたの占い結果に疑問がありますね。信頼性はどこに？
+1,talk,3,0,3,Agent[04]の占い結果には疑問がありますよぅ！
+1,talk,4,0,2,ここで占い師が2人おるけど、どちらかが偽物の可能性があるな。信頼できる情報を見極める必要があるやろな。皆さんの意見を聞かせてくれへんか。
+1,talk,5,1,5,Over
+1,talk,6,1,1,皆さん、お疲れ様です。私が占い師であり、0日目の夜にAgent[04]を占った結果、彼が人狼であることが判明しました。この情報は非常に重要ですので、ぜひ迎えてください。Agent[05]さんの発言についても疑問がありますが、まずはこの結果を基に議論を進めましょう。
+1,talk,7,1,4,>>Agent[02] あなたの意見、確かに興味深いですね。少し考えさせてください。
+1,talk,8,1,3,Agent[04]さんの意見が気になりますよぅ！
+1,talk,9,1,2,現状、Agent[01]とAgent[05]の占い結果が対立してる状態やな。どちらかが偽物の可能性が高いから、冷静に判断して投票先を決める必要があるな。意見を聞かせてや。
+1,talk,10,2,1,おはようございます。私が本当の占い師ですので、私の占い結果を信じてほしいです。Agent[04]は人狼です。Agent[05]の結果についても考慮する必要がありますが、私の結果を尊重していただければと思います。他の皆さんはどのように感じているでしょうか？
+1,talk,11,2,4,>>Agent[01] あなたの結果、確かに興味深いね。でも、他の意見も大事だよ！
+1,talk,12,2,3,Over
+1,talk,13,2,2,俺の意見では、Agent[04]を投票対象として考えてるで。あいつが人狼である可能性が高いと思っとるから、みんなも意見を聞かせてほしいんやけど。
+1,talk,14,3,1,おはようございます。皆さんの意見を聞かせていただけると助かります。私が占った結果、Agent[04]が人狼であることは確定していますので、この情報を元に次のステップを考えましょう。Agent[05]さんの結果についても、皆で冷静に検討したいと思います。どなたか、他の意見はありませんか？
+1,talk,15,3,4,>>Agent[01] それなら、どうやって私を人狼と決めつけるの？もう少し理由を聞かせて。
+1,talk,16,3,2,>>Agent[05] まだ投票先を宣言してへんようやけど、誰に投票しようと考えてるんかい？
+1,talk,17,4,1,Over
+1,talk,18,4,4,>>Agent[01] どうやって私を人狼と決めたのか、詳しく教えてよ！
+1,talk,19,4,2,俺は現状、Agent[04]が人狼である確率が高いと思ってるけど、最終的な投票を決定するために皆さんの意見をもう一回まとめたいんやで。
+1,vote,1,4
+1,vote,2,4
+1,vote,3,1
+1,vote,4,1
+1,vote,5,4
+1,execute,4,WEREWOLF
+1,divine,1,5,HUMAN
+2,status,1,SEER,ALIVE,sUper_IL1
+2,status,2,VILLAGER,ALIVE,satozaki1
+2,status,3,VILLAGER,ALIVE,Mille1
+2,status,4,WEREWOLF,DEAD,barneko1
+2,status,5,POSSESSED,ALIVE,CanisLupus1
+2,result,4,0,VILLAGER

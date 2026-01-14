@@ -1,0 +1,569 @@
+{
+  "filename": "taged_1746627444_CanisLupus_sunamelli_GPTaku_GAIT_CamelliaDragons.log.csv",
+  "exec_id": 1,
+  "attack_id": 2,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "CanisLupus1",
+      "character_name": "ダイスケ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 3,
+        "Other": [
+          {
+            "count": 6
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ダイスケ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ダイスケ",
+            "recepient_id": "ミドリ",
+            "recepient_role": "黒",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ダイスケ",
+            "recepient_role": "トシオ",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ミナコ",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "sunamelli1",
+      "character_name": "ミナコ",
+      "day1_info": {
+        "seer_co_order": 2,
+        "seer_co_num": 3,
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミドリ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダイスケ",
+            "count": 2
+          },
+          {
+            "recepient_id": "トシオ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミナコ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミナコ",
+            "recepient_id": "セルヴァス",
+            "recepient_role": "白",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "セルヴァス",
+            "count": 1
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ミナコ",
+            "recepient_role": "ダイスケ",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "トシオ",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "4",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": "3",
+        "result": "HUMAN"
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "ミドリ",
+      "day1_info": {
+        "seer_co_order": 3,
+        "seer_co_num": 3,
+        "Other": [
+          {
+            "count": 6
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミナコ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ミナコ",
+            "recepient_id": "セルヴァス",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミドリ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          },
+          {
+            "speaker_id": "ミドリ",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {
+        "Req(T)": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミドリ",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "ミドリ",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "ミドリ",
+            "recepient_id": "セルヴァス",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 10
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 6
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ダイスケ",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "GAIT1",
+      "character_name": "セルヴァス",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 3,
+        "Mt": [
+          {
+            "recepient_id": "ミナコ",
+            "count": 2
+          },
+          {
+            "recepient_id": "トシオ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダイスケ",
+            "count": 5
+          },
+          {
+            "recepient_id": "ミドリ",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 8
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          },
+          {
+            "recepient_id": "ミドリ",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミナコ",
+            "count": 1
+          },
+          {
+            "recepient_id": "トシオ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダイスケ",
+            "count": 6
+          },
+          {
+            "recepient_id": "ミドリ",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Req(T)": [
+          {
+            "recepient_id": "トシオ",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 10
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "トシオ",
+            "count": 6
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 8
+          }
+        ],
+        "calm": [
+          {
+            "count": 6
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "トシオ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 3,
+        "Other": [
+          {
+            "count": 8
+          }
+        ],
+        "calm": [
+          {
+            "count": 7
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "トシオ",
+            "recepient_id": "トシオ",
+            "recepient_role": "not(占い師)",
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "セルヴァス",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミナコ",
+            "count": 1
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ミドリ",
+            "count": 1
+          },
+          {
+            "recepient_id": "セルヴァス",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ]
+      },
+      "day2_info": {
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 6
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "セルヴァス",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 4
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    }
+  ]
+}

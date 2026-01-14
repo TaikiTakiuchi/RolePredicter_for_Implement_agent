@@ -1,0 +1,327 @@
+{
+  "filename": "taged_1756247048_CamelliaDragons_Character-Lab_GPTaku_mille_yharada.log.csv",
+  "exec_id": 2,
+  "attack_id": 1,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "yharada1",
+      "character_name": "Minato",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "Wait": [
+          {
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "1",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "Shunichi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Vote": [
+          {
+            "speaker_id": "Shunichi",
+            "recepient_role": "Minako",
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {
+        "Vote": [
+          {
+            "speaker_id": "Shunichi",
+            "recepient_role": "Midori",
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Rin",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Midori",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Rin",
+            "recepient_role": "Minako",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Midori",
+            "count": 4
+          },
+          {
+            "recepient_id": "Shunichi",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Rin",
+            "recepient_role": "Shunichi",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Midori",
+            "count": 4
+          },
+          {
+            "recepient_id": "Shunichi",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Shunichi",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Shunichi",
+            "count": 3
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "Midori",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Minato",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Minako",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Shunichi",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Rin",
+            "recepient_role": "not(Werewolf)",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Rin",
+            "count": 2
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Shunichi",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Shunichi",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

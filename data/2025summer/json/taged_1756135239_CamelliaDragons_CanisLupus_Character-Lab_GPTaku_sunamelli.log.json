@@ -1,0 +1,496 @@
+{
+  "filename": "taged_1756135239_CamelliaDragons_CanisLupus_Character-Lab_GPTaku_sunamelli.log.csv",
+  "exec_id": 1,
+  "attack_id": 4,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "CanisLupus1",
+      "character_name": "Servas",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Servas",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Midori",
+            "count": 2
+          },
+          {
+            "recepient_id": "Asuka",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Servas",
+            "recepient_id": "Shizue",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Servas",
+            "recepient_role": "Victoria",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Asuka",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_role": "Seer",
+            "count": 3
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_id": "Shizue",
+            "recepient_role": "not(Werewolf)",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_role": "Servas",
+            "count": 2
+          },
+          {
+            "speaker_id": "Asuka",
+            "recepient_role": "Midori",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_id": "Servas",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Servas",
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "CO": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_id": "Victoria",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_role": "Victoria",
+            "count": 3
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Victoria",
+            "count": 2
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Asuka",
+            "recepient_id": "Servas",
+            "recepient_role": "not(Werewolf)",
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Midori",
+            "count": 3
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Midori",
+            "count": 3
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": "5",
+        "result": "WEREWOLF"
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "Midori",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Servas",
+            "count": 2
+          },
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Shizue",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Shizue",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Servas",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Asuka",
+            "count": 3
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Victoria",
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Victoria",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "Midori",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Asuka",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Shizue",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Victoria",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "sunamelli1",
+      "character_name": "Shizue",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Dis": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Midori",
+            "count": 2
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Shizue",
+            "recepient_role": "Servas",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Midori",
+            "count": 1
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "Character-Lab1",
+      "character_name": "Victoria",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Vote": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "Servas",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Asuka",
+            "count": 1
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Asuka",
+            "count": 1
+          },
+          {
+            "recepient_id": "Servas",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Servas",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Vote": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_role": "Midori",
+            "count": 4
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Midori",
+            "recepient_id": "Shizue",
+            "recepient_role": "Werewolf",
+            "count": 4
+          },
+          {
+            "speaker_id": "Asuka",
+            "recepient_id": "Shizue",
+            "recepient_role": "White",
+            "count": 3
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Midori",
+            "count": 4
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_id": "Midori",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Asuka",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    }
+  ]
+}

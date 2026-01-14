@@ -1,0 +1,334 @@
+{
+  "filename": "taged_1756243217_CanisLupus_Character-Lab_GPTaku_sunamelli_yharada.log.csv",
+  "exec_id": 1,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "Daisuke",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "Minako",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Minako",
+            "count": 3
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "yharada1",
+      "character_name": "Victoria",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          }
+        ],
+        "confused": [
+          {
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "Minato",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Victoria",
+            "recepient_id": "Minako",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "CanisLupus1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Seer",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Minako",
+            "recepient_id": "Daisuke",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "1",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "Character-Lab1",
+      "character_name": "Mio",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Exe": [
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "confused": [
+          {
+            "count": 3
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 4
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          }
+        ],
+        "difficult": [
+          {
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 4
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 3
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Mio",
+            "recepient_role": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "sunamelli1",
+      "character_name": "Minato",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          },
+          {
+            "recepient_id": "Mio",
+            "count": 1
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Minato",
+            "recepient_role": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          },
+          {
+            "recepient_id": "Victoria",
+            "count": 2
+          },
+          {
+            "recepient_id": "Mio",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Minato",
+            "recepient_id": "Minako",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

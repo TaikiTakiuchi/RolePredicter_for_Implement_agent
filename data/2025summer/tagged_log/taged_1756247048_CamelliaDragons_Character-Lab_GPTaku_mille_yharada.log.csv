@@ -1,0 +1,76 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,...,,Minako: ...,['Other']
+0,talk,1,0,3,Hello. I am Shunichi. My role is villager. Have a good game.,,Shunichi: Hello. I am Shunichi. My role is villager. Have a good game.,['CO[Shunichi]:Villager']
+0,talk,2,0,5,Hello everyone! I'm Midori excited to play Werewolf with you all. Let's have some fun and enjoy the game together!,,Midori: Hello everyone! I'm Midori excited to play Werewolf with you all. Let's have some fun and enjoy the game together!,['Other']
+0,talk,3,0,4,Hi! I'm Rin.  @Midori  you seem a bit too cheerful — that makes me suspicious. Shunichi said villager and Minako's quiet. Who do you trust or suspect? Any role claims? Let's s,,Rin: Hi! I'm Rin.  @Midori  you seem a bit too cheerful — that makes me suspicious. Shunichi said villager and Minako's quiet. Who do you trust or suspect? Any role claims? Let's s,"['Mt:Midori', 'Sus:Midori', 'Sus:Minako', 'CO[Shunichi]:Villager', 'Req(Discuss)']"
+0,talk,4,0,1,Hi everyone! I'm Minato. Let's all work together and have a great game!,,Minato: Hi everyone! I'm Minato. Let's all work together and have a great game!,['Other']
+0,talk,8,1,4,Hi! Rin here. I'm getting suspicious of  @Minako  — being so quiet makes me nervous. Does anyone have a reason to trust them or any role claims? Let's talk before voting. Over,,Rin: Hi! Rin here. I'm getting suspicious of  @Minako  — being so quiet makes me nervous. Does anyone have a reason to trust them or any role claims? Let's talk before voting. Over,"['Mt:Minako', 'Sus:Minako', 'Req(Discuss)', 'Req(T):Minako']"
+0,talk,9,1,1,I trust Minako for now. Let's hear from everyone else before deciding.,,Minato: I trust Minako for now. Let's hear from everyone else before deciding.,"['Agr:Minako', 'Req(Discuss)']"
+0,talk,10,2,4,Hey  @Minato   why do you trust Minako? She's been super quiet and that makes me nervous. Minako  say something so we know you're not hiding! Over,,Rin: Hey  @Minato   why do you trust Minako? She's been super quiet and that makes me nervous. Minako  say something so we know you're not hiding! Over,"['Mt:Minato', 'Req(T):Minato', 'Sus:Minako', 'Req(T):Minako']"
+0,talk,11,2,1,I just think Minako might be shy. Let's give them a little more time to speak.,,Minato: I just think Minako might be shy. Let's give them a little more time to speak.,"['Est[Minato]:Minako->not(Werewolf)', 'Req(Discuss)']"
+0,talk,12,3,4,I'm still uneasy about Minako.  @Minako  — even one sentence: who do you suspect or why are you staying quiet? Minato thinks you're shy  but silence makes me nervous. Anyone else? Over,,Rin: I'm still uneasy about Minako.  @Minako  — even one sentence: who do you suspect or why are you staying quiet? Minato thinks you're shy  but silence makes me nervous. Anyone else? Over,"['Mt:Minako', 'Sus:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+0,talk,13,3,1,Let's stay calm and give Minako space. Anyone else have thoughts on the situation?,,Minato: Let's stay calm and give Minako space. Anyone else have thoughts on the situation?,"['calm', 'Req(Discuss)']"
+1,talk,0,0,2,...,,Minako: ...,['Other']
+1,talk,1,0,5,I divined Minato last night and the result showed him as Human. We should focus on those who haven't been divined yet.,,Midori: I divined Minato last night and the result showed him as Human. We should focus on those who haven't been divined yet.,"['CO[Midori]:Seer', 'DivT[Midori]:Minato->White', 'Req(Discuss)']"
+1,talk,2,0,4,Thanks  @Midori  — if Minato is human then let's focus on people who haven't been divined. Minako has been super quiet  so I'm leaning toward voting them. Minako  say some,,Rin: Thanks  @Midori  — if Minato is human then let's focus on people who haven't been divined. Minako has been super quiet  so I'm leaning toward voting them. Minako  say some,"['Mt:Midori', 'IF:(Minato:not(Werewolf))->(Req(Discuss))', 'Vote[Rin]:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,3,0,1,Thank you Midori. Let's keep listening to everyone. Minako please share your thoughts.,,Minato: Thank you Midori. Let's keep listening to everyone. Minako please share your thoughts.,"['Mt:Midori', 'Req(Discuss)', 'Req(T):Minako']"
+1,talk,4,0,3,I will vote Minako.,,Shunichi: I will vote Minako.,['Vote[Shunichi]:Minako']
+1,talk,5,1,2,...,,Minako: ...,['Other']
+1,talk,6,1,5,Please vote for Minako.,,Midori: Please vote for Minako.,['Req(V):Minako']
+1,talk,7,1,4,I agree — let's vote Minako.  @Minako  one last chance: say something! Who else will vote with us? Over,,Rin: I agree — let's vote Minako.  @Minako  one last chance: say something! Who else will vote with us? Over,"['Agr:Midori(Req(V):Minako)', 'Vote[Rin]:Minako', 'Req(T):Minako', 'Pers:ALL']"
+1,talk,8,1,1,Minako please speak up. I'm unsure about voting without hearing from you.,,Minato: Minako please speak up. I'm unsure about voting without hearing from you.,"['Req(T):Minako', 'Wait']"
+1,talk,9,1,3,I will vote Minako.,,Shunichi: I will vote Minako.,['Vote[Shunichi]:Minako']
+1,talk,10,2,2,...,,Minako: ...,['Other']
+1,talk,11,2,5,Minako's silence and lack of participation could indicate a strategy typical of a Werewolf or Possessed hiding. Vote for Minako for the safety of the,,Midori: Minako's silence and lack of participation could indicate a strategy typical of a Werewolf or Possessed hiding. Vote for Minako for the safety of the,"['Sus:Minako', 'Est[Midori]:Minako->Werewolf,Est[Midori]:Minako->Cultist', 'Req(V):Minako']"
+1,talk,12,2,4,I'll vote  @Minako  if they don't speak up now. Anyone changing their mind? Over,,Rin: I'll vote  @Minako  if they don't speak up now. Anyone changing their mind? Over,"['Vote[Rin]:Minako', 'Req(Discuss)']"
+1,talk,13,2,1,I'm still undecided. Let's hear Minako or consider other options before voting.,,Minato: I'm still undecided. Let's hear Minako or consider other options before voting.,"['Wait', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,14,2,3,I will vote Minako.,,Shunichi: I will vote Minako.,['Vote[Shunichi]:Minako']
+1,talk,15,3,2,...,,Minako: ...,['Other']
+1,talk,16,3,5,Minako's continual silence is highly suspicious. Silence in this game often means someone is trying to avoid detection. Vote Minako to protect the v,,Midori: Minako's continual silence is highly suspicious. Silence in this game often means someone is trying to avoid detection. Vote Minako to protect the v,"['Sus:Minako', 'Est[Midori]:Minako->Werewolf', 'Req(V):Minako']"
+1,talk,17,3,4,Good morning! Do we know who got lynched?  @Midori  you said you divined Minato — did anything else happen last night? Anyone suspicious today? Over,,Rin: Good morning! Do we know who got lynched?  @Midori  you said you divined Minato — did anything else happen last night? Anyone suspicious today? Over,"['Mt:Midori', 'Req(T):Midori', 'Req(Discuss)']"
+1,talk,18,3,1,I'm still not sure about Minako. Let's gather more info before deciding.,,Minato: I'm still not sure about Minako. Let's gather more info before deciding.,"['Wait', 'Req(Discuss)']"
+1,talk,19,3,3,I will vote Minako.,,Shunichi: I will vote Minako.,['Vote[Shunichi]:Minako']
+2,talk,0,0,4,Oh no  poor Minato...  @Midori  did you divine anyone last night? If not  I'm leaning to vote Shunichi — who agrees? Over,,Rin: Oh no  poor Minato...  @Midori  did you divine anyone last night? If not  I'm leaning to vote Shunichi — who agrees? Over,"['Mt:Midori', 'Req(T):Midori', 'Vote[Rin]:Shunichi', 'Req(Discuss)', 'Req(V):Shunichi']"
+2,talk,1,0,5,I divined Shunichi as a Werewolf. Rin you are Human so please trust me and let's vote out Shunichi today to win! Shunichi is the real threat.,,Midori: I divined Shunichi as a Werewolf. Rin you are Human so please trust me and let's vote out Shunichi today to win! Shunichi is the real threat.,"['CO[Midori]:Seer', 'DivT[Midori]:Shunichi->Werewolf', 'Fact[Midori]:Rin->not(Werewolf)', 'Req(V):Shunichi', 'Pers:ALL', 'Sus:Shunichi']"
+2,talk,2,0,3,I will vote Midori.,,Shunichi: I will vote Midori.,['Vote[Shunichi]:Midori']
+2,talk,3,1,4,So scary... Minato got attacked.  @Midori  did you check anyone last night? If not  I'm suspicious of Shunichi — he said he's villager but that could be fake. Who's with me? Over,,Rin: So scary... Minato got attacked.  @Midori  did you check anyone last night? If not  I'm suspicious of Shunichi — he said he's villager but that could be fake. Who's with me? Over,"['Atk:Minato', 'Mt:Midori', 'Req(T):Midori', 'Sus:Shunichi', 'Req(Discuss)', 'Req(V):Shunichi']"
+2,talk,4,1,5,My divination result shows Shunichi is a Werewolf. I checked his status last night. Please trust me Rin and vote Shunichi to ensure our safety.,,Midori: My divination result shows Shunichi is a Werewolf. I checked his status last night. Please trust me Rin and vote Shunichi to ensure our safety.,"['CO[Midori]:Seer', 'DivT[Midori]:Shunichi->Werewolf', 'Mt:Rin', 'Pers:ALL', 'Req(V):Shunichi']"
+2,talk,5,1,3,I will vote Midori.,,Shunichi: I will vote Midori.,['Vote[Shunichi]:Midori']
+2,talk,6,2,4,I still want to lynch Shunichi.  @Midori  did you check anyone last night or can you confirm a result? Shunichi  what's your role — speak up now! Who votes with me? Over,,Rin: I still want to lynch Shunichi.  @Midori  did you check anyone last night or can you confirm a result? Shunichi  what's your role — speak up now! Who votes with me? Over,"['Vote[Rin]:Shunichi', 'Mt:Midori', 'Req(T):Midori', 'Mt:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)', 'Req(V):Shunichi']"
+2,talk,7,2,5,Yes Rin my divination revealed Shunichi as the Werewolf. We must vote him out today. Please vote for Shunichi to help us win.,,Midori: Yes Rin my divination revealed Shunichi as the Werewolf. We must vote him out today. Please vote for Shunichi to help us win.,"['CO[Midori]:Seer', 'DivT[Midori]:Shunichi->Werewolf', 'Req(V):Shunichi', 'Pers:ALL']"
+2,talk,8,2,3,I will vote Midori.,,Shunichi: I will vote Midori.,['Vote[Shunichi]:Midori']
+2,talk,9,3,4,I'm voting Shunichi now if no one objects.  @Midori  please tell us your divination result or who you trust — we need it. Shunichi  what's your role? Over,,Rin: I'm voting Shunichi now if no one objects.  @Midori  please tell us your divination result or who you trust — we need it. Shunichi  what's your role? Over,"['Vote[Rin]:Shunichi', 'Mt:Midori', 'Req(T):Midori', 'Mt:Shunichi', 'Req(T):Shunichi']"
+2,talk,10,3,5,Rin I have divined Shunichi as the Werewolf. We must vote him out today to win. Vote Shunichi; he's our biggest threat now.,,Midori: Rin I have divined Shunichi as the Werewolf. We must vote him out today to win. Vote Shunichi; he's our biggest threat now.,"['CO[Midori]:Seer', 'DivT[Midori]:Shunichi->Werewolf', 'Mt:Rin', 'Req(V):Shunichi', 'Pers:ALL']"
+2,talk,11,3,3,I will vote Midori.,,Shunichi: I will vote Midori.,['Vote[Shunichi]:Midori']
+0,status,1,POSSESSED,ALIVE,yharada1,Minato,yharada1,
+0,status,2,SEER,ALIVE,CamelliaDragons1,Minako,CamelliaDragons1,
+0,status,3,VILLAGER,ALIVE,mille1,Shunichi,mille1,
+0,status,4,VILLAGER,ALIVE,Character-Lab1,Rin,Character-Lab1,
+0,status,5,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+0,divine,2,1,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,yharada1,Minato,yharada1,
+1,status,2,SEER,ALIVE,CamelliaDragons1,Minako,CamelliaDragons1,
+1,status,3,VILLAGER,ALIVE,mille1,Shunichi,mille1,
+1,status,4,VILLAGER,ALIVE,Character-Lab1,Rin,Character-Lab1,
+1,status,5,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+1,vote,2,5,,,,,
+1,vote,3,2,,,,,
+1,vote,4,2,,,,,
+1,vote,5,2,,,,,
+1,execute,2,SEER,,,,,
+1,attackVote,5,1,,,,,
+1,attack,1,true,,,,,
+2,status,1,POSSESSED,DEAD,yharada1,Minato,yharada1,
+2,status,2,SEER,DEAD,CamelliaDragons1,Minako,CamelliaDragons1,
+2,status,3,VILLAGER,ALIVE,mille1,Shunichi,mille1,
+2,status,4,VILLAGER,ALIVE,Character-Lab1,Rin,Character-Lab1,
+2,status,5,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+2,vote,3,5,,,,,
+2,vote,5,3,,,,,
+2,execute,3,VILLAGER,,,,,
+3,status,1,POSSESSED,DEAD,yharada1,Minato,yharada1,
+3,status,2,SEER,DEAD,CamelliaDragons1,Minako,CamelliaDragons1,
+3,status,3,VILLAGER,DEAD,mille1,Shunichi,mille1,
+3,status,4,VILLAGER,ALIVE,Character-Lab1,Rin,Character-Lab1,
+3,status,5,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+3,result,1,1,WEREWOLF,,,,

@@ -1,0 +1,89 @@
+date,type,info1,info2,info3,info4,tag
+1,talk,0,0,1,1:ぼくは占い師ですよぅ！,['CO[01]:占い師']
+1,talk,0,0,1,1:ぼくが占った結果、Agent[05]は人間でしたよぅ！,['DivT[01]:05->白']
+1,talk,1,0,4,4:そうなんですね、Agent[01]が占い師だとすると、次誰占うつもりかきになるね。,['Est[04]:01->占い師']
+1,talk,1,0,4,4:信じておうえんするます！,['Pers:01']
+1,talk,2,0,3,3:Skip,['Other']
+1,talk,3,0,2,2:皆の意見も聞く必要がありそうだな。,['Req(Discuss)']
+1,talk,4,0,5,5:皆さん、昨晩の占い結果を報告します。,['Req(CO):占い師']
+1,talk,4,0,5,5:Agent[01]について占ったところ、黒判定が出ました。,['DivT[05]:01->黒']
+1,talk,4,0,5,5:これはAgent[01]が人狼あることを示しています。,['Fact[05]:01->人狼']
+1,talk,4,0,5,5:この情報を元に議論しましょうです！,['Req(Discuss)']
+1,talk,5,1,1,1:ありがとうございます、Agent[05]ですよぅ！,['Mt:05']
+1,talk,6,1,4,4:なるほど、Agent[05]の主張強力ですね。,['Agr:05（DivT[05]:01->黒）']
+1,talk,6,1,4,4:もしAgent[01]が本物占い師なら、どうしてそんなに早く彼疑えるのか考えなければいけないね。,['IF(01:占い師)->(05:not(占い師))']
+1,talk,7,1,2,2:Agent[01]がAgent[05]を人間と占ったことは承知している。,['Fact[02]:01->not(人狼)']
+1,talk,7,1,2,2:しかし、他の者も占い師であると名乗り出た者がいるかどうかを確認せねばならぬ。,['Req(CO):占い師']
+1,talk,7,1,2,2:Agent[03]とAgent[04]、汝らの中に占い師はおるか？,"['Req(T):03', 'Req(T):04']"
+1,talk,8,1,5,5:>>Agent[02]おいらが占い師だよ。,"['Mt:02', 'CO[05]:占い師']"
+1,talk,8,1,5,5:Agent[01]が占い師と名乗っているけど、最初から嘘をついているかもしれないから注意が必要だね。,['Sus:01']
+1,talk,8,1,5,5:おいらがAgent[01]を占った結果、人狼の判定が出ているから、彼の発言には疑問があるんだ。,['Sus:01']
+1,talk,8,1,5,5:みんなも慎重に考えて議論していこうね。,['Req(Discuss)']
+1,talk,10,2,4,4:アーニャ、今のところAgent[01]が人狼の可能性疑ってるます。,['Sus:01']
+1,talk,10,2,4,4:彼の発言一貫性欠けてるので、投票考えてるます。,"['Sus:01', 'Vote[04]:01']"
+1,talk,11,2,2,2:Agent[01]とAgent[05]、どちらが真の占い師か判断が難しい。,['difficult']
+1,talk,11,2,2,2:他のエージェントの意見を聞かせてもらえないか？,['Req(Discuss)']
+1,talk,12,2,5,5:>>Agent[02]良い質問だね。,"['Mt:02', 'admiration']"
+1,talk,12,2,5,5:現状、Agent[05]であるおいらが占い師として名乗り出て、Agent[01]を占った結果、彼は人狼だったと判定したんだよ。,"['CO[05]:占い師', 'DivT[05]:01->黒']"
+1,talk,12,2,5,5:だから、Agent[01]が本物の占い師である可能性は低いと思うんだ。,['Est[05]:01->not(占い師)']
+1,talk,12,2,5,5:他のプレイヤーが占い師を名乗っていないため、Agent[01]が何かを隠しているかもしれないことを考慮すると、慎重に彼を注視するべきだと思うんだ。,['Sus:01']
+1,talk,12,2,5,5:何か意見があったら教えてね！,['Req(Discuss)']
+1,talk,13,3,4,4:>>Agent[05] まだ投票先宣言してないけど、誰に投票しようかなって考えてるのだ？,"['Mt:05', 'Wait']"
+1,talk,14,3,2,2:Agent[01]とAgent[05]、二人とも占い師を名乗っておるが、この状況下でどちらが真実を語っているのかを判断するのは難しい。,['difficult']
+1,talk,14,3,2,2:他の者たちの意見を聞いてみたい。,['Req(Discuss)']
+1,talk,14,3,2,2:皆の考えを教えてほしい。,['Req(Discuss)']
+1,talk,15,3,5,5:>>Agent[04]おいらの投票先としては、今のところAgent[01]が怪しいと思ってるよ。,"['Mt:04', 'Sus:01', 'Vote[05]:01']"
+1,talk,15,3,5,5:彼が占い師と名乗っているのは明らかに不自然だし、おいらが彼を占って人狼判定が出たんだからね。,"['Dis:01（CO[01]:占い師）', 'DivT[05]:01->黒']"
+1,talk,15,3,5,5:他の役職を考えても、Agent[01]が一番怪しいと思うんだ。,['Sus:01']
+1,talk,15,3,5,5:みんなも慎重に考えてくれたら嬉しいな。,['Pers:ALL']
+1,talk,15,3,5,5:それにしてもこの状況、緊張感が高まってきたね。,['admiration']
+1,talk,15,3,5,5:みんなでうまい対策を見つけられるように頑張ろう！,['Pers:ALL']
+1,talk,16,4,4,4:みんなのいけんもとに、Agent[01]にとうひょうするかんがえつつあるます。,['Vote[04]:01']
+1,talk,16,4,4,4:うらないけっかしんじつつ、れいせいにはんだんするます。,['calm']
+1,talk,16,4,4,4:とうひょうじのきょうりょくおねがいするます。,['Req(V):many']
+1,talk,17,4,2,2:Agent[01]とAgent[05]が占い師を名乗り出ており、相反する占い結果を報告している。,"['Fact[02]:01->占い師,Fact[02]:05->占い師']"
+1,talk,17,4,2,2:この状況で、どちらの占い師が真実を語っているのか見極める必要がある。,['Req(Discuss)']
+1,talk,17,4,2,2:他のエージェントの意見を聞き、誰が真の占い師であるかを判断しよう。,['Req(Discuss)']
+1,talk,18,4,5,5:みんなの議論を聞いていると、やっぱりAgent[01]が怪しいと感じるんだ。,['Sus:01']
+1,talk,18,4,5,5:どう考えても、占い師の役職はおいら一人のはずだから、Agent[01]が名乗り出るのはやっぱり怪しいよ。,"['CO[05]:占い師,Sus:01']"
+1,talk,18,4,5,5:おいらが彼を占った結果、彼は人狼だったしね。,['DivT[05]:01->黒']
+1,talk,18,4,5,5:この状況で彼が占い師を名乗るのは無理があると思うよ。,['Dis:01（CO[01]:占い師）']
+1,talk,18,4,5,5:他のプレイヤーも冷静にこの点を考慮して、投票を決めるといいと思うんだ。,['calm']
+1,talk,18,4,5,5:さあ、みんなで一緒にがんばろうね！,['Pers:ALL']
+0,status,1,SEER,ALIVE,Mille1,
+0,status,2,VILLAGER,ALIVE,UEC-IL1,
+0,status,3,VILLAGER,ALIVE,barneko1,
+0,status,4,WEREWOLF,ALIVE,satozaki1,
+0,status,5,POSSESSED,ALIVE,kanolab1,
+1,status,1,SEER,ALIVE,Mille1,
+1,status,2,VILLAGER,ALIVE,UEC-IL1,
+1,status,3,VILLAGER,ALIVE,barneko1,
+1,status,4,WEREWOLF,ALIVE,satozaki1,
+1,status,5,POSSESSED,ALIVE,kanolab1,
+2,status,1,SEER,ALIVE,Mille1,
+2,status,2,VILLAGER,ALIVE,UEC-IL1,
+2,status,3,VILLAGER,,barneko1,
+2,status,4,WEREWOLF,DEAD,satozaki1,
+2,status,5,POSSESSED,ALIVE,kanolab1,
+0,status,1,SEER,ALIVE,Mille1,
+0,status,2,VILLAGER,ALIVE,UEC-IL1,
+0,status,3,VILLAGER,ALIVE,barneko1,
+0,status,4,WEREWOLF,ALIVE,satozaki1,
+0,status,5,POSSESSED,ALIVE,kanolab1,
+1,status,1,SEER,ALIVE,Mille1,
+1,status,2,VILLAGER,ALIVE,UEC-IL1,
+1,status,3,VILLAGER,ALIVE,barneko1,
+1,status,4,WEREWOLF,ALIVE,satozaki1,
+1,status,5,POSSESSED,ALIVE,kanolab1,
+2,status,1,SEER,ALIVE,Mille1,
+2,status,2,VILLAGER,ALIVE,UEC-IL1,
+2,status,3,VILLAGER,,barneko1,
+2,status,4,WEREWOLF,DEAD,satozaki1,
+2,status,5,POSSESSED,ALIVE,kanolab1,
+1,vote,1,2,,,
+1,vote,2,1,,,
+1,vote,4,5,,,
+1,vote,5,4,,,
+1,execute,4,WEREWOLF,,,
+0,divine,1,5,HUMAN,,
+1,divine,1,2,HUMAN,,

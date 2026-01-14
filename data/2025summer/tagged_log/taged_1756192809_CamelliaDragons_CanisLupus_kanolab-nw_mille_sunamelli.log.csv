@@ -1,0 +1,50 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Hi I'm Minato. I'm excited to play with everyone! What are your hopes for today?@Sakura you seem calm... is this your first time or do you have experien,,Minato: Hi I'm Minato. I'm excited to play with everyone! What are your hopes for today?@Sakura you seem calm... is this your first time or do you have experien,"['Mt:Sakura', 'Req(T):Sakura', 'Req(Discuss)', 'admiration']"
+0,talk,1,0,5,Hi everyone! I’m really excited to play with you all—let’s have some fun and catch the werewolf together!,,Kenji: Hi everyone! I’m really excited to play with you all—let’s have some fun and catch the werewolf together!,"['Pers:ALL', 'Req(Discuss)', 'admiration']"
+0,talk,2,0,4,Hello. I am Victoria. My role is villager. Have a good game.,,Victoria: Hello. I am Victoria. My role is villager. Have a good game.,['CO[Victoria]:Villager']
+0,talk,3,0,1,Hey folks! It’s Shunichi here. Ready to outsmart our elusive werewolf. Let's treat this as a chess match. No pawns for dinner!,,Shunichi: Hey folks! It’s Shunichi here. Ready to outsmart our elusive werewolf. Let's treat this as a chess match. No pawns for dinner!,['Other']
+0,talk,4,0,3,Skip,,Takumi: Skip,['Wait']
+0,talk,9,1,3,My name is Takumi. I like meat. And my pack.,,Takumi: My name is Takumi. I like meat. And my pack.,['Other']
+1,talk,0,0,3,I have good eyes. I am Seer. Last moon I saw Victoria. She is human.,,Takumi: I have good eyes. I am Seer. Last moon I saw Victoria. She is human.,"['CO[Takumi]:Seer', 'DivT[Takumi]:Victoria->White']"
+1,talk,1,0,1,@Minato  Sounds like Takumi's in Seer mode huh? Should we trust the claim and plot a chess-like divination strat? Your thoughts?,,Shunichi: @Minato  Sounds like Takumi's in Seer mode huh? Should we trust the claim and plot a chess-like divination strat? Your thoughts?,"['Mt:Minato', 'Sus:Takumi', 'Req(Discuss)']"
+1,talk,2,0,5,If no one else claims Seer should we trust Takumi and focus on Minato and Shunichi for today’s vote?,,Kenji: If no one else claims Seer should we trust Takumi and focus on Minato and Shunichi for today’s vote?,"['Req(Discuss)', 'Req(V):Minato', 'Req(V):Shunichi']"
+1,talk,3,0,4,I will vote Minato.,,Victoria: I will vote Minato.,['Vote[Victoria]:Minato']
+1,talk,4,0,2,Takumi checked Victoria who claimed village. That lines up right? Maybe we can trust him? @Shunichi  is trusting Takumi's claim safe for round one? How do you feel about early Seer claims usually?,,Minato: Takumi checked Victoria who claimed village. That lines up right? Maybe we can trust him? @Shunichi  is trusting Takumi's claim safe for round one? How do you feel about early Seer claims usually?,"['Agr:Takumi(CO[Takumi]:Seer)', 'Mt:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)']"
+1,talk,5,1,3,I am Seer. No one else talk. Why? Liars are hiding.,,Takumi: I am Seer. No one else talk. Why? Liars are hiding.,"['CO[Takumi]:Seer', 'Req(listen)']"
+1,talk,6,1,1,Victoria's backing Minato huh? But trusting Taku feels like a game of blind chess. Let's watch the players and see their moves.,,Shunichi: Victoria's backing Minato huh? But trusting Taku feels like a game of blind chess. Let's watch the players and see their moves.,"['Sus:Takumi', 'Req(Discuss)']"
+1,talk,7,1,5,@Victoria  you voted Minato pretty quickly—was there a reason or are you just guessing for now?,,Kenji: @Victoria  you voted Minato pretty quickly—was there a reason or are you just guessing for now?,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Victoria']"
+1,talk,8,1,4,I will vote Minato.,,Victoria: I will vote Minato.,['Vote[Victoria]:Minato']
+1,talk,9,1,2,Takumi claimed Seer so boldly. I wonder—would a wolf fake that claim first? It's a bit scary to judge right away. @Victoria  you said you'll vote me—was there something about my talk or are you just picking randomly to start?,,Minato: Takumi claimed Seer so boldly. I wonder—would a wolf fake that claim first? It's a bit scary to judge right away. @Victoria  you said you'll vote me—was there something about my talk or are you just picking randomly to start?,"['Sus:Takumi', 'Mt:Victoria', 'Req(T):Victoria', 'Wait']"
+1,talk,10,2,3,Victoria is human. I saw. One bad wolf hides in Kenji Minato Shunichi. We hunt from them today.,,Takumi: Victoria is human. I saw. One bad wolf hides in Kenji Minato Shunichi. We hunt from them today.,"['DivT[Takumi]:Victoria->White', 'Est[Takumi]:Kenji->Werewolf', 'Est[Takumi]:Minato->Werewolf', 'Est[Takumi]:Shunichi->Werewolf', 'Req(V):Kenji', 'Req(V):Minato', 'Req(V):Shunichi']"
+1,talk,11,2,1,Let's take it slow. Blindly trusting Takumi feels like asking for trouble. We should double-check like a chess game. Patience Kenji!,,Shunichi: Let's take it slow. Blindly trusting Takumi feels like asking for trouble. We should double-check like a chess game. Patience Kenji!,"['Req(Discuss)', 'Sus:Takumi', 'Mt:Kenji', 'calm']"
+1,talk,12,2,5,@Victoria  can you explain why you're voting Minato without any reason? It feels too forced to me.,,Kenji: @Victoria  can you explain why you're voting Minato without any reason? It feels too forced to me.,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Victoria']"
+1,talk,13,2,4,I will vote Minato.,,Victoria: I will vote Minato.,['Vote[Victoria]:Minato']
+1,talk,14,2,2,Victoria keeps picking me—maybe she has a reason or it's just my way of speaking? I wonder what others think. @Kenji  you seem concerned by Victoria's votes for me. Do you suspect her or just unsure who to pick?,,Minato: Victoria keeps picking me—maybe she has a reason or it's just my way of speaking? I wonder what others think. @Kenji  you seem concerned by Victoria's votes for me. Do you suspect her or just unsure who to pick?,"['Mt:Kenji', 'Req(T):Kenji', 'Req(Discuss)', 'Sus:Victoria']"
+1,talk,15,3,3,Victoria is friend but strange. Her hunt on Minato is wrong. Shunichi smells bad. His words are a trick.,,Takumi: Victoria is friend but strange. Her hunt on Minato is wrong. Shunichi smells bad. His words are a trick.,"['Agr:Victoria', 'Dis:Shunichi', 'Est[Takumi]:Shunichi->Werewolf']"
+1,talk,16,3,1,Takumi claims Seer with such confidence. Sounds like a chess move; bold but maybe a bluff. What if he leads the village astray?,,Shunichi: Takumi claims Seer with such confidence. Sounds like a chess move; bold but maybe a bluff. What if he leads the village astray?,"['Dis:Takumi(CO[Takumi]:Seer)', 'Sus:Takumi', 'Req(Discuss)']"
+1,talk,17,3,5,I’m voting Shunichi. Takumi’s Seer claim makes sense and Shunichi never commits—feels like wolf hiding.,,Kenji: I’m voting Shunichi. Takumi’s Seer claim makes sense and Shunichi never commits—feels like wolf hiding.,"['Vote[Kenji]:Shunichi', 'Agr:Takumi(CO[Takumi]:Seer)', 'Est[Kenji]:Shunichi->Werewolf']"
+1,talk,18,3,4,I will vote Shunichi.,,Victoria: I will vote Shunichi.,['Vote[Victoria]:Shunichi']
+1,talk,19,3,2,It feels confusing now... Takumi sounds certain but can we always trust quick role reveals? Should we go slow? @Shunichi  your chess approach seems careful. If you had to choose is Takumi's claim enough to follow right now?,,Minato: It feels confusing now... Takumi sounds certain but can we always trust quick role reveals? Should we go slow? @Shunichi  your chess approach seems careful. If you had to choose is Takumi's claim enough to follow right now?,"['Sus:Takumi', 'Mt:Shunichi', 'Req(T):Shunichi', 'Req(Discuss)', 'Wait']"
+0,status,1,WEREWOLF,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+0,status,2,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+0,status,3,SEER,ALIVE,CanisLupus1,Takumi,CanisLupus1,
+0,status,4,VILLAGER,ALIVE,mille1,Victoria,mille1,
+0,status,5,VILLAGER,ALIVE,sunamelli1,Kenji,sunamelli1,
+0,divine,3,4,HUMAN,,,,
+1,status,1,WEREWOLF,ALIVE,kanolab-nw1,Shunichi,kanolab-nw1,
+1,status,2,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+1,status,3,SEER,ALIVE,CanisLupus1,Takumi,CanisLupus1,
+1,status,4,VILLAGER,ALIVE,mille1,Victoria,mille1,
+1,status,5,VILLAGER,ALIVE,sunamelli1,Kenji,sunamelli1,
+1,vote,1,3,,,,,
+1,vote,2,1,,,,,
+1,vote,3,1,,,,,
+1,vote,4,1,,,,,
+1,vote,5,1,,,,,
+1,execute,1,WEREWOLF,,,,,
+2,status,1,WEREWOLF,DEAD,kanolab-nw1,Shunichi,kanolab-nw1,
+2,status,2,POSSESSED,ALIVE,CamelliaDragons1,Minato,CamelliaDragons1,
+2,status,3,SEER,ALIVE,CanisLupus1,Takumi,CanisLupus1,
+2,status,4,VILLAGER,ALIVE,mille1,Victoria,mille1,
+2,status,5,VILLAGER,ALIVE,sunamelli1,Kenji,sunamelli1,
+2,result,4,0,VILLAGER,,,,

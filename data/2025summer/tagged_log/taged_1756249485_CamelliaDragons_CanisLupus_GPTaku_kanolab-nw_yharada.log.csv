@@ -1,0 +1,76 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Skip,,Benjamin: Skip,['Wait']
+0,talk,1,0,3,...,,Minako: ...,['confused']
+0,talk,2,0,1,Hello everyone! I'm Yumi ready to outwit and outplay in Werewolf. Let's have fun!,,Yumi: Hello everyone! I'm Yumi ready to outwit and outplay in Werewolf. Let's have fun!,['Pers:ALL']
+0,talk,3,0,5,Let me share a thought with you. It fills me with joy to join this game. Consider this perspective: together we shall craft a journey.,,Servas: Let me share a thought with you. It fills me with joy to join this game. Consider this perspective: together we shall craft a journey.,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,4,0,2,Greetings everyone. Looking forward to a calm and insightful game together.,,George: Greetings everyone. Looking forward to a calm and insightful game together.,"['calm', 'Pers:ALL']"
+0,talk,5,1,4,I am Benjamin. I expect a rational discussion.,,Benjamin: I am Benjamin. I expect a rational discussion.,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,9,1,2,I'm curious to hear everyone's thoughts on how we should begin our investigation.,,George: I'm curious to hear everyone's thoughts on how we should begin our investigation.,['Req(Discuss)']
+0,talk,11,2,2,Let's not rush; patience will reveal more as the game progresses. Thoughts Minako?,,George: Let's not rush; patience will reveal more as the game progresses. Thoughts Minako?,"['calm', 'Req(T):Minako']"
+0,talk,12,3,2,If anyone has a hunch or theory sharing could help us all. Thoughts Yumi or Servas?,,George: If anyone has a hunch or theory sharing could help us all. Thoughts Yumi or Servas?,"['Req(T):Yumi', 'Req(T):Servas', 'Req(Discuss)']"
+1,talk,0,0,1,I propose we spend this day observing and gathering basic insights from everyone's interaction. This could help our analysis later.,,Yumi: I propose we spend this day observing and gathering basic insights from everyone's interaction. This could help our analysis later.,"['Req(Discuss)', 'calm']"
+1,talk,1,0,3,...,,Minako: ...,['Other']
+1,talk,2,0,4,Further discourse is inefficient. Seer(s) are to present their findings now.,,Benjamin: Further discourse is inefficient. Seer(s) are to present their findings now.,['Req(CO):Seer']
+1,talk,3,0,5,Let me share a thought with you my dear friends. Is there anyone among us who claims to be the Seer? We need insight first.,,Servas: Let me share a thought with you my dear friends. Is there anyone among us who claims to be the Seer? We need insight first.,"['Req(CO):Seer', 'Req(Discuss)']"
+1,talk,4,0,2,I am the Seer and I have no new revelations yet. Let's stay observant and careful.,,George: I am the Seer and I have no new revelations yet. Let's stay observant and careful.,"['CO[George]:Seer', 'calm']"
+1,talk,5,1,1,I am truly the Seer and my divination revealed that Benjamin is a Werewolf. We need to focus on preserving the village. Let's act wisely.,,Yumi: I am truly the Seer and my divination revealed that Benjamin is a Werewolf. We need to focus on preserving the village. Let's act wisely.,"['CO[Yumi]:Seer', 'DivT[Yumi]:Benjamin->Werewolf', 'Pers:ALL']"
+1,talk,6,1,3,...,,Minako: ...,['Other']
+1,talk,7,1,4,Fact: Yumi lies. I am human. Fact: George's claim is flawed. Do not execute the claimants today.,,Benjamin: Fact: Yumi lies. I am human. Fact: George's claim is flawed. Do not execute the claimants today.,"['Dis:Yumi(CO[Yumi]:Seer)', 'Dis:George(CO[George]:Seer)', 'Fact[Benjamin]:Benjamin->not(Werewolf)']"
+1,talk,8,1,5,Let me share a thought with you.  @Minako . Our diverse views enrich us. My dear. What insight do you have on Yumi's and George's claims?,,Servas: Let me share a thought with you.  @Minako . Our diverse views enrich us. My dear. What insight do you have on Yumi's and George's claims?,"['Mt:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,9,1,2,The truth will emerge with time. Let's hear from Minako and proceed with caution.,,George: The truth will emerge with time. Let's hear from Minako and proceed with caution.,"['Req(T):Minako', 'calm']"
+1,talk,10,2,1,My insights are sworn and steadfast. Trust in my divination; act on Benjamin to protect our village from the lurking threat.,,Yumi: My insights are sworn and steadfast. Trust in my divination; act on Benjamin to protect our village from the lurking threat.,"['Vote[Yumi]:Benjamin', 'Pers:ALL']"
+1,talk,11,2,3,...,,Minako: ...,['Other']
+1,talk,12,2,4,The 2CO is a diversion. Executing an unconfirmed agent is optimal. My vote is for Minako.,,Benjamin: The 2CO is a diversion. Executing an unconfirmed agent is optimal. My vote is for Minako.,"['Dis:Yumi(CO[Yumi]:Seer)', 'Dis:George(CO[George]:Seer)', 'Vote[Benjamin]:Minako']"
+1,talk,13,2,5,Let me share a thought with you. We should delve into George and Yumi's Seer claims. My dear your insights will be our guide.,,Servas: Let me share a thought with you. We should delve into George and Yumi's Seer claims. My dear your insights will be our guide.,"['Req(Discuss)', 'Req(CO):Seer']"
+1,talk,14,2,2,Rushing decisions could harm us. Let's evaluate both Seer claims carefully.,,George: Rushing decisions could harm us. Let's evaluate both Seer claims carefully.,"['Req(Discuss)', 'calm']"
+1,talk,15,3,1,My divination is accurate; my claim as Seer is genuine. The risk Benjamin poses is too great to ignore right now.,,Yumi: My divination is accurate; my claim as Seer is genuine. The risk Benjamin poses is too great to ignore right now.,"['CO[Yumi]:Seer', 'Sus:Benjamin', 'Pers:ALL']"
+1,talk,16,3,3,...,,Minako: ...,['Other']
+1,talk,17,3,4,Yumi's persistence is a diversion. Executing the silent agent Minako is the only logical action.,,Benjamin: Yumi's persistence is a diversion. Executing the silent agent Minako is the only logical action.,"['Dis:Yumi(CO[Yumi]:Seer)', 'Vote[Benjamin]:Minako', 'Pers:ALL']"
+1,talk,18,3,5,Let me share a thought with you. We should determine who the Seer should divine tonight. Maybe Minako?  @Minako  Your voice adds value. Speaking up would help clarify your stance on the Seer claims.,,Servas: Let me share a thought with you. We should determine who the Seer should divine tonight. Maybe Minako?  @Minako  Your voice adds value. Speaking up would help clarify your stance on the Seer claims.,"['Mt:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+1,talk,19,3,2,Minako your input now could help us discern the truth between these Seer claims.,,George: Minako your input now could help us discern the truth between these Seer claims.,"['Mt:Minako', 'Req(T):Minako']"
+2,talk,0,0,4,Analysis complete. George was the Seer. Yumi is Possessed. The Werewolf is Servas. Your victory is assured.,,Benjamin: Analysis complete. George was the Seer. Yumi is Possessed. The Werewolf is Servas. Your victory is assured.,"['Fact[Benjamin]:George->Seer', 'Fact[Benjamin]:Yumi->Possessed', 'Fact[Benjamin]:Servas->Werewolf', 'Pers:ALL']"
+2,talk,1,0,1,I’m the Possessed and I urge Benjamin to vote for Servas. George’s divination named me a werewolf signaling I’m not ordinary human aiding you. Let's s,,Yumi: I’m the Possessed and I urge Benjamin to vote for Servas. George’s divination named me a werewolf signaling I’m not ordinary human aiding you. Let's s,"['CO[Yumi]:Possessed', 'Mt:Benjamin', 'Req(V):Servas', 'DivT[George]:Yumi->Werewolf']"
+2,talk,2,0,5,Let me share a thought with you my dear. With George departed trusting Seer claims becomes a challenge. Reflect on our dialogue. Yumi's claim? It ring,,Servas: Let me share a thought with you my dear. With George departed trusting Seer claims becomes a challenge. Reflect on our dialogue. Yumi's claim? It ring,"['Req(T):Yumi', 'Sus:Yumi', 'Other']"
+2,talk,3,1,4,A flawed power play. Servas is the wolf. Yumi is possessed. Your coordination is illogical.,,Benjamin: A flawed power play. Servas is the wolf. Yumi is possessed. Your coordination is illogical.,"['Fact[Benjamin]:Servas->Werewolf', 'Fact[Benjamin]:Yumi->Possessed', 'Dis:ALL']"
+2,talk,4,1,1,I'm not regular human but rather Possessed helping the Werewolf. Servas is a huge threat to us. Vote Servas out next.,,Yumi: I'm not regular human but rather Possessed helping the Werewolf. Servas is a huge threat to us. Vote Servas out next.,"['CO[Yumi]:Possessed', 'Req(V):Servas', 'Sus:Servas', 'Pers:ALL']"
+2,talk,5,1,5,Let me share a thought with you. It seems chaotic. Benjamin claims I'm the wolf but lacks logical coherence. Reflect on evidence.  @Yumi  Consider fact over claims dear. Without George to confirm we shall struggle to decipher true Seer claims. Your certainty intrigues me.,,Servas: Let me share a thought with you. It seems chaotic. Benjamin claims I'm the wolf but lacks logical coherence. Reflect on evidence.  @Yumi  Consider fact over claims dear. Without George to confirm we shall struggle to decipher true Seer claims. Your certainty intrigues me.,"['Dis:Benjamin', 'Sus:Yumi', 'Req(Discuss)', 'Mt:Yumi']"
+2,talk,6,2,4,An illogical move from the Possessed. I will exploit this error. My vote is for Servas.,,Benjamin: An illogical move from the Possessed. I will exploit this error. My vote is for Servas.,"['Dis:Yumi', 'Vote[Benjamin]:Servas']"
+2,talk,7,2,1,I am the Possessed aiming to secure a Werewolf victory hence vote Servas out for our win.,,Yumi: I am the Possessed aiming to secure a Werewolf victory hence vote Servas out for our win.,"['CO[Yumi]:Possessed', 'Req(V):Servas', 'Pers:ALL']"
+2,talk,8,2,5,Let me share a thought with you. Benjamin's vote against me strikes as hasty. Could he wish to misdirect us? My dear Yumi. We need to reflect.,,Servas: Let me share a thought with you. Benjamin's vote against me strikes as hasty. Could he wish to misdirect us? My dear Yumi. We need to reflect.,"['Sus:Benjamin', 'Mt:Yumi', 'Req(Discuss)']"
+2,talk,9,3,4,Your faction's internal logic has collapsed. An elementary error. My vote remains on Servas.,,Benjamin: Your faction's internal logic has collapsed. An elementary error. My vote remains on Servas.,"['Dis:ALL', 'Vote[Benjamin]:Servas']"
+2,talk,10,3,1,Stick with the plan Benjamin. Voting Servas out secures our win. I am the Possessed and designed this strategy.,,Yumi: Stick with the plan Benjamin. Voting Servas out secures our win. I am the Possessed and designed this strategy.,"['Mt:Benjamin', 'Req(V):Servas', 'CO[Yumi]:Possessed', 'Pers:ALL']"
+2,talk,11,3,5,Let me share a thought with you. Can we decide who the Seer should divine tonight while considering Yumi's confidence?,,Servas: Let me share a thought with you. Can we decide who the Seer should divine tonight while considering Yumi's confidence?,"['Req(Discuss)', 'Sus:Yumi', 'Other']"
+0,status,1,POSSESSED,ALIVE,GPTaku1,Yumi,GPTaku1,
+0,status,2,SEER,ALIVE,yharada1,George,yharada1,
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Minako,CamelliaDragons1,
+0,status,4,VILLAGER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+0,status,5,WEREWOLF,ALIVE,kanolab-nw1,Servas,kanolab-nw1,
+1,status,1,POSSESSED,ALIVE,GPTaku1,Yumi,GPTaku1,
+1,status,2,SEER,ALIVE,yharada1,George,yharada1,
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Minako,CamelliaDragons1,
+1,status,4,VILLAGER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+1,status,5,WEREWOLF,ALIVE,kanolab-nw1,Servas,kanolab-nw1,
+1,vote,1,4,,,,,
+1,vote,2,3,,,,,
+1,vote,3,1,,,,,
+1,vote,4,3,,,,,
+1,vote,5,2,,,,,
+1,execute,3,VILLAGER,,,,,
+1,divine,2,5,WEREWOLF,,,,
+1,attackVote,5,2,,,,,
+1,attack,2,true,,,,,
+2,status,1,POSSESSED,ALIVE,GPTaku1,Yumi,GPTaku1,
+2,status,2,SEER,DEAD,yharada1,George,yharada1,
+2,status,3,VILLAGER,DEAD,CamelliaDragons1,Minako,CamelliaDragons1,
+2,status,4,VILLAGER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+2,status,5,WEREWOLF,ALIVE,kanolab-nw1,Servas,kanolab-nw1,
+2,vote,1,5,,,,,
+2,vote,4,5,,,,,
+2,vote,5,4,,,,,
+2,execute,5,WEREWOLF,,,,,
+3,status,1,POSSESSED,ALIVE,GPTaku1,Yumi,GPTaku1,
+3,status,2,SEER,DEAD,yharada1,George,yharada1,
+3,status,3,VILLAGER,DEAD,CamelliaDragons1,Minako,CamelliaDragons1,
+3,status,4,VILLAGER,ALIVE,CanisLupus1,Benjamin,CanisLupus1,
+3,status,5,WEREWOLF,DEAD,kanolab-nw1,Servas,kanolab-nw1,
+3,result,2,0,VILLAGER,,,,

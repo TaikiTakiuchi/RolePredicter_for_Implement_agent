@@ -1,0 +1,52 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Hi everyone! Let's work together to figure out who's who and keep the village safe!,,Rin: Hi everyone! Let's work together to figure out who's who and keep the village safe!,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,1,0,2,Hello everyone. It's great to be here with you all. Let's examine the facts and figure things out. Any suspicions or thoughts? Over.,,Minako: Hello everyone. It's great to be here with you all. Let's examine the facts and figure things out. Any suspicions or thoughts? Over.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,2,0,1,Hello everyone I'm Midori excited to play and find out who the werewolves are! Let's have some fun and good luck to all!,,Midori: Hello everyone I'm Midori excited to play and find out who the werewolves are! Let's have some fun and good luck to all!,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,3,0,5,Skip,,Jonathan: Skip,['Wait']
+0,talk,4,0,4,...,,Sakura: ...,['Other']
+0,talk,5,1,3,Minako I'm curious if anyone has any gut feelings or ideas on where to start.,,Rin: Minako I'm curious if anyone has any gut feelings or ideas on where to start.,"['Mt:Minako', 'Req(T):Minako', 'Req(Discuss)']"
+0,talk,8,1,5,I am Jonathan. I find solace in quiet reading.,,Jonathan: I am Jonathan. I find solace in quiet reading.,['Other']
+0,talk,10,2,3,Jonathan what do you think we should look for in identifying werewolves?,,Rin: Jonathan what do you think we should look for in identifying werewolves?,"['Mt:Jonathan', 'Req(T):Jonathan', 'Req(Discuss)']"
+0,talk,12,3,3,Midori do you have any thoughts on who might be acting suspiciously?,,Rin: Midori do you have any thoughts on who might be acting suspiciously?,"['Mt:Midori', 'Req(T):Midori', 'Req(Discuss)']"
+1,talk,0,0,1,I divined Jonathan last night and the result showed he's a Werewolf We need to discuss this and decide our next steps,,Midori: I divined Jonathan last night and the result showed he's a Werewolf We need to discuss this and decide our next steps,"['CO[Midori]:Seer', 'DivT[Midori]:Jonathan->Werewolf', 'Req(Discuss)']"
+1,talk,1,0,2,To be clear. I divined Midori last night. The divination result shows they are a Werewolf. We must be cautious and share thoughts.,,Minako: To be clear. I divined Midori last night. The divination result shows they are a Werewolf. We must be cautious and share thoughts.,"['CO[Minako]:Seer', 'DivT[Minako]:Midori->Werewolf', 'Req(Discuss)']"
+1,talk,2,0,3,I divined Midori last night and they are a Werewolf. We need to act on this info!,,Rin: I divined Midori last night and they are a Werewolf. We need to act on this info!,"['CO[Rin]:Seer', 'DivT[Rin]:Midori->Werewolf', 'Req(V):Midori']"
+1,talk,3,0,5,A 3-CO confirms Sakura and I are villagers. Midori's claim against me is false. Vote Midori.,,Jonathan: A 3-CO confirms Sakura and I are villagers. Midori's claim against me is false. Vote Midori.,"['Fact[Jonathan]:Sakura->not(Werewolf)', 'Fact[Jonathan]:Jonathan->not(Werewolf)', 'Dis:Midori(CO[Midori]:Seer)', 'Vote[Jonathan]:Midori']"
+1,talk,4,0,4,...,,Sakura: ...,['Other']
+1,talk,5,1,1,I need to retract my previous claim of being the Seer I'm actually a Villager I wanted to draw out reactions from potential Werewolves,,Midori: I need to retract my previous claim of being the Seer I'm actually a Villager I wanted to draw out reactions from potential Werewolves,['CO[Midori]:Villager']
+1,talk,6,1,2,To be clear. Jonathan claiming seer is risky among villagers. If his claims hold. I suspect Midori is more likely a werewolf.,,Minako: To be clear. Jonathan claiming seer is risky among villagers. If his claims hold. I suspect Midori is more likely a werewolf.,"['Dis:Jonathan', 'Est[Minako]:Midori->Werewolf']"
+1,talk,7,1,3,Midori's retraction is suspicious. I trust my divination; let's vote Midori.,,Rin: Midori's retraction is suspicious. I trust my divination; let's vote Midori.,"['Sus:Midori', 'Vote[Rin]:Midori', 'Req(V):Midori']"
+1,talk,8,1,5,The 3 claims confirm the non-claimants are human. Midori's claim is objectively false. Vote accordingly.,,Jonathan: The 3 claims confirm the non-claimants are human. Midori's claim is objectively false. Vote accordingly.,"['Fact[Jonathan]:Sakura->not(Werewolf)', 'Fact[Jonathan]:Jonathan->not(Werewolf)', 'Dis:Midori(CO[Midori]:Seer)', 'Vote[Jonathan]:Midori']"
+1,talk,9,1,4,...,,Sakura: ...,['Other']
+1,talk,10,2,1,It seems there are conflicting statements Let's vote for Jonathan to remove potential danger to the village.,,Midori: It seems there are conflicting statements Let's vote for Jonathan to remove potential danger to the village.,"['Sus:Jonathan', 'Vote[Midori]:Jonathan', 'Req(V):Jonathan']"
+1,talk,11,2,2,To be clear. Midori lied about being Seer. Mr. Jonathan I notice your claim against Midori. Why should we vote them off first?,,Minako: To be clear. Midori lied about being Seer. Mr. Jonathan I notice your claim against Midori. Why should we vote them off first?,"['Dis:Midori(CO[Midori]:Seer)', 'Mt:Jonathan', 'Req(T):Jonathan']"
+1,talk,12,2,3,Minako I trust my divination of Midori. Let's focus on the confirmed Werewolf first.,,Rin: Minako I trust my divination of Midori. Let's focus on the confirmed Werewolf first.,"['Mt:Minako', 'Est[Rin]:Midori->Werewolf', 'Req(V):Midori']"
+1,talk,13,2,5,The data is conclusive. Further debate is a waste of time. My vote is for Midori.,,Jonathan: The data is conclusive. Further debate is a waste of time. My vote is for Midori.,['Vote[Jonathan]:Midori']
+1,talk,14,2,4,...,,Sakura: ...,['Other']
+1,talk,15,3,1,Let's vote for Jonathan to ensure village safety.,,Midori: Let's vote for Jonathan to ensure village safety.,['Vote[Midori]:Jonathan']
+1,talk,16,3,2,To be clear. Choosing not to vote for Midori endangers the village. This abrupt retraction suggests werewolf deceit. Stay vigilant.,,Minako: To be clear. Choosing not to vote for Midori endangers the village. This abrupt retraction suggests werewolf deceit. Stay vigilant.,"['Sus:Midori', 'Req(V):Midori', 'Pers:ALL']"
+1,talk,17,3,3,Let's stay united and vote Midori. We need to ensure village safety by acting now.,,Rin: Let's stay united and vote Midori. We need to ensure village safety by acting now.,"['Req(V):Midori', 'Pers:ALL']"
+1,talk,19,3,4,...,,Sakura: ...,['Other']
+0,status,1,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+0,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako,kanolab-nw1,
+0,status,3,SEER,ALIVE,yharada1,Rin,yharada1,
+0,status,4,VILLAGER,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+0,status,5,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+0,divine,3,1,WEREWOLF,,,,
+1,status,1,WEREWOLF,ALIVE,GPTaku1,Midori,GPTaku1,
+1,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako,kanolab-nw1,
+1,status,3,SEER,ALIVE,yharada1,Rin,yharada1,
+1,status,4,VILLAGER,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+1,status,5,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,1,,,,,
+1,vote,4,3,,,,,
+1,vote,5,1,,,,,
+1,execute,1,WEREWOLF,,,,,
+2,status,1,WEREWOLF,DEAD,GPTaku1,Midori,GPTaku1,
+2,status,2,POSSESSED,ALIVE,kanolab-nw1,Minako,kanolab-nw1,
+2,status,3,SEER,ALIVE,yharada1,Rin,yharada1,
+2,status,4,VILLAGER,ALIVE,CamelliaDragons1,Sakura,CamelliaDragons1,
+2,status,5,VILLAGER,ALIVE,CanisLupus1,Jonathan,CanisLupus1,
+2,result,4,0,VILLAGER,,,,

@@ -1,0 +1,73 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,Hi everyone! I'm Daisuke ready to figure out who's who in this game. Let's have some fun!,,Daisuke: Hi everyone! I'm Daisuke ready to figure out who's who in this game. Let's have some fun!,"['Req(Discuss)', 'Pers:ALL', 'calm']"
+0,talk,1,0,2,Hey pals! It's Takumi here. Ready to tackle this mystery together? We can do this! Let's crack the case and have fun! Over.,,Takumi: Hey pals! It's Takumi here. Ready to tackle this mystery together? We can do this! Let's crack the case and have fun! Over.,"['Req(Discuss)', 'Pers:ALL', 'calm']"
+0,talk,2,0,3,Hi everyone I'm Mizuki. Let's work together and keep an eye out for any suspicious behavior.,,Mizuki: Hi everyone I'm Mizuki. Let's work together and keep an eye out for any suspicious behavior.,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,3,0,4,Hi everyone it’s Minato excited to play today Let’s all try to chat openly and have a fun game together,,Minato: Hi everyone it’s Minato excited to play today Let’s all try to chat openly and have a fun game together,"['Req(Discuss)', 'Pers:ALL', 'calm']"
+0,talk,4,0,5,I'm the Seer. I'll share my results tomorrow morning. I hope we can maintain a rational discussion. @Mizuki  could you elaborate on what you consider suspicious behavior in this context?,,Asuka: I'm the Seer. I'll share my results tomorrow morning. I hope we can maintain a rational discussion. @Mizuki  could you elaborate on what you consider suspicious behavior in this context?,"['CO[Asuka]:Seer', 'Mt:Mizuki', 'Req(T):Mizuki', 'calm']"
+0,talk,7,1,3,Asuka I look for inconsistencies or hesitation in people's statements and behavior.,,Mizuki: Asuka I look for inconsistencies or hesitation in people's statements and behavior.,"['Mt:Asuka', 'Other']"
+0,talk,10,2,3,Let's keep the discussion going. Any thoughts on who seems trustworthy so far?,,Mizuki: Let's keep the discussion going. Any thoughts on who seems trustworthy so far?,['Req(Discuss)']
+0,talk,11,3,3,It seems quiet. Anyone have insights or gut feelings about our group dynamics?,,Mizuki: It seems quiet. Anyone have insights or gut feelings about our group dynamics?,['Req(Discuss)']
+1,talk,0,0,1,It's early but let's keep observing everyone's behavior as we proceed. More interaction might give us clues.,,Daisuke: It's early but let's keep observing everyone's behavior as we proceed. More interaction might give us clues.,"['Req(Discuss)', 'calm']"
+1,talk,1,0,5,As I stated I am the Seer. Last night I divined Minato: the result was Human. Please share your thoughts. @Mizuki  since you value looking for inconsistencies do you find anything odd in the discussions so far?,,Asuka: As I stated I am the Seer. Last night I divined Minato: the result was Human. Please share your thoughts. @Mizuki  since you value looking for inconsistencies do you find anything odd in the discussions so far?,"['CO[Asuka]:Seer', 'DivT[Asuka]:Minato->White', 'Mt:Mizuki', 'Req(T):Mizuki', 'Req(Discuss)']"
+1,talk,2,0,4,I feel okay for now since Asuka’s Seer result cleared me but I’d like to hear more from everyone especially Takumi.,,Minato: I feel okay for now since Asuka’s Seer result cleared me but I’d like to hear more from everyone especially Takumi.,"['Agr:Asuka(DivT[Asuka]:Minato->White)', 'Mt:Takumi', 'Req(T):Takumi']"
+1,talk,3,0,2,We need to figure out if Asuka is really a Seer or just bluffing. What do you say Daisuke? Is she playing a trick on us buddy?,,Takumi: We need to figure out if Asuka is really a Seer or just bluffing. What do you say Daisuke? Is she playing a trick on us buddy?,"['Sus:Asuka', 'Mt:Daisuke', 'Req(T):Daisuke']"
+1,talk,4,0,3,Asuka's claim seems solid for now. Let's hear more from Takumi to get a clearer picture.,,Mizuki: Asuka's claim seems solid for now. Let's hear more from Takumi to get a clearer picture.,"['Agr:Asuka(CO[Asuka]:Seer)', 'Mt:Takumi', 'Req(T):Takumi']"
+1,talk,5,1,1,I suggest we all vote for Mizuki today. Let's focus on keeping the village safe.,,Daisuke: I suggest we all vote for Mizuki today. Let's focus on keeping the village safe.,"['Vote[Daisuke]:Mizuki', 'Req(V):Mizuki', 'Pers:ALL']"
+1,talk,6,1,5,Daisuke's suggestion to vote for Mizuki seems abrupt and unsupported. We should examine his reasoning carefully. @Takumi  you questioned my Seer claim. What specifically leads you to doubt me at this stage?,,Asuka: Daisuke's suggestion to vote for Mizuki seems abrupt and unsupported. We should examine his reasoning carefully. @Takumi  you questioned my Seer claim. What specifically leads you to doubt me at this stage?,"['Dis:Daisuke(Vote[Daisuke]:Mizuki)', 'Mt:Takumi', 'Req(T):Takumi', 'Req(Discuss)']"
+1,talk,7,1,4,@Daisuke  why do you suspect Mizuki so soon? Did anything stand out to you last night that we missed?,,Minato: @Daisuke  why do you suspect Mizuki so soon? Did anything stand out to you last night that we missed?,"['Mt:Daisuke', 'Req(T):Daisuke']"
+1,talk,8,1,2,Hey Asuka. It's not doubt. It's being cautious. That Seer claim came early. We need proof. Let's stay on guard pal!,,Takumi: Hey Asuka. It's not doubt. It's being cautious. That Seer claim came early. We need proof. Let's stay on guard pal!,"['Mt:Asuka', 'Sus:Asuka', 'Req(Discuss)']"
+1,talk,9,1,3,Daisuke can you explain your reasoning for voting me? Let's ensure our decisions are sound.,,Mizuki: Daisuke can you explain your reasoning for voting me? Let's ensure our decisions are sound.,"['Mt:Daisuke', 'Req(T):Daisuke', 'Req(Discuss)']"
+1,talk,10,2,1,Considering Asuka's divination points to Minato as Human with Mizuki questioning discussions without concrete reasons rouses suspicion.,,Daisuke: Considering Asuka's divination points to Minato as Human with Mizuki questioning discussions without concrete reasons rouses suspicion.,['Sus:Mizuki']
+1,talk,11,2,5,Daisuke your logic for targeting Mizuki appears tenuous. Unsubstantiated votes undermine credibility. @Daisuke You seem focused on Mizuki with little basis. Please clarify the evidence supporting your suspicion.,,Asuka: Daisuke your logic for targeting Mizuki appears tenuous. Unsubstantiated votes undermine credibility. @Daisuke You seem focused on Mizuki with little basis. Please clarify the evidence supporting your suspicion.,"['Dis:Daisuke(Vote[Daisuke]:Mizuki)', 'Mt:Daisuke', 'Req(T):Daisuke']"
+1,talk,12,2,4,Daisuke’s push on Mizuki seems rushed. Shouldn’t we slow down and check everyone’s behavior before deciding?,,Minato: Daisuke’s push on Mizuki seems rushed. Shouldn’t we slow down and check everyone’s behavior before deciding?,"['Dis:Daisuke(Vote[Daisuke]:Mizuki)', 'Req(Discuss)', 'Wait']"
+1,talk,13,2,2,Daisuke is rushing. Targeting Mizuki without clear proof isn't right. Let's slow down and check everyone's actions carefully.,,Takumi: Daisuke is rushing. Targeting Mizuki without clear proof isn't right. Let's slow down and check everyone's actions carefully.,"['Dis:Daisuke(Vote[Daisuke]:Mizuki)', 'Req(Discuss)', 'Wait']"
+1,talk,14,2,3,Let's focus on gathering more information before making rushed decisions. Clarity is key.,,Mizuki: Let's focus on gathering more information before making rushed decisions. Clarity is key.,"['Req(Discuss)', 'calm']"
+1,talk,15,3,1,Asuka's divination showed Minato as Human which clears him leaving fewer suspects. Reviewing interactions Mizuki's approach has been vague.,,Daisuke: Asuka's divination showed Minato as Human which clears him leaving fewer suspects. Reviewing interactions Mizuki's approach has been vague.,"['Agr:Asuka(DivT[Asuka]:Minato->White)', 'Sus:Mizuki']"
+1,talk,16,3,5,Daisuke's persistent emphasis on Mizuki is concerning and may indicate an ulterior motive. Caution is warranted. @Mizuki Your approach has been methodical Mizuki. Do you discern any inconsistencies between Daisuke's actions and his stated logic?,,Asuka: Daisuke's persistent emphasis on Mizuki is concerning and may indicate an ulterior motive. Caution is warranted. @Mizuki Your approach has been methodical Mizuki. Do you discern any inconsistencies between Daisuke's actions and his stated logic?,"['Sus:Daisuke', 'Mt:Mizuki', 'Req(T):Mizuki']"
+1,talk,17,3,4,Everyone’s acting fast but we need clarity. I’ll vote Mizuki now since Daisuke pushed most for it. Hope it leads somewhere.,,Minato: Everyone’s acting fast but we need clarity. I’ll vote Mizuki now since Daisuke pushed most for it. Hope it leads somewhere.,"['Vote[Minato]:Mizuki', 'Agr:Daisuke(Vote[Daisuke]:Mizuki)']"
+1,talk,18,3,2,Asuka claiming Seer early isn't unusual but needs verifying. Relying just on statements is risky. What do you think Minato? We can do this but Asuka's,,Takumi: Asuka claiming Seer early isn't unusual but needs verifying. Relying just on statements is risky. What do you think Minato? We can do this but Asuka's,"['Sus:Asuka', 'Mt:Minato', 'Req(T):Minato']"
+1,talk,19,3,3,Daisuke's focus on me seems unsubstantiated. Let's keep our analysis balanced and thorough.,,Mizuki: Daisuke's focus on me seems unsubstantiated. Let's keep our analysis balanced and thorough.,"['Dis:Daisuke(Vote[Daisuke]:Mizuki)', 'Req(Discuss)']"
+2,talk,0,0,4,I trust Asuka’s Seer result so for me it’s between @Mizuki and  @Takumi . Who do you feel is acting off today?,,Minato: I trust Asuka’s Seer result so for me it’s between @Mizuki and  @Takumi . Who do you feel is acting off today?,"['Est[Minato]:Mizuki->Werewolf', 'Est[Minato]:Takumi->Werewolf', 'Req(Discuss)']"
+2,talk,1,0,3,Minato I'm cautious about Takumi's silence. Let's gather more insights before deciding.,,Mizuki: Minato I'm cautious about Takumi's silence. Let's gather more insights before deciding.,"['Mt:Minato', 'Sus:Takumi', 'Req(Discuss)']"
+2,talk,2,0,2,Minato let's use Asuka's divination claim wisely. We can plan our next move based on her insights. Leave it to me pal!,,Takumi: Minato let's use Asuka's divination claim wisely. We can plan our next move based on her insights. Leave it to me pal!,"['Mt:Minato', 'Pers:ALL']"
+2,talk,3,1,4,If we trust Asuka’s divination then it’s just between @Mizuki and  @Takumi . Who seems more suspicious to you right now?,,Minato: If we trust Asuka’s divination then it’s just between @Mizuki and  @Takumi . Who seems more suspicious to you right now?,"['Est[Minato]:Mizuki->Werewolf', 'Est[Minato]:Takumi->Werewolf', 'Req(Discuss)']"
+2,talk,4,1,3,Minato I'm still evaluating Takumi's actions. Let's stay objective and observe further.,,Mizuki: Minato I'm still evaluating Takumi's actions. Let's stay objective and observe further.,"['Mt:Minato', 'Sus:Takumi', 'Req(Discuss)']"
+2,talk,5,1,2,Asuka being attacked! Wolves might fear her divination. Minato should we focus on Mizuki more? She seems uncertain.  @Mizuki  How are you holding up Mizuki? Asuka's death changed things. Noticed any new thoughts today?,,Takumi: Asuka being attacked! Wolves might fear her divination. Minato should we focus on Mizuki more? She seems uncertain.  @Mizuki  How are you holding up Mizuki? Asuka's death changed things. Noticed any new thoughts today?,"['Atk:Asuka', 'Mt:Minato', 'Req(V):Mizuki', 'Sus:Mizuki', 'Mt:Mizuki', 'Req(T):Mizuki']"
+2,talk,6,2,4,@Takumi  Mizuki always says let's be objective but never decides. Does that seem odd to you?,,Minato: @Takumi  Mizuki always says let's be objective but never decides. Does that seem odd to you?,"['Mt:Takumi', 'Req(T):Takumi', 'Dis:Mizuki', 'Sus:Mizuki']"
+2,talk,7,2,3,I'm holding up Takumi. Still analyzing our actions. We must tread carefully and wisely.,,Mizuki: I'm holding up Takumi. Still analyzing our actions. We must tread carefully and wisely.,"['Agr:Mizuki(Takumi)', 'Req(Discuss)', 'calm']"
+2,talk,8,2,2,Mizuki's hesitance worries me. Asuka's true side isn't clear yet. We must be cautious! Let's weigh our moves carefully!,,Takumi: Mizuki's hesitance worries me. Asuka's true side isn't clear yet. We must be cautious! Let's weigh our moves carefully!,"['Sus:Mizuki', 'difficult', 'calm']"
+2,talk,9,3,4,@Takumi  I agree Mizuki is too hesitant. It feels intentional. I’ll vote Mizuki today. Let’s trust Asuka’s claim.,,Minato: @Takumi  I agree Mizuki is too hesitant. It feels intentional. I’ll vote Mizuki today. Let’s trust Asuka’s claim.,"['Mt:Takumi', 'Vote[Minato]:Mizuki', 'Sus:Mizuki', ""Agr:Minato(Asuka's claim)""]"
+2,talk,10,3,3,Minato my approach is cautious not hesitant. Let's ensure our decisions are informed.,,Mizuki: Minato my approach is cautious not hesitant. Let's ensure our decisions are informed.,"['Mt:Minato', 'Dis:Minato(Sus:Mizuki)', 'Req(Discuss)', 'calm']"
+2,talk,11,3,2,Daisuke's vote-out smells of a wolf move. Mizuki's caution might hide a secret. Let's act fast. Minato. Trust your instincts buddy!,,Takumi: Daisuke's vote-out smells of a wolf move. Mizuki's caution might hide a secret. Let's act fast. Minato. Trust your instincts buddy!,"['Est[Takumi]:Daisuke->Werewolf', 'Sus:Mizuki', 'Mt:Minato', 'Pers:Minato']"
+0,status,1,SEER,ALIVE,GPTaku1,Daisuke,GPTaku1,
+0,status,2,VILLAGER,ALIVE,kanolab-nw1,Takumi,kanolab-nw1,
+0,status,3,VILLAGER,ALIVE,yharada1,Mizuki,yharada1,
+0,status,4,WEREWOLF,ALIVE,sunamelli1,Minato,sunamelli1,
+0,status,5,POSSESSED,ALIVE,CamelliaDragons1,Asuka,CamelliaDragons1,
+0,divine,1,2,HUMAN,,,,
+1,status,1,SEER,ALIVE,GPTaku1,Daisuke,GPTaku1,
+1,status,2,VILLAGER,ALIVE,kanolab-nw1,Takumi,kanolab-nw1,
+1,status,3,VILLAGER,ALIVE,yharada1,Mizuki,yharada1,
+1,status,4,WEREWOLF,ALIVE,sunamelli1,Minato,sunamelli1,
+1,status,5,POSSESSED,ALIVE,CamelliaDragons1,Asuka,CamelliaDragons1,
+1,vote,1,3,,,,,
+1,vote,2,1,,,,,
+1,vote,4,3,,,,,
+1,vote,5,1,,,,,
+1,execute,1,SEER,,,,,
+1,attackVote,4,5,,,,,
+1,attack,5,true,,,,,
+2,status,1,SEER,DEAD,GPTaku1,Daisuke,GPTaku1,
+2,status,2,VILLAGER,ALIVE,kanolab-nw1,Takumi,kanolab-nw1,
+2,status,3,VILLAGER,ALIVE,yharada1,Mizuki,yharada1,
+2,status,4,WEREWOLF,ALIVE,sunamelli1,Minato,sunamelli1,
+2,status,5,POSSESSED,DEAD,CamelliaDragons1,Asuka,CamelliaDragons1,
+2,vote,2,3,,,,,
+2,vote,4,3,,,,,
+2,execute,3,VILLAGER,,,,,
+3,status,1,SEER,DEAD,GPTaku1,Daisuke,GPTaku1,
+3,status,2,VILLAGER,ALIVE,kanolab-nw1,Takumi,kanolab-nw1,
+3,status,3,VILLAGER,DEAD,yharada1,Mizuki,yharada1,
+3,status,4,WEREWOLF,ALIVE,sunamelli1,Minato,sunamelli1,
+3,status,5,POSSESSED,DEAD,CamelliaDragons1,Asuka,CamelliaDragons1,
+3,result,1,1,WEREWOLF,,,,

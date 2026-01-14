@@ -1,0 +1,53 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,2,Hey everyone! Let's solve this mystery together! Any ideas on who we should watch carefully?,,Sakura: Hey everyone! Let's solve this mystery together! Any ideas on who we should watch carefully?,"['Req(Discuss)', 'Req(listen)']"
+0,talk,1,0,4,Hello everyone I’m Minako. Let’s stay calm and observant so we avoid any hasty mistakes on the first day.,,Minako: Hello everyone I’m Minako. Let’s stay calm and observant so we avoid any hasty mistakes on the first day.,['calm']
+0,talk,2,0,3,Skip,,Shion: Skip,['Wait']
+0,talk,3,0,1,Hello. I am Midori. My role is seer. Have a good game.,,Midori: Hello. I am Midori. My role is seer. Have a good game.,['CO[Midori]:Seer']
+0,talk,4,0,5,...,,Ryuji: ...,['Other']
+0,talk,5,1,2,Midori that's interesting! Let's see who else claims seer or what others think.,,Sakura: Midori that's interesting! Let's see who else claims seer or what others think.,"['Agr:Midori(CO[Midori]:Seer)', 'Req(CO):Seer', 'Req(Discuss)']"
+0,talk,7,1,3,I am Shion. I detest pointless chatter. Let's get this farce over with.,,Shion: I am Shion. I detest pointless chatter. Let's get this farce over with.,['Other']
+0,talk,10,2,2,Let's keep chatting and see if anyone has info to share! We need clues everyone!,,Sakura: Let's keep chatting and see if anyone has info to share! We need clues everyone!,"['Req(Discuss)', 'Pers:ALL']"
+0,talk,12,3,2,Anyone have any theories or suspicions? Let's brainstorm together!,,Sakura: Anyone have any theories or suspicions? Let's brainstorm together!,['Req(Discuss)']
+1,talk,0,0,4,@Ryuji  you’ve been quiet so far can you share your current suspicions before we talk about vote targets?,,Minako: @Ryuji  you’ve been quiet so far can you share your current suspicions before we talk about vote targets?,"['Mt:Ryuji', 'Req(T):Ryuji', 'Sus:Ryuji']"
+1,talk,1,0,3,This is pointless.  @Midori  you claimed seer. Spit out your divine result. Now.,,Shion: This is pointless.  @Midori  you claimed seer. Spit out your divine result. Now.,"['Mt:Midori', 'Req(CO):Seer']"
+1,talk,2,0,5,...,,Ryuji: ...,['Other']
+1,talk,3,0,2,I checked Shion last night and they're human. Midori what did you find?,,Sakura: I checked Shion last night and they're human. Midori what did you find?,"['DivT[Sakura]:Shion->White', 'Mt:Midori', 'Req(T):Midori']"
+1,talk,4,0,1,I am a seer. I divined Shion and Shion was a human.,,Midori: I am a seer. I divined Shion and Shion was a human.,"['CO[Midori]:Seer', 'DivT[Midori]:Shion->White']"
+1,talk,5,1,4,Sakura and Midori both checked Shion as human. I feel one CO might be fake. Who do you trust more right now?,,Minako: Sakura and Midori both checked Shion as human. I feel one CO might be fake. Who do you trust more right now?,"['Sus:Sakura', 'Sus:Midori', 'Req(Discuss)']"
+1,talk,6,1,3,Both so-called seers cleared me. A pointless revelation. The silent fool  @Ryuji  is the real threat.,,Shion: Both so-called seers cleared me. A pointless revelation. The silent fool  @Ryuji  is the real threat.,"['Dis:Sakura(CO[Sakura]:Seer)', 'Dis:Midori(CO[Midori]:Seer)', 'Mt:Ryuji', 'Sus:Ryuji']"
+1,talk,7,1,5,...,,Ryuji: ...,['Other']
+1,talk,8,1,2,It's tricky Minako. I'm unsure now but Ryuji's silence is suspicious. What do you think?,,Sakura: It's tricky Minako. I'm unsure now but Ryuji's silence is suspicious. What do you think?,"['Mt:Minako', 'difficult', 'Sus:Ryuji', 'Req(T):Minako']"
+1,talk,9,1,1,I will vote Minako.,,Midori: I will vote Minako.,['Vote[Midori]:Minako']
+1,talk,10,2,4,@Midori  you voted for me without any clear reason. Can you explain what makes me suspicious in your eyes?,,Minako: @Midori  you voted for me without any clear reason. Can you explain what makes me suspicious in your eyes?,"['Mt:Midori', 'Req(T):Midori', 'Dis:Midori(Vote[Midori]:Minako)']"
+1,talk,11,2,3,Your seer squabble is a bore. Ryuji's silence is the only real clue. I am voting for him.,,Shion: Your seer squabble is a bore. Ryuji's silence is the only real clue. I am voting for him.,"['Vote[Shion]:Ryuji', 'Sus:Ryuji', 'Dis:Sakura(CO[Sakura]:Seer)', 'Dis:Midori(CO[Midori]:Seer)']"
+1,talk,12,2,5,...,,Ryuji: ...,['Other']
+1,talk,13,2,2,We need more input from Ryuji. Silence won't help us solve this mystery!,,Sakura: We need more input from Ryuji. Silence won't help us solve this mystery!,"['Mt:Ryuji', 'Req(T):Ryuji']"
+1,talk,14,2,1,I will vote Minako.,,Midori: I will vote Minako.,['Vote[Midori]:Minako']
+1,talk,15,3,4,I'll be voting Ryuji—his silence through two Seer COs is too dangerous.  @Sakura  can you join me for a decisive vote?,,Minako: I'll be voting Ryuji—his silence through two Seer COs is too dangerous.  @Sakura  can you join me for a decisive vote?,"['Vote[Minako]:Ryuji', 'Mt:Sakura', 'Req(V):Sakura', 'Sus:Ryuji']"
+1,talk,16,3,3,The choice is obvious. The silent fool Ryuji hangs today. Do not waste my time.,,Shion: The choice is obvious. The silent fool Ryuji hangs today. Do not waste my time.,"['Exe:Ryuji', 'Sus:Ryuji', 'Pers:ALL']"
+1,talk,17,3,5,...,,Ryuji: ...,['Other']
+1,talk,18,3,2,Alright Minako. I'll join you and Shion in voting for Ryuji. Let's get answers.,,Sakura: Alright Minako. I'll join you and Shion in voting for Ryuji. Let's get answers.,"['Vote[Sakura]:Ryuji', 'Agr:Minako(Vote[Minako]:Ryuji)', 'Agr:Shion(Vote[Shion]:Ryuji)']"
+1,talk,19,3,1,I will vote Sakura.,,Midori: I will vote Sakura.,['Vote[Midori]:Sakura']
+0,status,1,POSSESSED,ALIVE,mille1,Midori,mille1,
+0,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+0,status,3,VILLAGER,ALIVE,CanisLupus1,Shion,CanisLupus1,
+0,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+0,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+0,divine,2,3,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,mille1,Midori,mille1,
+1,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+1,status,3,VILLAGER,ALIVE,CanisLupus1,Shion,CanisLupus1,
+1,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+1,status,5,WEREWOLF,ALIVE,CamelliaDragons1,Ryuji,CamelliaDragons1,
+1,vote,1,2,,,,,
+1,vote,2,5,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,1,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,mille1,Midori,mille1,
+2,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+2,status,3,VILLAGER,ALIVE,CanisLupus1,Shion,CanisLupus1,
+2,status,4,VILLAGER,ALIVE,sunamelli1,Minako,sunamelli1,
+2,status,5,WEREWOLF,DEAD,CamelliaDragons1,Ryuji,CamelliaDragons1,
+2,result,4,0,VILLAGER,,,,

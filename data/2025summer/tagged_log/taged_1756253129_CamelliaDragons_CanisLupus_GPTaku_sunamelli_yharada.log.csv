@@ -1,0 +1,53 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,...,,Mizuki: ...,['Other']
+0,talk,1,0,5,Hey everyone! What do you think we should focus on first today? Any initial thoughts?,,Yumi: Hey everyone! What do you think we should focus on first today? Any initial thoughts?,['Req(Discuss)']
+0,talk,2,0,1,Skip,,Shion: Skip,['Wait']
+0,talk,3,0,4,Hello everyone! I'm Minato ready to uncover secrets and have fun. Let's find those werewolves!,,Minato: Hello everyone! I'm Minato ready to uncover secrets and have fun. Let's find those werewolves!,"['Pers:ALL', 'Req(Discuss)']"
+0,talk,4,0,2,Good morning everyone new games are days filled with uncertainty but also hope; may we seek truth together.,,Servas: Good morning everyone new games are days filled with uncertainty but also hope; may we seek truth together.,['Pers:ALL']
+0,talk,6,1,5,I agree Minato! Let's work together and see if we can find any clues today.,,Yumi: I agree Minato! Let's work together and see if we can find any clues today.,"[""Agr:Minato(Let's work together)""]"
+0,talk,7,1,1,My name is Shion. Let's have a productive game.,,Shion: My name is Shion. Let's have a productive game.,['Pers:ALL']
+0,talk,10,2,5,Nice to meet you Shion! Let's all keep an open mind and share our thoughts.,,Yumi: Nice to meet you Shion! Let's all keep an open mind and share our thoughts.,"['Mt:Shion', 'Pers:ALL', 'Req(Discuss)']"
+0,talk,12,3,5,Has anyone noticed anything unusual or any patterns yet? Let's discuss.,,Yumi: Has anyone noticed anything unusual or any patterns yet? Let's discuss.,['Req(Discuss)']
+1,talk,0,0,2,I am the Seer. I checked Minato last night—Minato is Human. Let's agree not to vote Minato today.,,Servas: I am the Seer. I checked Minato last night—Minato is Human. Let's agree not to vote Minato today.,"['CO[Servas]:Seer', 'DivT[Servas]:Minato->not(Werewolf)', 'Pers:ALL']"
+1,talk,1,0,4,Thank you Servas for the confirmation. This helps clear some suspicions. Let's focus our attentions elsewhere then.,,Minato: Thank you Servas for the confirmation. This helps clear some suspicions. Let's focus our attentions elsewhere then.,"['Agr:Servas', 'Req(Discuss)']"
+1,talk,2,0,1,I am the Seer. My investigation of Yumi last night confirmed she is the Werewolf.,,Shion: I am the Seer. My investigation of Yumi last night confirmed she is the Werewolf.,"['CO[Shion]:Seer', 'DivT[Shion]:Yumi->Werewolf']"
+1,talk,3,0,5,Shion why should we trust your claim over Servas'? Let's hear more from both sides.,,Yumi: Shion why should we trust your claim over Servas'? Let's hear more from both sides.,"['Mt:Shion', 'Dis:Shion(CO[Shion]:Seer)', 'Req(Discuss)']"
+1,talk,4,0,3,...,,Mizuki: ...,['Other']
+1,talk,5,1,2,I’m voting Shion—her claim feels like a wolf’s distraction and I have real Seer results. Minato is clear.,,Servas: I’m voting Shion—her claim feels like a wolf’s distraction and I have real Seer results. Minato is clear.,"['Vote[Servas]:Shion', 'Dis:Shion(CO[Shion]:Seer)', 'Fact[Servas]:Minato->not(Werewolf)']"
+1,talk,6,1,4,Everyone let's vote for Yumi today based on Shion's divination result.,,Minato: Everyone let's vote for Yumi today based on Shion's divination result.,"['Req(V):Yumi', 'Agr:Shion', 'Pers:ALL']"
+1,talk,7,1,1,Two Seer claims. One is the real Seer one is the Possessed. I identified the threat. That is all.,,Shion: Two Seer claims. One is the real Seer one is the Possessed. I identified the threat. That is all.,"['XorEst:(Shion,Servas):(Seer <-> Cultist)']"
+1,talk,8,1,5,Minato let's not rush. We need more discussions before making any decisions.,,Yumi: Minato let's not rush. We need more discussions before making any decisions.,"['Mt:Minato', 'Req(Discuss)', 'Wait']"
+1,talk,9,1,3,...,,Mizuki: ...,['Other']
+1,talk,10,2,2,@Shion  your result contradicts my real Seer divination. Minato is human. Why did you pick Yumi to divine?,,Servas: @Shion  your result contradicts my real Seer divination. Minato is human. Why did you pick Yumi to divine?,"['Mt:Shion', 'Dis:Shion(DivT[Shion]:Yumi->Werewolf)', 'Fact[Servas]:Minato->not(Werewolf)', 'Req(T):Shion']"
+1,talk,11,2,4,Based on Shion's credible divination pointing to Yumi as the Werewolf we should focus on that lead for safety.,,Minato: Based on Shion's credible divination pointing to Yumi as the Werewolf we should focus on that lead for safety.,"['Agr:Shion', 'Est[Minato]:Yumi->Werewolf', 'Pers:ALL']"
+1,talk,12,2,1,Servas's report is unproductive. I found the threat. Logically we must execute Yumi today.,,Shion: Servas's report is unproductive. I found the threat. Logically we must execute Yumi today.,"['Vote[Shion]:Yumi', 'Dis:Servas(CO[Servas]:Seer)']"
+1,talk,13,2,5,Let's hear from Mizuki. We need more perspectives to make the best decision.,,Yumi: Let's hear from Mizuki. We need more perspectives to make the best decision.,"['Req(T):Mizuki', 'Req(Discuss)']"
+1,talk,14,2,3,...,,Mizuki: ...,['Other']
+1,talk,15,3,2,As the real Seer I’m voting Shion. Don’t risk letting a fake lead us astray—Minato is confirmed human.,,Servas: As the real Seer I’m voting Shion. Don’t risk letting a fake lead us astray—Minato is confirmed human.,"['CO[Servas]:Seer', 'Vote[Servas]:Shion', 'Fact[Servas]:Minato->not(Werewolf)', 'Dis:Shion(CO[Shion]:Seer)']"
+1,talk,16,3,4,Everyone we must consider Shion's divination. Voting for Yumi is logical given she was revealed as a Werewolf.,,Minato: Everyone we must consider Shion's divination. Voting for Yumi is logical given she was revealed as a Werewolf.,"['Req(V):Yumi', 'Agr:Shion']"
+1,talk,17,3,1,My report found the enemy. Servas's found nothing of value. The logical path is to execute Yumi.,,Shion: My report found the enemy. Servas's found nothing of value. The logical path is to execute Yumi.,"['Vote[Shion]:Yumi', 'Dis:Servas(CO[Servas]:Seer)']"
+1,talk,18,3,5,Mizuki we really need your input. What do you think about the current situation?,,Yumi: Mizuki we really need your input. What do you think about the current situation?,"['Mt:Mizuki', 'Req(T):Mizuki', 'Req(Discuss)']"
+1,talk,19,3,3,...,,Mizuki: ...,['Other']
+0,status,1,POSSESSED,ALIVE,CanisLupus1,Shion,CanisLupus1,
+0,status,2,SEER,ALIVE,sunamelli1,Servas,sunamelli1,
+0,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mizuki,CamelliaDragons1,
+0,status,4,VILLAGER,ALIVE,GPTaku1,Minato,GPTaku1,
+0,status,5,WEREWOLF,ALIVE,yharada1,Yumi,yharada1,
+0,divine,2,4,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,CanisLupus1,Shion,CanisLupus1,
+1,status,2,SEER,ALIVE,sunamelli1,Servas,sunamelli1,
+1,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mizuki,CamelliaDragons1,
+1,status,4,VILLAGER,ALIVE,GPTaku1,Minato,GPTaku1,
+1,status,5,WEREWOLF,ALIVE,yharada1,Yumi,yharada1,
+1,vote,1,5,,,,,
+1,vote,2,1,,,,,
+1,vote,3,2,,,,,
+1,vote,4,5,,,,,
+1,vote,5,3,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,CanisLupus1,Shion,CanisLupus1,
+2,status,2,SEER,ALIVE,sunamelli1,Servas,sunamelli1,
+2,status,3,VILLAGER,ALIVE,CamelliaDragons1,Mizuki,CamelliaDragons1,
+2,status,4,VILLAGER,ALIVE,GPTaku1,Minato,GPTaku1,
+2,status,5,WEREWOLF,DEAD,yharada1,Yumi,yharada1,
+2,result,4,0,VILLAGER,,,,

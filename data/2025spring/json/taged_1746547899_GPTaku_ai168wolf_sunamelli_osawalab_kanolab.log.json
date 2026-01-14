@@ -1,0 +1,702 @@
+{
+  "filename": "taged_1746547899_GPTaku_ai168wolf_sunamelli_osawalab_kanolab.log.csv",
+  "exec_id": 2,
+  "attack_id": 3,
+  "agent": [
+    {
+      "id": 1,
+      "role": "POSSESSED",
+      "agent_name": "ai168wolf1",
+      "character_name": "グレッグ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "グレッグ",
+            "recepient_role": "狂人",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 10
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リュカ",
+            "count": 3
+          },
+          {
+            "recepient_id": "ユイ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リク",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "リク",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "グレッグ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Est": [
+          {
+            "speaker_id": "グレッグ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 8
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "グレッグ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "リク",
+            "count": 4
+          }
+        ],
+        "admiration": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユイ",
+            "count": 2
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "SEER",
+      "agent_name": "sunamelli1",
+      "character_name": "リュカ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 5
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "リュカ",
+            "recepient_role": "占い師",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "リュカ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユウ",
+            "count": 3
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "リュカ",
+            "recepient_id": "グレッグ",
+            "recepient_role": "狂人",
+            "count": 1
+          },
+          {
+            "speaker_id": "リュカ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 2
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "グレッグ",
+            "left_role": "狂人",
+            "right_id": "(リュカ",
+            "right_role": "占い師)",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "リュカ",
+            "recepient_role": "ユウ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "5",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "VILLAGER",
+      "agent_name": "osawalab1",
+      "character_name": "ユイ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ユイ",
+            "recepient_role": "村人",
+            "count": 1
+          },
+          {
+            "speaker_id": "グレッグ",
+            "recepient_role": "狂人",
+            "count": 1
+          },
+          {
+            "speaker_id": "ユイ",
+            "recepient_role": "狂人",
+            "count": 1
+          }
+        ],
+        "Admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リュカ",
+            "count": 1
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          },
+          {
+            "recepient_id": "リク",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 3
+          },
+          {
+            "recepient_id": "リュカ",
+            "count": 4
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "リク",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "グレッグ（CO[グレッグ]:狂人）",
+            "count": 2
+          },
+          {
+            "recepient_id": "リュカ",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "リク",
+            "count": 1
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "kanolab1",
+      "character_name": "リク",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "リク",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "グレッグ（CO[グレッグ]:狂人）",
+            "count": 1
+          },
+          {
+            "recepient_id": "リュカ",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 9
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ユウ",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "リュカ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 1
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "リュカ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          }
+        ],
+        "IF": [
+          {
+            "left_id": "ユウ",
+            "left_role": "占い師",
+            "right_id": "(リュカ",
+            "right_role": "not(占い師))",
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "リュカ",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "リク",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "リク",
+            "recepient_role": "ユウ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 12
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ユウ,Sus:グレッグ,Sus:ユイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユウ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 4
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 2
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "リク",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "ユウ",
+      "day1_info": {
+        "seer_co_order": 2,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 3
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "リュカ",
+            "recepient_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ユウ",
+            "recepient_id": "グレッグ",
+            "recepient_role": "狂人",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "リク",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "リク",
+            "count": 1
+          },
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "リュカ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "リク",
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ユウ",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "ユウ",
+            "recepient_role": "人狼",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ユイ",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "グレッグ",
+            "count": 1
+          },
+          {
+            "recepient_id": "リク",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    }
+  ]
+}

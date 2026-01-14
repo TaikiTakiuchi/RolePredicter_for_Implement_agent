@@ -1,0 +1,277 @@
+{
+  "filename": "taged_1756231017_CamelliaDragons_CanisLupus_GPTaku_mille_yharada.log.csv",
+  "exec_id": 3,
+  "attack_id": null,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "yharada1",
+      "character_name": "Minako",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Minako",
+            "recepient_role": "Villager",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "Daisuke",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Vote": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_role": "Ryuji",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "GPTaku1",
+      "character_name": "Jonathan",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Jonathan",
+            "recepient_role": "Seer",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "May",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Jonathan",
+            "recepient_id": "Ryuji",
+            "recepient_role": "Werewolf",
+            "count": 3
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "May",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "May",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 1
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 2
+          },
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "May",
+            "recepient_id": "Minako",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 1
+          },
+          {
+            "recepient_id": "Ryuji",
+            "count": 1
+          },
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "CanisLupus1",
+      "character_name": "Ryuji",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 2
+          },
+          {
+            "recepient_id": "Minako",
+            "count": 1
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_id": "Daisuke",
+            "recepient_role": "Villager",
+            "count": 4
+          },
+          {
+            "speaker_id": "Ryuji",
+            "recepient_id": "Jonathan",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_id": "Jonathan",
+            "recepient_role": "Werewolf",
+            "count": 1
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Ryuji",
+            "recepient_role": "Jonathan",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "3",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    }
+  ]
+}

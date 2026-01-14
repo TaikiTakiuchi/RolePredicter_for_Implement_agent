@@ -1,0 +1,644 @@
+{
+  "filename": "taged_1746536451_CamelliaDragons_kanolab_mille_GPTaku_ai168wolf.log.csv",
+  "exec_id": 3,
+  "attack_id": -1,
+  "agent": [
+    {
+      "id": 1,
+      "role": "WEREWOLF",
+      "agent_name": "ai168wolf1",
+      "character_name": "ミカ",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "ミカ（Other）",
+            "count": 2
+          },
+          {
+            "recepient_id": "ダン",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ダン",
+            "count": 2
+          },
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 12
+          }
+        ],
+        "calm": [
+          {
+            "count": 5
+          }
+        ],
+        "difficult": [
+          {
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ダイ",
+            "count": 2
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ダイ",
+            "recepient_role": "占い師",
+            "count": 1
+          },
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "ダイ",
+            "recepient_role": "白",
+            "count": 1
+          },
+          {
+            "speaker_id": "ダイ",
+            "recepient_id": "ミカ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "タク",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダイ",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 7
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ミカ",
+            "recepient_role": "村人",
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカ",
+            "count": 2
+          },
+          {
+            "recepient_id": "ダン",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ダン",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "アレン",
+            "count": 4
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 3
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "POSSESSED",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "ダイ",
+      "day1_info": {
+        "seer_co_order": 1,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 6
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "ダイ",
+            "recepient_role": "占い師",
+            "count": 4
+          }
+        ],
+        "Wait": [
+          {
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "ダイ",
+            "recepient_id": "ミカ",
+            "recepient_role": "白",
+            "count": 4
+          },
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "ダイ",
+            "recepient_role": "白",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "ダイ",
+            "recepient_id": "ミカ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 3
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "タク",
+            "count": 1
+          },
+          {
+            "recepient_id": "ダン",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "タク",
+            "count": 2
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "ダイ",
+            "recepient_role": "アレン",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "アレン",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "アレン",
+            "count": 1
+          },
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Exe": [
+          {
+            "recepient_id": "アレン",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "ダン",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ミカ",
+            "count": 5
+          },
+          {
+            "recepient_id": "ダン",
+            "count": 2
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Agr": [
+          {
+            "recepient_id": "タク",
+            "count": 1
+          }
+        ],
+        "ReqListen": [
+          {
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 2
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "3",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "SEER",
+      "agent_name": "kanolab1",
+      "character_name": "アレン",
+      "day1_info": {
+        "seer_co_order": 2,
+        "seer_co_num": 2,
+        "Fact": [
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "ダイ",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          },
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "ダイ",
+            "recepient_role": "not(占い師)",
+            "count": 1
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "ダイ",
+            "recepient_role": "白",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ],
+        "CO": [
+          {
+            "speaker_id": "アレン",
+            "recepient_role": "占い師",
+            "count": 3
+          }
+        ],
+        "Req(T)": [
+          {
+            "recepient_id": "ダイ",
+            "count": 1
+          },
+          {
+            "recepient_id": "タク",
+            "count": 3
+          },
+          {
+            "recepient_id": "タク君",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 5
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ダイ",
+            "count": 3
+          },
+          {
+            "recepient_id": "タク",
+            "count": 1
+          },
+          {
+            "recepient_id": "タク君",
+            "count": 1
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "アレン",
+            "recepient_id": "タク",
+            "recepient_role": "not(人狼)",
+            "count": 1
+          }
+        ],
+        "contradiction": [
+          {
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": "2",
+        "result": "HUMAN"
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "2",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "VILLAGER",
+      "agent_name": "mille1",
+      "character_name": "ダン",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "CO": [
+          {
+            "speaker_id": "ダン",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "Other": [
+          {
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Agr": [
+          {
+            "recepient_id": "ダイ（同意）",
+            "count": 1
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "ダイ",
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "タク",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 2,
+        "Other": [
+          {
+            "count": 5
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ダイ",
+            "count": 2
+          },
+          {
+            "recepient_id": "アレン",
+            "count": 2
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "calm": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Agr": [
+          {
+            "recepient_id": "ミカ（様子見の意見）",
+            "count": 1
+          }
+        ],
+        "calm": [
+          {
+            "count": 5
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 2
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "タク",
+            "recepient_id": "ミカ",
+            "recepient_role": "村人",
+            "count": 2
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "admiration": [
+          {
+            "count": 1
+          }
+        ],
+        "Exe": [
+          {
+            "recepient_id": "アレン",
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "ミカ",
+            "count": 1
+          }
+        ],
+        "Other": [
+          {
+            "count": 1
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    }
+  ]
+}

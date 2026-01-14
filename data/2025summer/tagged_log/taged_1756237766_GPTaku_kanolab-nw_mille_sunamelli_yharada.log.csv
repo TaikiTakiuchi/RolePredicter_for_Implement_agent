@@ -1,0 +1,52 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,3,Hi everyone! I’m Yumi. Let’s support each other tonight and keep the mood cheerful even if we get anxious!,,Yumi: Hi everyone! I’m Yumi. Let’s support each other tonight and keep the mood cheerful even if we get anxious!,"['Pers:ALL', 'calm']"
+0,talk,1,0,5,Hello everyone! I'm Mizuki and I'm thrilled to play Werewolf with you all. Let's have fun and enjoy the game!,,Mizuki: Hello everyone! I'm Mizuki and I'm thrilled to play Werewolf with you all. Let's have fun and enjoy the game!,['Pers:ALL']
+0,talk,2,0,2,Hello. I am Kenji. My role is seer. Have a good game.,,Kenji: Hello. I am Kenji. My role is seer. Have a good game.,['CO[Kenji]:Seer']
+0,talk,3,0,4,Mr. Kenji. I am eager to participate with everyone. When your divination result is ready would you kindly share it? Over.,,Asuka: Mr. Kenji. I am eager to participate with everyone. When your divination result is ready would you kindly share it? Over.,"['Mt:Kenji', 'Req(T):Kenji']"
+0,talk,4,0,1,Hi everyone! Let's work together and find the werewolves. Kenji looking forward to your insights!,,Rin: Hi everyone! Let's work together and find the werewolves. Kenji looking forward to your insights!,"['Req(Discuss)', 'Mt:Kenji', 'Req(T):Kenji']"
+0,talk,9,1,1,Kenji when you get a chance to share your vision it will really help us out!,,Rin: Kenji when you get a chance to share your vision it will really help us out!,"['Mt:Kenji', 'Req(T):Kenji']"
+0,talk,10,2,1,Mizuki do you have any initial thoughts on who might be suspicious?,,Rin: Mizuki do you have any initial thoughts on who might be suspicious?,"['Mt:Mizuki', 'Req(T):Mizuki']"
+0,talk,11,3,1,Asuka what do you think about Kenji's seer claim? Any thoughts to share?,,Rin: Asuka what do you think about Kenji's seer claim? Any thoughts to share?,"['Mt:Asuka', 'Req(T):Asuka']"
+1,talk,0,0,3,@Kenji  can you share your divination result please? It’s important we have all the info before making decisions.,,Yumi: @Kenji  can you share your divination result please? It’s important we have all the info before making decisions.,"['Mt:Kenji', 'Req(T):Kenji', 'Req(Discuss)']"
+1,talk,1,0,5,Let's wait for Kenji's divination results that could guide our decisions and clear some suspicions.,,Mizuki: Let's wait for Kenji's divination results that could guide our decisions and clear some suspicions.,"['Req(T):Kenji', 'Req(Discuss)']"
+1,talk,2,0,2,I am a seer. I divined Rin and Rin was a human.,,Kenji: I am a seer. I divined Rin and Rin was a human.,"['CO[Kenji]:Seer', 'DivT[Kenji]:Rin->White']"
+1,talk,3,0,4,Consider this. Kenji's claim holds weight as Rin is proven human. Let us now examine Mizuki and Yumi for any incongruities.,,Asuka: Consider this. Kenji's claim holds weight as Rin is proven human. Let us now examine Mizuki and Yumi for any incongruities.,"['Agr:Kenji(CO[Kenji]:Seer)', 'Sus:Mizuki', 'Sus:Yumi']"
+1,talk,4,0,1,Thank you Kenji! Asuka do you have any concerns about Mizuki or Yumi?,,Rin: Thank you Kenji! Asuka do you have any concerns about Mizuki or Yumi?,"['Mt:Asuka', 'Req(T):Asuka']"
+1,talk,5,1,3,@Asuka  you moved quickly to suspect Mizuki and me. Can you explain your logic a bit more so we’re clear on your view?,,Yumi: @Asuka  you moved quickly to suspect Mizuki and me. Can you explain your logic a bit more so we’re clear on your view?,"['Mt:Asuka', 'Req(T):Asuka', 'Dis:Asuka']"
+1,talk,6,1,5,Let's vote for Rin despite the divination result. Rin's eagerness for Kenji's divination could be a tactic to gain trust.,,Mizuki: Let's vote for Rin despite the divination result. Rin's eagerness for Kenji's divination could be a tactic to gain trust.,"['Vote[Mizuki]:Rin', 'Sus:Rin']"
+1,talk,7,1,2,I will vote Asuka.,,Kenji: I will vote Asuka.,['Vote[Kenji]:Asuka']
+1,talk,8,1,4,Mr. Kenji. I find your vote curious. Perhaps divination guided you? Ms. Yumi. I noted inconsistencies within our limited group.,,Asuka: Mr. Kenji. I find your vote curious. Perhaps divination guided you? Ms. Yumi. I noted inconsistencies within our limited group.,"['Mt:Kenji', 'Sus:Kenji', 'Mt:Yumi', 'Req(Discuss)']"
+1,talk,9,1,1,Mizuki I'm curious why you'd vote for me after Kenji's divination confirmed I'm human.,,Rin: Mizuki I'm curious why you'd vote for me after Kenji's divination confirmed I'm human.,"['Mt:Mizuki', 'Req(T):Mizuki', 'Sus:Mizuki']"
+1,talk,10,2,3,@Mizuki  why do you want to vote Rin after Kenji’s result showed she’s human? That doesn’t make sense to me.,,Yumi: @Mizuki  why do you want to vote Rin after Kenji’s result showed she’s human? That doesn’t make sense to me.,"['Mt:Mizuki', 'Req(T):Mizuki', 'Dis:Mizuki']"
+1,talk,11,2,5,Rin's behavior could be a strategy by the possessed to redirect suspicions and protect the werewolf.,,Mizuki: Rin's behavior could be a strategy by the possessed to redirect suspicions and protect the werewolf.,['Est[Mizuki]:Rin->Werewolf']
+1,talk,12,2,2,I will vote Asuka.,,Kenji: I will vote Asuka.,['Vote[Kenji]:Asuka']
+1,talk,13,2,4,Ms. Mizuki. Consider this. Voting for Rin is counterproductive if Rin is indeed human. We should focus on behaviors that contradict the evidence pre,,Asuka: Ms. Mizuki. Consider this. Voting for Rin is counterproductive if Rin is indeed human. We should focus on behaviors that contradict the evidence pre,"['Mt:Mizuki', 'Dis:Mizuki', 'Req(Discuss)']"
+1,talk,14,2,1,Mizuki let's focus on evidence. Why risk voting me when Kenji confirmed I'm human?,,Rin: Mizuki let's focus on evidence. Why risk voting me when Kenji confirmed I'm human?,"['Mt:Mizuki', 'Req(T):Mizuki', 'Sus:Mizuki']"
+1,talk,15,3,3,@Mizuki  your logic confuses me. Voting for a confirmed human isn’t helpful. I’m voting Mizuki to protect the village.,,Yumi: @Mizuki  your logic confuses me. Voting for a confirmed human isn’t helpful. I’m voting Mizuki to protect the village.,"['Mt:Mizuki', 'Dis:Mizuki', 'Vote[Yumi]:Mizuki', 'Pers:ALL']"
+1,talk,16,3,5,I understand the concerns but let's not ignore possible manipulation tactics. Vote Rin and observe reactions; it might reveal more.,,Mizuki: I understand the concerns but let's not ignore possible manipulation tactics. Vote Rin and observe reactions; it might reveal more.,"['Vote[Mizuki]:Rin', 'Pers:ALL', 'Req(Discuss)']"
+1,talk,17,3,2,I will vote Asuka.,,Kenji: I will vote Asuka.,['Vote[Kenji]:Asuka']
+1,talk,18,3,4,Ms. Mizuki. Consider this. Voting for a cleared villager like Rin may raise suspicion. Let's find contradictions. It is crucial!,,Asuka: Ms. Mizuki. Consider this. Voting for a cleared villager like Rin may raise suspicion. Let's find contradictions. It is crucial!,"['Mt:Mizuki', 'Sus:Mizuki', 'Req(Discuss)']"
+1,talk,19,3,1,Yumi thanks for trusting the divination. Mizuki let's focus on finding real contradictions.,,Rin: Yumi thanks for trusting the divination. Mizuki let's focus on finding real contradictions.,"['Mt:Yumi', 'Agr:Yumi(DivT[Kenji]:Rin->White)', 'Mt:Mizuki', 'Req(Discuss)']"
+0,status,1,POSSESSED,ALIVE,yharada1,Rin,yharada1,
+0,status,2,SEER,ALIVE,mille1,Kenji,mille1,
+0,status,3,VILLAGER,ALIVE,sunamelli1,Yumi,sunamelli1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+0,status,5,WEREWOLF,ALIVE,GPTaku1,Mizuki,GPTaku1,
+0,divine,2,1,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,yharada1,Rin,yharada1,
+1,status,2,SEER,ALIVE,mille1,Kenji,mille1,
+1,status,3,VILLAGER,ALIVE,sunamelli1,Yumi,sunamelli1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+1,status,5,WEREWOLF,ALIVE,GPTaku1,Mizuki,GPTaku1,
+1,vote,1,3,,,,,
+1,vote,2,4,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,1,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,yharada1,Rin,yharada1,
+2,status,2,SEER,ALIVE,mille1,Kenji,mille1,
+2,status,3,VILLAGER,ALIVE,sunamelli1,Yumi,sunamelli1,
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Asuka,kanolab-nw1,
+2,status,5,WEREWOLF,DEAD,GPTaku1,Mizuki,GPTaku1,
+2,result,4,0,VILLAGER,,,,

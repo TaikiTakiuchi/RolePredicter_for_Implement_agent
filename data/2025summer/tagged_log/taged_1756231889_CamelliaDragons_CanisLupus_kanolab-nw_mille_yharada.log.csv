@@ -1,0 +1,53 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,Hello everyone. I am Daisuke. Maybe looking forward to playing this werewolf game. I guess getting to know you all better. Over.,,Daisuke: Hello everyone. I am Daisuke. Maybe looking forward to playing this werewolf game. I guess getting to know you all better. Over.,['Other']
+0,talk,1,0,2,I am Toshio. My role is Villager. I will observe quietly and contribute logically when possible. @Daisuke  can you share your role? Transparency benefits the village.,,Toshio: I am Toshio. My role is Villager. I will observe quietly and contribute logically when possible. @Daisuke  can you share your role? Transparency benefits the village.,"['CO[Toshio]:Villager', 'Mt:Daisuke', 'Req(CO)', 'Pers:ALL']"
+0,talk,2,0,1,Let's not rush role claims Daisuke. Let's observe and discuss first to spot inconsistencies.,,Shion: Let's not rush role claims Daisuke. Let's observe and discuss first to spot inconsistencies.,"['Mt:Daisuke', 'Dis:Daisuke', 'Req(Discuss)']"
+0,talk,3,0,3,Hello. I am Mio. My role is villager. Have a good game.,,Mio: Hello. I am Mio. My role is villager. Have a good game.,['CO[Mio]:Villager']
+0,talk,4,0,5,Skip,,May: Skip,['Other']
+0,talk,7,1,1,Mio thanks for sharing. Let's focus on gathering info rather than roles right now.,,Shion: Mio thanks for sharing. Let's focus on gathering info rather than roles right now.,"['Agr:Mio(CO[Mio]:Villager)', 'Req(Discuss)']"
+0,talk,9,1,5,Fufufu. I am May. I do enjoy a captivating story. I hope you all prove to be amusing.,,May: Fufufu. I am May. I do enjoy a captivating story. I hope you all prove to be amusing.,['Other']
+0,talk,10,2,1,May let's keep it engaging by analyzing behavior and spotting contradictions.,,Shion: May let's keep it engaging by analyzing behavior and spotting contradictions.,"['Mt:May', 'Req(Discuss)']"
+0,talk,12,3,1,Toshio you've been quiet. Any thoughts on how to approach our investigation today?,,Shion: Toshio you've been quiet. Any thoughts on how to approach our investigation today?,"['Mt:Toshio', 'Req(T):Toshio', 'Req(Discuss)']"
+1,talk,0,0,4,Um. I guess I'm the Seer. So. I divined Ms. Shion. She's a Werewolf. Could we maybe discuss what to do next? Please?,,Daisuke: Um. I guess I'm the Seer. So. I divined Ms. Shion. She's a Werewolf. Could we maybe discuss what to do next? Please?,"['CO[Daisuke]:Seer', 'DivT[Daisuke]:Shion->Werewolf', 'Req(Discuss)']"
+1,talk,1,0,5,Oh dear  @Daisuke  that was not a convincing performance. I am the true seer. My vision showed Toshio is human.,,May: Oh dear  @Daisuke  that was not a convincing performance. I am the true seer. My vision showed Toshio is human.,"['Mt:Daisuke', 'Dis:Daisuke(CO[Daisuke]:Seer)', 'CO[May]:Seer', 'DivT[May]:Toshio->not(Werewolf)']"
+1,talk,2,0,3,I will vote Toshio.,,Mio: I will vote Toshio.,['Vote[Mio]:Toshio']
+1,talk,3,0,2,This is a classic Seer counter-claim. I want both Seers to detail their reasoning for last night's target. @Mio  can you explain why you are voting for me? I would like to understand your reasoning.,,Toshio: This is a classic Seer counter-claim. I want both Seers to detail their reasoning for last night's target. @Mio  can you explain why you are voting for me? I would like to understand your reasoning.,"['Dis:Daisuke(CO[Daisuke]:Seer)', 'Dis:May(CO[May]:Seer)', 'Req(CO):Seer', 'Mt:Mio', 'Req(T):Mio']"
+1,talk,4,0,1,Daisuke I'm not a Werewolf. May's claim seems more credible. Let's hear more from you both.,,Shion: Daisuke I'm not a Werewolf. May's claim seems more credible. Let's hear more from you both.,"['Mt:Daisuke', 'Fact[Shion]:Shion->not(Werewolf)', 'Agr:May', 'Req(T):Daisuke', 'Req(T):May']"
+1,talk,5,1,4,I guess Ms. May's claim seems like deflection. My choice... it was based on Mr. Shion's behavior. Solving this is key. Please believe me.,,Daisuke: I guess Ms. May's claim seems like deflection. My choice... it was based on Mr. Shion's behavior. Solving this is key. Please believe me.,"['Dis:May(CO[May]:Seer)', 'Est[Daisuke]:Shion->Werewolf', 'Pers:ALL']"
+1,talk,6,1,5,Fufufu. A true seer and a possessed. Daisuke is a delightful distraction but the true wolf is Mio.,,May: Fufufu. A true seer and a possessed. Daisuke is a delightful distraction but the true wolf is Mio.,"['Dis:Daisuke(CO[Daisuke]:Seer)', 'Est[May]:Mio->Werewolf', 'Est[May]:Daisuke->Cultist']"
+1,talk,7,1,3,I will vote Daisuke.,,Mio: I will vote Daisuke.,['Vote[Mio]:Daisuke']
+1,talk,8,1,2,Both Seers targeted those who spoke up yesterday. May's claim still lacks detail. We must scrutinize vote intentions closely. @May  your Seer claim is bold. Explain why you targeted me for divination rather than Daisuke or Shion.,,Toshio: Both Seers targeted those who spoke up yesterday. May's claim still lacks detail. We must scrutinize vote intentions closely. @May  your Seer claim is bold. Explain why you targeted me for divination rather than Daisuke or Shion.,"['Req(Discuss)', 'Dis:May(CO[May]:Seer)', 'Mt:May', 'Req(T):May']"
+1,talk,9,1,1,May your claim is intriguing. Why trust you over Daisuke? Evidence is key.,,Shion: May your claim is intriguing. Why trust you over Daisuke? Evidence is key.,"['Mt:May', 'Req(T):May', 'Req(T):Daisuke', 'Req(Discuss)']"
+1,talk,10,2,4,I need to trust my divine. Maybe Mr. Toshio feels human. Let's think about tonight.  @Toshio  Voting is tough when stakes are high. Please let's make wise choices. Who do you think is the wolf?,,Daisuke: I need to trust my divine. Maybe Mr. Toshio feels human. Let's think about tonight.  @Toshio  Voting is tough when stakes are high. Please let's make wise choices. Who do you think is the wolf?,"['Est[Daisuke]:Toshio->not(Werewolf)', 'Mt:Toshio', 'Req(Discuss)', 'Pers:ALL']"
+1,talk,11,2,5,Let us not waste our time on the possessed soul. Mio's strange vote is far more telling. Vote Mio.,,May: Let us not waste our time on the possessed soul. Mio's strange vote is far more telling. Vote Mio.,"['Req(V):Mio', 'Est[May]:Mio->Werewolf']"
+1,talk,12,2,3,I will vote May.,,Mio: I will vote May.,['Vote[Mio]:May']
+1,talk,13,2,2,Shion and May both pressed for evidence. Daisuke explain how Shion's behavior specifically prompted your divination choice. @Daisuke Transparency is critical now. Articulate what in Shion's actions prompted suspicion last night.,,Toshio: Shion and May both pressed for evidence. Daisuke explain how Shion's behavior specifically prompted your divination choice. @Daisuke Transparency is critical now. Articulate what in Shion's actions prompted suspicion last night.,"['Mt:Daisuke', 'Req(T):Daisuke']"
+1,talk,14,2,1,Daisuke clarify what about my actions seemed suspicious. We need clear reasoning.,,Shion: Daisuke clarify what about my actions seemed suspicious. We need clear reasoning.,"['Mt:Daisuke', 'Req(T):Daisuke', 'Req(Discuss)']"
+1,talk,15,3,4,Maybe it's like some kind of... werewolf tactic by Shion allying with Ms. May. Ignoring it could be our downfall I guess.,,Daisuke: Maybe it's like some kind of... werewolf tactic by Shion allying with Ms. May. Ignoring it could be our downfall I guess.,"['Sus:Shion', 'Sus:May', 'Est[Daisuke]:Shion->Werewolf', 'Est[Daisuke]:May->Werewolf']"
+1,talk,16,3,5,My my. A panicked wolf is so easy to spot.  @Mio  your vote for my dear human Toshio was a fatal misstep.,,May: My my. A panicked wolf is so easy to spot.  @Mio  your vote for my dear human Toshio was a fatal misstep.,"['Mt:Mio', 'Dis:Mio(Vote[Mio]:Toshio)', 'Est[May]:Mio->Werewolf']"
+1,talk,17,3,3,I will vote May.,,Mio: I will vote May.,['Vote[Mio]:May']
+1,talk,18,3,2,May and Daisuke both claim Seer and have conflicting divinations. Mio's votes fluctuate. No clear reasons yet. @Shion  what are your thoughts on Mio's voting pattern and what it suggests for finding the wolf?,,Toshio: May and Daisuke both claim Seer and have conflicting divinations. Mio's votes fluctuate. No clear reasons yet. @Shion  what are your thoughts on Mio's voting pattern and what it suggests for finding the wolf?,"['Mt:Shion', 'Req(T):Shion', 'Sus:Mio']"
+1,talk,19,3,1,Mio's voting seems erratic suggesting uncertainty. It warrants scrutiny for possible deception.,,Shion: Mio's voting seems erratic suggesting uncertainty. It warrants scrutiny for possible deception.,"['Sus:Mio', 'Req(Discuss)']"
+0,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+0,status,2,VILLAGER,ALIVE,CamelliaDragons1,Toshio,CamelliaDragons1,
+0,status,3,WEREWOLF,ALIVE,mille1,Mio,mille1,
+0,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+0,status,5,SEER,ALIVE,CanisLupus1,May,CanisLupus1,
+0,divine,5,2,HUMAN,,,,
+1,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+1,status,2,VILLAGER,ALIVE,CamelliaDragons1,Toshio,CamelliaDragons1,
+1,status,3,WEREWOLF,ALIVE,mille1,Mio,mille1,
+1,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+1,status,5,SEER,ALIVE,CanisLupus1,May,CanisLupus1,
+1,vote,1,3,,,,,
+1,vote,2,3,,,,,
+1,vote,3,5,,,,,
+1,vote,4,1,,,,,
+1,vote,5,3,,,,,
+1,execute,3,WEREWOLF,,,,,
+2,status,1,VILLAGER,ALIVE,yharada1,Shion,yharada1,
+2,status,2,VILLAGER,ALIVE,CamelliaDragons1,Toshio,CamelliaDragons1,
+2,status,3,WEREWOLF,DEAD,mille1,Mio,mille1,
+2,status,4,POSSESSED,ALIVE,kanolab-nw1,Daisuke,kanolab-nw1,
+2,status,5,SEER,ALIVE,CanisLupus1,May,CanisLupus1,
+2,result,4,0,VILLAGER,,,,

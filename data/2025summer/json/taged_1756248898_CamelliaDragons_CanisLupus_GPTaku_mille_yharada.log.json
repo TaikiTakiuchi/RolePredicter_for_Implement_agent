@@ -1,0 +1,292 @@
+{
+  "filename": "taged_1756248898_CamelliaDragons_CanisLupus_GPTaku_mille_yharada.log.csv",
+  "exec_id": 1,
+  "attack_id": 4,
+  "agent": [
+    {
+      "id": 1,
+      "role": "VILLAGER",
+      "agent_name": "GPTaku1",
+      "character_name": "Yumi",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_role": "Seer",
+            "count": 4
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Yumi",
+            "recepient_id": "Servas",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Servas",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "4",
+      "day2_vote_id": null
+    },
+    {
+      "id": 2,
+      "role": "VILLAGER",
+      "agent_name": "CanisLupus1",
+      "character_name": "Daisuke",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Dis": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 3
+          }
+        ],
+        "Est": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "Rin",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "difficult": [
+          {
+            "count": 1
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Servas,Sus:Yumi",
+            "count": 1
+          }
+        ],
+        "Req(V)": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 4
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Daisuke",
+            "recepient_id": "Yumi",
+            "recepient_role": "Cultist",
+            "count": 3
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Jonathan",
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "5",
+      "day2_vote_id": null
+    },
+    {
+      "id": 3,
+      "role": "WEREWOLF",
+      "agent_name": "CamelliaDragons1",
+      "character_name": "Rin",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day2_info": {
+        "Other": [
+          {
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 4,
+      "role": "POSSESSED",
+      "agent_name": "mille1",
+      "character_name": "Servas",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "CO": [
+          {
+            "speaker_id": "Servas",
+            "recepient_role": "Seer",
+            "count": 1
+          }
+        ],
+        "Vote": [
+          {
+            "speaker_id": "Servas",
+            "recepient_role": "Yumi",
+            "count": 3
+          }
+        ],
+        "DivT": [
+          {
+            "speaker_id": "Servas",
+            "recepient_id": "Yumi",
+            "recepient_role": "White",
+            "count": 1
+          }
+        ]
+      },
+      "day2_info": {},
+      "day1_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day2_Div": {
+        "agent": null,
+        "result": null
+      },
+      "day1_vote_id": "1",
+      "day2_vote_id": null
+    },
+    {
+      "id": 5,
+      "role": "SEER",
+      "agent_name": "yharada1",
+      "character_name": "Jonathan",
+      "day1_info": {
+        "seer_co_order": null,
+        "seer_co_num": 0,
+        "Est": [
+          {
+            "speaker_id": "Jonathan",
+            "recepient_id": "Rin",
+            "recepient_role": "Werewolf",
+            "count": 4
+          }
+        ],
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 3
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 1
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 3
+          }
+        ]
+      },
+      "day2_info": {
+        "Mt": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 4
+          }
+        ],
+        "Fact": [
+          {
+            "speaker_id": "Jonathan",
+            "recepient_id": "Rin",
+            "recepient_role": "Werewolf",
+            "count": 2
+          }
+        ],
+        "Sus": [
+          {
+            "recepient_id": "Rin",
+            "count": 2
+          }
+        ],
+        "Dis": [
+          {
+            "recepient_id": "Daisuke",
+            "count": 1
+          }
+        ],
+        "ReqDiscuss": [
+          {
+            "count": 4
+          }
+        ],
+        "Pers": [
+          {
+            "recepient_id": "ALL",
+            "count": 4
+          }
+        ]
+      },
+      "day1_Div": {
+        "agent": "3",
+        "result": "WEREWOLF"
+      },
+      "day2_Div": {
+        "agent": "3",
+        "result": "WEREWOLF"
+      },
+      "day1_vote_id": null,
+      "day2_vote_id": null
+    }
+  ]
+}

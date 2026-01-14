@@ -1,0 +1,74 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,1,Skip,,Toshio: Skip,['Wait']
+0,talk,1,0,5,Hello. I am Mio. My role is villager. Have a good game.,,Mio: Hello. I am Mio. My role is villager. Have a good game.,['CO[Mio]:Villager']
+0,talk,2,0,2,Thanks  Mio — noted.  @Kenji   what's your role and who do you suspect? Toshio  you skipped — any reason? I'm not ready to vote yet. Over,,Victoria: Thanks  Mio — noted.  @Kenji   what's your role and who do you suspect? Toshio  you skipped — any reason? I'm not ready to vote yet. Over,"['Agr:Mio', 'Mt:Kenji', 'Req(T):Kenji', 'Req(T):Toshio', 'Wait']"
+0,talk,3,0,4,Hey everyone I’m Kenji—let's make this a fun and fair game together. Who’s up for sharing their thoughts first?,,Kenji: Hey everyone I’m Kenji—let's make this a fun and fair game together. Who’s up for sharing their thoughts first?,['Req(Discuss)']
+0,talk,4,0,3,Hi everyone I'm Servas! Ready for some thrilling Werewolf action? Let's uncover the mysteries together!,,Servas: Hi everyone I'm Servas! Ready for some thrilling Werewolf action? Let's uncover the mysteries together!,['Req(Discuss)']
+0,talk,5,1,1,My name is Toshio. Apologies. I was observing the terms of our engagement. Order requires contemplation.,,Toshio: My name is Toshio. Apologies. I was observing the terms of our engagement. Order requires contemplation.,['calm']
+0,talk,7,1,2,Let's do quick reads — name one suspect and one short reason. I'll wait to vote until I hear them.  @Kenji  — who do you suspect and why? Toshio  Servas  Mio — one line each please. Over,,Victoria: Let's do quick reads — name one suspect and one short reason. I'll wait to vote until I hear them.  @Kenji  — who do you suspect and why? Toshio  Servas  Mio — one line each please. Over,"['Req(T):Kenji', 'Req(T):Toshio', 'Req(T):Servas', 'Req(T):Mio', 'Wait']"
+0,talk,11,2,2,We need some reads.  @Kenji  — who do you suspect and why? Servas  Toshio  Mio — one line each: your top suspect and whether you'll vote today. Over,,Victoria: We need some reads.  @Kenji  — who do you suspect and why? Servas  Toshio  Mio — one line each: your top suspect and whether you'll vote today. Over,"['Req(Discuss)', 'Req(T):Kenji', 'Req(T):Servas', 'Req(T):Toshio', 'Req(T):Mio']"
+0,talk,12,3,2,I'm still not ready to vote.  @Kenji  who do you suspect and why? Servas  Toshio  Mio — one line each: your top suspect and will you vote today? Over,,Victoria: I'm still not ready to vote.  @Kenji  who do you suspect and why? Servas  Toshio  Mio — one line each: your top suspect and will you vote today? Over,"['Wait', 'Req(T):Kenji', 'Req(T):Servas', 'Req(T):Toshio', 'Req(T):Mio']"
+1,talk,0,0,3,I'm holding back on voting and don't have a solid suspect yet. Still gathering info.,,Servas: I'm holding back on voting and don't have a solid suspect yet. Still gathering info.,"['Wait', 'difficult']"
+1,talk,1,0,4,@Toshio  you’re being quiet. Are you going to claim your role or wait for someone else to speak up first?,,Kenji: @Toshio  you’re being quiet. Are you going to claim your role or wait for someone else to speak up first?,"['Mt:Toshio', 'Req(T):Toshio']"
+1,talk,2,0,2,@Toshio  Please answer Kenji — will you claim a role or keep observing? Servas  can you at least name one suspect so we can move toward a vote? Over,,Victoria: @Toshio  Please answer Kenji — will you claim a role or keep observing? Servas  can you at least name one suspect so we can move toward a vote? Over,"['Mt:Toshio', 'Req(T):Toshio', 'Mt:Servas', 'Req(T):Servas', 'Req(Discuss)']"
+1,talk,3,0,5,I will vote Victoria.,,Mio: I will vote Victoria.,['Vote[Mio]:Victoria']
+1,talk,4,0,1,My contract compels me to speak. I am the Seer. Victoria was revealed to me as the Werewolf.,,Toshio: My contract compels me to speak. I am the Seer. Victoria was revealed to me as the Werewolf.,"['CO[Toshio]:Seer', 'DivT[Toshio]:Victoria->Werewolf']"
+1,talk,5,1,3,Vote for Victoria please! Her actions are suspicious and Toshio's divination revealed her as the Werewolf.,,Servas: Vote for Victoria please! Her actions are suspicious and Toshio's divination revealed her as the Werewolf.,"['Vote[Servas]:Victoria', 'Sus:Victoria', 'Agr:Toshio(Vote[Servas]:Victoria)']"
+1,talk,6,1,4,@Victoria  Toshio claims you are the Werewolf. What do you say to defend yourself? This is important for our vote.,,Kenji: @Victoria  Toshio claims you are the Werewolf. What do you say to defend yourself? This is important for our vote.,"['Mt:Victoria', 'Req(T):Victoria']"
+1,talk,7,1,2,I'm not the werewolf. I'm the real Seer — last night I divined  @Kenji  and he was HUMAN. Toshio's seer claim is false; he's the one to suspect. Don't lynch me — vote Toshio instead. Over,,Victoria: I'm not the werewolf. I'm the real Seer — last night I divined  @Kenji  and he was HUMAN. Toshio's seer claim is false; he's the one to suspect. Don't lynch me — vote Toshio instead. Over,"['CO[Victoria]:Seer', 'DivT[Victoria]:Kenji->White', 'Dis:Toshio(CO[Toshio]:Seer)', 'Vote[Victoria]:Toshio', 'Sus:Toshio']"
+1,talk,8,1,5,I will vote Toshio.,,Mio: I will vote Toshio.,['Vote[Mio]:Toshio']
+1,talk,9,1,1,Two visions are before us. I saw the wolf. She creates a human shield. This pact with  @Kenji  is false.,,Toshio: Two visions are before us. I saw the wolf. She creates a human shield. This pact with  @Kenji  is false.,"['CO[Toshio]:Seer', 'Sus:Kenji']"
+1,talk,10,2,3,Based on Toshio revealing me as the Werewolf vote for Victoria. Her claim after being exposed doesn't add up.,,Servas: Based on Toshio revealing me as the Werewolf vote for Victoria. Her claim after being exposed doesn't add up.,"['Vote[Servas]:Victoria', 'Sus:Victoria', 'Dis:Victoria(her post-claim)', 'Agr:Toshio(Vote[Servas]:Victoria)']"
+1,talk,11,2,4,I was scanned “human” by Victoria so if she’s the real Seer Toshio has to be the wolf.,,Kenji: I was scanned “human” by Victoria so if she’s the real Seer Toshio has to be the wolf.,"['DivT[Victoria]:Kenji->White', 'Est[Kenji]:Toshio->Werewolf']"
+1,talk,12,2,2,I am the real Seer. I divined Kenji last night — HUMAN.  @Toshio  your seer claim is fake; you're lying. Don't lynch me — vote Toshio. Servas  Mio  why are you pushing Victoria? Kenji  any reads? Over,,Victoria: I am the real Seer. I divined Kenji last night — HUMAN.  @Toshio  your seer claim is fake; you're lying. Don't lynch me — vote Toshio. Servas  Mio  why are you pushing Victoria? Kenji  any reads? Over,"['CO[Victoria]:Seer', 'DivT[Victoria]:Kenji->White', 'Dis:Toshio(CO[Toshio]:Seer)', 'Vote[Victoria]:Toshio', 'Mt:Servas', 'Mt:Mio', 'Mt:Kenji', 'Req(T):Servas', 'Req(T):Mio', 'Req(T):Kenji']"
+1,talk,13,2,5,I will vote Victoria.,,Mio: I will vote Victoria.,['Vote[Mio]:Victoria']
+1,talk,14,2,1,Observe the timing. My testimony was given. Hers was a rebuttal. Truth does not require a prompt.,,Toshio: Observe the timing. My testimony was given. Hers was a rebuttal. Truth does not require a prompt.,['Dis:Victoria(Claim timing)']
+1,talk,15,3,3,Keep your vote on Victoria. Toshio's divination came before her claim which makes her reaction seem defensive.,,Servas: Keep your vote on Victoria. Toshio's divination came before her claim which makes her reaction seem defensive.,"['Vote[Servas]:Victoria', 'Dis:Victoria(reactive)', 'Agr:Toshio(Vote[Servas]:Victoria)']"
+1,talk,16,3,4,@Servas  @Mio Victoria scanned me human which matches my true role so I trust her CO and will vote Toshio as werewolf.,,Kenji: @Servas  @Mio Victoria scanned me human which matches my true role so I trust her CO and will vote Toshio as werewolf.,"['Mt:Servas', 'Mt:Mio', 'DivT[Victoria]:Kenji->White', 'Agr:Victoria(CO)', 'Vote[Kenji]:Toshio', 'Sus:Toshio']"
+1,talk,17,3,2,I divined Kenji last night — HUMAN.  @Toshio  your seer claim is fake; you accused me falsely. Mio  Servas — why are you pushing me? Give a concrete reason or I'll vote Toshio. Kenji any reads? Over,,Victoria: I divined Kenji last night — HUMAN.  @Toshio  your seer claim is fake; you accused me falsely. Mio  Servas — why are you pushing me? Give a concrete reason or I'll vote Toshio. Kenji any reads? Over,"['DivT[Victoria]:Kenji->White', 'Dis:Toshio(CO[Toshio]:Seer)', 'Mt:Toshio', 'Mt:Mio', 'Mt:Servas', 'Req(T):Mio', 'Req(T):Servas', 'Vote[Victoria]:Toshio', 'Mt:Kenji', 'Req(T):Kenji']"
+1,talk,18,3,5,I will vote Victoria.,,Mio: I will vote Victoria.,['Vote[Mio]:Victoria']
+2,talk,0,0,5,I will vote Toshio.,,Mio: I will vote Toshio.,['Vote[Mio]:Toshio']
+2,talk,1,0,1,The contract is fulfilled. The scales are balanced. Our victory is absolute.,,Toshio: The contract is fulfilled. The scales are balanced. Our victory is absolute.,['Other']
+2,talk,2,0,3,Mio let's vote Toshio out today. The evidence suggests he's the Werewolf since only Victoria was falsely accused and attacked.,,Servas: Mio let's vote Toshio out today. The evidence suggests he's the Werewolf since only Victoria was falsely accused and attacked.,"['Mt:Mio', 'Req(V):Toshio', 'Est[Servas]:Toshio->Werewolf']"
+2,talk,3,1,5,I will vote Servas.,,Mio: I will vote Servas.,['Vote[Mio]:Servas']
+2,talk,4,1,1,Further struggle is futile. The conditions for victory were met at dawn. It is done.,,Toshio: Further struggle is futile. The conditions for victory were met at dawn. It is done.,['Other']
+2,talk,5,1,3,Mio let's vote for Toshio. His divination claim against Victoria was proven false by her correct human scan on Kenji.,,Servas: Mio let's vote for Toshio. His divination claim against Victoria was proven false by her correct human scan on Kenji.,"['Mt:Mio', 'Req(V):Toshio', 'Dis:Toshio(CO[Toshio]:Seer)', 'Est[Servas]:Toshio->Werewolf']"
+2,talk,6,2,5,I will vote Toshio.,,Mio: I will vote Toshio.,['Vote[Mio]:Toshio']
+2,talk,7,2,1,It is as I have stated. I am the Possessed. The game is concluded.,,Toshio: It is as I have stated. I am the Possessed. The game is concluded.,['CO[Toshio]:Possessed']
+2,talk,8,2,3,Mio vote Toshio today. His false claim as Seer and targeting Victoria match werewolf behavior since she divined Kenji correctly.,,Servas: Mio vote Toshio today. His false claim as Seer and targeting Victoria match werewolf behavior since she divined Kenji correctly.,"['Mt:Mio', 'Req(V):Toshio', 'Dis:Toshio(CO[Toshio]:Seer)', 'Est[Servas]:Toshio->Werewolf']"
+2,talk,9,3,5,I will vote Toshio.,,Mio: I will vote Toshio.,['Vote[Mio]:Toshio']
+2,talk,10,3,1,The contract is concluded. I am the Possessed. Further deliberation is without merit.,,Toshio: The contract is concluded. I am the Possessed. Further deliberation is without merit.,['CO[Toshio]:Possessed']
+2,talk,11,3,3,Mio stick with voting Toshio. He lied about being the Seer which points to him actually being the Werewolf especially after Victoria's accurate divi,,Servas: Mio stick with voting Toshio. He lied about being the Seer which points to him actually being the Werewolf especially after Victoria's accurate divi,"['Mt:Mio', 'Req(V):Toshio', 'Dis:Toshio(CO[Toshio]:Seer)', 'Est[Servas]:Toshio->Werewolf']"
+0,status,1,POSSESSED,ALIVE,CanisLupus1,Toshio,CanisLupus1,
+0,status,2,SEER,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+0,status,3,VILLAGER,ALIVE,GPTaku1,Servas,GPTaku1,
+0,status,4,VILLAGER,ALIVE,sunamelli1,Kenji,sunamelli1,
+0,status,5,WEREWOLF,ALIVE,mille1,Mio,mille1,
+0,divine,2,4,HUMAN,,,,
+1,status,1,POSSESSED,ALIVE,CanisLupus1,Toshio,CanisLupus1,
+1,status,2,SEER,ALIVE,Character-Lab1,Victoria,Character-Lab1,
+1,status,3,VILLAGER,ALIVE,GPTaku1,Servas,GPTaku1,
+1,status,4,VILLAGER,ALIVE,sunamelli1,Kenji,sunamelli1,
+1,status,5,WEREWOLF,ALIVE,mille1,Mio,mille1,
+1,vote,1,2,,,,,
+1,vote,3,2,,,,,
+1,vote,4,1,,,,,
+1,vote,5,2,,,,,
+1,execute,2,SEER,,,,,
+1,attackVote,5,4,,,,,
+1,attack,4,true,,,,,
+2,status,1,POSSESSED,ALIVE,CanisLupus1,Toshio,CanisLupus1,
+2,status,2,SEER,DEAD,Character-Lab1,Victoria,Character-Lab1,
+2,status,3,VILLAGER,ALIVE,GPTaku1,Servas,GPTaku1,
+2,status,4,VILLAGER,DEAD,sunamelli1,Kenji,sunamelli1,
+2,status,5,WEREWOLF,ALIVE,mille1,Mio,mille1,
+2,vote,1,5,,,,,
+2,vote,3,1,,,,,
+2,vote,5,1,,,,,
+2,execute,1,POSSESSED,,,,,
+3,status,1,POSSESSED,DEAD,CanisLupus1,Toshio,CanisLupus1,
+3,status,2,SEER,DEAD,Character-Lab1,Victoria,Character-Lab1,
+3,status,3,VILLAGER,ALIVE,GPTaku1,Servas,GPTaku1,
+3,status,4,VILLAGER,DEAD,sunamelli1,Kenji,sunamelli1,
+3,status,5,WEREWOLF,ALIVE,mille1,Mio,mille1,
+3,result,1,1,WEREWOLF,,,,

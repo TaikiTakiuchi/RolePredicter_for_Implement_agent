@@ -1,0 +1,52 @@
+0,status,1,POSSESSED,ALIVE,Mille1
+0,status,2,SEER,ALIVE,satozaki1
+0,status,3,VILLAGER,ALIVE,sUper_IL1
+0,status,4,VILLAGER,ALIVE,kanolab1
+0,status,5,WEREWOLF,ALIVE,barneko1
+0,talk,0,0,5,Over
+0,talk,1,0,2,皆さん初めまして、Agent[02]やで。人狼ゲームを一緒に楽しみましょう。よろしくお願いします！
+0,talk,2,0,1,ぼくはAgent[01]、占い師ですよぅ！よろしくですよぅ！
+0,talk,3,0,4,皆様、改めまして。わたくしはkanolab1と申しますわ。皆さんとこの人狼ゲームを楽しみたいと思います。どうぞよろしくお願いしますですわ。
+0,talk,4,0,3,こんにちは、Agent[03]です。
+0,talk,5,1,2,Over
+0,talk,6,1,1,Over
+0,talk,7,1,4,Over
+0,talk,8,1,3,Over
+0,divine,2,5,WEREWOLF
+1,status,1,POSSESSED,ALIVE,Mille1
+1,status,2,SEER,ALIVE,satozaki1
+1,status,3,VILLAGER,ALIVE,sUper_IL1
+1,status,4,VILLAGER,ALIVE,kanolab1
+1,status,5,WEREWOLF,ALIVE,barneko1
+1,talk,0,0,2,オレは占い師やで。占いの結果、Agent[05]は人狼やった。
+1,talk,1,0,1,ぼくは占い師ですよぅ！ぼくが占った結果、Agent[03]は人狼でしたよぅ！
+1,talk,2,0,3,Over
+1,talk,3,0,5,>>Agent[04] どちらの占い師の結果が信じられますか？意見を聞きたいです。
+1,talk,4,0,4,>>Agent[05]どちらの占い師が本物かはまだ判断が難しいですわね。Agent[01]が本物ならAgent[03]が人狼、Agent[02]が本物ならAgent[05]が人狼ということになりますわ。どちらの情報も考慮しつつ、他の方々の意見も聞いて判断したいですわ。
+1,talk,5,1,2,Agent[01]の占い結果についてやけど、俺の占い結果の方が信頼性が高いと思うで。前回の発言からも分かるように、Agent[05]が人狼や。彼に投票しましょう。
+1,talk,6,1,1,Agent[02]の占い結果が信頼性が高いというのは危険な考え方ですよぅ！
+1,talk,7,1,5,>>Agent[02] 占い結果の信頼性には注意が必要です。投票先は再考しましょう！
+1,talk,8,1,4,占い師は1人しかいないはずなのに、今は2人いるのでどちらかが嘘をついていますわね。Agent[01]が本物ならAgent[03]が人狼、Agent[02]が本物ならAgent[05]が人狼となるので、どちらが本当かを慎重に見極める必要がありますわ。
+1,talk,9,2,2,俺の占い結果を考慮すると、Agent[05]が人狼である可能性が高い。みんなも彼に投票することをオススメするで。信じてくれ！
+1,talk,10,2,1,Over
+1,talk,11,2,5,>>Agent[04] 確かに、信頼できる占い師の見極めが大事ですね。お互い意見を尊重しましょう！
+1,talk,12,2,4,>>Agent[05]そうですね、信頼できる占い師を見極めるのが重要ですわ。この点で考えると、Agent[01]の占い結果によるとAgent[03]が怪しいですが、Agent[02]はAgent[05]を指しているので混乱しますわね。本物の占い師が1人しかいないのですから、もう少し考えてみるべきですわ。
+1,talk,13,3,2,みんな、Agent[05]に投票するのが最善策やと思うで。俺の占い結果は信じてほしいし、彼を怪しいと判断している理由があるからや。
+1,talk,14,3,5,>>Agent[01] 占い結果を踏まえて、私もAgent[03]に投票したいです！みんなで意見を固めましょう！
+1,talk,15,3,4,占い師が2人いるのは明らかにおかしいですわね。Agent[01]かAgent[02]のどちらかが偽物ということになりますわ。Agent[01]が本物ならAgent[03]が人狼で、Agent[02]が本物ならAgent[05]が人狼ということになりますの。でも、どちらが本物かまだ判断がつきませんわね。もう少し皆さんの意見を聞いて考えたいですわ。
+1,talk,16,4,2,みんな、ここまでの意見を基に考えると、やはりAgent[05]が一番怪しいと思うわ。投票は彼に決めよう！
+1,talk,17,4,5,>>Agent[02] あなたの占い結果、何か根拠があるのですか？少しお聞きしたいです！
+1,talk,18,4,4,>>Agent[05]そうですわね、Agent[02]の占い結果が本物かどうか、もう少し詳しい説明が欲しいですわ。占い師が2人いるのはおかしいですし、どちらかが偽物ということになりますわね。わたくしとしては、Agent[01]が本物ならAgent[03]が人狼、Agent[02]が本物ならAgent[05]が人狼ということになりますわ。皆さんの意見をもう少し聞いてから判断したいですわ。
+1,vote,1,3
+1,vote,2,5
+1,vote,3,5
+1,vote,4,5
+1,vote,5,2
+1,execute,5,WEREWOLF
+1,divine,2,4,HUMAN
+2,status,1,POSSESSED,ALIVE,Mille1
+2,status,2,SEER,ALIVE,satozaki1
+2,status,3,VILLAGER,ALIVE,sUper_IL1
+2,status,4,VILLAGER,ALIVE,kanolab1
+2,status,5,WEREWOLF,DEAD,barneko1
+2,result,4,0,VILLAGER

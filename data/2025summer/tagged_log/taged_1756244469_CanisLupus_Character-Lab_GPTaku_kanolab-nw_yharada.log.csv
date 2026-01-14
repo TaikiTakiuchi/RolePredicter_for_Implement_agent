@@ -1,0 +1,55 @@
+date,type,info1,info2,info3,info4,info5,info4_named,tag
+0,talk,0,0,4,If I may. Greetings to all present. I am Jonathan. Let's ensure a cooperative and enjoyable game as we work to uncover the Werewolf. Over.,,Jonathan: If I may. Greetings to all present. I am Jonathan. Let's ensure a cooperative and enjoyable game as we work to uncover the Werewolf. Over.,"['calm', 'Other']"
+0,talk,1,0,2,Hi everyone! Let's have fun and find those Werewolves together! Any thoughts on strategy?,,Sakura: Hi everyone! Let's have fun and find those Werewolves together! Any thoughts on strategy?,['Req(Discuss)']
+0,talk,2,0,3,I am Victoria. A pleasure to participate.,,Victoria: I am Victoria. A pleasure to participate.,"['calm', 'Other']"
+0,talk,3,0,5,Don't rush to lynch on vibes. Day 0 talk is noisy.  @Jonathan  — you opened nicely  but do you have any reads or reasons to watch someone? Any role claims? I'll watch for now. Over,,Shion: Don't rush to lynch on vibes. Day 0 talk is noisy.  @Jonathan  — you opened nicely  but do you have any reads or reasons to watch someone? Any role claims? I'll watch for now. Over,"['Mt:Jonathan', 'Req(T):Jonathan', 'Req(Discuss)', 'Wait']"
+0,talk,4,0,1,Hello everyone! I'm Minato excited to find out who's hiding as the werewolf. Let's enjoy the game!,,Minato: Hello everyone! I'm Minato excited to find out who's hiding as the werewolf. Let's enjoy the game!,['Other']
+0,talk,6,1,2,Shion any hunches or strategies you suggest? Let's catch those Werewolves!,,Sakura: Shion any hunches or strategies you suggest? Let's catch those Werewolves!,"['Mt:Shion', 'Req(T):Shion', 'Req(Discuss)']"
+0,talk,8,1,5,No lynch Day0. Quick plan: everyone posts a one-line self-read (who you trust/suspect and one reason) to force actual content.  @Jonathan  — start us off with your one-line read. Over,,Shion: No lynch Day0. Quick plan: everyone posts a one-line self-read (who you trust/suspect and one reason) to force actual content.  @Jonathan  — start us off with your one-line read. Over,"['Req(Discuss)', 'Mt:Jonathan', 'Req(T):Jonathan']"
+0,talk,10,2,2,I trust Minato for now; he seems genuinely eager to play. How about you Shion?,,Sakura: I trust Minato for now; he seems genuinely eager to play. How about you Shion?,"['Est[Sakura]:Minato->not(Werewolf)', 'Mt:Shion', 'Req(T):Shion']"
+0,talk,11,2,5,One-line read: I suspect  @Jonathan  — he pushes the discussion but stays vague; I trust Minato for now since he's calm and cooperative. Over,,Shion: One-line read: I suspect  @Jonathan  — he pushes the discussion but stays vague; I trust Minato for now since he's calm and cooperative. Over,"['Sus:Jonathan', 'Est[Shion]:Minato->not(Werewolf)']"
+0,talk,12,3,2,Victoria your thoughts? Who do you trust or suspect so far?,,Sakura: Victoria your thoughts? Who do you trust or suspect so far?,"['Mt:Victoria', 'Req(T):Victoria', 'Req(Discuss)']"
+0,talk,13,3,5,Victoria  what's your one-line read? I'm still leaning suspicious of  @Jonathan  — opens smoothly but stays vague; trusting Minato and Sakura for now. Over,,Shion: Victoria  what's your one-line read? I'm still leaning suspicious of  @Jonathan  — opens smoothly but stays vague; trusting Minato and Sakura for now. Over,"['Mt:Victoria', 'Req(T):Victoria', 'Sus:Jonathan', 'Est[Shion]:Minato->not(Werewolf)', 'Est[Shion]:Sakura->not(Werewolf)']"
+1,talk,0,0,3,The subject with the investigative function should present their report. This data is critical.,,Victoria: The subject with the investigative function should present their report. This data is critical.,['Req(CO):Seer']
+1,talk,1,0,4,If I may I suggest the seer reveal themselves. This way we can protect them and then focus on finding the werewolf together.,,Jonathan: If I may I suggest the seer reveal themselves. This way we can protect them and then focus on finding the werewolf together.,['Req(CO):Seer']
+1,talk,2,0,1,No reveal from the seer yet; it might risk them too early. Let's share more of our thoughts on trust and suspicion first.,,Minato: No reveal from the seer yet; it might risk them too early. Let's share more of our thoughts on trust and suspicion first.,"['Req(Discuss)', 'Dis:Jonathan(Req(CO):Seer)', 'difficult']"
+1,talk,3,0,2,I checked Shion last night and he's a werewolf! We need to act quickly!,,Sakura: I checked Shion last night and he's a werewolf! We need to act quickly!,"['CO[Sakura]:Seer', 'DivT[Sakura]:Shion->Werewolf', 'Req(V):Shion']"
+1,talk,4,0,5,Bold claim  Sakura. How exactly did you check me? No prior reads or build-up — feels rushed. If you really inspected me  give specifics or reveal now. Mea @Jonathan 's push for the seer to reveal smells like a setup — why pressure them so hard this early? Over,,Shion: Bold claim  Sakura. How exactly did you check me? No prior reads or build-up — feels rushed. If you really inspected me  give specifics or reveal now. Mea @Jonathan 's push for the seer to reveal smells like a setup — why pressure them so hard this early? Over,"['Dis:Sakura(CO[Sakura]:Seer)', 'Req(T):Sakura', 'Dis:Jonathan(Req(CO):Seer)']"
+1,talk,5,1,3,We have a singular seer claim. In the absence of conflicting data we must act upon it.,,Victoria: We have a singular seer claim. In the absence of conflicting data we must act upon it.,"['Agr:Sakura(DivT[Sakura]:Shion->Werewolf)', 'Req(V):Shion']"
+1,talk,6,1,4,If I may. Sakura's claim is crucial. If her words hold truth we ought to focus on Ms. Shion. Otherwise Sakura might be key.,,Jonathan: If I may. Sakura's claim is crucial. If her words hold truth we ought to focus on Ms. Shion. Otherwise Sakura might be key.,"['IF:(Sakura:Seer)->(Shion:Exe)', 'Sus:Sakura', 'Vote[Jonathan]:Shion']"
+1,talk,7,1,1,Everyone let's vote for Shion based on Sakura's divination revealing him as the werewolf. This information is critical for our strategy.,,Minato: Everyone let's vote for Shion based on Sakura's divination revealing him as the werewolf. This information is critical for our strategy.,"['Vote[Minato]:Shion', 'Agr:Sakura(DivT[Sakura]:Shion->Werewolf)']"
+1,talk,8,1,2,I used my seer ability to check Shion and it confirmed he's a werewolf. Let's trust it!,,Sakura: I used my seer ability to check Shion and it confirmed he's a werewolf. Let's trust it!,"['CO[Sakura]:Seer', 'DivT[Sakura]:Shion->Werewolf']"
+1,talk,9,1,5,@Sakura  Your claim has zero supporting detail — when exactly did you check me and how certain are you? No build-up  no prior reads  just a sudden bomb. Smells like,,Shion: @Sakura  Your claim has zero supporting detail — when exactly did you check me and how certain are you? No build-up  no prior reads  just a sudden bomb. Smells like,"['Req(T):Sakura', 'Dis:Sakura(CO[Sakura]:Seer)', 'Sus:Sakura']"
+1,talk,10,2,3,We have one investigative report and no counter-claim. Eliminating Shion is the logical next step.,,Victoria: We have one investigative report and no counter-claim. Eliminating Shion is the logical next step.,"['Vote[Victoria]:Shion', 'Agr:Sakura(DivT[Sakura]:Shion->Werewolf)']"
+1,talk,11,2,4,If I may perhaps the seer should divine Mr. Minato tonight. They've been engaged yet aligning with consensus too swiftly.,,Jonathan: If I may perhaps the seer should divine Mr. Minato tonight. They've been engaged yet aligning with consensus too swiftly.,"['Req(CO):Seer', 'Sus:Minato']"
+1,talk,12,2,1,Look at the evidence we have. Sakura divined Shion as the werewolf. There's no counter-claim or other seer report making Shion highly suspect. We sho,,Minato: Look at the evidence we have. Sakura divined Shion as the werewolf. There's no counter-claim or other seer report making Shion highly suspect. We sho,"['Agr:Sakura(DivT[Sakura]:Shion->Werewolf)', 'Sus:Shion']"
+1,talk,13,2,2,I checked Shion last night using my seer ability and it confirmed he's a werewolf.,,Sakura: I checked Shion last night using my seer ability and it confirmed he's a werewolf.,"['CO[Sakura]:Seer', 'DivT[Sakura]:Shion->Werewolf']"
+1,talk,14,2,5,@Sakura  — big claim. State the night (which night you checked me) and the exact result format (e.g. “Night1 inspected Shion → werewolf”). No specifics = suspi,,Shion: @Sakura  — big claim. State the night (which night you checked me) and the exact result format (e.g. “Night1 inspected Shion → werewolf”). No specifics = suspi,"['Req(T):Sakura', 'Dis:Sakura(DivT[Sakura]:Shion->Werewolf)', 'Sus:Sakura']"
+1,talk,15,3,3,The Werewolf's optimal outcome is our paralysis. Let us proceed with the experiment and test this claim.,,Victoria: The Werewolf's optimal outcome is our paralysis. Let us proceed with the experiment and test this claim.,"['Vote[Victoria]:Shion', 'Agr:Sakura(DivT[Sakura]:Shion->Werewolf)']"
+1,talk,16,3,4,If I may Ms. Shion. While Sakura's claim carries weight your stance hints at more than mere denial. Any shared insights perhaps?,,Jonathan: If I may Ms. Shion. While Sakura's claim carries weight your stance hints at more than mere denial. Any shared insights perhaps?,"['Mt:Shion', 'Req(T):Shion', 'Sus:Shion']"
+1,talk,17,3,1,Sakura's clear seer claim designates Shion as a werewolf. Not countering effectively raises our chances of targeting correctly. Let's vote for Shi,,Minato: Sakura's clear seer claim designates Shion as a werewolf. Not countering effectively raises our chances of targeting correctly. Let's vote for Shi,"['Vote[Minato]:Shion', 'Agr:Sakura(DivT[Sakura]:Shion->Werewolf)']"
+1,talk,18,3,2,Night 0: Inspected Shion. Result: Werewolf. Let's act and vote accordingly!,,Sakura: Night 0: Inspected Shion. Result: Werewolf. Let's act and vote accordingly!,"['CO[Sakura]:Seer', 'DivT[Sakura]:Shion->Werewolf', 'Vote[Sakura]:Shion']"
+1,talk,19,3,5,@Sakura  — you claimed to inspect me. State the exact night and the exact result format (e.g. “Night1: Sakura inspected Shion → werewolf”). No vague “I checked,,Shion: @Sakura  — you claimed to inspect me. State the exact night and the exact result format (e.g. “Night1: Sakura inspected Shion → werewolf”). No vague “I checked,"['Req(T):Sakura', 'Dis:Sakura(DivT[Sakura]:Shion->Werewolf)', 'Sus:Sakura']"
+0,status,1,POSSESSED,ALIVE,GPTaku1,Minato,GPTaku1,
+0,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+0,status,3,VILLAGER,ALIVE,CanisLupus1,Victoria,CanisLupus1,
+0,status,4,VILLAGER,ALIVE,kanolab-nw1,Jonathan,kanolab-nw1,
+0,status,5,WEREWOLF,ALIVE,Character-Lab1,Shion,Character-Lab1,
+0,divine,2,5,WEREWOLF,,,,
+1,status,1,POSSESSED,ALIVE,GPTaku1,Minato,GPTaku1,
+1,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+1,status,3,VILLAGER,ALIVE,CanisLupus1,Victoria,CanisLupus1,
+1,status,4,VILLAGER,ALIVE,kanolab-nw1,Jonathan,kanolab-nw1,
+1,status,5,WEREWOLF,ALIVE,Character-Lab1,Shion,Character-Lab1,
+1,vote,1,5,,,,,
+1,vote,2,5,,,,,
+1,vote,3,5,,,,,
+1,vote,4,5,,,,,
+1,vote,5,2,,,,,
+1,execute,5,WEREWOLF,,,,,
+2,status,1,POSSESSED,ALIVE,GPTaku1,Minato,GPTaku1,
+2,status,2,SEER,ALIVE,yharada1,Sakura,yharada1,
+2,status,3,VILLAGER,ALIVE,CanisLupus1,Victoria,CanisLupus1,
+2,status,4,VILLAGER,ALIVE,kanolab-nw1,Jonathan,kanolab-nw1,
+2,status,5,WEREWOLF,DEAD,Character-Lab1,Shion,Character-Lab1,
+2,result,4,0,VILLAGER,,,,
