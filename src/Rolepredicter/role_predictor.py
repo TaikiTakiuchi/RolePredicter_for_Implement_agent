@@ -4,8 +4,9 @@ Role Predictor - Werewolf Game Role Prediction System
 This module provides the RolePredictor class for training and predicting roles
 in Werewolf games using XGBoost with perspective-specific models.
 
-The system supports three perspectives:
-- Human (village/possessed perspective)
+The system supports four perspectives:
+- Villager perspective
+- Possessed perspective
 - Seer (divination-based perspective)
 - Werewolf (evil team perspective)
 
@@ -21,7 +22,7 @@ Example:
     >>> predictor.train(n_trials=200)
     
     >>> # Make predictions
-    >>> probs = predictor.predict('human', X_new)
+    >>> probs = predictor.predict('villager', X_new)
     >>> labels = predictor.predict_label('seer', X_new)
 """
 
@@ -34,25 +35,32 @@ import itertools
 from sklearn.utils.class_weight import compute_class_weight
 from sklearn.metrics import f1_score, classification_report, accuracy_score
 from sklearn.preprocessing import LabelEncoder
-from typing import Tuple, Optional, Dict, List, Any
+from typing import Tuple, Optional, Dict, List, Any, Union
 import warnings
 
-from data_preparation import prepare_data_for_training_with_meta
+from .data_preparation import prepare_data_for_training_with_meta
 
 warnings.filterwarnings('ignore')
 
 
 class RolePredictor:
-    def __init__(self, csv_path: str, lang_feature: bool = False):
+    def __init__(
+        self,
+        csv_path_or_paths: Union[str, List[str]],
+        lang_feature: bool = False,
+        prep_options: Optional[Dict[str, Any]] = None,
+    ):
         """
         Initialize RolePredictor with data preparation.
         
         Parameters
         ----------
-        csv_path : str
-            Path to the CSV file containing training data
+        csv_path_or_paths : str or List[str]
+            Path(s) to CSV file(s) containing training data
         lang_feature : bool, default=False
             Whether to use language features (for future extension)
+        prep_options : dict, optional
+            Extra options passed to prepare_data_for_training_with_meta
             
         Raises
         ------
@@ -64,7 +72,12 @@ class RolePredictor:
         print("="*70)
         
         # Load and prepare data
-        data_result = prepare_data_for_training_with_meta(csv_path, lang_feature=lang_feature)
+        prep_options = prep_options or {}
+        data_result = prepare_data_for_training_with_meta(
+            csv_path_or_paths,
+            lang_feature=lang_feature,
+            **prep_options,
+        )
         if data_result is None:
             raise ValueError("Failed to prepare data from CSV")
         
@@ -328,17 +341,128 @@ class RolePredictor:
     # ======================================================================
     # Training Methods
     # ======================================================================
+
+    def _target_role_name_for_model(self, model_type: str) -> str:
+        """Return target role name for F1 evaluation by perspective."""
+        return 'POSSESSED' if model_type == 'werewolf' else 'WEREWOLF'
+
+
+    def _target_f1_score(self, y_true: np.ndarray, y_pred: np.ndarray, model_type: str) -> float:
+        """Compute single-target F1 (no macro averaging) for the requested perspective."""
+        if y_true.size == 0 or y_pred.size == 0:
+            return 0.0
+        target_label = self.label_encoder.transform([self._target_role_name_for_model(model_type)])[0]
+        target_f1 = f1_score(y_true, y_pred, labels=[target_label], average=None, zero_division=0)
+        return float(target_f1[0]) if target_f1.size > 0 else 0.0
+
+
+    def _collect_constrained_assignments(
+        self,
+        model_type: str,
+        preds_proba: np.ndarray,
+        day2_flag: bool = False,
+    ) -> Tuple[np.ndarray, np.ndarray]:
+        """Collect constrained assignment predictions/truths over all test games."""
+        all_perspective_preds_list = []
+        all_perspective_truths_list = []
+        num_games = len(self.y_test) // 5
+        num_players = 5
+
+        for i in range(num_games):
+            start_idx = i * num_players
+            end_idx = (i + 1) * num_players
+            game_logits = preds_proba[start_idx:end_idx]
+            game_y_batch = self.y_test[start_idx:end_idx]
+            game_meta = {
+                'div_result1': self.meta_test['div_result1'][start_idx:end_idx],
+                'div_id1': self.meta_test['div_id1'][start_idx:end_idx],
+                'div_result2': self.meta_test['div_result2'][start_idx:end_idx],
+                'div_id2': self.meta_test['div_id2'][start_idx:end_idx],
+                'exec_id': self.meta_test['exec_id'][start_idx:end_idx],
+                'attack_id': self.meta_test['attack_id'][start_idx:end_idx],
+            }
+
+            if model_type in {"villager", "possessed"}:
+                fixed_role_name = "VILLAGER" if model_type == "villager" else "POSSESSED"
+                preds_flat, truths_flat = self.assign_roles_for_non_seer(
+                    logits=game_logits,
+                    y_batch=game_y_batch,
+                    fixed_self_role_name=fixed_role_name,
+                    exec_id_batch=game_meta['exec_id'],
+                    attack_id_batch=game_meta['attack_id'],
+                    day2_flag=day2_flag,
+                )
+                if preds_flat.size > 0:
+                    all_perspective_preds_list.append(preds_flat)
+                    all_perspective_truths_list.append(truths_flat)
+
+            elif model_type == "seer":
+                seer_results_dict = self.assign_roles_for_seer_by_divination(
+                    logits=game_logits,
+                    y_batch=game_y_batch,
+                    div_result_array1=game_meta['div_result1'],
+                    div_id_array1=game_meta['div_id1'],
+                    div_result_array2=game_meta['div_result2'],
+                    div_id_array2=game_meta['div_id2'],
+                    exec_id_batch=game_meta['exec_id'],
+                    attack_id_batch=game_meta['attack_id'],
+                    day2_flag=day2_flag,
+                )
+                for div_result_key in ["black", "white"]:
+                    preds_flat, truths_flat = seer_results_dict[div_result_key]
+                    if preds_flat.size > 0:
+                        all_perspective_preds_list.append(preds_flat)
+                        all_perspective_truths_list.append(truths_flat)
+
+            elif model_type == "werewolf":
+                for role_name in ["WEREWOLF", "POSSESSED", "VILLAGER"]:
+                    preds_flat, truths_flat = self.assign_roles_for_non_seer(
+                        logits=game_logits,
+                        y_batch=game_y_batch,
+                        fixed_self_role_name=role_name,
+                        exec_id_batch=game_meta['exec_id'],
+                        attack_id_batch=game_meta['attack_id'],
+                        day2_flag=day2_flag,
+                    )
+                    if preds_flat.size > 0:
+                        all_perspective_preds_list.append(preds_flat)
+                        all_perspective_truths_list.append(truths_flat)
+
+        if not all_perspective_truths_list:
+            return np.array([]), np.array([])
+
+        final_preds = np.concatenate(all_perspective_preds_list)
+        final_truths = np.concatenate(all_perspective_truths_list)
+        return final_preds, final_truths
+
+
+    def evaluate_constrained_assignments(self, day2_flag: bool = False) -> Dict[str, Dict[str, Any]]:
+        """Run constrained final evaluation for all trained models on test split."""
+        results: Dict[str, Dict[str, Any]] = {}
+        for model_name in ["villager", "possessed", "seer", "werewolf"]:
+            if model_name not in self.models:
+                continue
+            probs = self.models[model_name].predict_proba(self.X_test)
+            final_preds, final_truths = self._collect_constrained_assignments(
+                model_type=model_name,
+                preds_proba=probs,
+                day2_flag=day2_flag,
+            )
+            target_role_name = self._target_role_name_for_model(model_name)
+            target_f1 = self._target_f1_score(final_truths, final_preds, model_name)
+            results[model_name] = {
+                "target_role": target_role_name,
+                "target_f1": target_f1,
+                "n_eval_samples": int(final_truths.size),
+                "day2_flag": bool(day2_flag),
+            }
+        return results
     
-    def _train_single_model(self, model_type: str = "human", n_trials: int = 200, 
+    def _train_single_model(self, model_type: str = "villager", n_trials: int = 200, 
                             output_model_name: str = "model") -> xgb.XGBClassifier:
         
         def objective(trial):
             """Optuna objective function for hyperparameter optimization."""
-            all_perspective_preds_list = []
-            all_perspective_truths_list = []
-            num_games = len(self.y_test) // 5
-            num_players = 5
-
             # Suggest hyperparameters
             params = {
                 'objective': 'multi:softprob',
@@ -373,88 +497,16 @@ class RolePredictor:
                       verbose=False)
             
             # Evaluate on test set
-            preds_proba = model.predict_proba(self.X_test)    
-            
-            for i in range(num_games):
-                start_idx = i * num_players
-                end_idx = (i + 1) * num_players
-                game_logits = preds_proba[start_idx:end_idx]
-                game_y_batch = self.y_test[start_idx:end_idx]
-                game_meta = {
-                    'div_result1': self.meta_test['div_result1'][start_idx:end_idx],
-                    'div_id1': self.meta_test['div_id1'][start_idx:end_idx],
-                    'div_result2': self.meta_test['div_result2'][start_idx:end_idx],
-                    'div_id2': self.meta_test['div_id2'][start_idx:end_idx],
-                    'exec_id': self.meta_test['exec_id'][start_idx:end_idx],
-                    'attack_id': self.meta_test['attack_id'][start_idx:end_idx],
-                }
-
-                # Role assignment and evaluation based on perspective
-                if model_type == "human":
-                    for role_name in ["POSSESSED", "VILLAGER"]: 
-                        preds_flat, truths_flat = self.assign_roles_for_non_seer(
-                            logits=game_logits, 
-                            y_batch=game_y_batch, 
-                            fixed_self_role_name=role_name,
-                            exec_id_batch=game_meta['exec_id'],
-                            attack_id_batch=game_meta['attack_id'],
-                            day2_flag=False
-                        )
-                        if preds_flat.size > 0:
-                            all_perspective_preds_list.append(preds_flat)
-                            all_perspective_truths_list.append(truths_flat)
-                
-                elif model_type == "seer":
-                    seer_results_dict = self.assign_roles_for_seer_by_divination(
-                        logits=game_logits,
-                        y_batch=game_y_batch,
-                        div_result_array1=game_meta['div_result1'],
-                        div_id_array1=game_meta['div_id1'],
-                        div_result_array2=game_meta['div_result2'],
-                        div_id_array2=game_meta['div_id2'],
-                        exec_id_batch=game_meta['exec_id'],
-                        attack_id_batch=game_meta['attack_id'],
-                        day2_flag=False
-                    )
-                    for div_result_key in ["black", "white"]:
-                        preds_flat, truths_flat = seer_results_dict[div_result_key]
-                        if preds_flat.size > 0:
-                            all_perspective_preds_list.append(preds_flat)
-                            all_perspective_truths_list.append(truths_flat)
-                
-                elif model_type == "werewolf":
-                    for role_name in ["WEREWOLF", "POSSESSED", "VILLAGER"]: 
-                        preds_flat, truths_flat = self.assign_roles_for_non_seer(
-                            logits=game_logits, 
-                            y_batch=game_y_batch, 
-                            fixed_self_role_name=role_name,
-                            exec_id_batch=game_meta['exec_id'],
-                            attack_id_batch=game_meta['attack_id'],
-                            day2_flag=False
-                        )
-                        if preds_flat.size > 0:
-                            all_perspective_preds_list.append(preds_flat)
-                            all_perspective_truths_list.append(truths_flat)
-            
-            # Calculate final score
-            if not all_perspective_truths_list:
-                return 0.0
-
-            final_preds = np.concatenate(all_perspective_preds_list)
-            final_truths = np.concatenate(all_perspective_truths_list)
+            preds_proba = model.predict_proba(self.X_test)
+            final_preds, final_truths = self._collect_constrained_assignments(
+                model_type=model_type,
+                preds_proba=preds_proba,
+                day2_flag=False,
+            )
 
             if final_preds.size == 0 or final_truths.size == 0:
                 return 0.0
-
-            # Target role depends on perspective
-            if model_type == "werewolf":
-                target_label = self.label_encoder.transform(['POSSESSED'])[0]
-            else:
-                target_label = self.label_encoder.transform(['WEREWOLF'])[0]
-            
-            f1 = f1_score(final_truths, final_preds, 
-                         labels=[target_label], average='macro')
-            return f1
+            return self._target_f1_score(final_truths, final_preds, model_type)
 
         # ====== Optuna Optimization ======
         print(f"\n--- Training {model_type.upper()} Perspective Model ---")
@@ -495,7 +547,7 @@ class RolePredictor:
     
     def train(self, n_trials: int = 200) -> None:
         """
-        Train all three perspective models.
+        Train all perspective models.
         
         Parameters
         ----------
@@ -506,11 +558,18 @@ class RolePredictor:
         print("TRAINING ALL PERSPECTIVE MODELS")
         print("="*70)
         
-        # Train human perspective model
-        self.models['human'] = self._train_single_model(
-            model_type="human",
+        # Train villager perspective model
+        self.models['villager'] = self._train_single_model(
+            model_type="villager",
             n_trials=n_trials,
-            output_model_name="XGB_human_perspective"
+            output_model_name="XGB_villager_perspective"
+        )
+
+        # Train possessed perspective model
+        self.models['possessed'] = self._train_single_model(
+            model_type="possessed",
+            n_trials=n_trials,
+            output_model_name="XGB_possessed_perspective"
         )
         
         # Train seer perspective model
@@ -542,7 +601,7 @@ class RolePredictor:
         Parameters
         ----------
         model_name : str
-            Model perspective: "human", "seer", or "werewolf"
+            Model perspective: "villager", "possessed", "seer", or "werewolf"
         X : np.ndarray
             Input features (n_samples, n_features)
             
@@ -578,7 +637,7 @@ class RolePredictor:
         Parameters
         ----------
         model_name : str
-            Model perspective: "human", "seer", or "werewolf"
+            Model perspective: "villager", "possessed", "seer", or "werewolf"
         X : np.ndarray
             Input features (n_samples, n_features)
             
@@ -614,7 +673,7 @@ class RolePredictor:
         Parameters
         ----------
         model_name : str
-            Model perspective: "human", "seer", or "werewolf"
+            Model perspective: "villager", "possessed", "seer", or "werewolf"
         X : np.ndarray
             Input features (n_samples, n_features)
             
@@ -634,7 +693,7 @@ class RolePredictor:
         Parameters
         ----------
         model_name : str
-            Name to assign to loaded model: "human", "seer", or "werewolf"
+            Name to assign to loaded model: "villager", "possessed", "seer", or "werewolf"
         model_path : str
             Path to saved model file (.joblib)
         """
@@ -649,7 +708,7 @@ class RolePredictor:
         Parameters
         ----------
         model_name : str
-            Name of model to save: "human", "seer", or "werewolf"
+            Name of model to save: "villager", "possessed", "seer", or "werewolf"
         model_path : str
             Path where model will be saved (.joblib)
         """
@@ -685,9 +744,9 @@ if __name__ == "__main__":
     print("MAKING PREDICTIONS")
     print("="*70)
     
-    # Predict probabilities using human perspective
-    probs = predictor.predict("human", predictor.X_test[:5])
-    print(f"\nHuman perspective probabilities (first 5 samples):")
+    # Predict probabilities using villager perspective
+    probs = predictor.predict("villager", predictor.X_test[:5])
+    print(f"\nVillager perspective probabilities (first 5 samples):")
     print(f"Shape: {probs.shape}")
     
     # Predict labels using seer perspective

@@ -8,106 +8,53 @@ Handles data loading from CSV, feature engineering, train-test splitting, and me
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
-from sklearn.model_selection import GroupShuffleSplit
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.calibration import CalibratedClassifierCV
-from sklearn.model_selection import StratifiedKFold, cross_val_predict
-from xgboost import XGBClassifier as XGB
-from sklearn.metrics import accuracy_score
-from typing import Tuple, Optional, Dict, List, Any
+from sklearn.model_selection import GroupShuffleSplit, GroupKFold
+from typing import Tuple, Optional, Dict, List, Any, Union
 
 
-def get_speaker_probability_features(df_train_in: pd.DataFrame, df_test_in: pd.DataFrame, use_features: List[str]) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """
-    訓練データとテストデータから、各エージェントの予測確率と予測クラス名を
-    元のデータフレームに列として追加して返す。
-    
-    このモデルでは、TF-IDF特徴量と指定された特徴量を組み合わせて、
-    キャリブレーション付きXGBoostで各話者を予測します。
-    
-    Parameters
-    ----------
-    df_train_in : pd.DataFrame
-        訓練用データフレーム
-    df_test_in : pd.DataFrame
-        テスト用データフレーム
-    use_features : List[str]
-        話者確率特徴量を計算する際に使用する特徴量のリスト
-        例：["ReqDiscuss", "ReqListen", "Req(CO)", ...]
-        
-    Returns
-    -------
-    tuple
-        (df_train, df_test) 話者確率特徴量が追加されたデータフレーム
-        
-    Notes
-    -----
-    追加される列：
-    - prob_class_<agent_name>: 各エージェントの予測確率
-    - predicted_class: 予測された話者名
-    """
-    df_train = df_train_in.copy()
-    df_test = df_test_in.copy()
-
-    # エージェント名のラベルエンコーディング
-    agent_le = LabelEncoder()
-    all_agents = pd.concat([df_train['agent_name'], df_test['agent_name']])
-    agent_le.fit(all_agents)
-    
-    y_train = agent_le.transform(df_train['agent_name'])
-    y_test = agent_le.transform(df_test['agent_name'])
-    classes = agent_le.classes_
-
-    # テキストのベクトル化 (TF-IDF)
-    print("Vectorizing text with TF-IDF...")
-    vectorizer = TfidfVectorizer(
-        analyzer='char_wb', 
-        ngram_range=(2, 5), 
-        max_features=2000,
-        token_pattern=None
-    )
-    tfidf_train = vectorizer.fit_transform(df_train['combined_text'].astype(str)).toarray()
-    tfidf_test = vectorizer.transform(df_test['combined_text'].astype(str)).toarray()
-
-    # 特徴量の結合
-    X_train = np.hstack([tfidf_train, df_train[use_features].fillna(0).values])
-    X_test = np.hstack([tfidf_test, df_test[use_features].fillna(0).values])
-
-    # モデル設定（XGBoost + Calibration）
-    print("Training speaker prediction model...")
-    params = {'max_depth': 6, 'learning_rate': 0.1, 'n_estimators': 100, 'random_state': 42}
-    model = XGB(**params, eval_metric='mlogloss')
-    calibrated = CalibratedClassifierCV(estimator=model, cv=5)
-
-    # Trainの予測確率算出 (OOF)
-    cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-    train_probs = cross_val_predict(
-        calibrated, X_train, y_train, cv=cv, method='predict_proba', n_jobs=-1
-    )
-
-    # Testの予測確率算出
-    calibrated.fit(X_train, y_train)
-    test_probs = calibrated.predict_proba(X_test)
-
-    # 精度表示
-    train_accuracy = accuracy_score(y_train, np.argmax(train_probs, axis=1))
-    test_accuracy = accuracy_score(y_test, np.argmax(test_probs, axis=1))
-    print(f"Speaker Model Train Accuracy: {train_accuracy:.4f}")
-    print(f"Speaker Model Test Accuracy: {test_accuracy:.4f}")
-
-    # 確率列の追加
-    for i, class_name in enumerate(classes):
-        df_train[f'prob_class_{class_name}'] = train_probs[:, i]
-        df_test[f'prob_class_{class_name}'] = test_probs[:, i]
-
-    # 最も確率が高いクラス名の追加
-    df_train['predicted_class'] = [classes[np.argmax(p)] for p in train_probs]
-    df_test['predicted_class'] = [classes[np.argmax(p)] for p in test_probs]
-
-    return df_train, df_test
+DEFAULT_LEAKAGE_COLUMNS = [
+    'True_Div_recepient_id_1',
+    'True_Div_result_1',
+    'True_Div_recepient_id_2',
+    'True_Div_result_2',
+    'target_total_votes',
+]
 
 
-def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = False) -> Optional[Tuple]:
+def _ensure_csv_paths(csv_path_or_paths: Union[str, List[str]]) -> List[str]:
+    """Normalize CSV path input into a non-empty list."""
+    if isinstance(csv_path_or_paths, str):
+        return [csv_path_or_paths]
+    if isinstance(csv_path_or_paths, list) and csv_path_or_paths:
+        return csv_path_or_paths
+    raise ValueError("csv_path_or_paths must be a non-empty string or list of strings")
+
+
+def _load_and_concat_csv(csv_paths: List[str]) -> pd.DataFrame:
+    """Load and concatenate multiple CSV files with a source marker column."""
+    dataframes = []
+    for csv_path in csv_paths:
+        df_part = pd.read_csv(csv_path)
+        df_part['dataset_source'] = csv_path
+        dataframes.append(df_part)
+
+    if not dataframes:
+        raise ValueError("No CSV files were loaded")
+
+    return pd.concat(dataframes, axis=0, ignore_index=True)
+
+
+def prepare_data_for_training_with_meta(
+    csv_path_or_paths: Union[str, List[str]],
+    lang_feature: bool = False,
+    day_filter: int = 1,
+    leakage_drop_columns: Optional[List[str]] = None,
+    group_column: str = 'source_file',
+    test_size: float = 0.2,
+    split_mode: str = 'group_shuffle',
+    n_splits: int = 5,
+    fold_index: int = 0,
+) -> Optional[Tuple]:
     """
     CSVファイルからデータを読み込み、訓練用・テスト用データを準備する。
     
@@ -116,16 +63,15 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
     2. 目的変数（役職）のエンコード
     3. GroupShuffleSplit で訓練・テストデータ分割
     4. カテゴリカル特徴量のエンコード
-    5. 話者確率特徴量の追加（combined_text が存在する場合）
-    6. メタデータ（占い結果、追放者IDなど）の抽出
-    7. 数値特徴量とカテゴリカル特徴量の分離・結合
+    5. メタデータ（占い結果、追放者IDなど）の抽出
+    6. 数値特徴量とカテゴリカル特徴量の分離・結合
     
     Parameters
     ----------
-    csv_path : str
-        読み込むCSVファイルのパス
+    csv_path_or_paths : str or List[str]
+        読み込むCSVファイルのパスまたはパス一覧
     lang_feature : bool, default=False
-        言語特徴量を使用するかどうか（将来の拡張用）
+        後方互換のための引数（現在は未使用）
         
     Returns
     -------
@@ -140,11 +86,14 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
         エラー時は None を返す（詳細はコンソール出力を参照）
     """
     print("--- 1. Starting Data Processing ---")
+    csv_paths = _ensure_csv_paths(csv_path_or_paths)
+    leakage_drop_columns = leakage_drop_columns or DEFAULT_LEAKAGE_COLUMNS
     
     # データの読み込みと基本フィルタリング
-    df = pd.read_csv(csv_path)
-    df = df[df["day"] == 1].copy()
-    print(f"Successfully loaded '{csv_path}' and filtered for day 1.")
+    df = _load_and_concat_csv(csv_paths)
+    df = df[df["day"] == day_filter].copy()
+    print(f"Successfully loaded {len(csv_paths)} CSV file(s) and filtered for day {day_filter}.")
+    print(f"Loaded datasets: {', '.join(csv_paths)}")
     print(f"Data shape: {df.shape}")
 
     # 目的変数 'role' のエンコード
@@ -158,13 +107,29 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
     
     # GroupShuffleSplit で訓練・テストデータを分割
     y_full = df['role'].values
-    groups = df['source_file'].values
+    if group_column not in df.columns:
+        print(f"Warning: group column '{group_column}' not found. Falling back to 'source_file'.")
+        group_column = 'source_file'
+    groups = df[group_column].values
 
-    gss = GroupShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
     try:
-        train_idx, test_idx = next(gss.split(df, y_full, groups=groups))
+        if split_mode == 'group_kfold':
+            if n_splits < 2:
+                raise ValueError("n_splits must be >= 2 when split_mode='group_kfold'")
+            gkf = GroupKFold(n_splits=n_splits)
+            all_splits = list(gkf.split(df, y_full, groups=groups))
+            if fold_index < 0 or fold_index >= len(all_splits):
+                raise ValueError(
+                    f"fold_index out of range: {fold_index}. Must be 0..{len(all_splits)-1}"
+                )
+            train_idx, test_idx = all_splits[fold_index]
+            print(f"Using GroupKFold split: fold {fold_index+1}/{len(all_splits)}")
+        else:
+            gss = GroupShuffleSplit(n_splits=1, test_size=test_size, random_state=42)
+            train_idx, test_idx = next(gss.split(df, y_full, groups=groups))
+            print(f"Using GroupShuffleSplit: test_size={test_size}")
     except Exception as e:
-        print(f"Error during GroupShuffleSplit. Do you have enough groups? Error: {e}")
+        print(f"Error during data split. Error: {e}")
         return None
         
     df_train, df_test = df.iloc[train_idx].copy(), df.iloc[test_idx].copy()
@@ -192,16 +157,9 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
             df_train[col] = encoder.fit_transform(df_train[[col]])
             df_test[col] = encoder.transform(df_test[[col]])
 
-    # エージェント予測確率特徴量の追加
-    if 'combined_text' in df.columns:
-        use_features = [
-            "ReqDiscuss", "ReqListen", "Req(CO)", "Tally", "Admiration", "calm", "Wait", 
-            "contradiction", "difficult", "confused", "Exe", "Atk", "Req(V)", "Req(T)", 
-            "Pers", "Mt", "IF", "XOR"
-        ]
-        print("Adding speaker probability features...")
-        df_train, df_test = get_speaker_probability_features(df_train, df_test, use_features)
-        print("Speaker probability features added.")
+    # NOTE: speaker prediction model and speaker-probability-derived features were removed.
+    if lang_feature:
+        print("Info: 'lang_feature' is currently ignored. Speaker probability features are disabled.")
 
     # メタデータの抽出
     DiV_cols = {
@@ -232,7 +190,7 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
     base_drop_cols = [
         'id', 'role', 'source_file', 'day', 'role_encoded', 
         'Est_id_Fact_role', 'Est_id_Est_roles', 'character_name', 'agent_name', 
-        'combined_text', 'seer_co_order', 'alive'
+        'combined_text', 'seer_co_order', 'alive', 'dataset_source'
     ]
     vote_cols = [c for c in df.columns if 'vote_id' in c]
     id_like_cols = [c for c in df.columns if c.endswith('_id')]
@@ -240,6 +198,7 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
     
     all_drop_cols = list(set(
         base_drop_cols + 
+        leakage_drop_columns +
         list(meta_cols.values()) + 
         id_like_cols + 
         flag_like_cols +
@@ -280,6 +239,12 @@ def prepare_data_for_training_with_meta(csv_path: str, lang_feature: bool = Fals
     X_test = np.hstack([X_test_scaled, X_test_cat])
     
     final_training_columns = numeric_features + actual_cat_features
+
+    # Safety check: leaked columns must not remain in model inputs.
+    leaked_in_final = [c for c in leakage_drop_columns if c in final_training_columns]
+    if leaked_in_final:
+        print(f"Error: leakage columns still in feature set: {leaked_in_final}")
+        return None
     
     print(f"Final feature shape: X_train={X_train.shape}, X_test={X_test.shape}")
     print("--- Data Processing Finished ---\n")

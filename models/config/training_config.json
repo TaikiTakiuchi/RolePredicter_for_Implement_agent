@@ -1,0 +1,24 @@
+{
+  "data_paths": [
+    "data/2025spring/all_feature_table_2025sp17_with_talks.csv",
+    "data/2025summer/all_feature_table_2025summer_with_talks2.csv"
+  ],
+  "data_paths_day2": [
+    "data/2025spring/all_feature_table_2025sp17_day2_with_talks.csv",
+    "data/2025summer/all_feature_table_2025summer_day2_with_talks2.csv"
+  ],
+  "day_filter": 1,
+  "lang_feature": false,
+  "group_column": "source_file",
+  "cv_folds": 5,
+  "test_size": 0.2,
+  "n_trials": 20,
+  "leakage_drop_columns": [
+    "True_Div_recepient_id_1",
+    "True_Div_result_1",
+    "True_Div_recepient_id_2",
+    "True_Div_result_2",
+    "target_total_votes",
+    "alive"
+  ]
+}
