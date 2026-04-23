@@ -1,0 +1,17 @@
+mode,test_dataset,pred_type,role,precision,recall,f1,support
+baseline,all_feature_table_2025sp17_with_talks,assigned,POSSESSED,0.2358490566037736,0.2358490566037736,0.2358490566037736,106.0
+baseline,all_feature_table_2025sp17_with_talks,assigned,SEER,0.3018867924528302,0.3018867924528302,0.3018867924528302,106.0
+baseline,all_feature_table_2025sp17_with_talks,assigned,VILLAGER,0.3915094339622642,0.3915094339622642,0.3915094339622642,212.0
+baseline,all_feature_table_2025sp17_with_talks,assigned,WEREWOLF,0.2641509433962264,0.2641509433962264,0.2641509433962264,106.0
+baseline,all_feature_table_2025summer_with_talks2,assigned,POSSESSED,0.17647058823529413,0.17647058823529413,0.17647058823529413,119.0
+baseline,all_feature_table_2025summer_with_talks2,assigned,SEER,0.31932773109243695,0.31932773109243695,0.31932773109243695,119.0
+baseline,all_feature_table_2025summer_with_talks2,assigned,VILLAGER,0.39915966386554624,0.39915966386554624,0.39915966386554624,238.0
+baseline,all_feature_table_2025summer_with_talks2,assigned,WEREWOLF,0.23529411764705882,0.23529411764705882,0.23529411764705882,119.0
+no_recipient_ref,all_feature_table_2025sp17_with_talks,assigned,POSSESSED,0.16981132075471697,0.16981132075471697,0.16981132075471697,106.0
+no_recipient_ref,all_feature_table_2025sp17_with_talks,assigned,SEER,0.22641509433962265,0.22641509433962265,0.22641509433962265,106.0
+no_recipient_ref,all_feature_table_2025sp17_with_talks,assigned,VILLAGER,0.44339622641509435,0.44339622641509435,0.44339622641509435,212.0
+no_recipient_ref,all_feature_table_2025sp17_with_talks,assigned,WEREWOLF,0.19811320754716982,0.19811320754716982,0.19811320754716982,106.0
+no_recipient_ref,all_feature_table_2025summer_with_talks2,assigned,POSSESSED,0.14285714285714285,0.14285714285714285,0.14285714285714285,119.0
+no_recipient_ref,all_feature_table_2025summer_with_talks2,assigned,SEER,0.25210084033613445,0.25210084033613445,0.25210084033613445,119.0
+no_recipient_ref,all_feature_table_2025summer_with_talks2,assigned,VILLAGER,0.46218487394957986,0.46218487394957986,0.46218487394957986,238.0
+no_recipient_ref,all_feature_table_2025summer_with_talks2,assigned,WEREWOLF,0.24369747899159663,0.24369747899159663,0.24369747899159663,119.0

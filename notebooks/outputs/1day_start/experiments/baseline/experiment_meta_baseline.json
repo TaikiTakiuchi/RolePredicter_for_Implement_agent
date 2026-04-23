@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-04-20T14:59:39.891570",
+  "day_filter": 1,
+  "day2_flag": false,
+  "n_trials": 50,
+  "n_samples": 1060,
+  "n_features": 168,
+  "status": {
+    "ok": true,
+    "error": null,
+    "elapsed_sec": 983.1
+  },
+  "experiment_tag": "baseline",
+  "split_version": "dataset_plus_source",
+  "saved_model_file": "models_1day_start_baseline.joblib"
+}

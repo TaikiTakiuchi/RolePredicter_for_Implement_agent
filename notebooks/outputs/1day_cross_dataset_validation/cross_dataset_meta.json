@@ -1,0 +1,19 @@
+{
+  "selected_paths": [
+    "c:\\Users\\takic\\OneDrive\\デスクトップ\\修論関係(人狼知能)\\役職推定_GitHub\\data\\2025spring\\all_feature_table_2025sp17_with_talks.csv",
+    "c:\\Users\\takic\\OneDrive\\デスクトップ\\修論関係(人狼知能)\\役職推定_GitHub\\data\\2025summer\\all_feature_table_2025summer_with_talks2.csv"
+  ],
+  "day_filter": 0,
+  "day2_flag": false,
+  "dataset_tags": [
+    "all_feature_table_2025sp17_with_talks",
+    "all_feature_table_2025summer_with_talks2"
+  ],
+  "n_features": 217,
+  "views": [
+    "SEER",
+    "WEREWOLF",
+    "VILLAGER",
+    "POSSESSED"
+  ]
+}

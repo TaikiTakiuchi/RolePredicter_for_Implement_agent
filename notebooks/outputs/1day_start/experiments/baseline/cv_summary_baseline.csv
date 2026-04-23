@@ -1,0 +1,5 @@
+model,mean_f1,best_value,best_trial,split_version,experiment_tag
+SEER,,0.6034632034632035,3,dataset_plus_source,baseline
+WEREWOLF,,0.4867965367965367,44,dataset_plus_source,baseline
+VILLAGER,,0.4050865800865801,31,dataset_plus_source,baseline
+POSSESSED,,0.35,28,dataset_plus_source,baseline
