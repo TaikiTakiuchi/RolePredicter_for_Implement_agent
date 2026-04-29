@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-04-29T12:26:22.617789",
+  "notebook": "run_train_pipe_2day.ipynb",
+  "data_paths": [
+    "C:\\Users\\takic\\OneDrive\\デスクトップ\\修論関係(人狼知能)\\役職推定_GitHub\\data\\2025spring\\all_feature_table_2025sp17_with_talks.csv",
+    "C:\\Users\\takic\\OneDrive\\デスクトップ\\修論関係(人狼知能)\\役職推定_GitHub\\data\\2025summer\\all_feature_table_2025summer_with_talks2.csv"
+  ],
+  "run_options": {
+    "run_training": true,
+    "top_k_features": 10,
+    "show_only_required_artifacts": true,
+    "day_filter": 1,
+    "day2_flag": true
+  },
+  "config": {
+    "data_paths": [
+      "data/2025spring/all_feature_table_2025sp17_with_talks.csv",
+      "data/2025summer/all_feature_table_2025summer_with_talks2.csv"
+    ],
+    "data_paths_day2": [
+      "data/2025spring/all_feature_table_2025sp17_day2_with_talks.csv",
+      "data/2025summer/all_feature_table_2025summer_day2_with_talks.csv"
+    ],
+    "day_filter": 1,
+    "lang_feature": false,
+    "group_column": "source_file",
+    "cv_folds": 5,
+    "test_size": 0.2,
+    "n_trials": 30,
+    "leakage_drop_columns": [
+      "True_Div_recepient_id_1",
+      "True_Div_result_1",
+      "True_Div_recepient_id_2",
+      "True_Div_result_2",
+      "target_total_votes",
+      "alive"
+    ]
+  },
+  "models_trained": [
+    "SEER",
+    "WEREWOLF",
+    "VILLAGER",
+    "POSSESSED"
+  ],
+  "n_samples": 710,
+  "n_features": 178,
+  "roles": [
+    "POSSESSED",
+    "SEER",
+    "VILLAGER",
+    "WEREWOLF"
+  ],
+  "cv_folds": 5,
+  "split_strategy": "greedy_gamewise_balanced_by_dataset_and_agent"
+}

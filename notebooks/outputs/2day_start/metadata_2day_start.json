@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T17:17:12.369374",
+  "generated_at": "2026-04-27T15:41:35.310345",
   "notebook": "run_train_pipe_2day.ipynb",
   "data_paths": [
     "C:\\Users\\takic\\OneDrive\\デスクトップ\\修論関係(人狼知能)\\役職推定_GitHub\\data\\2025spring\\all_feature_table_2025sp17_day2_with_talks.csv",
@@ -42,7 +42,7 @@
     "POSSESSED"
   ],
   "n_samples": 710,
-  "n_features": 424,
+  "n_features": 420,
   "roles": [
     "POSSESSED",
     "SEER",

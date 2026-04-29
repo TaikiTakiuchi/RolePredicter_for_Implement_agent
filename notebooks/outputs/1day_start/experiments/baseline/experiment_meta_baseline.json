@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-04-20T14:59:39.891570",
+  "generated_at": "2026-04-26T15:00:48.112221",
   "day_filter": 1,
   "day2_flag": false,
-  "n_trials": 50,
-  "n_samples": 1060,
+  "n_trials": 20,
+  "n_samples": 1125,
   "n_features": 168,
   "status": {
-    "ok": true,
-    "error": null,
-    "elapsed_sec": 983.1
+    "ok": false,
+    "error": "name 'assign_roles_for_seer_by_divination' is not defined",
+    "elapsed_sec": 151.58
   },
   "experiment_tag": "baseline",
   "split_version": "dataset_plus_source",
